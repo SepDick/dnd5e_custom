@@ -205,8 +205,8 @@
     },
     {
       "type": "setup",
-      "url": "systems/dnd5e/ui/official/dnd5e-repo.jpg",
-      "thumbnail": "systems/dnd5e/ui/official/dnd5e-thumbnail.jpg"
+      "url": "systems/dnd5e_custom/ui/official/dnd5e-repo.jpg",
+      "thumbnail": "systems/dnd5e_custom/ui/official/dnd5e-thumbnail.jpg"
     }
   ],
   "socket": true,
