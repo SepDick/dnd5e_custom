@@ -217,7 +217,7 @@
     "units": "ft"
   },
   "primaryTokenAttribute": "attributes.hp",
-  "background": "systems/dnd5e/ui/official/dnd5e-background.webp",
+  "background": "systems/dnd5e_custom/ui/official/dnd5e-background.webp",
   "flags": {
     "needsMigrationVersion": "3.1.0",
     "compatibleMigrationVersion": "0.8",
