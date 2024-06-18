@@ -55,7 +55,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": null,
@@ -91,7 +91,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": null,
@@ -127,7 +127,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": null,
@@ -163,7 +163,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": null,
@@ -200,7 +200,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": null,
@@ -236,7 +236,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": null,
@@ -272,7 +272,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": null,
@@ -309,7 +309,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": null,
@@ -346,7 +346,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": null,
@@ -382,7 +382,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": null,
@@ -418,7 +418,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": null,
@@ -454,7 +454,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": null,
@@ -491,7 +491,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": null,
@@ -528,7 +528,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": null,
@@ -564,7 +564,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": null,
@@ -581,13 +581,13 @@
     "core": {
       "viewMode": 2
     },
-    "dnd5e": {
+    "dnd5e_custom": {
       "type": "appendix",
       "position": 1
     }
   },
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1660925148884,

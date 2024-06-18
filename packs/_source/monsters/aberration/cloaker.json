@@ -577,7 +577,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.WdpSeGqhZpptz37y"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.WdpSeGqhZpptz37y"
         }
       },
       "_stats": {
@@ -679,7 +679,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.0npeEcwmiVMdwGMV"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.0npeEcwmiVMdwGMV"
         }
       },
       "_stats": {
@@ -781,7 +781,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.kyVgQNSa12loxVvr"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.kyVgQNSa12loxVvr"
         }
       },
       "_stats": {
@@ -883,7 +883,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.2l557y06401lwsqs"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.2l557y06401lwsqs"
         }
       },
       "_stats": {
@@ -985,7 +985,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.EqoLg8T8EHvhJgKE"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.EqoLg8T8EHvhJgKE"
         }
       },
       "_stats": {
@@ -1209,7 +1209,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.VvXrTnB2FscxqbG3"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.VvXrTnB2FscxqbG3"
         }
       },
       "_stats": {
@@ -1311,7 +1311,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.t0ojYPOlKEbPpYNc"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.t0ojYPOlKEbPpYNc"
         }
       },
       "_stats": {
@@ -1333,7 +1333,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1661787232722,

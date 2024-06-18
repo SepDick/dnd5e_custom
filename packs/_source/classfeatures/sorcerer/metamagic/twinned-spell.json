@@ -7,7 +7,7 @@
   "type": "feat",
   "system": {
     "description": {
-      "value": "<p>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</p><p>To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{Magic Missile} and @UUID[Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq]{Scorching Ray} aren't eligible, but @UUID[Compendium.dnd5e.spells.Item.ctW81uiX56xZR2c5]{Ray of Frost} is.</p>",
+      "value": "<p>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</p><p>To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, @UUID[Compendium.dnd5e_custom.spells.Item.41JIhpDyM9Anm7cs]{Magic Missile} and @UUID[Compendium.dnd5e_custom.spells.Item.7u2obDvuvtZBkTfq]{Scorching Ray} aren't eligible, but @UUID[Compendium.dnd5e_custom.spells.Item.ctW81uiX56xZR2c5]{Ray of Frost} is.</p>",
       "chat": ""
     },
     "source": {
@@ -47,7 +47,7 @@
     },
     "consume": {
       "type": "charges",
-      "target": "Compendium.dnd5e.classfeatures.Item.LBKChJY5n02Afhnq",
+      "target": "Compendium.dnd5e_custom.classfeatures.Item.LBKChJY5n02Afhnq",
       "amount": 1,
       "scale": false
     },
@@ -87,7 +87,7 @@
   "folder": "dVi2pGadvf6tlWzq",
   "sort": 0,
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.2.0",
     "coreVersion": "11.315",
     "createdTime": 1661787234375,

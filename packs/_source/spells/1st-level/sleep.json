@@ -99,7 +99,7 @@
     {
       "name": "Sleep",
       "icon": "icons/magic/light/explosion-star-small-pink.webp",
-      "origin": "Compendium.dnd5e.spells.Item.KhwiSi9fwVfUPtku",
+      "origin": "Compendium.dnd5e_custom.spells.Item.KhwiSi9fwVfUPtku",
       "duration": {
         "startTime": null,
         "seconds": 60,
@@ -130,7 +130,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1661787234117,

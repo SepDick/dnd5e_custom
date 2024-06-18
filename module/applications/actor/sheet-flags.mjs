@@ -9,8 +9,8 @@ export default class ActorSheetFlags extends BaseConfigSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       id: "actor-flags",
-      classes: ["dnd5e"],
-      template: "systems/dnd5e/templates/apps/actor-flags.hbs",
+      classes: ["dnd5e_custom"],
+      template: "systems/dnd5e_custom/templates/apps/actor-flags.hbs",
       width: 500,
       closeOnSubmit: true
     });
@@ -67,8 +67,8 @@ export default class ActorSheetFlags extends BaseConfigSheet {
       flag.type = v.type.name;
       flag.isCheckbox = v.type === Boolean;
       flag.isSelect = v.hasOwnProperty("choices");
-      flag.value = foundry.utils.getProperty(baseData.flags, `dnd5e.${k}`);
-      flags[v.section][`flags.dnd5e.${k}`] = flag;
+      flag.value = foundry.utils.getProperty(baseData.flags, `dnd5e_custom.${k}`);
+      flags[v.section][`flags.dnd5e_custom.${k}`] = flag;
     }
     return flags;
   }
@@ -111,11 +111,11 @@ export default class ActorSheetFlags extends BaseConfigSheet {
     const src = actor.toObject();
 
     // Unset any flags which are "false"
-    const flags = updateData.flags.dnd5e;
+    const flags = updateData.flags.dnd5e_custom;
     for ( let [k, v] of Object.entries(flags) ) {
       if ( [undefined, null, "", false, 0].includes(v) ) {
         delete flags[k];
-        if ( foundry.utils.hasProperty(src.flags, `dnd5e.${k}`) ) flags[`-=${k}`] = null;
+        if ( foundry.utils.hasProperty(src.flags, `dnd5e_custom.${k}`) ) flags[`-=${k}`] = null;
       }
     }
 

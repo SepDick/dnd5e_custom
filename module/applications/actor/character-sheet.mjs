@@ -10,7 +10,7 @@ export default class ActorSheet5eCharacter extends ActorSheet5e {
   /** @inheritDoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["dnd5e", "sheet", "actor", "character"]
+      classes: ["dnd5e_custom", "sheet", "actor", "character"]
     });
   }
 
@@ -35,14 +35,14 @@ export default class ActorSheet5eCharacter extends ActorSheet5e {
 
     const classes = this.actor.itemTypes.class;
     return foundry.utils.mergeObject(context, {
-      disableExperience: game.settings.get("dnd5e", "disableExperienceTracking"),
+      disableExperience: game.settings.get("dnd5e_custom", "disableExperienceTracking"),
       classLabels: classes.map(c => c.name).join(", "),
       labels: {
         type: context.system.details.type.label
       },
       multiclassLabels: classes.map(c => [c.subclass?.name ?? "", c.name, c.system.levels].filterJoin(" ")).join(", "),
       weightUnit: game.i18n.localize(`DND5E.Abbreviation${
-        game.settings.get("dnd5e", "metricWeightUnits") ? "Kg" : "Lbs"}`),
+        game.settings.get("dnd5e_custom", "metricWeightUnits") ? "Kg" : "Lbs"}`),
       encumbrance: context.system.attributes.encumbrance
     });
   }
@@ -91,7 +91,7 @@ export default class ActorSheet5eCharacter extends ActorSheet5e {
       ctx.concealDetails = !game.user.isGM && (item.system.identified === false);
 
       // Item grouping
-      const [originId] = item.getFlag("dnd5e", "advancementOrigin")?.split(".") ?? [];
+      const [originId] = item.getFlag("dnd5e_custom", "advancementOrigin")?.split(".") ?? [];
       const group = this.actor.items.get(originId);
       switch ( group?.type ) {
         case "race": ctx.group = "race"; break;
@@ -308,7 +308,7 @@ export default class ActorSheet5eCharacter extends ActorSheet5e {
       const cls = this.actor.itemTypes.class.find(c => c.identifier === itemData.system.identifier);
       if ( cls ) {
         const priorLevel = cls.system.levels;
-        if ( !game.settings.get("dnd5e", "disableAdvancements") ) {
+        if ( !game.settings.get("dnd5e_custom", "disableAdvancements") ) {
           const manager = AdvancementManager.forLevelChange(this.actor, cls.id, itemData.system.levels);
           if ( manager.steps.length ) {
             manager.render(true);

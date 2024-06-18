@@ -29,7 +29,7 @@ export default class ItemSheet5e extends ItemSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       width: 560,
-      classes: ["dnd5e", "sheet", "item"],
+      classes: ["dnd5e_custom", "sheet", "item"],
       resizable: true,
       scrollY: [
         ".tab[data-tab=details]",
@@ -46,7 +46,7 @@ export default class ItemSheet5e extends ItemSheet {
         headingSelector: ".description-header", contentSelector: ".editor"
       }],
       elements: {
-        effects: "dnd5e-effects"
+        effects: "dnd5e_custom-effects"
       }
     });
   }
@@ -71,7 +71,7 @@ export default class ItemSheet5e extends ItemSheet {
 
   /** @inheritdoc */
   get template() {
-    return `systems/dnd5e/templates/items/${this.item.type}.hbs`;
+    return `systems/dnd5e_custom/templates/items/${this.item.type}.hbs`;
   }
 
   /* -------------------------------------------- */
@@ -504,7 +504,7 @@ export default class ItemSheet5e extends ItemSheet {
     }
 
     // Check class identifier
-    if ( formData.system?.identifier && !dnd5e.utils.validators.isValidIdentifier(formData.system.identifier) ) {
+    if ( formData.system?.identifier && !dnd5e_custom.utils.validators.isValidIdentifier(formData.system.identifier) ) {
       formData.system.identifier = this.item._source.system.identifier;
       this.form.querySelector("input[name='system.identifier']").value = formData.system.identifier;
       ui.notifications.error("DND5E.IdentifierError", {localize: true});
@@ -552,12 +552,12 @@ export default class ItemSheet5e extends ItemSheet {
     const contextOptions = this._getAdvancementContextMenuOptions();
     /**
      * A hook event that fires when the context menu for the advancements list is constructed.
-     * @function dnd5e.getItemAdvancementContext
+     * @function dnd5e_custom.getItemAdvancementContext
      * @memberof hookEvents
      * @param {jQuery} html                      The HTML element to which the context options are attached.
      * @param {ContextMenuEntry[]} entryOptions  The context menu entries.
      */
-    Hooks.call("dnd5e.getItemAdvancementContext", html, contextOptions);
+    Hooks.call("dnd5e_custom.getItemAdvancementContext", html, contextOptions);
     if ( contextOptions ) new ContextMenu(html, ".advancement-item", contextOptions);
   }
 
@@ -743,14 +743,14 @@ export default class ItemSheet5e extends ItemSheet {
 
     /**
      * A hook event that fires when some useful data is dropped onto an ItemSheet5e.
-     * @function dnd5e.dropItemSheetData
+     * @function dnd5e_custom.dropItemSheetData
      * @memberof hookEvents
      * @param {Item5e} item                  The Item5e
      * @param {ItemSheet5e} sheet            The ItemSheet5e application
      * @param {object} data                  The data that has been dropped onto the sheet
      * @returns {boolean}                    Explicitly return `false` to prevent normal drop handling.
      */
-    const allowed = Hooks.call("dnd5e.dropItemSheetData", item, this, data);
+    const allowed = Hooks.call("dnd5e_custom.dropItemSheetData", item, this, data);
     if ( allowed === false ) return;
 
     switch ( data.type ) {
@@ -780,7 +780,7 @@ export default class ItemSheet5e extends ItemSheet {
     let keepOrigin = false;
 
     // Validate against the enchantment's restraints on the origin item
-    if ( effect.getFlag("dnd5e", "type") === "enchantment" ) {
+    if ( effect.getFlag("dnd5e_custom", "type") === "enchantment" ) {
       const errors = effect.parent.system.enchantment?.canEnchant(this.item);
       if ( errors?.length ) {
         errors.forEach(err => ui.notifications.error(err.message));
@@ -834,7 +834,7 @@ export default class ItemSheet5e extends ItemSheet {
     }
 
     if ( !advancements.length ) return false;
-    if ( this.item.actor?.system.metadata?.supportsAdvancement && !game.settings.get("dnd5e", "disableAdvancements") ) {
+    if ( this.item.actor?.system.metadata?.supportsAdvancement && !game.settings.get("dnd5e_custom", "disableAdvancements") ) {
       const manager = AdvancementManager.forNewAdvancement(this.item.actor, this.item.id, advancements);
       if ( manager.steps.length ) return manager.render(true);
     }
@@ -859,11 +859,11 @@ export default class ItemSheet5e extends ItemSheet {
     let manager;
     if ( ["edit", "delete", "duplicate"].includes(action) && !advancement ) return;
     switch (action) {
-      case "add": return game.dnd5e.applications.advancement.AdvancementSelection.createDialog(this.item);
+      case "add": return game.dnd5e_custom.applications.advancement.AdvancementSelection.createDialog(this.item);
       case "edit": return new advancement.constructor.metadata.apps.config(advancement).render(true);
       case "delete":
         if ( this.item.actor?.system.metadata?.supportsAdvancement
-            && !game.settings.get("dnd5e", "disableAdvancements") ) {
+            && !game.settings.get("dnd5e_custom", "disableAdvancements") ) {
           manager = AdvancementManager.forDeletedAdvancement(this.item.actor, this.item.id, id);
           if ( manager.steps.length ) return manager.render(true);
         }

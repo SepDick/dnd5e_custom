@@ -9,8 +9,8 @@ export default class DamageModificationConfig extends BaseConfig {
   /** @inheritDoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["dnd5e", "damage-modification", "trait-selector", "subconfig"],
-      template: "systems/dnd5e/templates/apps/damage-modification-config.hbs",
+      classes: ["dnd5e_custom", "damage-modification", "trait-selector", "subconfig"],
+      template: "systems/dnd5e_custom/templates/apps/damage-modification-config.hbs",
       width: 320,
       height: "auto"
     });

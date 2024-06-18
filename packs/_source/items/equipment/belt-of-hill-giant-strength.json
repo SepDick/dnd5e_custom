@@ -118,7 +118,7 @@
   "effects": [
     {
       "icon": "icons/equipment/waist/belt-buckle-square-leather-brown.webp",
-      "origin": "Compendium.dnd5e.items.ER75WHewYN04Zp11",
+      "origin": "Compendium.dnd5e_custom.items.ER75WHewYN04Zp11",
       "duration": {
         "startTime": null,
         "seconds": null,
@@ -154,7 +154,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.2.0",
     "coreVersion": "11.315",
     "createdTime": 1661787233535,

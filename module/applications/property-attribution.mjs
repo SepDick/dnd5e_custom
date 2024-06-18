@@ -30,8 +30,8 @@ export default class PropertyAttribution extends Application {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       id: "property-attribution",
-      classes: ["dnd5e", "property-attribution"],
-      template: "systems/dnd5e/templates/apps/property-attribution.hbs",
+      classes: ["dnd5e_custom", "property-attribution"],
+      template: "systems/dnd5e_custom/templates/apps/property-attribution.hbs",
       width: 320,
       height: "auto"
     });

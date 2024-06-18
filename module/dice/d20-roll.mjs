@@ -70,7 +70,7 @@ export default class D20Roll extends Roll {
    * The HTML template path used to configure evaluation of this Roll
    * @type {string}
    */
-  static EVALUATION_TEMPLATE = "systems/dnd5e/templates/chat/roll-dialog.hbs";
+  static EVALUATION_TEMPLATE = "systems/dnd5e_custom/templates/chat/roll-dialog.hbs";
 
   /* -------------------------------------------- */
 
@@ -179,7 +179,7 @@ export default class D20Roll extends Roll {
     // Evaluate the roll now so we have the results available to determine whether reliable talent came into play
     if ( !this._evaluated ) await this.evaluate({async: true});
 
-    // Add appropriate advantage mode message flavor and dnd5e roll flags
+    // Add appropriate advantage mode message flavor and dnd5e_custom roll flags
     messageData.flavor = messageData.flavor || this.options.flavor;
     if ( this.hasAdvantage ) messageData.flavor += ` (${game.i18n.localize("DND5E.Advantage")})`;
     else if ( this.hasDisadvantage ) messageData.flavor += ` (${game.i18n.localize("DND5E.Disadvantage")})`;

@@ -117,7 +117,7 @@
   "effects": [
     {
       "icon": "icons/magic/unholy/strike-hand-glow-pink.webp",
-      "origin": "Compendium.dnd5e.items.3TWT5bv3z5zGUZCe",
+      "origin": "Compendium.dnd5e_custom.items.3TWT5bv3z5zGUZCe",
       "duration": {
         "startTime": null,
         "seconds": null,
@@ -151,7 +151,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.2.0",
     "coreVersion": "11.315",
     "createdTime": 1661787233454,

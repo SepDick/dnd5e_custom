@@ -8,8 +8,8 @@ export default class ActorHitDiceConfig extends BaseConfigSheet {
   /** @inheritDoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["dnd5e", "hd-config", "dialog"],
-      template: "systems/dnd5e/templates/apps/hit-dice-config.hbs",
+      classes: ["dnd5e_custom", "hd-config", "dialog"],
+      template: "systems/dnd5e_custom/templates/apps/hit-dice-config.hbs",
       width: 360,
       height: "auto"
     });

@@ -4,8 +4,8 @@
  * Author: Atropos
  * Software License: MIT
  * Content License: https://www.dndbeyond.com/attachments/39j2li89/SRD5.1-CCBY4.0License.pdf
- * Repository: https://github.com/foundryvtt/dnd5e
- * Issue Tracker: https://github.com/foundryvtt/dnd5e/issues
+ * Repository: https://github.com/foundryvtt/dnd5e_custom
+ * Issue Tracker: https://github.com/foundryvtt/dnd5e_custom/issues
  */
 
 // Import Configuration
@@ -28,7 +28,7 @@ import Tooltips5e from "./module/tooltips.mjs";
 /*  Define Module Structure                     */
 /* -------------------------------------------- */
 
-globalThis.dnd5e = {
+globalThis.dnd5e_custom = {
   applications,
   canvas,
   config: DND5E,
@@ -45,8 +45,8 @@ globalThis.dnd5e = {
 /* -------------------------------------------- */
 
 Hooks.once("init", function() {
-  globalThis.dnd5e = game.dnd5e = Object.assign(game.system, globalThis.dnd5e);
-  console.log(`D&D 5e | Initializing the D&D Fifth Game System - Version ${dnd5e.version}\n${DND5E.ASCII}`);
+  globalThis.dnd5e_custom = game.dnd5e_custom = Object.assign(game.system, globalThis.dnd5e_custom);
+  console.log(`D&D 5e | Initializing the D&D Fifth Game System - Version ${dnd5e_custom.version}\n${DND5E.ASCII}`);
 
   // TODO: Remove when v11 support is dropped.
   CONFIG.compatibility.excludePatterns.push(/filePicker|select/);
@@ -73,29 +73,29 @@ Hooks.once("init", function() {
   CONFIG.Token.ringClass = canvas.TokenRing;
   CONFIG.User.documentClass = documents.User5e;
   CONFIG.time.roundTime = 6;
-  Roll.TOOLTIP_TEMPLATE = "systems/dnd5e/templates/chat/roll-breakdown.hbs";
+  Roll.TOOLTIP_TEMPLATE = "systems/dnd5e_custom/templates/chat/roll-breakdown.hbs";
   CONFIG.Dice.DamageRoll = dice.DamageRoll;
   CONFIG.Dice.D20Roll = dice.D20Roll;
   CONFIG.MeasuredTemplate.defaults.angle = 53.13; // 5e cone RAW should be 53.13 degrees
   CONFIG.Note.objectClass = canvas.Note5e;
   CONFIG.ui.combat = applications.combat.CombatTracker5e;
-  CONFIG.ui.items = dnd5e.applications.item.ItemDirectory5e;
+  CONFIG.ui.items = dnd5e_custom.applications.item.ItemDirectory5e;
 
   // Register System Settings
   registerSystemSettings();
 
   // Configure module art
-  game.dnd5e.moduleArt = new ModuleArt();
+  game.dnd5e_custom.moduleArt = new ModuleArt();
 
   // Configure tooltips
-  game.dnd5e.tooltips = new Tooltips5e();
+  game.dnd5e_custom.tooltips = new Tooltips5e();
 
   // Set up status effects
   _configureStatusEffects();
 
   // Remove honor & sanity from configuration if they aren't enabled
-  if ( !game.settings.get("dnd5e", "honorScore") ) delete DND5E.abilities.hon;
-  if ( !game.settings.get("dnd5e", "sanityScore") ) delete DND5E.abilities.san;
+  if ( !game.settings.get("dnd5e_custom", "honorScore") ) delete DND5E.abilities.hon;
+  if ( !game.settings.get("dnd5e_custom", "sanityScore") ) delete DND5E.abilities.san;
 
   // Register Roll Extensions
   CONFIG.Dice.rolls.push(dice.D20Roll);
@@ -111,67 +111,67 @@ Hooks.once("init", function() {
 
   // Register sheet application classes
   Actors.unregisterSheet("core", ActorSheet);
-  Actors.registerSheet("dnd5e", applications.actor.ActorSheet5eCharacter, {
+  Actors.registerSheet("dnd5e_custom", applications.actor.ActorSheet5eCharacter, {
     types: ["character"],
     label: "DND5E.SheetClassCharacterLegacy"
   });
-  DocumentSheetConfig.registerSheet(Actor, "dnd5e", applications.actor.ActorSheet5eCharacter2, {
+  DocumentSheetConfig.registerSheet(Actor, "dnd5e_custom", applications.actor.ActorSheet5eCharacter2, {
     types: ["character"],
     makeDefault: true,
     label: "DND5E.SheetClassCharacter"
   });
-  Actors.registerSheet("dnd5e", applications.actor.ActorSheet5eNPC, {
+  Actors.registerSheet("dnd5e_custom", applications.actor.ActorSheet5eNPC, {
     types: ["npc"],
     makeDefault: true,
     label: "DND5E.SheetClassNPC"
   });
-  Actors.registerSheet("dnd5e", applications.actor.ActorSheet5eVehicle, {
+  Actors.registerSheet("dnd5e_custom", applications.actor.ActorSheet5eVehicle, {
     types: ["vehicle"],
     makeDefault: true,
     label: "DND5E.SheetClassVehicle"
   });
-  Actors.registerSheet("dnd5e", applications.actor.GroupActorSheet, {
+  Actors.registerSheet("dnd5e_custom", applications.actor.GroupActorSheet, {
     types: ["group"],
     makeDefault: true,
     label: "DND5E.SheetClassGroup"
   });
 
   DocumentSheetConfig.unregisterSheet(Item, "core", ItemSheet);
-  DocumentSheetConfig.registerSheet(Item, "dnd5e", applications.item.ItemSheet5e, {
+  DocumentSheetConfig.registerSheet(Item, "dnd5e_custom", applications.item.ItemSheet5e, {
     makeDefault: true,
     label: "DND5E.SheetClassItem"
   });
-  DocumentSheetConfig.unregisterSheet(Item, "dnd5e", applications.item.ItemSheet5e, { types: ["container"] });
-  DocumentSheetConfig.registerSheet(Item, "dnd5e", applications.item.ContainerSheet, {
+  DocumentSheetConfig.unregisterSheet(Item, "dnd5e_custom", applications.item.ItemSheet5e, { types: ["container"] });
+  DocumentSheetConfig.registerSheet(Item, "dnd5e_custom", applications.item.ContainerSheet, {
     makeDefault: true,
     types: ["container"],
     label: "DND5E.SheetClassContainer"
   });
 
-  DocumentSheetConfig.registerSheet(JournalEntry, "dnd5e", applications.journal.JournalSheet5e, {
+  DocumentSheetConfig.registerSheet(JournalEntry, "dnd5e_custom", applications.journal.JournalSheet5e, {
     makeDefault: true,
     label: "DND5E.SheetClassJournalEntry"
   });
-  DocumentSheetConfig.registerSheet(JournalEntryPage, "dnd5e", applications.journal.JournalClassPageSheet, {
+  DocumentSheetConfig.registerSheet(JournalEntryPage, "dnd5e_custom", applications.journal.JournalClassPageSheet, {
     label: "DND5E.SheetClassClassSummary",
     types: ["class", "subclass"]
   });
-  DocumentSheetConfig.registerSheet(JournalEntryPage, "dnd5e", applications.journal.JournalMapLocationPageSheet, {
+  DocumentSheetConfig.registerSheet(JournalEntryPage, "dnd5e_custom", applications.journal.JournalMapLocationPageSheet, {
     label: "DND5E.SheetClassMapLocation",
     types: ["map"]
   });
-  DocumentSheetConfig.registerSheet(JournalEntryPage, "dnd5e", applications.journal.JournalRulePageSheet, {
+  DocumentSheetConfig.registerSheet(JournalEntryPage, "dnd5e_custom", applications.journal.JournalRulePageSheet, {
     label: "DND5E.SheetClassRule",
     types: ["rule"]
   });
-  DocumentSheetConfig.registerSheet(JournalEntryPage, "dnd5e", applications.journal.JournalSpellListPageSheet, {
+  DocumentSheetConfig.registerSheet(JournalEntryPage, "dnd5e_custom", applications.journal.JournalSpellListPageSheet, {
     label: "DND5E.SheetClassSpellList",
     types: ["spells"]
   });
 
   CONFIG.Token.prototypeSheetClass = applications.TokenConfig5e;
   DocumentSheetConfig.unregisterSheet(TokenDocument, "core", TokenConfig);
-  DocumentSheetConfig.registerSheet(TokenDocument, "dnd5e", applications.TokenConfig5e, {
+  DocumentSheetConfig.registerSheet(TokenDocument, "dnd5e_custom", applications.TokenConfig5e, {
     label: "DND5E.SheetClassToken"
   });
 
@@ -279,20 +279,20 @@ function _configureFonts() {
     Roboto: {
       editor: true,
       fonts: [
-        { urls: ["systems/dnd5e/fonts/roboto/Roboto-Regular.woff2"] },
-        { urls: ["systems/dnd5e/fonts/roboto/Roboto-Bold.woff2"], weight: "bold" },
-        { urls: ["systems/dnd5e/fonts/roboto/Roboto-Italic.woff2"], style: "italic" },
-        { urls: ["systems/dnd5e/fonts/roboto/Roboto-BoldItalic.woff2"], weight: "bold", style: "italic" }
+        { urls: ["systems/dnd5e_custom/fonts/roboto/Roboto-Regular.woff2"] },
+        { urls: ["systems/dnd5e_custom/fonts/roboto/Roboto-Bold.woff2"], weight: "bold" },
+        { urls: ["systems/dnd5e_custom/fonts/roboto/Roboto-Italic.woff2"], style: "italic" },
+        { urls: ["systems/dnd5e_custom/fonts/roboto/Roboto-BoldItalic.woff2"], weight: "bold", style: "italic" }
       ]
     },
     "Roboto Condensed": {
       editor: true,
       fonts: [
-        { urls: ["systems/dnd5e/fonts/roboto-condensed/RobotoCondensed-Regular.woff2"] },
-        { urls: ["systems/dnd5e/fonts/roboto-condensed/RobotoCondensed-Bold.woff2"], weight: "bold" },
-        { urls: ["systems/dnd5e/fonts/roboto-condensed/RobotoCondensed-Italic.woff2"], style: "italic" },
+        { urls: ["systems/dnd5e_custom/fonts/roboto-condensed/RobotoCondensed-Regular.woff2"] },
+        { urls: ["systems/dnd5e_custom/fonts/roboto-condensed/RobotoCondensed-Bold.woff2"], weight: "bold" },
+        { urls: ["systems/dnd5e_custom/fonts/roboto-condensed/RobotoCondensed-Italic.woff2"], style: "italic" },
         {
-          urls: ["systems/dnd5e/fonts/roboto-condensed/RobotoCondensed-BoldItalic.woff2"], weight: "bold",
+          urls: ["systems/dnd5e_custom/fonts/roboto-condensed/RobotoCondensed-BoldItalic.woff2"], weight: "bold",
           style: "italic"
         }
       ]
@@ -300,8 +300,8 @@ function _configureFonts() {
     "Roboto Slab": {
       editor: true,
       fonts: [
-        { urls: ["systems/dnd5e/fonts/roboto-slab/RobotoSlab-Regular.ttf"] },
-        { urls: ["systems/dnd5e/fonts/roboto-slab/RobotoSlab-Bold.ttf"], weight: "bold" }
+        { urls: ["systems/dnd5e_custom/fonts/roboto-slab/RobotoSlab-Regular.ttf"] },
+        { urls: ["systems/dnd5e_custom/fonts/roboto-slab/RobotoSlab-Bold.ttf"], weight: "bold" }
       ]
     }
   });
@@ -315,7 +315,7 @@ function _configureFonts() {
 function _configureStatusEffects() {
   const addEffect = (effects, {special, ...data}) => {
     data = foundry.utils.deepClone(data);
-    data._id = utils.staticID(`dnd5e${data.id}`);
+    data._id = utils.staticID(`dnd5e_custom${data.id}`);
     if ( foundry.utils.isNewerVersion(game.version, 12) ) {
       data.img = data.icon ?? data.img;
       delete data.icon;
@@ -349,9 +349,9 @@ Hooks.once("setup", function() {
   _configureConsumableAttributes();
 
   CONFIG.DND5E.trackableAttributes = expandAttributeList(CONFIG.DND5E.trackableAttributes);
-  game.dnd5e.moduleArt.registerModuleArt();
+  game.dnd5e_custom.moduleArt.registerModuleArt();
   Tooltips5e.activateListeners();
-  game.dnd5e.tooltips.observe();
+  game.dnd5e_custom.tooltips.observe();
 
   // Register settings after modules have had a chance to initialize
   registerDeferredSettings();
@@ -409,9 +409,9 @@ Hooks.once("ready", function() {
 
   // Determine whether a system migration is required and feasible
   if ( !game.user.isGM ) return;
-  const cv = game.settings.get("dnd5e", "systemMigrationVersion") || game.world.flags.dnd5e?.version;
+  const cv = game.settings.get("dnd5e_custom", "systemMigrationVersion") || game.world.flags.dnd5e_custom?.version;
   const totalDocuments = game.actors.size + game.scenes.size + game.items.size;
-  if ( !cv && totalDocuments === 0 ) return game.settings.set("dnd5e", "systemMigrationVersion", game.system.version);
+  if ( !cv && totalDocuments === 0 ) return game.settings.set("dnd5e_custom", "systemMigrationVersion", game.system.version);
   if ( cv && !foundry.utils.isNewerVersion(game.system.flags.needsMigrationVersion, cv) ) return;
 
   // Compendium pack folder migration.
@@ -432,7 +432,7 @@ Hooks.once("ready", function() {
 
 Hooks.on("canvasInit", gameCanvas => {
   if ( game.release.generation < 12 ) {
-    gameCanvas.grid.diagonalRule = game.settings.get("dnd5e", "diagonalMovement");
+    gameCanvas.grid.diagonalRule = game.settings.get("dnd5e_custom", "diagonalMovement");
     SquareGrid.prototype.measureDistances = canvas.measureDistances;
   }
   CONFIG.Token.ringClass.pushToLoad(gameCanvas.loadTexturesOptions.additionalSources);
@@ -454,7 +454,7 @@ Hooks.on("canvasDraw", gameCanvas => {
 Hooks.on("renderPause", (app, [html]) => {
   html.classList.add("dnd5e2");
   const img = html.querySelector("img");
-  img.src = "systems/dnd5e/ui/official/ampersand.svg";
+  img.src = "systems/dnd5e_custom/ui/official/ampersand.svg";
   img.className = "";
 });
 
@@ -469,15 +469,15 @@ Hooks.on("renderSettings", (app, [html]) => {
     <h2>${game.i18n.localize("WORLD.GameSystem")}</h2>
     <ul class="links">
       <li>
-        <a href="https://github.com/foundryvtt/dnd5e/releases/latest" target="_blank">
+        <a href="https://github.com/foundryvtt/dnd5e_custom/releases/latest" target="_blank">
           ${game.i18n.localize("DND5E.Notes")}
         </a>
       </li>
       <li>
-        <a href="https://github.com/foundryvtt/dnd5e/issues" target="_blank">${game.i18n.localize("DND5E.Issues")}</a>
+        <a href="https://github.com/foundryvtt/dnd5e_custom/issues" target="_blank">${game.i18n.localize("DND5E.Issues")}</a>
       </li>
       <li>
-        <a href="https://github.com/foundryvtt/dnd5e/wiki" target="_blank">${game.i18n.localize("DND5E.Wiki")}</a>
+        <a href="https://github.com/foundryvtt/dnd5e_custom/wiki" target="_blank">${game.i18n.localize("DND5E.Wiki")}</a>
       </li>
       <li>
         <a href="https://discord.com/channels/170995199584108546/670336046164213761" target="_blank">
@@ -491,8 +491,8 @@ Hooks.on("renderSettings", (app, [html]) => {
   const badge = document.createElement("div");
   badge.classList.add("dnd5e2", "system-badge");
   badge.innerHTML = `
-    <img src="systems/dnd5e/ui/official/dnd-badge-32.webp" data-tooltip="${dnd5e.title}" alt="${dnd5e.title}">
-    <span class="system-info">${dnd5e.version}</span>
+    <img src="systems/dnd5e_custom/ui/official/dnd-badge-32.webp" data-tooltip="${dnd5e_custom.title}" alt="${dnd5e_custom.title}">
+    <span class="system-info">${dnd5e_custom.version}</span>
   `;
   if ( pip ) badge.querySelector(".system-info").insertAdjacentElement("beforeend", pip);
   heading.insertAdjacentElement("afterend", badge);

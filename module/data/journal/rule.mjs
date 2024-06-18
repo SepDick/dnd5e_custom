@@ -32,8 +32,8 @@ export default class RuleJournalPageData extends foundry.abstract.DataModel {
       })
     };
     return {
-      content: await renderTemplate("systems/dnd5e/templates/journal/page-rule-tooltip.hbs", context),
-      classes: ["dnd5e-tooltip", "rule-tooltip"]
+      content: await renderTemplate("systems/dnd5e_custom/templates/journal/page-rule-tooltip.hbs", context),
+      classes: ["dnd5e_custom-tooltip", "rule-tooltip"]
     };
   }
 }

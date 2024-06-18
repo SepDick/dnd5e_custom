@@ -17,7 +17,7 @@ export default class ItemGrantAdvancement extends Advancement {
         configuration: ItemGrantConfigurationData
       },
       order: 40,
-      icon: "systems/dnd5e/icons/svg/item-grant.svg",
+      icon: "systems/dnd5e_custom/icons/svg/item-grant.svg",
       title: game.i18n.localize("DND5E.AdvancementItemGrantTitle"),
       hint: game.i18n.localize("DND5E.AdvancementItemGrantHint"),
       apps: {
@@ -50,7 +50,7 @@ export default class ItemGrantAdvancement extends Advancement {
   summaryForLevel(level, { configMode=false }={}) {
     // Link to compendium items
     if ( !this.value.added || configMode ) return this.configuration.items.filter(i => fromUuidSync(i.uuid))
-      .reduce((html, i) => html + dnd5e.utils.linkForUuid(i.uuid), "");
+      .reduce((html, i) => html + dnd5e_custom.utils.linkForUuid(i.uuid), "");
 
     // Link to items on the actor
     else {
@@ -118,7 +118,7 @@ export default class ItemGrantAdvancement extends Advancement {
     const updates = {};
     for ( const item of data.items ) {
       this.actor.updateSource({items: [item]});
-      updates[item._id] = item.flags.dnd5e.sourceId;
+      updates[item._id] = item.flags.dnd5e_custom.sourceId;
     }
     this.updateSource({
       "value.ability": data.ability,

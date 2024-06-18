@@ -10,7 +10,7 @@ export default class Award extends DialogMixin(FormApplication) {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: ["dnd5e2", "award", "dialog"],
-      template: "systems/dnd5e/templates/apps/award.hbs",
+      template: "systems/dnd5e_custom/templates/apps/award.hbs",
       title: "DND5E.Award.Title",
       width: 350,
       height: "auto",
@@ -32,7 +32,7 @@ export default class Award extends DialogMixin(FormApplication) {
   get transferDestinations() {
     if ( this.isPartyAward ) return this.object.system.transferDestinations ?? [];
     if ( !game.user.isGM ) return [];
-    const primaryParty = game.settings.get("dnd5e", "primaryParty")?.actor;
+    const primaryParty = game.settings.get("dnd5e_custom", "primaryParty")?.actor;
     return primaryParty
       ? [primaryParty, ...primaryParty.system.transferDestinations]
       : game.users.map(u => u.character).filter(c => c);
@@ -63,8 +63,8 @@ export default class Award extends DialogMixin(FormApplication) {
     }, {});
     context.destinations = Award.prepareDestinations(this.transferDestinations, this.options.savedDestinations);
     context.each = this.options.each ?? false;
-    context.hideXP = game.settings.get("dnd5e", "disableExperienceTracking");
-    context.noPrimaryParty = !game.settings.get("dnd5e", "primaryParty")?.actor && !this.isPartyAward;
+    context.hideXP = game.settings.get("dnd5e_custom", "disableExperienceTracking");
+    context.noPrimaryParty = !game.settings.get("dnd5e_custom", "primaryParty")?.actor && !this.isPartyAward;
     context.xp = this.options.xp ?? this.object?.system.details.xp.value ?? this.object?.system.details.xp.derived;
 
     return context;
@@ -80,7 +80,7 @@ export default class Award extends DialogMixin(FormApplication) {
    */
   static prepareDestinations(destinations, savedDestinations) {
     const icons = {
-      container: '<dnd5e-icon class="fa-fw" src="systems/dnd5e/icons/svg/backpack.svg"></dnd5e-icon>',
+      container: '<dnd5e_custom-icon class="fa-fw" src="systems/dnd5e_custom/icons/svg/backpack.svg"></dnd5e_custom-icon>',
       group: '<i class="fa-solid fa-people-group"></i>',
       vehicle: '<i class="fa-solid fa-sailboat"></i>'
     };
@@ -145,7 +145,7 @@ export default class Award extends DialogMixin(FormApplication) {
    */
   _saveDestinations(destinations) {
     const target = this.isPartyAward ? this.object : game.user;
-    target.setFlag("dnd5e", "awardDestinations", destinations);
+    target.setFlag("dnd5e_custom", "awardDestinations", destinations);
   }
 
   /* -------------------------------------------- */
@@ -324,7 +324,7 @@ export default class Award extends DialogMixin(FormApplication) {
       }
 
       // If the party command is set, a primary party is set, and the award isn't empty, skip the UI
-      const primaryParty = game.settings.get("dnd5e", "primaryParty")?.actor;
+      const primaryParty = game.settings.get("dnd5e_custom", "primaryParty")?.actor;
       if ( party && primaryParty && (xp || filteredKeys(currency).length) ) {
         const destinations = each ? primaryParty.system.playerCharacters : [primaryParty];
         const results = new Map();
@@ -335,7 +335,7 @@ export default class Award extends DialogMixin(FormApplication) {
 
       // Otherwise show the UI with defaults
       else {
-        const savedDestinations = game.user.getFlag("dnd5e", "awardDestinations");
+        const savedDestinations = game.user.getFlag("dnd5e_custom", "awardDestinations");
         const app = new Award(null, { currency, xp, each, savedDestinations });
         app.render(true);
       }

@@ -1,7 +1,7 @@
 {
   "name": "Beiro (Half-Elf Bard)",
   "type": "character",
-  "img": "systems/dnd5e/tokens/heroes/BardLute.webp",
+  "img": "systems/dnd5e_custom/tokens/heroes/BardLute.webp",
   "system": {
     "abilities": {
       "str": {
@@ -673,7 +673,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.2YbuclKfhDL0bU4u"
+          "sourceId": "Compendium.dnd5e_custom.items.2YbuclKfhDL0bU4u"
         }
       },
       "img": "icons/containers/chest/chest-reinforced-steel-walnut-brown.webp",
@@ -737,7 +737,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.5mIeX824uMklU3xq"
+          "sourceId": "Compendium.dnd5e_custom.items.5mIeX824uMklU3xq"
         }
       },
       "img": "icons/containers/bags/case-leather-tan.webp",
@@ -801,7 +801,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.H8YCd689ezlD26aT"
+          "sourceId": "Compendium.dnd5e_custom.items.H8YCd689ezlD26aT"
         }
       },
       "img": "icons/containers/bags/pack-simple-leather.webp",
@@ -865,7 +865,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.9bWTRRDym06PzSAf"
+          "sourceId": "Compendium.dnd5e_custom.items.9bWTRRDym06PzSAf"
         }
       },
       "img": "icons/containers/bags/coinpouch-simple-tan.webp",
@@ -875,7 +875,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -926,7 +926,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.IBhDAr7WkhWPYLVn"
+          "sourceId": "Compendium.dnd5e_custom.items.IBhDAr7WkhWPYLVn"
         }
       },
       "img": "icons/equipment/back/cloak-hooded-blue.webp",
@@ -1056,7 +1056,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.0E565kQUBmndJ1a2"
+          "sourceId": "Compendium.dnd5e_custom.items.0E565kQUBmndJ1a2"
         }
       },
       "img": "icons/weapons/daggers/dagger-jeweled-purple.webp",
@@ -1184,7 +1184,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.Tobce1hexTnDk4sV"
+          "sourceId": "Compendium.dnd5e_custom.items.Tobce1hexTnDk4sV"
         }
       },
       "img": "icons/weapons/swords/sword-guard-brown.webp",
@@ -1311,7 +1311,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.WwdpHLXGX5r8uZu5"
+          "sourceId": "Compendium.dnd5e_custom.items.WwdpHLXGX5r8uZu5"
         }
       },
       "img": "icons/equipment/chest/breastplate-quilted-brown.webp",
@@ -1438,7 +1438,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.E2h6sEe6FU2tnU96"
+          "sourceId": "Compendium.dnd5e_custom.items.E2h6sEe6FU2tnU96"
         }
       },
       "img": "icons/equipment/back/cloak-hooded-pink.webp",
@@ -1565,7 +1565,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.3OXueEpvDDCVfGFA"
+          "sourceId": "Compendium.dnd5e_custom.items.3OXueEpvDDCVfGFA"
         }
       },
       "img": "icons/equipment/back/cloak-heavy-fur-blue.webp",
@@ -1682,7 +1682,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.psoZaItkOScMVaHL"
+          "sourceId": "Compendium.dnd5e_custom.items.psoZaItkOScMVaHL"
         }
       },
       "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
@@ -1692,7 +1692,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -1794,7 +1794,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.qMzHmlmha8qMDnEF"
+          "sourceId": "Compendium.dnd5e_custom.items.qMzHmlmha8qMDnEF"
         }
       },
       "img": "icons/commodities/treasure/lantern-stone-grey.webp",
@@ -1804,7 +1804,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -1906,7 +1906,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.uVm7MiB71QblfnoY"
+          "sourceId": "Compendium.dnd5e_custom.items.uVm7MiB71QblfnoY"
         }
       },
       "img": "icons/commodities/materials/feather-red-.webp",
@@ -1916,7 +1916,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -1961,7 +1961,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.dP7jMKyHTTgVb3ii"
+          "sourceId": "Compendium.dnd5e_custom.items.dP7jMKyHTTgVb3ii"
         }
       },
       "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
@@ -2016,7 +2016,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.fNMkFCOvMiW2Rh3t"
+          "sourceId": "Compendium.dnd5e_custom.items.fNMkFCOvMiW2Rh3t"
         }
       },
       "img": "icons/sundries/documents/document-bound-white.webp",
@@ -2026,7 +2026,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -2071,7 +2071,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.uuh4UH3Jx5CsFjdA"
+          "sourceId": "Compendium.dnd5e_custom.items.uuh4UH3Jx5CsFjdA"
         }
       },
       "img": "icons/consumables/potions/bottle-bulb-corked-purple.webp",
@@ -2126,7 +2126,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.REBWkTKe6lJaIkpn"
+          "sourceId": "Compendium.dnd5e_custom.items.REBWkTKe6lJaIkpn"
         }
       },
       "img": "icons/sundries/survival/soap.webp",
@@ -2136,7 +2136,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -2181,7 +2181,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.3uEyuCfnAzGkwAn5"
+          "sourceId": "Compendium.dnd5e_custom.items.3uEyuCfnAzGkwAn5"
         }
       },
       "img": "icons/sundries/lights/candle-unlit-red.webp",
@@ -2191,7 +2191,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -2344,7 +2344,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.f4w4GxBi0nYXmhX4"
+          "sourceId": "Compendium.dnd5e_custom.items.f4w4GxBi0nYXmhX4"
         }
       },
       "img": "icons/consumables/meat/hock-leg-pink-brown.webp",
@@ -2354,7 +2354,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -2459,14 +2459,14 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.Bnn9Nzajixvow9xi"
+          "sourceId": "Compendium.dnd5e_custom.spells.Bnn9Nzajixvow9xi"
         }
       },
       "img": "icons/magic/light/explosion-star-small-blue-yellow.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486304,
@@ -2571,14 +2571,14 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.Utk1OQRwYkMkFRD3"
+          "sourceId": "Compendium.dnd5e_custom.spells.Utk1OQRwYkMkFRD3"
         }
       },
       "img": "icons/magic/water/water-hand.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486305,
@@ -2683,14 +2683,14 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.eS7XnnApoxRxYXPs"
+          "sourceId": "Compendium.dnd5e_custom.spells.eS7XnnApoxRxYXPs"
         }
       },
       "img": "icons/magic/fire/explosion-fireball-medium-purple-pink.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486305,
@@ -2795,14 +2795,14 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.A3q2gTNqG6fvNGrv"
+          "sourceId": "Compendium.dnd5e_custom.spells.A3q2gTNqG6fvNGrv"
         }
       },
       "img": "icons/magic/control/debuff-energy-hold-teal-blue.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486305,
@@ -2913,14 +2913,14 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.ge3Saet9zPTDyaoL"
+          "sourceId": "Compendium.dnd5e_custom.spells.ge3Saet9zPTDyaoL"
         }
       },
       "img": "icons/magic/life/heart-cross-strong-blue.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486306,
@@ -3027,14 +3027,14 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.BQk5Row4NymMnUQl"
+          "sourceId": "Compendium.dnd5e_custom.spells.BQk5Row4NymMnUQl"
         }
       },
       "img": "icons/magic/fire/explosion-fireball-medium-purple-pink.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486306,
@@ -3068,7 +3068,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.1.0",
         "coreVersion": "10.291",
         "createdTime": 1673040183979,
@@ -3085,7 +3085,7 @@
       "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
       "system": {
         "description": {
-          "value": "<p>As a bard, you gain the following class features.</p><h3>Hit Points</h3><p><strong>Hit Dice:</strong> 1d8 per bard level<br /><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier<br /><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per bard level after 1st</p><h3>Proficiencies</h3><p><strong>Armor:</strong> Light armor<br /><strong>Weapons:</strong> Simple weapons, hand crossbows, longswords, rapiers, shortswords<br /><strong>Tools:</strong> Three musical instruments of your choice<br /><strong>Saving Throws:</strong> Dexterity, Charisma<br /><strong>Skills:</strong> Choose any three</p><h3>Equipment</h3><p>You start with the following equipment, in addition to the equipment granted by your background:</p><ul><li>(a) a rapier, (b) a longsword, or (c) any simple weapon</li><li>(a) a diplomat's pack or (b) an entertainer's pack</li><li>(a) a lute or (b) any other musical instrument</li><li>Leather armor and a dagger</li></ul><h1>Bard Advancement</h1><table border=\"0\"><thead><tr><td>Level</td><td>Proficiency Bonus</td><td>Features</td></tr></thead><tbody><tr><td>1st</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.u4NLajXETJhJU31v]{Spellcasting}, @UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]{Bardic Inspiration (d6)}</td></tr><tr><td>2nd</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.ezWijmCnlnQ9ZRX2]{Jack of All Trades}, @UUID[Compendium.dnd5e.classfeatures.Item.he8RpPXwSl2lVSIk]{Song of Rest (d6)}</td></tr><tr><td>3rd</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.ILhzFHiRrqgQ9dFJ]{Bard College} @UUID[Compendium.dnd5e.classfeatures.Item.aQLg7BWdRnm4Hr9S]{Expertise}</td></tr><tr><td>4th</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td></tr><tr><td>5th</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]{Bardic Inspiration (d8)}, @UUID[Compendium.dnd5e.classfeatures.Item.3VDZGs5Ug3hIE322]{Font of Inspiration}</td></tr><tr><td>6th</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.SEJmsjkEhdAZ90ki]{Countercharm}, Bard College feature</td></tr><tr><td>7th</td><td>+3</td><td>4th Level Spell Slot</td></tr><tr><td>8th</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td></tr><tr><td>9th</td><td>+4</td><td>5th Level Spell Slot @UUID[Compendium.dnd5e.classfeatures.Item.he8RpPXwSl2lVSIk]{Song of Rest (d8)}</td></tr><tr><td>10th</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]{Bardic Inspiration (d10)}, @UUID[Compendium.dnd5e.classfeatures.Item.aQLg7BWdRnm4Hr9S]{Expertise}, @UUID[Compendium.dnd5e.classfeatures.Item.aonJ2YjkqkYB9WYB]{Magical Secrets}</td></tr><tr><td>11th</td><td>+4</td><td>6th Level Spell Slot</td></tr><tr><td>12th</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td></tr><tr><td>13th</td><td>+5</td><td>7th Level Spell Slot, @UUID[Compendium.dnd5e.classfeatures.Item.he8RpPXwSl2lVSIk]{Song of Rest (d10)}</td></tr><tr><td>14th</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.aonJ2YjkqkYB9WYB]{Magical Secrets}, Bard College feature</td></tr><tr><td>15th</td><td>+5</td><td>8th Level Spell Slot, @UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]{Bardic Inspiration (d12)}</td></tr><tr><td>16th</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td></tr><tr><td>17th</td><td>+6</td><td>9th Level Spell Slot, @UUID[Compendium.dnd5e.classfeatures.Item.he8RpPXwSl2lVSIk]{Song of Rest (d12)}</td></tr><tr><td>18th</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.aonJ2YjkqkYB9WYB]{Magical Secrets}</td></tr><tr><td>19th</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td></tr><tr><td>20th</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.GBYN5rH4nh1ocRlY]{Superior Inspiration}</td></tr></tbody></table><h1>Bard Colleges</h1><p>@UUID[Compendium.dnd5e.subclasses.Item.MNvsEc4D2ccX7dQT]{College of Lore}</p>",
+          "value": "<p>As a bard, you gain the following class features.</p><h3>Hit Points</h3><p><strong>Hit Dice:</strong> 1d8 per bard level<br /><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier<br /><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per bard level after 1st</p><h3>Proficiencies</h3><p><strong>Armor:</strong> Light armor<br /><strong>Weapons:</strong> Simple weapons, hand crossbows, longswords, rapiers, shortswords<br /><strong>Tools:</strong> Three musical instruments of your choice<br /><strong>Saving Throws:</strong> Dexterity, Charisma<br /><strong>Skills:</strong> Choose any three</p><h3>Equipment</h3><p>You start with the following equipment, in addition to the equipment granted by your background:</p><ul><li>(a) a rapier, (b) a longsword, or (c) any simple weapon</li><li>(a) a diplomat's pack or (b) an entertainer's pack</li><li>(a) a lute or (b) any other musical instrument</li><li>Leather armor and a dagger</li></ul><h1>Bard Advancement</h1><table border=\"0\"><thead><tr><td>Level</td><td>Proficiency Bonus</td><td>Features</td></tr></thead><tbody><tr><td>1st</td><td>+2</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.u4NLajXETJhJU31v]{Spellcasting}, @UUID[Compendium.dnd5e_custom.classfeatures.Item.hpLNiGq7y67d2EHA]{Bardic Inspiration (d6)}</td></tr><tr><td>2nd</td><td>+2</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.ezWijmCnlnQ9ZRX2]{Jack of All Trades}, @UUID[Compendium.dnd5e_custom.classfeatures.Item.he8RpPXwSl2lVSIk]{Song of Rest (d6)}</td></tr><tr><td>3rd</td><td>+2</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.ILhzFHiRrqgQ9dFJ]{Bard College} @UUID[Compendium.dnd5e_custom.classfeatures.Item.aQLg7BWdRnm4Hr9S]{Expertise}</td></tr><tr><td>4th</td><td>+2</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td></tr><tr><td>5th</td><td>+3</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.hpLNiGq7y67d2EHA]{Bardic Inspiration (d8)}, @UUID[Compendium.dnd5e_custom.classfeatures.Item.3VDZGs5Ug3hIE322]{Font of Inspiration}</td></tr><tr><td>6th</td><td>+3</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.SEJmsjkEhdAZ90ki]{Countercharm}, Bard College feature</td></tr><tr><td>7th</td><td>+3</td><td>4th Level Spell Slot</td></tr><tr><td>8th</td><td>+3</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td></tr><tr><td>9th</td><td>+4</td><td>5th Level Spell Slot @UUID[Compendium.dnd5e_custom.classfeatures.Item.he8RpPXwSl2lVSIk]{Song of Rest (d8)}</td></tr><tr><td>10th</td><td>+4</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.hpLNiGq7y67d2EHA]{Bardic Inspiration (d10)}, @UUID[Compendium.dnd5e_custom.classfeatures.Item.aQLg7BWdRnm4Hr9S]{Expertise}, @UUID[Compendium.dnd5e_custom.classfeatures.Item.aonJ2YjkqkYB9WYB]{Magical Secrets}</td></tr><tr><td>11th</td><td>+4</td><td>6th Level Spell Slot</td></tr><tr><td>12th</td><td>+4</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td></tr><tr><td>13th</td><td>+5</td><td>7th Level Spell Slot, @UUID[Compendium.dnd5e_custom.classfeatures.Item.he8RpPXwSl2lVSIk]{Song of Rest (d10)}</td></tr><tr><td>14th</td><td>+5</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.aonJ2YjkqkYB9WYB]{Magical Secrets}, Bard College feature</td></tr><tr><td>15th</td><td>+5</td><td>8th Level Spell Slot, @UUID[Compendium.dnd5e_custom.classfeatures.Item.hpLNiGq7y67d2EHA]{Bardic Inspiration (d12)}</td></tr><tr><td>16th</td><td>+5</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td></tr><tr><td>17th</td><td>+6</td><td>9th Level Spell Slot, @UUID[Compendium.dnd5e_custom.classfeatures.Item.he8RpPXwSl2lVSIk]{Song of Rest (d12)}</td></tr><tr><td>18th</td><td>+6</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.aonJ2YjkqkYB9WYB]{Magical Secrets}</td></tr><tr><td>19th</td><td>+6</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td></tr><tr><td>20th</td><td>+6</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.GBYN5rH4nh1ocRlY]{Superior Inspiration}</td></tr></tbody></table><h1>Bard Colleges</h1><p>@UUID[Compendium.dnd5e_custom.subclasses.Item.MNvsEc4D2ccX7dQT]{College of Lore}</p>",
           "chat": ""
         },
         "source": {
@@ -3106,15 +3106,15 @@
               "1": "max"
             },
             "title": "Hit Points",
-            "icon": "systems/dnd5e/icons/svg/hit-points.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/hit-points.svg",
             "_id": "EKTLkOHo2TCW7XIf"
           },
           {
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.u4NLajXETJhJU31v",
-                "Compendium.dnd5e.classfeatures.hpLNiGq7y67d2EHA"
+                "Compendium.dnd5e_custom.classfeatures.u4NLajXETJhJU31v",
+                "Compendium.dnd5e_custom.classfeatures.hpLNiGq7y67d2EHA"
               ],
               "optional": false,
               "spell": {
@@ -3128,21 +3128,21 @@
             },
             "value": {
               "added": {
-                "68Ddyvt01lMQMzxs": "Compendium.dnd5e.classfeatures.u4NLajXETJhJU31v",
-                "YbNSECwaQYGzHnfL": "Compendium.dnd5e.classfeatures.hpLNiGq7y67d2EHA"
+                "68Ddyvt01lMQMzxs": "Compendium.dnd5e_custom.classfeatures.u4NLajXETJhJU31v",
+                "YbNSECwaQYGzHnfL": "Compendium.dnd5e_custom.classfeatures.hpLNiGq7y67d2EHA"
               }
             },
             "level": 1,
             "title": "Features",
-            "icon": "systems/dnd5e/icons/svg/item-grant.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-grant.svg",
             "_id": "DAnM5n0F9nUkY15I"
           },
           {
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.ezWijmCnlnQ9ZRX2",
-                "Compendium.dnd5e.classfeatures.he8RpPXwSl2lVSIk"
+                "Compendium.dnd5e_custom.classfeatures.ezWijmCnlnQ9ZRX2",
+                "Compendium.dnd5e_custom.classfeatures.he8RpPXwSl2lVSIk"
               ],
               "optional": false,
               "spell": {
@@ -3157,15 +3157,15 @@
             "value": {},
             "level": 2,
             "title": "Features",
-            "icon": "systems/dnd5e/icons/svg/item-grant.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-grant.svg",
             "_id": "sMIJRB5FeIM1OsMt"
           },
           {
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.ILhzFHiRrqgQ9dFJ",
-                "Compendium.dnd5e.classfeatures.aQLg7BWdRnm4Hr9S"
+                "Compendium.dnd5e_custom.classfeatures.ILhzFHiRrqgQ9dFJ",
+                "Compendium.dnd5e_custom.classfeatures.aQLg7BWdRnm4Hr9S"
               ],
               "optional": false,
               "spell": {
@@ -3180,14 +3180,14 @@
             "value": {},
             "level": 3,
             "title": "Features",
-            "icon": "systems/dnd5e/icons/svg/item-grant.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-grant.svg",
             "_id": "UxQ9cTOrazRMUpV0"
           },
           {
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.3VDZGs5Ug3hIE322"
+                "Compendium.dnd5e_custom.classfeatures.3VDZGs5Ug3hIE322"
               ],
               "optional": false,
               "spell": {
@@ -3202,14 +3202,14 @@
             "value": {},
             "level": 5,
             "title": "Features",
-            "icon": "systems/dnd5e/icons/svg/item-grant.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-grant.svg",
             "_id": "DNqlO4gPAhwh1FEN"
           },
           {
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.SEJmsjkEhdAZ90ki"
+                "Compendium.dnd5e_custom.classfeatures.SEJmsjkEhdAZ90ki"
               ],
               "optional": false,
               "spell": {
@@ -3224,14 +3224,14 @@
             "value": {},
             "level": 6,
             "title": "Features",
-            "icon": "systems/dnd5e/icons/svg/item-grant.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-grant.svg",
             "_id": "WfrWYWix0JbCl6OP"
           },
           {
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.aonJ2YjkqkYB9WYB"
+                "Compendium.dnd5e_custom.classfeatures.aonJ2YjkqkYB9WYB"
               ],
               "optional": false,
               "spell": {
@@ -3246,14 +3246,14 @@
             "value": {},
             "level": 10,
             "title": "Features",
-            "icon": "systems/dnd5e/icons/svg/item-grant.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-grant.svg",
             "_id": "JKqujV3gQ79K1PM8"
           },
           {
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.GBYN5rH4nh1ocRlY"
+                "Compendium.dnd5e_custom.classfeatures.GBYN5rH4nh1ocRlY"
               ],
               "optional": false,
               "spell": {
@@ -3268,7 +3268,7 @@
             "value": {},
             "level": 20,
             "title": "Features",
-            "icon": "systems/dnd5e/icons/svg/item-grant.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-grant.svg",
             "_id": "Z1lpPlUMZns8euiD"
           },
           {
@@ -3299,7 +3299,7 @@
             },
             "value": {},
             "title": "Magical Secrets",
-            "icon": "systems/dnd5e/icons/svg/item-choice.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-choice.svg",
             "_id": "MhSKzQVlKtFtH3xB"
           },
           {
@@ -3331,7 +3331,7 @@
             },
             "value": {},
             "title": "Bardic Inspiration Die",
-            "icon": "systems/dnd5e/icons/svg/scale-value.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/scale-value.svg",
             "_id": "kyjFphgByFS4mPlw"
           },
           {
@@ -3363,7 +3363,7 @@
             },
             "value": {},
             "title": "Song of Rest Die",
-            "icon": "systems/dnd5e/icons/svg/scale-value.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/scale-value.svg",
             "_id": "gdwtEVYkO44OCABo"
           },
           {
@@ -3388,7 +3388,7 @@
             },
             "value": {},
             "title": "Cantrips Known",
-            "icon": "systems/dnd5e/icons/svg/scale-value.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/scale-value.svg",
             "_id": "Nz0ud8hOAINqJKZ1"
           },
           {
@@ -3452,7 +3452,7 @@
             },
             "value": {},
             "title": "Spells Known",
-            "icon": "systems/dnd5e/icons/svg/scale-value.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/scale-value.svg",
             "_id": "aJhQOoccPAza9Cuq"
           },
           {
@@ -3474,7 +3474,7 @@
             },
             "level": 4,
             "title": "Ability Score Improvement",
-            "icon": "systems/dnd5e/icons/svg/ability-score-improvement.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/ability-score-improvement.svg",
             "_id": "Jy2URg8R3ETmmoFv"
           },
           {
@@ -3496,7 +3496,7 @@
             },
             "level": 8,
             "title": "Ability Score Improvement",
-            "icon": "systems/dnd5e/icons/svg/ability-score-improvement.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/ability-score-improvement.svg",
             "_id": "j8sWjSvQ4Gpq0nX0"
           },
           {
@@ -3518,7 +3518,7 @@
             },
             "level": 12,
             "title": "Ability Score Improvement",
-            "icon": "systems/dnd5e/icons/svg/ability-score-improvement.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/ability-score-improvement.svg",
             "_id": "VLxmhsFQAlTL0B8S"
           },
           {
@@ -3540,7 +3540,7 @@
             },
             "level": 16,
             "title": "Ability Score Improvement",
-            "icon": "systems/dnd5e/icons/svg/ability-score-improvement.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/ability-score-improvement.svg",
             "_id": "z2Caf1jETQT5k0WL"
           },
           {
@@ -3792,11 +3792,11 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.classes.Item.ILvRZGEx3aXqSVUt"
+          "sourceId": "Compendium.dnd5e_custom.classes.Item.ILvRZGEx3aXqSVUt"
         }
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.4.0",
         "coreVersion": "10.303",
         "createdTime": 1661787234279,
@@ -3814,7 +3814,7 @@
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your spells are part of your vast repertoire, magic that you can tune to different situations.</p>\n<h5>Cantrips</h5>\n<p>You know two cantrips of your choice from the bard spell list. You learn additional bard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Bard table.</p>\n<h5>Spell Slots</h5>\n<p>The Bard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>\n<p>For example, if you know the 1st-level spell cure wounds and have a 1st-level and a 2nd-level spell slot available, you can cast cure wounds using either slot.</p>\n<h5>Spells Known of 1st Level and Higher</h5>\n<p>You know four 1st-level spells of your choice from the bard spell list.</p>\n<p>The Spells Known column of the Bard table shows when you learn more bard spells of your choice. Each of these spells must be of a level for which you have spell slots, as shown on the table. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</p>\n<p>Additionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots.</p>\n<h5>Spellcasting Ability</h5>\n<p>Charisma is your spellcasting ability for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.</p>\n<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>\n<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>\n<h5>Ritual Casting</h5>\n<p>You can cast any bard spell you know as a ritual if that spell has the ritual tag.</p>\n<h5>Spellcasting Focus</h5>\n<p>You can use a musical instrument (see @UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.AjavRU4yPfI9hfaI]{Adventuring Gear})) as a spellcasting focus for your bard spells.</p>",
+          "value": "<p>You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your spells are part of your vast repertoire, magic that you can tune to different situations.</p>\n<h5>Cantrips</h5>\n<p>You know two cantrips of your choice from the bard spell list. You learn additional bard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Bard table.</p>\n<h5>Spell Slots</h5>\n<p>The Bard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>\n<p>For example, if you know the 1st-level spell cure wounds and have a 1st-level and a 2nd-level spell slot available, you can cast cure wounds using either slot.</p>\n<h5>Spells Known of 1st Level and Higher</h5>\n<p>You know four 1st-level spells of your choice from the bard spell list.</p>\n<p>The Spells Known column of the Bard table shows when you learn more bard spells of your choice. Each of these spells must be of a level for which you have spell slots, as shown on the table. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</p>\n<p>Additionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots.</p>\n<h5>Spellcasting Ability</h5>\n<p>Charisma is your spellcasting ability for your bard spells. Your magic comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a bard spell you cast and when making an attack roll with one.</p>\n<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>\n<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>\n<h5>Ritual Casting</h5>\n<p>You can cast any bard spell you know as a ritual if that spell has the ritual tag.</p>\n<h5>Spellcasting Focus</h5>\n<p>You can use a musical instrument (see @UUID[Compendium.dnd5e_custom.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.AjavRU4yPfI9hfaI]{Adventuring Gear})) as a spellcasting focus for your bard spells.</p>",
           "chat": ""
         },
         "source": {
@@ -3890,8 +3890,8 @@
         "properties": []
       },
       "flags": {
-        "dnd5e": {
-          "sourceId": "Compendium.dnd5e.classfeatures.u4NLajXETJhJU31v",
+        "dnd5e_custom": {
+          "sourceId": "Compendium.dnd5e_custom.classfeatures.u4NLajXETJhJU31v",
           "advancementOrigin": "jRCTm0gBRZHs1hc7.DAnM5n0F9nUkY15I"
         }
       },
@@ -3900,7 +3900,7 @@
       "folder": null,
       "sort": 0,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.4.0",
         "coreVersion": "10.303",
         "createdTime": 1661787234434,
@@ -3918,7 +3918,7 @@
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the GM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.</p><p>You can use this feature a number of times equal to your Charisma modifier (a minimum of once).</p><p>You regain any expended uses when you finish a long rest.</p><p>Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.</p><section class=\"secret\" id=\"secret-eL25CzgN1MY7TpsR\"><p><strong>Foundry Note</strong></p><p>Recovery is set to long rest (for levels before @UUID[Compendium.dnd5e.classfeatures.Item.3VDZGs5Ug3hIE322]{Font of Inspiration} is gained). Please manually adjust as required.</p></section>",
+          "value": "<p>You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the GM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.</p><p>You can use this feature a number of times equal to your Charisma modifier (a minimum of once).</p><p>You regain any expended uses when you finish a long rest.</p><p>Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.</p><section class=\"secret\" id=\"secret-eL25CzgN1MY7TpsR\"><p><strong>Foundry Note</strong></p><p>Recovery is set to long rest (for levels before @UUID[Compendium.dnd5e_custom.classfeatures.Item.3VDZGs5Ug3hIE322]{Font of Inspiration} is gained). Please manually adjust as required.</p></section>",
           "chat": ""
         },
         "source": {
@@ -3994,8 +3994,8 @@
         "properties": []
       },
       "flags": {
-        "dnd5e": {
-          "sourceId": "Compendium.dnd5e.classfeatures.hpLNiGq7y67d2EHA",
+        "dnd5e_custom": {
+          "sourceId": "Compendium.dnd5e_custom.classfeatures.hpLNiGq7y67d2EHA",
           "advancementOrigin": "jRCTm0gBRZHs1hc7.DAnM5n0F9nUkY15I"
         }
       },
@@ -4004,7 +4004,7 @@
       "folder": null,
       "sort": 0,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.2.2",
         "coreVersion": "10.303",
         "createdTime": 1661787234409,
@@ -4036,7 +4036,7 @@
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.races.cnTbpPPeGW7vGjOV"
+                "Compendium.dnd5e_custom.races.cnTbpPPeGW7vGjOV"
               ],
               "optional": false,
               "spell": {
@@ -4050,7 +4050,7 @@
             },
             "value": {
               "added": {
-                "9t0oaZailMjUceoS": "Compendium.dnd5e.races.cnTbpPPeGW7vGjOV"
+                "9t0oaZailMjUceoS": "Compendium.dnd5e_custom.races.cnTbpPPeGW7vGjOV"
               }
             },
             "level": 0,
@@ -4181,11 +4181,11 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.races.Hye5IZwPOSwV0qRR"
+          "sourceId": "Compendium.dnd5e_custom.races.Hye5IZwPOSwV0qRR"
         }
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.4.0",
         "coreVersion": "10.303",
         "createdTime": 1677181061205,
@@ -4281,8 +4281,8 @@
         "properties": []
       },
       "flags": {
-        "dnd5e": {
-          "sourceId": "Compendium.dnd5e.races.cnTbpPPeGW7vGjOV",
+        "dnd5e_custom": {
+          "sourceId": "Compendium.dnd5e_custom.races.cnTbpPPeGW7vGjOV",
           "advancementOrigin": "Mmfz1ndrE8zwXsWT.rXyxzoqxdxlspMi5"
         }
       },
@@ -4291,7 +4291,7 @@
       "folder": null,
       "sort": 0,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.4.0",
         "coreVersion": "10.303",
         "createdTime": 1661787234471,
@@ -4310,7 +4310,7 @@
   "flags": {},
   "_id": "xVmbM44RXyI2Eqq3",
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1661787232198,

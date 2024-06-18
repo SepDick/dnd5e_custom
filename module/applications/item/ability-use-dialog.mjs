@@ -13,7 +13,7 @@ import simplifyRollFormula from "../../dice/simplify-roll-formula.mjs";
 export default class AbilityUseDialog extends Dialog {
   constructor(item, dialogData={}, options={}) {
     super(dialogData, options);
-    this.options.classes = ["dnd5e", "dialog"];
+    this.options.classes = ["dnd5e_custom", "dialog"];
 
     /**
      * Store a reference to the Item document being used
@@ -87,7 +87,7 @@ export default class AbilityUseDialog extends Dialog {
     this._getAbilityUseWarnings(data, options);
 
     // Render the ability usage template
-    const html = await renderTemplate("systems/dnd5e/templates/apps/ability-use.hbs", data);
+    const html = await renderTemplate("systems/dnd5e_custom/templates/apps/ability-use.hbs", data);
 
     // Create the Dialog and return data as a Promise
     const isSpell = item.type === "spell";
@@ -128,7 +128,7 @@ export default class AbilityUseDialog extends Dialog {
   static _createConcentrationOptions(item) {
     const { effects } = item.actor.concentration;
     return effects.reduce((acc, effect) => {
-      const data = effect.getFlag("dnd5e", "itemData");
+      const data = effect.getFlag("dnd5e_custom", "itemData");
       acc.push({
         name: effect.id,
         label: data?.name ?? item.actor.items.get(data)?.name ?? game.i18n.localize("DND5E.ConcentratingItemless")

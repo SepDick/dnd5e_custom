@@ -55,8 +55,8 @@ export default class TraitConfig extends AdvancementConfig {
   /** @inheritdoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["dnd5e", "advancement", "traits", "two-column"],
-      template: "systems/dnd5e/templates/advancement/trait-config.hbs",
+      classes: ["dnd5e_custom", "advancement", "traits", "two-column"],
+      template: "systems/dnd5e_custom/templates/advancement/trait-config.hbs",
       width: 640
     });
   }

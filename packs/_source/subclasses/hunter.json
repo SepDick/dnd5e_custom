@@ -21,7 +21,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.classfeatures.wrxIW5sDfmGr3u5s"
+            "Compendium.dnd5e_custom.classfeatures.wrxIW5sDfmGr3u5s"
           ],
           "optional": false,
           "spell": {
@@ -42,7 +42,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.classfeatures.WgQrqjmeyMqDzVt3"
+            "Compendium.dnd5e_custom.classfeatures.WgQrqjmeyMqDzVt3"
           ],
           "optional": false,
           "spell": {
@@ -63,7 +63,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.classfeatures.7zlTRRXT1vWSBGjX"
+            "Compendium.dnd5e_custom.classfeatures.7zlTRRXT1vWSBGjX"
           ],
           "optional": false,
           "spell": {
@@ -84,7 +84,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.classfeatures.a0Sq88dgnREcIMfl"
+            "Compendium.dnd5e_custom.classfeatures.a0Sq88dgnREcIMfl"
           ],
           "optional": false,
           "spell": {
@@ -111,9 +111,9 @@
           "allowDrops": false,
           "type": "feat",
           "pool": [
-            "Compendium.dnd5e.classfeatures.5gx1O0sxK08awEO9",
-            "Compendium.dnd5e.classfeatures.StfmqK1twVfukpa0",
-            "Compendium.dnd5e.classfeatures.C6sHdDGmCMo0cYHd"
+            "Compendium.dnd5e_custom.classfeatures.5gx1O0sxK08awEO9",
+            "Compendium.dnd5e_custom.classfeatures.StfmqK1twVfukpa0",
+            "Compendium.dnd5e_custom.classfeatures.C6sHdDGmCMo0cYHd"
           ],
           "spell": {
             "ability": "",
@@ -143,9 +143,9 @@
           "allowDrops": false,
           "type": "feat",
           "pool": [
-            "Compendium.dnd5e.classfeatures.pAQMJU5R9SGUmzHU",
-            "Compendium.dnd5e.classfeatures.slelvrm83v9UAKZU",
-            "Compendium.dnd5e.classfeatures.zbHu0NvHuII8lR7W"
+            "Compendium.dnd5e_custom.classfeatures.pAQMJU5R9SGUmzHU",
+            "Compendium.dnd5e_custom.classfeatures.slelvrm83v9UAKZU",
+            "Compendium.dnd5e_custom.classfeatures.zbHu0NvHuII8lR7W"
           ],
           "spell": {
             "ability": "",
@@ -175,8 +175,8 @@
           "allowDrops": false,
           "type": "feat",
           "pool": [
-            "Compendium.dnd5e.classfeatures.l7W6JB9yWLLLtQKP",
-            "Compendium.dnd5e.classfeatures.1DY8w3CXeD7PHDXF"
+            "Compendium.dnd5e_custom.classfeatures.l7W6JB9yWLLLtQKP",
+            "Compendium.dnd5e_custom.classfeatures.1DY8w3CXeD7PHDXF"
           ],
           "spell": {
             "ability": "",
@@ -206,9 +206,9 @@
           "allowDrops": false,
           "type": "feat",
           "pool": [
-            "Compendium.dnd5e.classfeatures.laVHAIOKIsUeezWd",
-            "Compendium.dnd5e.classfeatures.Xf763cJoDHPPWSGG",
-            "Compendium.dnd5e.classfeatures.7pyZjz5vlUWV01qQ"
+            "Compendium.dnd5e_custom.classfeatures.laVHAIOKIsUeezWd",
+            "Compendium.dnd5e_custom.classfeatures.Xf763cJoDHPPWSGG",
+            "Compendium.dnd5e_custom.classfeatures.7pyZjz5vlUWV01qQ"
           ],
           "spell": {
             "ability": "",
@@ -242,7 +242,7 @@
   "flags": {},
   "_id": "uqd2q6WjVfcsaaGb",
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1661787234297,

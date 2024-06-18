@@ -563,7 +563,7 @@
     },
     "detectionModes": [],
     "flags": {
-      "dnd5e": {
+      "dnd5e_custom": {
         "tokenRing": {
           "enabled": false,
           "textures": {
@@ -587,7 +587,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.2.0",
     "coreVersion": "11.315",
     "createdTime": 1714076980309,

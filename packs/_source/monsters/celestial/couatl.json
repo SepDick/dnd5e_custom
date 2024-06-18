@@ -585,7 +585,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.WdpSeGqhZpptz37y"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.WdpSeGqhZpptz37y"
         }
       },
       "_stats": {
@@ -811,7 +811,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.JsAys4RSGi4lN5Jy"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.JsAys4RSGi4lN5Jy"
         }
       },
       "_stats": {
@@ -913,7 +913,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.hkmTEk6klT6QL4K4"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.hkmTEk6klT6QL4K4"
         }
       },
       "_stats": {
@@ -1015,7 +1015,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.nahRRxck9R5GVVFS"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.nahRRxck9R5GVVFS"
         }
       },
       "_stats": {
@@ -1117,7 +1117,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.SrmR5UfLMFxTErTp"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.SrmR5UfLMFxTErTp"
         }
       },
       "_stats": {
@@ -1227,9 +1227,9 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.Mzh95utKDPIrjiH8"
+          "sourceId": "Compendium.dnd5e_custom.spells.Mzh95utKDPIrjiH8"
         },
-        "dnd5e": {
+        "dnd5e_custom": {
           "migratedProperties": [
             "vocal",
             "somatic",
@@ -1241,7 +1241,7 @@
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661787234128,
@@ -1348,9 +1348,9 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.ghXTfe7sgCbgf1Q8"
+          "sourceId": "Compendium.dnd5e_custom.spells.ghXTfe7sgCbgf1Q8"
         },
-        "dnd5e": {
+        "dnd5e_custom": {
           "migratedProperties": [
             "vocal",
             "somatic",
@@ -1363,7 +1363,7 @@
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661787234192,
@@ -1470,9 +1470,9 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.ppWAAEul0QHtm4er"
+          "sourceId": "Compendium.dnd5e_custom.spells.ppWAAEul0QHtm4er"
         },
-        "dnd5e": {
+        "dnd5e_custom": {
           "migratedProperties": [
             "vocal",
             "somatic",
@@ -1485,7 +1485,7 @@
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661787234229,
@@ -1650,9 +1650,9 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.8dzaICjGy6mTUaUr"
+          "sourceId": "Compendium.dnd5e_custom.spells.8dzaICjGy6mTUaUr"
         },
-        "dnd5e": {
+        "dnd5e_custom": {
           "migratedProperties": [
             "vocal",
             "somatic",
@@ -1662,7 +1662,7 @@
         }
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661787234081,
@@ -1767,9 +1767,9 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.BV0mpbHh29IbbIj5"
+          "sourceId": "Compendium.dnd5e_custom.spells.BV0mpbHh29IbbIj5"
         },
-        "dnd5e": {
+        "dnd5e_custom": {
           "migratedProperties": [
             "vocal",
             "somatic"
@@ -1780,7 +1780,7 @@
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661787234092,
@@ -1890,9 +1890,9 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.uUWb1wZgtMou0TVP"
+          "sourceId": "Compendium.dnd5e_custom.spells.uUWb1wZgtMou0TVP"
         },
-        "dnd5e": {
+        "dnd5e_custom": {
           "migratedProperties": [
             "vocal",
             "somatic"
@@ -1903,7 +1903,7 @@
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661787234236,
@@ -2008,9 +2008,9 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.F0GsG0SJzsIOacwV"
+          "sourceId": "Compendium.dnd5e_custom.spells.F0GsG0SJzsIOacwV"
         },
-        "dnd5e": {
+        "dnd5e_custom": {
           "migratedProperties": [
             "vocal",
             "somatic"
@@ -2021,7 +2021,7 @@
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661787234103,
@@ -2127,9 +2127,9 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.gvdA9nPuWLck4tBl"
+          "sourceId": "Compendium.dnd5e_custom.spells.gvdA9nPuWLck4tBl"
         },
-        "dnd5e": {
+        "dnd5e_custom": {
           "migratedProperties": [
             "vocal",
             "somatic",
@@ -2141,7 +2141,7 @@
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661787234193,
@@ -2280,9 +2280,9 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.z1mx84ONwkXKUZd7"
+          "sourceId": "Compendium.dnd5e_custom.spells.z1mx84ONwkXKUZd7"
         },
-        "dnd5e": {
+        "dnd5e_custom": {
           "migratedProperties": [
             "vocal",
             "somatic"
@@ -2290,7 +2290,7 @@
         }
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661787234244,
@@ -2401,9 +2401,9 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.kSPRpeIx3w3nihrF"
+          "sourceId": "Compendium.dnd5e_custom.spells.kSPRpeIx3w3nihrF"
         },
-        "dnd5e": {
+        "dnd5e_custom": {
           "migratedProperties": [
             "vocal",
             "somatic",
@@ -2415,7 +2415,7 @@
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661787234214,
@@ -2521,9 +2521,9 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.WzvJ7G3cqvIubsLk"
+          "sourceId": "Compendium.dnd5e_custom.spells.WzvJ7G3cqvIubsLk"
         },
-        "dnd5e": {
+        "dnd5e_custom": {
           "migratedProperties": [
             "vocal",
             "somatic",
@@ -2535,7 +2535,7 @@
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661787234154,
@@ -2642,9 +2642,9 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.fVbCxFRaORalHB20"
+          "sourceId": "Compendium.dnd5e_custom.spells.fVbCxFRaORalHB20"
         },
-        "dnd5e": {
+        "dnd5e_custom": {
           "migratedProperties": [
             "vocal",
             "somatic",
@@ -2657,7 +2657,7 @@
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661787234189,
@@ -2762,9 +2762,9 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.MAxM77CDUu8dgIRQ"
+          "sourceId": "Compendium.dnd5e_custom.spells.MAxM77CDUu8dgIRQ"
         },
-        "dnd5e": {
+        "dnd5e_custom": {
           "migratedProperties": [
             "vocal",
             "somatic"
@@ -2775,7 +2775,7 @@
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661787234123,
@@ -2793,7 +2793,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.0.3",
     "coreVersion": "11.315",
     "createdTime": 1661787232895,

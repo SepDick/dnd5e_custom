@@ -23,14 +23,14 @@ export default class GroupActorSheet extends ActorSheetMixin(ActorSheet) {
   /** @inheritDoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["dnd5e", "sheet", "actor", "group"],
-      template: "systems/dnd5e/templates/actors/group-sheet.hbs",
+      classes: ["dnd5e_custom", "sheet", "actor", "group"],
+      template: "systems/dnd5e_custom/templates/actors/group-sheet.hbs",
       tabs: [{navSelector: ".tabs", contentSelector: ".sheet-body", initial: "members"}],
-      scrollY: ["dnd5e-inventory .inventory-list"],
+      scrollY: ["dnd5e_custom-inventory .inventory-list"],
       width: 620,
       height: 620,
       elements: {
-        inventory: "dnd5e-inventory"
+        inventory: "dnd5e_custom-inventory"
       }
     });
   }
@@ -64,7 +64,7 @@ export default class GroupActorSheet extends ActorSheetMixin(ActorSheet) {
     context.movement = this.#prepareMovementSpeed();
 
     // XP
-    if ( !game.settings.get("dnd5e", "disableExperienceTracking") ) context.xp = context.system.details.xp;
+    if ( !game.settings.get("dnd5e_custom", "disableExperienceTracking") ) context.xp = context.system.details.xp;
 
     // Inventory
     context.itemContext = {};
@@ -139,7 +139,7 @@ export default class GroupActorSheet extends ActorSheetMixin(ActorSheet) {
       vehicle: {label: `${CONFIG.Actor.typeLabels.vehicle}Pl`, members: []}
     };
     const type = this.actor.system.type.value;
-    const displayXP = !game.settings.get("dnd5e", "disableExperienceTracking");
+    const displayXP = !game.settings.get("dnd5e_custom", "disableExperienceTracking");
     for ( const [index, memberData] of this.object.system.members.entries() ) {
       const member = memberData.actor;
       const multiplier = type === "encounter" ? (memberData.quantity.value ?? 1) : 1;
@@ -160,7 +160,7 @@ export default class GroupActorSheet extends ActorSheetMixin(ActorSheet) {
       m.hp.current = hp.value + (hp.temp || 0);
       m.hp.max = Math.max(0, hp.effectiveMax);
       m.hp.pct = Math.clamp((m.hp.current / m.hp.max) * 100, 0, 100).toFixed(2);
-      m.hp.color = dnd5e.documents.Actor5e.getHPColor(m.hp.current, m.hp.max).css;
+      m.hp.color = dnd5e_custom.documents.Actor5e.getHPColor(m.hp.current, m.hp.max).css;
       stats.currentHP += (m.hp.current * multiplier);
       stats.maxHP += (m.hp.max * multiplier);
 
@@ -292,7 +292,7 @@ export default class GroupActorSheet extends ActorSheetMixin(ActorSheet) {
     const button = event.currentTarget;
     switch ( button.dataset.action ) {
       case "award":
-        const award = new Award(this.object, { savedDestinations: this.actor.getFlag("dnd5e", "awardDestinations") });
+        const award = new Award(this.object, { savedDestinations: this.actor.getFlag("dnd5e_custom", "awardDestinations") });
         award.render(true);
         break;
       case "longRest":

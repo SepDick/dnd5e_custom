@@ -8,8 +8,8 @@ export default class ActorConcentrationConfig extends BaseConfigSheet {
   /** @inheritDoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["dnd5e"],
-      template: "systems/dnd5e/templates/apps/concentration-config.hbs",
+      classes: ["dnd5e_custom"],
+      template: "systems/dnd5e_custom/templates/apps/concentration-config.hbs",
       width: 500,
       height: "auto"
     });

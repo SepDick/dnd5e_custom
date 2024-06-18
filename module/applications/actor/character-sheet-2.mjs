@@ -12,7 +12,7 @@ import ActorSheet5eCharacter from "./character-sheet.mjs";
 export default class ActorSheet5eCharacter2 extends ActorSheet5eCharacter {
   constructor(object, options={}) {
     const key = `character${object.limited ? ":limited" : ""}`;
-    const { width, height } = game.user.getFlag("dnd5e", `sheetPrefs.${key}`) ?? {};
+    const { width, height } = game.user.getFlag("dnd5e_custom", `sheetPrefs.${key}`) ?? {};
     if ( width && !("width" in options) ) options.width = width;
     if ( height && !("height" in options) ) options.height = height;
     super(object, options);
@@ -105,8 +105,8 @@ export default class ActorSheet5eCharacter2 extends ActorSheet5eCharacter {
 
   /** @override */
   get template() {
-    if ( !game.user.isGM && this.actor.limited ) return "systems/dnd5e/templates/actors/limited-sheet-2.hbs";
-    return "systems/dnd5e/templates/actors/character-sheet-2.hbs";
+    if ( !game.user.isGM && this.actor.limited ) return "systems/dnd5e_custom/templates/actors/limited-sheet-2.hbs";
+    return "systems/dnd5e_custom/templates/actors/character-sheet-2.hbs";
   }
 
   /* -------------------------------------------- */
@@ -159,7 +159,7 @@ export default class ActorSheet5eCharacter2 extends ActorSheet5eCharacter {
       item.dataset.tooltip = label;
       item.setAttribute("aria-label", label);
       if ( icon ) item.innerHTML = `<i class="${icon}"></i>`;
-      else if ( svg ) item.innerHTML = `<dnd5e-icon src="systems/dnd5e/icons/svg/${svg}.svg"></dnd5e-icon>`;
+      else if ( svg ) item.innerHTML = `<dnd5e_custom-icon src="systems/dnd5e_custom/icons/svg/${svg}.svg"></dnd5e_custom-icon>`;
       return item;
     }));
     html[0].insertAdjacentElement("afterbegin", nav);
@@ -171,7 +171,7 @@ export default class ActorSheet5eCharacter2 extends ActorSheet5eCharacter {
 
     // Set theme
     // TODO: Re-enable this when we support V12 only
-    // setTheme(html[0], this.actor.getFlag("dnd5e", "theme"));
+    // setTheme(html[0], this.actor.getFlag("dnd5e_custom", "theme"));
 
     return html;
   }
@@ -199,7 +199,7 @@ export default class ActorSheet5eCharacter2 extends ActorSheet5eCharacter {
     context.cssClass = context.editable ? "editable" : this.isEditable ? "interactable" : "locked";
     const activeTab = (game.user.isGM || !this.actor.limited) ? this._tabs?.[0]?.active ?? "details" : "biography";
     context.cssClass += ` tab-${activeTab}`;
-    const sidebarCollapsed = game.user.getFlag("dnd5e", `sheetPrefs.character.tabs.${activeTab}.collapseSidebar`);
+    const sidebarCollapsed = game.user.getFlag("dnd5e_custom", `sheetPrefs.character.tabs.${activeTab}.collapseSidebar`);
     if ( sidebarCollapsed ) {
       context.cssClass += " collapsed";
       context.sidebarCollapsed = true;
@@ -212,7 +212,7 @@ export default class ActorSheet5eCharacter2 extends ActorSheet5eCharacter {
     }).map(c => `${c.name} ${c.system.levels}`).join(" / ");
 
     // Portrait
-    const showTokenPortrait = this.actor.getFlag("dnd5e", "showTokenPortrait") === true;
+    const showTokenPortrait = this.actor.getFlag("dnd5e_custom", "showTokenPortrait") === true;
     const token = this.actor.isToken ? this.actor.token : this.actor.prototypeToken;
     context.portrait = {
       token: showTokenPortrait,
@@ -328,8 +328,8 @@ export default class ActorSheet5eCharacter2 extends ActorSheet5eCharacter {
       subtitle: details.type.subtype
     };
 
-    if ( details.race instanceof dnd5e.documents.Item5e ) context.race = details.race;
-    if ( details.background instanceof dnd5e.documents.Item5e ) context.background = details.background;
+    if ( details.race instanceof dnd5e_custom.documents.Item5e ) context.race = details.race;
+    if ( details.background instanceof dnd5e_custom.documents.Item5e ) context.background = details.background;
 
     // Senses
     context.senses = Object.entries(CONFIG.DND5E.senses).reduce((obj, [k, label]) => {
@@ -376,7 +376,7 @@ export default class ActorSheet5eCharacter2 extends ActorSheet5eCharacter {
     context.conditions = Object.entries(CONFIG.DND5E.conditionTypes).reduce((arr, [k, c]) => {
       if ( c.pseudo ) return arr; // Filter out pseudo-conditions.
       const { label: name, icon, reference } = c;
-      const id = staticID(`dnd5e${k}`);
+      const id = staticID(`dnd5e_custom${k}`);
       conditionIds.add(id);
       const existing = this.actor.effects.get(id);
       const { disabled, img } = existing ?? {};
@@ -397,7 +397,7 @@ export default class ActorSheet5eCharacter2 extends ActorSheet5eCharacter {
         const toggleable = !this._concentration?.effects.has(effect);
         let source = await effect.getSource();
         // If the source is an ActiveEffect from another Actor, note the source as that Actor instead.
-        if ( (source instanceof dnd5e.documents.ActiveEffect5e) && (source.target !== this.object) ) {
+        if ( (source instanceof dnd5e_custom.documents.ActiveEffect5e) && (source.target !== this.object) ) {
           source = source.target;
         }
         arr = await arr;
@@ -405,7 +405,7 @@ export default class ActorSheet5eCharacter2 extends ActorSheet5eCharacter {
           id, name, img, disabled, duration, source, toggleable,
           parentId: effect.target === effect.parent ? null : effect.parent.id,
           durationParts: duration.remaining ? duration.label.split(", ") : [],
-          hasTooltip: source instanceof dnd5e.documents.Item5e
+          hasTooltip: source instanceof dnd5e_custom.documents.Item5e
         });
         return arr;
       }, []);
@@ -520,11 +520,11 @@ export default class ActorSheet5eCharacter2 extends ActorSheet5eCharacter {
       });
     });
 
-    if ( this.actor.system.details.race instanceof dnd5e.documents.Item5e ) {
+    if ( this.actor.system.details.race instanceof dnd5e_custom.documents.Item5e ) {
       context.features.push({ label: "DND5E.FeaturesRace", items: [], dataset: { type: "race" } });
     }
 
-    if ( this.actor.system.details.background instanceof dnd5e.documents.Item5e ) {
+    if ( this.actor.system.details.background instanceof dnd5e_custom.documents.Item5e ) {
       context.features.push({ label: "DND5E.FeaturesBackground", items: [], dataset: { type: "background" } });
     }
 
@@ -719,7 +719,7 @@ export default class ActorSheet5eCharacter2 extends ActorSheet5eCharacter {
     super._onChangeTab(event, tabs, active);
     this.form.className = this.form.className.replace(/tab-\w+/g, "");
     this.form.classList.add(`tab-${active}`);
-    const sidebarCollapsed = game.user.getFlag("dnd5e", `sheetPrefs.character.tabs.${active}.collapseSidebar`);
+    const sidebarCollapsed = game.user.getFlag("dnd5e_custom", `sheetPrefs.character.tabs.${active}.collapseSidebar`);
     if ( sidebarCollapsed !== undefined ) this._toggleSidebar(sidebarCollapsed);
     const createChild = this.form.querySelector(".create-child");
     createChild.setAttribute("aria-label", game.i18n.format("SIDEBAR.Create", {
@@ -760,9 +760,9 @@ export default class ActorSheet5eCharacter2 extends ActorSheet5eCharacter {
     else if ( key in CONFIG.DND5E.toolIds ) type = "tool";
     else if ( modes[preparationMode]?.upcast && (level !== "0") && isSlots ) type = "slots";
     if ( !type ) return super._onDragStart(event);
-    const dragData = { dnd5e: { action: "favorite", type } };
-    if ( type === "slots" ) dragData.dnd5e.id = (preparationMode === "prepared") ? `spell${level}` : preparationMode;
-    else dragData.dnd5e.id = key;
+    const dragData = { dnd5e_custom: { action: "favorite", type } };
+    if ( type === "slots" ) dragData.dnd5e_custom.id = (preparationMode === "prepared") ? `spell${level}` : preparationMode;
+    else dragData.dnd5e_custom.id = key;
     event.dataTransfer.setData("application/json", JSON.stringify(dragData));
   }
 
@@ -844,7 +844,7 @@ export default class ActorSheet5eCharacter2 extends ActorSheet5eCharacter {
   _onToggleSidebar() {
     const collapsed = this._toggleSidebar();
     const activeTab = this._tabs?.[0]?.active ?? "details";
-    game.user.setFlag("dnd5e", `sheetPrefs.character.tabs.${activeTab}.collapseSidebar`, collapsed);
+    game.user.setFlag("dnd5e_custom", `sheetPrefs.character.tabs.${activeTab}.collapseSidebar`, collapsed);
   }
 
   /* -------------------------------------------- */
@@ -874,7 +874,7 @@ export default class ActorSheet5eCharacter2 extends ActorSheet5eCharacter {
    * @protected
    */
   _onShowPortrait() {
-    const showTokenPortrait = this.actor.getFlag("dnd5e", "showTokenPortrait") === true;
+    const showTokenPortrait = this.actor.getFlag("dnd5e_custom", "showTokenPortrait") === true;
     const token = this.actor.isToken ? this.actor.token : this.actor.prototypeToken;
     const img = showTokenPortrait ? token.texture.src : this.actor.img;
     new ImagePopout(img, { title: this.actor.name, uuid: this.actor.uuid }).render(true);
@@ -1016,7 +1016,7 @@ export default class ActorSheet5eCharacter2 extends ActorSheet5eCharacter {
     element.dataset.tooltip = `
       <section class="loading" data-uuid="${uuid}"><i class="fas fa-spinner fa-spin-pulse"></i></section>
     `;
-    element.dataset.tooltipClass = "dnd5e2 dnd5e-tooltip item-tooltip";
+    element.dataset.tooltipClass = "dnd5e2 dnd5e_custom-tooltip item-tooltip";
     element.dataset.tooltipDirection ??= "LEFT";
   }
 
@@ -1078,7 +1078,7 @@ export default class ActorSheet5eCharacter2 extends ActorSheet5eCharacter {
     super._onResize(event);
     const { width, height } = this.position;
     const key = `character${this.actor.limited ? ":limited": ""}`;
-    game.user.setFlag("dnd5e", `sheetPrefs.${key}`, { width, height });
+    game.user.setFlag("dnd5e_custom", `sheetPrefs.${key}`, { width, height });
   }
 
   /* -------------------------------------------- */
@@ -1104,7 +1104,7 @@ export default class ActorSheet5eCharacter2 extends ActorSheet5eCharacter {
       console.error(e);
       return;
     }
-    const { action, type, id } = data.dnd5e ?? {};
+    const { action, type, id } = data.dnd5e_custom ?? {};
     if ( action === "favorite" ) return this._onDropFavorite(event, { type, id });
   }
 
@@ -1200,8 +1200,8 @@ export default class ActorSheet5eCharacter2 extends ActorSheet5eCharacter {
     if ( !this.isEditable ) return;
     const { favoriteId } = event.currentTarget.closest("[data-favorite-id]").dataset;
     const favorite = await fromUuid(favoriteId, { relative: this.actor });
-    if ( favorite instanceof dnd5e.documents.Item5e ) return favorite.use({}, { event });
-    if ( favorite instanceof dnd5e.documents.ActiveEffect5e ) return favorite.update({ disabled: !favorite.disabled });
+    if ( favorite instanceof dnd5e_custom.documents.Item5e ) return favorite.use({}, { event });
+    if ( favorite instanceof dnd5e_custom.documents.ActiveEffect5e ) return favorite.update({ disabled: !favorite.disabled });
   }
 
   /* -------------------------------------------- */

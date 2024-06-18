@@ -123,7 +123,7 @@
   "effects": [
     {
       "icon": "icons/commodities/gems/gem-rough-ball-purple.webp",
-      "origin": "Compendium.dnd5e.items.v4uNbmiz4ECTI89n",
+      "origin": "Compendium.dnd5e_custom.items.v4uNbmiz4ECTI89n",
       "duration": {
         "startTime": null,
         "seconds": null,
@@ -159,7 +159,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.2.0",
     "coreVersion": "11.315",
     "createdTime": 1661787233950,

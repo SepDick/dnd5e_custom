@@ -35,7 +35,7 @@ export default class EffectsElement extends HTMLElement {
       const effect = this.getEffect(element.dataset);
       if ( !effect ) return;
       ui.context.menuItems = this._getContextOptions(effect);
-      Hooks.call("dnd5e.getActiveEffectContextOptions", effect, ui.context.menuItems);
+      Hooks.call("dnd5e_custom.getActiveEffectContextOptions", effect, ui.context.menuItems);
     }});
   }
 
@@ -129,7 +129,7 @@ export default class EffectsElement extends HTMLElement {
         if ( e.disabled ) categories.enchantmentInactive.effects.push(e);
         else categories.enchantmentActive.effects.push(e);
       }
-      else if ( e.getFlag("dnd5e", "type") === "enchantment" ) categories.enchantment.effects.push(e);
+      else if ( e.getFlag("dnd5e_custom", "type") === "enchantment" ) categories.enchantment.effects.push(e);
       else if ( e.isSuppressed ) categories.suppressed.effects.push(e);
       else if ( e.disabled ) categories.inactive.effects.push(e);
       else if ( e.isTemporary ) categories.temporary.effects.push(e);
@@ -187,7 +187,7 @@ export default class EffectsElement extends HTMLElement {
       },
       {
         name: "DND5E.ConcentrationBreak",
-        icon: '<dnd5e-icon src="systems/dnd5e/icons/svg/break-concentration.svg"></dnd5e-icon>',
+        icon: '<dnd5e_custom-icon src="systems/dnd5e_custom/icons/svg/break-concentration.svg"></dnd5e_custom-icon>',
         condition: () => isConcentrationEffect,
         callback: () => this.document.endConcentration(effect),
         group: "state"
@@ -262,7 +262,7 @@ export default class EffectsElement extends HTMLElement {
    * @protected
    */
   async _onToggleCondition(conditionId) {
-    const existing = this.document.effects.get(staticID(`dnd5e${conditionId}`));
+    const existing = this.document.effects.get(staticID(`dnd5e_custom${conditionId}`));
     if ( existing ) return existing.delete();
     const effect = await ActiveEffect.implementation.fromStatusEffect(conditionId);
     return ActiveEffect.implementation.create(effect, { parent: this.document, keepId: true });
@@ -285,7 +285,7 @@ export default class EffectsElement extends HTMLElement {
       origin: isEnchantment ? undefined : this.document.uuid,
       "duration.rounds": li.dataset.effectType === "temporary" ? 1 : undefined,
       disabled: ["inactive", "enchantmentInactive"].includes(li.dataset.effectType),
-      "flags.dnd5e.type": isEnchantment ? "enchantment" : undefined
+      "flags.dnd5e_custom.type": isEnchantment ? "enchantment" : undefined
     }]);
   }
 

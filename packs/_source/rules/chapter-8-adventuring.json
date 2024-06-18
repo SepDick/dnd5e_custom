@@ -10,7 +10,7 @@
       },
       "text": {
         "format": 1,
-        "content": "<p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.eihqNjwpZ3HM4IqY inline]</p>"
+        "content": "<p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.eihqNjwpZ3HM4IqY inline]</p>"
       },
       "_id": "nqt4mR004wWbljhw",
       "image": {},
@@ -26,7 +26,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": null,
@@ -44,7 +44,7 @@
       },
       "text": {
         "format": 1,
-        "content": "<p>Swimming across a rushing river, sneaking down a dungeon corridor, scaling a treacherous mountain slope—all sorts of movement play a key role in fantasy gaming adventures.</p><p>The GM can summarize the adventurers’ movement without calculating exact distances or travel times: “You travel through the forest and find the dungeon entrance late in the evening of the third day.” Even in a dungeon, particularly a large dungeon or a cave network, the GM can summarize movement between encounters: “After killing the guardian at the entrance to the ancient dwarven stronghold, you consult your map, which leads you through miles of echoing corridors to a chasm bridged by a narrow stone arch.”</p><p>Sometimes it’s important, though, to know how long it takes to get from one spot to another, whether the answer is in days, hours, or minutes. The rules for determining travel time depend on two factors: the speed and travel pace of the creatures moving and the terrain they’re moving over.</p><h2>Speed</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.HhqeIiSj8sE1v1qZ inline]</p><p>The following rules determine how far a character or monster can move in a minute, an hour, or a day.</p><h3>Travel Pace</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.eFAISahBloR2X8MX inline]</p><h3>Difficult Terrain</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.hFW5BR2yHHwwgurD inline]</p><h2>Special Types of Movement</h2><p>Movement through dangerous dungeons or wilderness areas often involves more than simply walking. Adventurers might have to climb, crawl, swim, or jump to get where they need to go.</p><h3>Climbing, Swimming, and Crawling</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.KxUXbMrUCIAhv4AF inline]</p><h3>Jumping</h3><p>Your Strength determines how far you can jump.</p><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.1U0myNrOvIVBUdJV inline]</p><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.raPwIkqKSv60ELmy inline]</p>",
+        "content": "<p>Swimming across a rushing river, sneaking down a dungeon corridor, scaling a treacherous mountain slope—all sorts of movement play a key role in fantasy gaming adventures.</p><p>The GM can summarize the adventurers’ movement without calculating exact distances or travel times: “You travel through the forest and find the dungeon entrance late in the evening of the third day.” Even in a dungeon, particularly a large dungeon or a cave network, the GM can summarize movement between encounters: “After killing the guardian at the entrance to the ancient dwarven stronghold, you consult your map, which leads you through miles of echoing corridors to a chasm bridged by a narrow stone arch.”</p><p>Sometimes it’s important, though, to know how long it takes to get from one spot to another, whether the answer is in days, hours, or minutes. The rules for determining travel time depend on two factors: the speed and travel pace of the creatures moving and the terrain they’re moving over.</p><h2>Speed</h2><p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.HhqeIiSj8sE1v1qZ inline]</p><p>The following rules determine how far a character or monster can move in a minute, an hour, or a day.</p><h3>Travel Pace</h3><p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.eFAISahBloR2X8MX inline]</p><h3>Difficult Terrain</h3><p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.hFW5BR2yHHwwgurD inline]</p><h2>Special Types of Movement</h2><p>Movement through dangerous dungeons or wilderness areas often involves more than simply walking. Adventurers might have to climb, crawl, swim, or jump to get where they need to go.</p><h3>Climbing, Swimming, and Crawling</h3><p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.KxUXbMrUCIAhv4AF inline]</p><h3>Jumping</h3><p>Your Strength determines how far you can jump.</p><p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.1U0myNrOvIVBUdJV inline]</p><p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.raPwIkqKSv60ELmy inline]</p>",
         "markdown": ""
       },
       "_id": "vR9rCM0UXPM9zl43",
@@ -61,7 +61,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": null,
@@ -79,7 +79,7 @@
       },
       "text": {
         "format": 1,
-        "content": "<p>By its nature, adventuring involves delving into places that are dark, dangerous, and full of mysteries to be explored. The rules in this section cover some of the most important ways in which adventurers interact with the environment in such places.</p><h2>Falling</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.kREHL5pgNUOhay9f inline]</p><h2>Suffocating</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.BIlnr0xYhqt4TGsi inline]</p><h2>Vision and Light</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.O6hamUbI9kVASN8b inline]</p><h2>Food and Water</h2><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.RpvmpJcaWKJjfsfn inline]</p><h2>Interacting with Objects</h2><p>A character's interaction with objects in an environment is often simple to resolve in the game. The player tells the GM that his or her character is doing something, such as moving a lever, and the GM describes what, if anything, happens.</p><p>For example, a character might decide to pull a lever, which might, in turn, raise a portcullis, cause a room to flood with water, or open a secret door in a nearby wall. If the lever is rusted in position, though, a character might need to force it. In such a situation, the GM might call for a Strength check to see whether the character can wrench the lever into place. The GM sets the DC for any such check based on the difficulty of the task.</p><p>Characters can also damage objects with their weapons and spells. Objects are immune to poison and psychic damage, but otherwise they can be affected by physical and magical attacks much like creatures can. The GM determines an object's Armor Class and hit points, and might decide that certain objects have resistance or immunity to certain kinds of attacks. (It's hard to cut a rope with a club, for example.) Objects always fail Strength and Dexterity saving throws, and they are immune to effects that require other saves. When an object drops to 0 hit points, it breaks.</p><p>A character can also attempt a Strength check to break an object. The GM sets the DC for any such check.</p>",
+        "content": "<p>By its nature, adventuring involves delving into places that are dark, dangerous, and full of mysteries to be explored. The rules in this section cover some of the most important ways in which adventurers interact with the environment in such places.</p><h2>Falling</h2><p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.kREHL5pgNUOhay9f inline]</p><h2>Suffocating</h2><p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.BIlnr0xYhqt4TGsi inline]</p><h2>Vision and Light</h2><p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.O6hamUbI9kVASN8b inline]</p><h2>Food and Water</h2><p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.RpvmpJcaWKJjfsfn inline]</p><h2>Interacting with Objects</h2><p>A character's interaction with objects in an environment is often simple to resolve in the game. The player tells the GM that his or her character is doing something, such as moving a lever, and the GM describes what, if anything, happens.</p><p>For example, a character might decide to pull a lever, which might, in turn, raise a portcullis, cause a room to flood with water, or open a secret door in a nearby wall. If the lever is rusted in position, though, a character might need to force it. In such a situation, the GM might call for a Strength check to see whether the character can wrench the lever into place. The GM sets the DC for any such check based on the difficulty of the task.</p><p>Characters can also damage objects with their weapons and spells. Objects are immune to poison and psychic damage, but otherwise they can be affected by physical and magical attacks much like creatures can. The GM determines an object's Armor Class and hit points, and might decide that certain objects have resistance or immunity to certain kinds of attacks. (It's hard to cut a rope with a club, for example.) Objects always fail Strength and Dexterity saving throws, and they are immune to effects that require other saves. When an object drops to 0 hit points, it breaks.</p><p>A character can also attempt a Strength check to break an object. The GM sets the DC for any such check.</p>",
         "markdown": ""
       },
       "_id": "9jyye7TeGlY4FRf3",
@@ -96,7 +96,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": null,
@@ -114,7 +114,7 @@
       },
       "text": {
         "format": 1,
-        "content": "<p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.dpHJXYLigIdEseIb inline]</p>"
+        "content": "<p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.dpHJXYLigIdEseIb inline]</p>"
       },
       "_id": "n0gCL50RM2QjHw6F",
       "image": {},
@@ -130,7 +130,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": null,
@@ -181,13 +181,13 @@
     "core": {
       "viewMode": 2
     },
-    "dnd5e": {
+    "dnd5e_custom": {
       "type": "chapter",
       "position": 8
     }
   },
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1660925148884,

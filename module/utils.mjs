@@ -288,54 +288,54 @@ export const validators = {
 /**
  * Define a set of template paths to pre-load. Pre-loaded templates are compiled and cached for fast access when
  * rendering. These paths will also be available as Handlebars partials by using the file name
- * (e.g. "dnd5e.actor-traits").
+ * (e.g. "dnd5e_custom.actor-traits").
  * @returns {Promise}
  */
 export async function preloadHandlebarsTemplates() {
   const partials = [
     // Shared Partials
-    "systems/dnd5e/templates/shared/active-effects.hbs",
-    "systems/dnd5e/templates/shared/inventory.hbs",
-    "systems/dnd5e/templates/shared/inventory2.hbs",
-    "systems/dnd5e/templates/shared/active-effects2.hbs",
-    "systems/dnd5e/templates/apps/parts/trait-list.hbs",
+    "systems/dnd5e_custom/templates/shared/active-effects.hbs",
+    "systems/dnd5e_custom/templates/shared/inventory.hbs",
+    "systems/dnd5e_custom/templates/shared/inventory2.hbs",
+    "systems/dnd5e_custom/templates/shared/active-effects2.hbs",
+    "systems/dnd5e_custom/templates/apps/parts/trait-list.hbs",
 
     // Actor Sheet Partials
-    "systems/dnd5e/templates/actors/parts/actor-traits.hbs",
-    "systems/dnd5e/templates/actors/parts/actor-inventory.hbs",
-    "systems/dnd5e/templates/actors/parts/actor-features.hbs",
-    "systems/dnd5e/templates/actors/parts/actor-spellbook.hbs",
-    "systems/dnd5e/templates/actors/parts/actor-warnings.hbs",
-    "systems/dnd5e/templates/actors/tabs/character-details.hbs",
-    "systems/dnd5e/templates/actors/tabs/character-features.hbs",
-    "systems/dnd5e/templates/actors/tabs/character-spells.hbs",
-    "systems/dnd5e/templates/actors/tabs/character-biography.hbs",
-    "systems/dnd5e/templates/actors/tabs/group-members.hbs",
+    "systems/dnd5e_custom/templates/actors/parts/actor-traits.hbs",
+    "systems/dnd5e_custom/templates/actors/parts/actor-inventory.hbs",
+    "systems/dnd5e_custom/templates/actors/parts/actor-features.hbs",
+    "systems/dnd5e_custom/templates/actors/parts/actor-spellbook.hbs",
+    "systems/dnd5e_custom/templates/actors/parts/actor-warnings.hbs",
+    "systems/dnd5e_custom/templates/actors/tabs/character-details.hbs",
+    "systems/dnd5e_custom/templates/actors/tabs/character-features.hbs",
+    "systems/dnd5e_custom/templates/actors/tabs/character-spells.hbs",
+    "systems/dnd5e_custom/templates/actors/tabs/character-biography.hbs",
+    "systems/dnd5e_custom/templates/actors/tabs/group-members.hbs",
 
     // Item Sheet Partials
-    "systems/dnd5e/templates/items/parts/item-action.hbs",
-    "systems/dnd5e/templates/items/parts/item-activation.hbs",
-    "systems/dnd5e/templates/items/parts/item-advancement.hbs",
-    "systems/dnd5e/templates/items/parts/item-description.hbs",
-    "systems/dnd5e/templates/items/parts/item-mountable.hbs",
-    "systems/dnd5e/templates/items/parts/item-spellcasting.hbs",
-    "systems/dnd5e/templates/items/parts/item-source.hbs",
-    "systems/dnd5e/templates/items/parts/item-summary.hbs",
-    "systems/dnd5e/templates/items/parts/item-tooltip.hbs",
+    "systems/dnd5e_custom/templates/items/parts/item-action.hbs",
+    "systems/dnd5e_custom/templates/items/parts/item-activation.hbs",
+    "systems/dnd5e_custom/templates/items/parts/item-advancement.hbs",
+    "systems/dnd5e_custom/templates/items/parts/item-description.hbs",
+    "systems/dnd5e_custom/templates/items/parts/item-mountable.hbs",
+    "systems/dnd5e_custom/templates/items/parts/item-spellcasting.hbs",
+    "systems/dnd5e_custom/templates/items/parts/item-source.hbs",
+    "systems/dnd5e_custom/templates/items/parts/item-summary.hbs",
+    "systems/dnd5e_custom/templates/items/parts/item-tooltip.hbs",
 
     // Journal Partials
-    "systems/dnd5e/templates/journal/parts/journal-table.hbs",
+    "systems/dnd5e_custom/templates/journal/parts/journal-table.hbs",
 
     // Advancement Partials
-    "systems/dnd5e/templates/advancement/parts/advancement-ability-score-control.hbs",
-    "systems/dnd5e/templates/advancement/parts/advancement-controls.hbs",
-    "systems/dnd5e/templates/advancement/parts/advancement-spell-config.hbs"
+    "systems/dnd5e_custom/templates/advancement/parts/advancement-ability-score-control.hbs",
+    "systems/dnd5e_custom/templates/advancement/parts/advancement-controls.hbs",
+    "systems/dnd5e_custom/templates/advancement/parts/advancement-spell-config.hbs"
   ];
 
   const paths = {};
   for ( const path of partials ) {
     paths[path.replace(".hbs", ".html")] = path;
-    paths[`dnd5e.${path.split("/").pop().replace(".hbs", "")}`] = path;
+    paths[`dnd5e_custom.${path.split("/").pop().replace(".hbs", "")}`] = path;
   }
 
   return loadTemplates(paths);
@@ -419,7 +419,7 @@ function groupedSelectOptions(choices, options) {
  * @returns {string}
  */
 function itemContext(context, options) {
-  if ( arguments.length !== 2 ) throw new Error("#dnd5e-itemContext requires exactly one argument");
+  if ( arguments.length !== 2 ) throw new Error("#dnd5e_custom-itemContext requires exactly one argument");
   if ( foundry.utils.getType(context) === "function" ) context = context.call(this);
 
   const ctx = options.data.root.itemContext?.[context.id];
@@ -463,13 +463,13 @@ function concealSection(conceal, options) {
 export function registerHandlebarsHelpers() {
   Handlebars.registerHelper({
     getProperty: foundry.utils.getProperty,
-    "dnd5e-concealSection": concealSection,
-    "dnd5e-dataset": dataset,
-    "dnd5e-groupedSelectOptions": groupedSelectOptions,
-    "dnd5e-linkForUuid": (uuid, options) => linkForUuid(uuid, options.hash),
-    "dnd5e-itemContext": itemContext,
-    "dnd5e-numberFormat": (context, options) => formatNumber(context, options.hash),
-    "dnd5e-textFormat": formatText
+    "dnd5e_custom-concealSection": concealSection,
+    "dnd5e_custom-dataset": dataset,
+    "dnd5e_custom-groupedSelectOptions": groupedSelectOptions,
+    "dnd5e_custom-linkForUuid": (uuid, options) => linkForUuid(uuid, options.hash),
+    "dnd5e_custom-itemContext": itemContext,
+    "dnd5e_custom-numberFormat": (context, options) => formatNumber(context, options.hash),
+    "dnd5e_custom-textFormat": formatText
   });
 }
 
@@ -624,7 +624,7 @@ export function getHumanReadableAttributeLabel(attr, { actor }={}) {
 
   // Attempt to find the attribute in a data model.
   if ( !label ) {
-    const { CharacterData, NPCData, VehicleData, GroupData } = dnd5e.dataModels.actor;
+    const { CharacterData, NPCData, VehicleData, GroupData } = dnd5e_custom.dataModels.actor;
     for ( const model of [CharacterData, NPCData, VehicleData, GroupData] ) {
       const field = model.schema.getField(attr);
       if ( field ) {

@@ -5,7 +5,7 @@
   "img": "icons/commodities/treasure/trinket-wing-white.webp",
   "system": {
     "description": {
-      "value": "<p><em>Wondrous item</em></p>\n<p>While holding this fan, you can use an action to cast the @UUID[Compendium.dnd5e.spells.Item.FSMy6VAjDnXY9vWz]{Gust of Wind} spell (save DC 13) from it. Once used, the fan shouldn't be used again until the next dawn. Each time it is used again before then, it has a cumulative 20 percent chance of not working and tearing into useless, nonmagical tatters.</p>",
+      "value": "<p><em>Wondrous item</em></p>\n<p>While holding this fan, you can use an action to cast the @UUID[Compendium.dnd5e_custom.spells.Item.FSMy6VAjDnXY9vWz]{Gust of Wind} spell (save DC 13) from it. Once used, the fan shouldn't be used again until the next dawn. Each time it is used again before then, it has a cumulative 20 percent chance of not working and tearing into useless, nonmagical tatters.</p>",
       "chat": ""
     },
     "source": {
@@ -108,7 +108,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.2.0",
     "coreVersion": "11.315",
     "createdTime": 1661787233854,

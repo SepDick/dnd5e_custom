@@ -7,7 +7,7 @@
   "type": "feat",
   "system": {
     "description": {
-      "value": "<p>Choose a second fighting style class feature from the following:</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.8YwPFv3UAPjWVDNf]{Archery}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB]{Defense}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4]{Dueling}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.3Nc6u9pyStByuJsm]{Great Weapon Fighting}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.06NVMYf58Z76O85O]{Protection}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb]{Two Weapon Fighting}</p><p>The choice must be different to the one made at level 1.</p><p>You can drag your choice from the above onto your character sheet and it will automatically update.</p>",
+      "value": "<p>Choose a second fighting style class feature from the following:</p><p>@UUID[Compendium.dnd5e_custom.classfeatures.Item.8YwPFv3UAPjWVDNf]{Archery}</p><p>@UUID[Compendium.dnd5e_custom.classfeatures.Item.zSlV0O2rQMdoq6pB]{Defense}</p><p>@UUID[Compendium.dnd5e_custom.classfeatures.Item.hCop9uJrWhF1QPb4]{Dueling}</p><p>@UUID[Compendium.dnd5e_custom.classfeatures.Item.3Nc6u9pyStByuJsm]{Great Weapon Fighting}</p><p>@UUID[Compendium.dnd5e_custom.classfeatures.Item.06NVMYf58Z76O85O]{Protection}</p><p>@UUID[Compendium.dnd5e_custom.classfeatures.Item.mHcSjcHJ8oZu3hkb]{Two Weapon Fighting}</p><p>The choice must be different to the one made at level 1.</p><p>You can drag your choice from the above onto your character sheet and it will automatically update.</p>",
       "chat": ""
     },
     "source": {
@@ -87,7 +87,7 @@
   "img": "icons/skills/melee/weapons-crossed-swords-purple.webp",
   "effects": [],
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1661787234414,

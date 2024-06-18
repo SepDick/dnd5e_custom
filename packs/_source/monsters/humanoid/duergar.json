@@ -582,9 +582,9 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.XmnlF5fgIO3tg6TG"
+          "sourceId": "Compendium.dnd5e_custom.items.XmnlF5fgIO3tg6TG"
         },
-        "dnd5e": {
+        "dnd5e_custom": {
           "migratedProperties": [
             "stealthDisadvantage"
           ]
@@ -714,7 +714,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.yHcr3vlkmtInELj2"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.yHcr3vlkmtInELj2"
         }
       },
       "_stats": {
@@ -816,7 +816,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.WHnLJRaXfIW7Z28t"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.WHnLJRaXfIW7Z28t"
         }
       },
       "_stats": {
@@ -918,7 +918,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.F14aW2Ke3I5ZtSg4"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.F14aW2Ke3I5ZtSg4"
         }
       },
       "_stats": {
@@ -1020,7 +1020,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.jZgeHxCR8pF6FOmQ"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.jZgeHxCR8pF6FOmQ"
         }
       },
       "_stats": {
@@ -1148,7 +1148,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.2YdfjN1PIIrSHZii"
+          "sourceId": "Compendium.dnd5e_custom.items.2YdfjN1PIIrSHZii"
         }
       },
       "_stats": {
@@ -1276,7 +1276,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.DWLMnODrnHn8IbAG"
+          "sourceId": "Compendium.dnd5e_custom.items.DWLMnODrnHn8IbAG"
         }
       },
       "_stats": {
@@ -1378,7 +1378,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.dA5X2eQuOtHywpQF"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.dA5X2eQuOtHywpQF"
         }
       },
       "_stats": {
@@ -1400,7 +1400,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1661787232999,

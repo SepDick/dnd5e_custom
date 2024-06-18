@@ -98,7 +98,7 @@
     {
       "name": "Charm Person",
       "icon": "icons/magic/fire/explosion-fireball-medium-purple-pink.webp",
-      "origin": "Compendium.dnd5e.spells.Item.eS7XnnApoxRxYXPs",
+      "origin": "Compendium.dnd5e_custom.spells.Item.eS7XnnApoxRxYXPs",
       "duration": {
         "startTime": null,
         "seconds": 3600,
@@ -123,7 +123,7 @@
   ],
   "folder": "ERuXllkhTQF51rDJ",
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1661787234185,

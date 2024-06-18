@@ -4,7 +4,7 @@
   "img": "icons/equipment/neck/necklace-runed-white-red.webp",
   "system": {
     "description": {
-      "value": "<p>You have spent your life in the service of a temple to a specific god or pantheon of gods. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine. You are not necessarily a cleric—performing sacred rites is not the same thing as channeling divine power.</p>\n<p>Choose a god, a pantheon of gods, or some other quasi-divine being from among those listed in @UUID[Compendium.dnd5e.rules.JournalEntry.udVPA9JW5wy5t3G5.JournalEntryPage.2lysbY50fgv1R3v7]{Fantasy-Historical Pantheons}, and work with your DM to detail the nature of your religious service. Were you a lesser functionary in a temple, raised from childhood to assist the priests in the sacred rites? Or were you a high priest who suddenly experienced a call to serve your god in a different way? Perhaps you were the leader of a small cult outside of any established temple structure, or even an occult group that served a fiendish master that you now deny.</p>\n<hr />\n<p><strong>Skill Proficiencies:</strong> Insight, Religion</p>\n<p><strong>Languages:</strong> Two of your choice</p>\n<p><strong>Equipment: </strong>A holy symbol (a gift to you when you entered the priesthood), a prayer book or prayer wheel, 5 sticks of incense, @UUID[Compendium.dnd5e.items.Item.irtqrzaUCeshmTZp]{vestments}, a set of @UUID[Compendium.dnd5e.items.Item.8RXjiddJ6VGyE7vB]{common clothes}, and a pouch containing 15 gp.</p>\n<p><strong>Feature:</strong> @UUID[Compendium.dnd5e.backgrounds.Item.64N1NWh9kC1dI7zN]{Shelter of the Faithful}</p>\n<hr />\n<h3>Suggested Characteristics</h3>\n<p>Acolytes are shaped by their experience in temples or other religious communities. Their study of the history and tenets of their faith and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.</p>\n<p>@UUID[Compendium.dnd5e.tables.RollTable.HDzErjwy3TseLOZX]{Personality Traits}</p>\n<p>@UUID[Compendium.dnd5e.tables.RollTable.W9xqQZy0Ad0CwkN2]{Ideals}</p>\n<p>@UUID[Compendium.dnd5e.tables.RollTable.DZhd8JkjqlpCP8EB]{Bonds}</p>\n<p>@UUID[Compendium.dnd5e.tables.RollTable.COIHGOnoJnmXduad]{Flaws}</p>",
+      "value": "<p>You have spent your life in the service of a temple to a specific god or pantheon of gods. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine. You are not necessarily a cleric—performing sacred rites is not the same thing as channeling divine power.</p>\n<p>Choose a god, a pantheon of gods, or some other quasi-divine being from among those listed in @UUID[Compendium.dnd5e_custom.rules.JournalEntry.udVPA9JW5wy5t3G5.JournalEntryPage.2lysbY50fgv1R3v7]{Fantasy-Historical Pantheons}, and work with your DM to detail the nature of your religious service. Were you a lesser functionary in a temple, raised from childhood to assist the priests in the sacred rites? Or were you a high priest who suddenly experienced a call to serve your god in a different way? Perhaps you were the leader of a small cult outside of any established temple structure, or even an occult group that served a fiendish master that you now deny.</p>\n<hr />\n<p><strong>Skill Proficiencies:</strong> Insight, Religion</p>\n<p><strong>Languages:</strong> Two of your choice</p>\n<p><strong>Equipment: </strong>A holy symbol (a gift to you when you entered the priesthood), a prayer book or prayer wheel, 5 sticks of incense, @UUID[Compendium.dnd5e_custom.items.Item.irtqrzaUCeshmTZp]{vestments}, a set of @UUID[Compendium.dnd5e_custom.items.Item.8RXjiddJ6VGyE7vB]{common clothes}, and a pouch containing 15 gp.</p>\n<p><strong>Feature:</strong> @UUID[Compendium.dnd5e_custom.backgrounds.Item.64N1NWh9kC1dI7zN]{Shelter of the Faithful}</p>\n<hr />\n<h3>Suggested Characteristics</h3>\n<p>Acolytes are shaped by their experience in temples or other religious communities. Their study of the history and tenets of their faith and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.</p>\n<p>@UUID[Compendium.dnd5e_custom.tables.RollTable.HDzErjwy3TseLOZX]{Personality Traits}</p>\n<p>@UUID[Compendium.dnd5e_custom.tables.RollTable.W9xqQZy0Ad0CwkN2]{Ideals}</p>\n<p>@UUID[Compendium.dnd5e_custom.tables.RollTable.DZhd8JkjqlpCP8EB]{Bonds}</p>\n<p>@UUID[Compendium.dnd5e_custom.tables.RollTable.COIHGOnoJnmXduad]{Flaws}</p>",
       "chat": ""
     },
     "source": {
@@ -57,7 +57,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.backgrounds.64N1NWh9kC1dI7zN"
+            "Compendium.dnd5e_custom.backgrounds.64N1NWh9kC1dI7zN"
           ],
           "optional": false,
           "spell": {
@@ -101,7 +101,7 @@
       {
         "type": "linked",
         "count": null,
-        "key": "Compendium.dnd5e.items.Item.odV5cq2HSLSCH69k",
+        "key": "Compendium.dnd5e_custom.items.Item.odV5cq2HSLSCH69k",
         "_id": "BkhMHTlh4lvWJbUV",
         "group": "D2qNFQ88JhFwY8bv",
         "sort": 400000,
@@ -110,7 +110,7 @@
       {
         "type": "linked",
         "count": null,
-        "key": "Compendium.dnd5e.items.Item.Nd4r4hocpfu6fYDP",
+        "key": "Compendium.dnd5e_custom.items.Item.Nd4r4hocpfu6fYDP",
         "_id": "ZfMgYgrtZd79FA7n",
         "group": "D2qNFQ88JhFwY8bv",
         "sort": 500000,
@@ -119,7 +119,7 @@
       {
         "type": "linked",
         "count": 5,
-        "key": "Compendium.dnd5e.items.Item.3b0RvGi0TnTYpIxn",
+        "key": "Compendium.dnd5e_custom.items.Item.3b0RvGi0TnTYpIxn",
         "_id": "R0uTjUcQN2YrB9rx",
         "group": "SWn3glXteLaNLSms",
         "sort": 600000,
@@ -128,7 +128,7 @@
       {
         "type": "linked",
         "count": null,
-        "key": "Compendium.dnd5e.items.Item.irtqrzaUCeshmTZp",
+        "key": "Compendium.dnd5e_custom.items.Item.irtqrzaUCeshmTZp",
         "_id": "xZrjP2RKlIaHP1aH",
         "group": "SWn3glXteLaNLSms",
         "sort": 700000,
@@ -137,7 +137,7 @@
       {
         "type": "linked",
         "count": null,
-        "key": "Compendium.dnd5e.items.Item.8RXjiddJ6VGyE7vB",
+        "key": "Compendium.dnd5e_custom.items.Item.8RXjiddJ6VGyE7vB",
         "_id": "X43SWt9ujvg2tOXt",
         "group": "SWn3glXteLaNLSms",
         "sort": 800000,
@@ -146,7 +146,7 @@
       {
         "type": "linked",
         "count": null,
-        "key": "Compendium.dnd5e.backgrounds.Item.dQaOdm9dbVN0RZYP",
+        "key": "Compendium.dnd5e_custom.backgrounds.Item.dQaOdm9dbVN0RZYP",
         "_id": "wTrqZ2jdIrHxSuD5",
         "group": "SWn3glXteLaNLSms",
         "sort": 900000,
@@ -163,7 +163,7 @@
   "flags": {},
   "_id": "IgJkSnLiLJOWH7eK",
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.1.0",
     "coreVersion": "11.315",
     "createdTime": 1661787234264,

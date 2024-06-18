@@ -2,7 +2,7 @@
   "_id": "Jw8DeuPjt1qpusdB",
   "name": "Sefris (Half-Elf Warlock)",
   "type": "character",
-  "img": "systems/dnd5e/tokens/heroes/WarlockStaff.webp",
+  "img": "systems/dnd5e_custom/tokens/heroes/WarlockStaff.webp",
   "system": {
     "abilities": {
       "str": {
@@ -510,7 +510,7 @@
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>The Fiend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>\n<table border=\"1\"><caption>Fiend Expanded Spells</caption>\n<thead>\n<tr>\n<td><strong>Spell Level</strong></td>\n<td><strong>Spells</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1st</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{Burning Hands}, @UUID[Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43]{Command}</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.zwGsAv6kmwzYGhh3]{Blindness/Deafness}, @UUID[Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq]{Scorching Ray}</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Fireball}, @UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{Stinking Cloud}</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c]{Fire Shield}, @UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{Wall of Fire}</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.5e1xTohkzqFqbYH4]{Flame Strike}, @UUID[Compendium.dnd5e.spells.Item.SLxA9QhrggTz0taU]{Hallow}</td>\n</tr>\n</tbody>\n</table>",
+          "value": "<p>The Fiend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>\n<table border=\"1\"><caption>Fiend Expanded Spells</caption>\n<thead>\n<tr>\n<td><strong>Spell Level</strong></td>\n<td><strong>Spells</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1st</td>\n<td>@UUID[Compendium.dnd5e_custom.spells.Item.5SuJewoa1CRWaj1F]{Burning Hands}, @UUID[Compendium.dnd5e_custom.spells.Item.arzCrMRgcNiQuh43]{Command}</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>@UUID[Compendium.dnd5e_custom.spells.Item.zwGsAv6kmwzYGhh3]{Blindness/Deafness}, @UUID[Compendium.dnd5e_custom.spells.Item.7u2obDvuvtZBkTfq]{Scorching Ray}</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>@UUID[Compendium.dnd5e_custom.spells.Item.ztgcdrWPshKRpFd0]{Fireball}, @UUID[Compendium.dnd5e_custom.spells.Item.TwlD4PLcltv7Xh7j]{Stinking Cloud}</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>@UUID[Compendium.dnd5e_custom.spells.Item.avD5XUtkBPQQR97c]{Fire Shield}, @UUID[Compendium.dnd5e_custom.spells.Item.X3DrXgxjwI2dvkD6]{Wall of Fire}</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>@UUID[Compendium.dnd5e_custom.spells.Item.5e1xTohkzqFqbYH4]{Flame Strike}, @UUID[Compendium.dnd5e_custom.spells.Item.SLxA9QhrggTz0taU]{Hallow}</td>\n</tr>\n</tbody>\n</table>",
           "chat": ""
         },
         "source": {
@@ -588,7 +588,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.classfeatures.4IHsIcBhAVDt8QjY"
+          "sourceId": "Compendium.dnd5e_custom.classfeatures.4IHsIcBhAVDt8QjY"
         }
       },
       "img": "icons/magic/control/encase-creature-monster-hold.webp",
@@ -598,7 +598,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.4.0",
         "coreVersion": "10.303",
         "createdTime": null,
@@ -718,7 +718,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.0E565kQUBmndJ1a2"
+          "sourceId": "Compendium.dnd5e_custom.items.0E565kQUBmndJ1a2"
         }
       },
       "img": "icons/weapons/daggers/dagger-jeweled-purple.webp",
@@ -830,7 +830,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.eZGmdOhaTWMicXPW"
+          "sourceId": "Compendium.dnd5e_custom.items.eZGmdOhaTWMicXPW"
         }
       },
       "img": "icons/containers/bags/pack-simple-leather-tan.webp",
@@ -960,7 +960,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.ddWvQRLmnnIS0eLF"
+          "sourceId": "Compendium.dnd5e_custom.items.ddWvQRLmnnIS0eLF"
         }
       },
       "img": "icons/weapons/crossbows/crossbow-simple-brown.webp",
@@ -1087,7 +1087,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.WwdpHLXGX5r8uZu5"
+          "sourceId": "Compendium.dnd5e_custom.items.WwdpHLXGX5r8uZu5"
         }
       },
       "img": "icons/equipment/chest/breastplate-quilted-brown.webp",
@@ -1214,7 +1214,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.8RXjiddJ6VGyE7vB"
+          "sourceId": "Compendium.dnd5e_custom.items.8RXjiddJ6VGyE7vB"
         }
       },
       "img": "icons/equipment/chest/shirt-collared-brown.webp",
@@ -1224,7 +1224,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -1331,7 +1331,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.SItCnYBqhzqBoaWG"
+          "sourceId": "Compendium.dnd5e_custom.items.SItCnYBqhzqBoaWG"
         }
       },
       "img": "icons/weapons/ammunition/arrows-bodkin-yellow-red.webp",
@@ -1341,7 +1341,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -1395,7 +1395,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.4MtQKPn9qMWCFjDA"
+          "sourceId": "Compendium.dnd5e_custom.items.4MtQKPn9qMWCFjDA"
         }
       },
       "img": "icons/containers/ammunition/arrows-quiver-black.webp",
@@ -1459,7 +1459,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.H8YCd689ezlD26aT"
+          "sourceId": "Compendium.dnd5e_custom.items.H8YCd689ezlD26aT"
         }
       },
       "img": "icons/containers/bags/pack-simple-leather.webp",
@@ -1523,7 +1523,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.9bWTRRDym06PzSAf"
+          "sourceId": "Compendium.dnd5e_custom.items.9bWTRRDym06PzSAf"
         }
       },
       "img": "icons/containers/bags/coinpouch-simple-tan.webp",
@@ -1533,7 +1533,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -1578,7 +1578,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.V13fjV5oSmvbRdgP"
+          "sourceId": "Compendium.dnd5e_custom.items.V13fjV5oSmvbRdgP"
         }
       },
       "img": "icons/tools/cooking/fork-steel-grey.webp",
@@ -1588,7 +1588,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -1690,7 +1690,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.QXmaarJ4X8P0C1HV"
+          "sourceId": "Compendium.dnd5e_custom.items.QXmaarJ4X8P0C1HV"
         }
       },
       "img": "icons/sundries/survival/rope-wrapped-brown.webp",
@@ -1745,7 +1745,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.DVXmyetZuvxbzAwW"
+          "sourceId": "Compendium.dnd5e_custom.items.DVXmyetZuvxbzAwW"
         }
       },
       "img": "icons/sundries/flags/banner-worn-blue.webp",
@@ -1857,7 +1857,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.f4w4GxBi0nYXmhX4"
+          "sourceId": "Compendium.dnd5e_custom.items.f4w4GxBi0nYXmhX4"
         }
       },
       "img": "icons/consumables/meat/hock-leg-pink-brown.webp",
@@ -1867,7 +1867,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -1912,7 +1912,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.DNOSEAvF4Oh1DlWy"
+          "sourceId": "Compendium.dnd5e_custom.items.DNOSEAvF4Oh1DlWy"
         }
       },
       "img": "icons/sundries/lights/torch-black.webp",
@@ -1922,7 +1922,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -2029,7 +2029,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.BnOCLuNWhVvzHLjl"
+          "sourceId": "Compendium.dnd5e_custom.items.BnOCLuNWhVvzHLjl"
         }
       },
       "img": "icons/sundries/lights/torch-black.webp",
@@ -2039,7 +2039,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -2141,7 +2141,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.Uv0ilmzbWvqmlCVH"
+          "sourceId": "Compendium.dnd5e_custom.items.Uv0ilmzbWvqmlCVH"
         }
       },
       "img": "icons/sundries/survival/wetskin-leather-purple.webp",
@@ -2151,7 +2151,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -2202,7 +2202,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.woWZ1sO5IUVGzo58"
+          "sourceId": "Compendium.dnd5e_custom.items.woWZ1sO5IUVGzo58"
         }
       },
       "img": "icons/tools/hand/lockpicks-steel-grey.webp",
@@ -2257,7 +2257,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.V5UAjT3ed6sDNtgm"
+          "sourceId": "Compendium.dnd5e_custom.items.V5UAjT3ed6sDNtgm"
         }
       },
       "img": "icons/tools/hand/pickaxe-steel-white.webp",
@@ -2283,7 +2283,7 @@
       "img": "icons/creatures/unholy/demon-fire-horned-winged-roar.webp",
       "system": {
         "description": {
-          "value": "<p>You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.</p>\n<h2>Expanded Spell List</h2>\n<p>The Fiend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>\n<table border=\"1\">\n<thead>\n<tr>\n<td>Spell Level</td>\n<td>Spells</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1st</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{Burning Hands}, @UUID[Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43]{Command}</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.zwGsAv6kmwzYGhh3]{Blindness/Deafness}, @UUID[Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq]{Scorching Ray}</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Fireball}, @UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{Stinking Cloud}</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c]{Fire Shield}, @UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{Wall of Fire}</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>@UUID[Compendium.dnd5e.spells.Item.5e1xTohkzqFqbYH4]{Flame Strike}, @UUID[Compendium.dnd5e.spells.Item.SLxA9QhrggTz0taU]{Hallow}</td>\n</tr>\n</tbody>\n</table>",
+          "value": "<p>You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.</p>\n<h2>Expanded Spell List</h2>\n<p>The Fiend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>\n<table border=\"1\">\n<thead>\n<tr>\n<td>Spell Level</td>\n<td>Spells</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1st</td>\n<td>@UUID[Compendium.dnd5e_custom.spells.Item.5SuJewoa1CRWaj1F]{Burning Hands}, @UUID[Compendium.dnd5e_custom.spells.Item.arzCrMRgcNiQuh43]{Command}</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>@UUID[Compendium.dnd5e_custom.spells.Item.zwGsAv6kmwzYGhh3]{Blindness/Deafness}, @UUID[Compendium.dnd5e_custom.spells.Item.7u2obDvuvtZBkTfq]{Scorching Ray}</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>@UUID[Compendium.dnd5e_custom.spells.Item.ztgcdrWPshKRpFd0]{Fireball}, @UUID[Compendium.dnd5e_custom.spells.Item.TwlD4PLcltv7Xh7j]{Stinking Cloud}</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>@UUID[Compendium.dnd5e_custom.spells.Item.avD5XUtkBPQQR97c]{Fire Shield}, @UUID[Compendium.dnd5e_custom.spells.Item.X3DrXgxjwI2dvkD6]{Wall of Fire}</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>@UUID[Compendium.dnd5e_custom.spells.Item.5e1xTohkzqFqbYH4]{Flame Strike}, @UUID[Compendium.dnd5e_custom.spells.Item.SLxA9QhrggTz0taU]{Hallow}</td>\n</tr>\n</tbody>\n</table>",
           "chat": ""
         },
         "source": {
@@ -2300,7 +2300,7 @@
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.Jv0zu4BtUi8bFCqJ"
+                "Compendium.dnd5e_custom.classfeatures.Jv0zu4BtUi8bFCqJ"
               ],
               "optional": false,
               "spell": {
@@ -2314,7 +2314,7 @@
             },
             "value": {
               "added": {
-                "mbXQrn8QAMAtSSUc": "Compendium.dnd5e.classfeatures.Jv0zu4BtUi8bFCqJ"
+                "mbXQrn8QAMAtSSUc": "Compendium.dnd5e_custom.classfeatures.Jv0zu4BtUi8bFCqJ"
               }
             },
             "level": 1,
@@ -2325,7 +2325,7 @@
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.OQSb0bO1yDI4aiMx"
+                "Compendium.dnd5e_custom.classfeatures.OQSb0bO1yDI4aiMx"
               ],
               "optional": false,
               "spell": {
@@ -2346,7 +2346,7 @@
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.9UZ2WjUF2k58CQug"
+                "Compendium.dnd5e_custom.classfeatures.9UZ2WjUF2k58CQug"
               ],
               "optional": false,
               "spell": {
@@ -2367,7 +2367,7 @@
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.aCUmlnHlUPHS0rdu"
+                "Compendium.dnd5e_custom.classfeatures.aCUmlnHlUPHS0rdu"
               ],
               "optional": false,
               "spell": {
@@ -2397,11 +2397,11 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.classfeatures.WPFVBg589uI8iOMH"
+          "sourceId": "Compendium.dnd5e_custom.classfeatures.WPFVBg589uI8iOMH"
         }
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.4.0",
         "coreVersion": "10.303",
         "createdTime": null,
@@ -2511,14 +2511,14 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.Z9p1vezIn95jw1Yw"
+          "sourceId": "Compendium.dnd5e_custom.spells.Z9p1vezIn95jw1Yw"
         }
       },
       "img": "icons/magic/fire/projectile-fireball-smoke-teal.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486083,
@@ -2628,14 +2628,14 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.vrN18tbTw7io5MWd"
+          "sourceId": "Compendium.dnd5e_custom.spells.vrN18tbTw7io5MWd"
         }
       },
       "img": "icons/magic/water/projectile-ice-faceted-blue.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486083,
@@ -2745,14 +2745,14 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.5SuJewoa1CRWaj1F"
+          "sourceId": "Compendium.dnd5e_custom.spells.5SuJewoa1CRWaj1F"
         }
       },
       "img": "icons/magic/air/fog-gas-smoke-dense-orange.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486085,
@@ -2856,14 +2856,14 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.arzCrMRgcNiQuh43"
+          "sourceId": "Compendium.dnd5e_custom.spells.arzCrMRgcNiQuh43"
         }
       },
       "img": "icons/magic/fire/explosion-fireball-small-purple.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486086,
@@ -2897,7 +2897,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.1.0",
         "coreVersion": "10.291",
         "createdTime": 1673040183979,
@@ -2914,7 +2914,7 @@
       "img": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
       "system": {
         "description": {
-          "value": "<p>As a warlock, you gain the following class features.</p><h3>Hit Points</h3><p><strong>Hit Dice:</strong> 1d8 per warlock level<br /><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier<br /><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per warlock level after 1st</p><h3>Proficiencies</h3><p><strong>Armor:</strong> Light armor<br /><strong>Weapons:</strong> Simple weapons<br /><strong>Tools:</strong> None<br /><strong>Saving Throws:</strong> Wisdom, Charisma<br /><strong>Skills:</strong> Choose two skills from Arcana, Deception, History, Intimidation, Investigation, Nature, and Religion</p><h3>Equipment</h3><p>You start with the following equipment, in addition to the equipment granted by your background:</p><ul><li>(a) a light crossbow and 20 bolts or (b) any simple weapon</li><li>(a) a component pouch or (b) an arcane focus</li><li>(a) a scholar's pack or (b) a dungeoneer's pack</li><li>Leather armor, any simple weapon, and two daggers</li></ul><h1>Warlock Advancement</h1><table border=\"0\"><thead><tr><td>Level</td><td>Proficiency Bonus</td><td>Features</td><td>Invocations Known</td></tr></thead><tbody><tr><td>1st</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.jTXHaK0vvT5DV3uO]{Otherworldly Patron}, @UUID[Compendium.dnd5e.classfeatures.Item.x6IJZwr6f0SGral7]{Pact Magic}</td><td>̶</td></tr><tr><td>2nd</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.8MlxM2nEfE3Q0EVk]{Eldritch Invocations}</td><td>2</td></tr><tr><td>3rd</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.QwgfIpCN8VWfoUtX]{Pact Boon}</td><td>2</td></tr><tr><td>4th</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>2</td></tr><tr><td>5th</td><td>+3</td><td>3rd Level Spells, +1 Invocation</td><td>3</td></tr><tr><td>6th</td><td>+3</td><td>Otherworldly Patron feature</td><td>3</td></tr><tr><td>7th</td><td>+3</td><td>4th Level Spells, +1 Invocation</td><td>4</td></tr><tr><td>8th</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>4</td></tr><tr><td>9th</td><td>+4</td><td>5th Level Spells, +1 Invocation</td><td>5</td></tr><tr><td>10th</td><td>+4</td><td>Otherworldly Patron feature</td><td>5</td></tr><tr><td>11th</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.zB77V8BcCJvWVxck]{Mystic Arcanum (6th-Level Spell)}</td><td>5</td></tr><tr><td>12th</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}, +1 Invocation</td><td>6</td></tr><tr><td>13th</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.zB77V8BcCJvWVxck]{Mystic Arcanum (7th-Level Spell)}</td><td>6</td></tr><tr><td>14th</td><td>+5</td><td>Otherworldly Patron feature</td><td>6</td></tr><tr><td>15th</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.zB77V8BcCJvWVxck]{Mystic Arcanum (8th-Level Spell)}, +1 Invocation</td><td>7</td></tr><tr><td>16th</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>7</td></tr><tr><td>17th</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.zB77V8BcCJvWVxck]{Mystic Arcanum (9th-Level Spell)}</td><td>7</td></tr><tr><td>18th</td><td>+6</td><td>+1 Invocation</td><td>8</td></tr><tr><td>19th</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>8</td></tr><tr><td>20th</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.0C04rwyvoknvFYiy]{Eldritch Master}</td><td>8</td></tr></tbody></table><hr /><h3>Your Pact Boon</h3><p>Each Pact Boon option produces a special creature or an object that reflects your patron's nature.</p><p><em><strong>Pact of the Chain. </strong></em>Your familiar is more cunning than a typical familiar. Its default form can be a reflection of your patron, with imps and quasits tied to the Fiend.</p><p><em><strong>Pact of the Blade. </strong></em>If you serve the Fiend, your weapon could be an axe made of black metal and adorned with decorative flames.</p><p><em><strong>Pact of the Tome. </strong></em>Your Book of Shadows could be a weighty tome bound in demon hide studded with iron, holding spells of conjuration and a wealth of forbidden lore about the sinister regions of the cosmos, a gift of the Fiend.</p><hr /><h1>Otherworldly Patrons</h1><p>The beings that serve as patrons for warlocks are mighty inhabitants of other planes of existence—not gods, but almost godlike in their power. Various patrons give their warlocks access to different powers and invocations, and expect significant favors in return.</p><p>Some patrons collect warlocks, doling out mystic knowledge relatively freely or boasting of their ability to bind mortals to their will. Other patrons bestow their power only grudgingly, and might make a pact with only one warlock. Warlocks who serve the same patron might view each other as allies, siblings, or rivals.</p><p>@UUID[Compendium.dnd5e.subclasses.Item.WPFVBg589uI8iOMH]{The Fiend}</p>",
+          "value": "<p>As a warlock, you gain the following class features.</p><h3>Hit Points</h3><p><strong>Hit Dice:</strong> 1d8 per warlock level<br /><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier<br /><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per warlock level after 1st</p><h3>Proficiencies</h3><p><strong>Armor:</strong> Light armor<br /><strong>Weapons:</strong> Simple weapons<br /><strong>Tools:</strong> None<br /><strong>Saving Throws:</strong> Wisdom, Charisma<br /><strong>Skills:</strong> Choose two skills from Arcana, Deception, History, Intimidation, Investigation, Nature, and Religion</p><h3>Equipment</h3><p>You start with the following equipment, in addition to the equipment granted by your background:</p><ul><li>(a) a light crossbow and 20 bolts or (b) any simple weapon</li><li>(a) a component pouch or (b) an arcane focus</li><li>(a) a scholar's pack or (b) a dungeoneer's pack</li><li>Leather armor, any simple weapon, and two daggers</li></ul><h1>Warlock Advancement</h1><table border=\"0\"><thead><tr><td>Level</td><td>Proficiency Bonus</td><td>Features</td><td>Invocations Known</td></tr></thead><tbody><tr><td>1st</td><td>+2</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.jTXHaK0vvT5DV3uO]{Otherworldly Patron}, @UUID[Compendium.dnd5e_custom.classfeatures.Item.x6IJZwr6f0SGral7]{Pact Magic}</td><td>̶</td></tr><tr><td>2nd</td><td>+2</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.8MlxM2nEfE3Q0EVk]{Eldritch Invocations}</td><td>2</td></tr><tr><td>3rd</td><td>+2</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.QwgfIpCN8VWfoUtX]{Pact Boon}</td><td>2</td></tr><tr><td>4th</td><td>+2</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>2</td></tr><tr><td>5th</td><td>+3</td><td>3rd Level Spells, +1 Invocation</td><td>3</td></tr><tr><td>6th</td><td>+3</td><td>Otherworldly Patron feature</td><td>3</td></tr><tr><td>7th</td><td>+3</td><td>4th Level Spells, +1 Invocation</td><td>4</td></tr><tr><td>8th</td><td>+3</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>4</td></tr><tr><td>9th</td><td>+4</td><td>5th Level Spells, +1 Invocation</td><td>5</td></tr><tr><td>10th</td><td>+4</td><td>Otherworldly Patron feature</td><td>5</td></tr><tr><td>11th</td><td>+4</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.zB77V8BcCJvWVxck]{Mystic Arcanum (6th-Level Spell)}</td><td>5</td></tr><tr><td>12th</td><td>+4</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}, +1 Invocation</td><td>6</td></tr><tr><td>13th</td><td>+5</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.zB77V8BcCJvWVxck]{Mystic Arcanum (7th-Level Spell)}</td><td>6</td></tr><tr><td>14th</td><td>+5</td><td>Otherworldly Patron feature</td><td>6</td></tr><tr><td>15th</td><td>+5</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.zB77V8BcCJvWVxck]{Mystic Arcanum (8th-Level Spell)}, +1 Invocation</td><td>7</td></tr><tr><td>16th</td><td>+5</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>7</td></tr><tr><td>17th</td><td>+6</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.zB77V8BcCJvWVxck]{Mystic Arcanum (9th-Level Spell)}</td><td>7</td></tr><tr><td>18th</td><td>+6</td><td>+1 Invocation</td><td>8</td></tr><tr><td>19th</td><td>+6</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>8</td></tr><tr><td>20th</td><td>+6</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.0C04rwyvoknvFYiy]{Eldritch Master}</td><td>8</td></tr></tbody></table><hr /><h3>Your Pact Boon</h3><p>Each Pact Boon option produces a special creature or an object that reflects your patron's nature.</p><p><em><strong>Pact of the Chain. </strong></em>Your familiar is more cunning than a typical familiar. Its default form can be a reflection of your patron, with imps and quasits tied to the Fiend.</p><p><em><strong>Pact of the Blade. </strong></em>If you serve the Fiend, your weapon could be an axe made of black metal and adorned with decorative flames.</p><p><em><strong>Pact of the Tome. </strong></em>Your Book of Shadows could be a weighty tome bound in demon hide studded with iron, holding spells of conjuration and a wealth of forbidden lore about the sinister regions of the cosmos, a gift of the Fiend.</p><hr /><h1>Otherworldly Patrons</h1><p>The beings that serve as patrons for warlocks are mighty inhabitants of other planes of existence—not gods, but almost godlike in their power. Various patrons give their warlocks access to different powers and invocations, and expect significant favors in return.</p><p>Some patrons collect warlocks, doling out mystic knowledge relatively freely or boasting of their ability to bind mortals to their will. Other patrons bestow their power only grudgingly, and might make a pact with only one warlock. Warlocks who serve the same patron might view each other as allies, siblings, or rivals.</p><p>@UUID[Compendium.dnd5e_custom.subclasses.Item.WPFVBg589uI8iOMH]{The Fiend}</p>",
           "chat": ""
         },
         "source": {
@@ -2935,15 +2935,15 @@
               "1": "max"
             },
             "title": "Hit Points",
-            "icon": "systems/dnd5e/icons/svg/hit-points.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/hit-points.svg",
             "_id": "m04qS9GheCqdni2h"
           },
           {
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.jTXHaK0vvT5DV3uO",
-                "Compendium.dnd5e.classfeatures.x6IJZwr6f0SGral7"
+                "Compendium.dnd5e_custom.classfeatures.jTXHaK0vvT5DV3uO",
+                "Compendium.dnd5e_custom.classfeatures.x6IJZwr6f0SGral7"
               ],
               "optional": false,
               "spell": {
@@ -2957,20 +2957,20 @@
             },
             "value": {
               "added": {
-                "O5nhueIb5HIil0eh": "Compendium.dnd5e.classfeatures.jTXHaK0vvT5DV3uO",
-                "uf6mKJJICzDHiWly": "Compendium.dnd5e.classfeatures.x6IJZwr6f0SGral7"
+                "O5nhueIb5HIil0eh": "Compendium.dnd5e_custom.classfeatures.jTXHaK0vvT5DV3uO",
+                "uf6mKJJICzDHiWly": "Compendium.dnd5e_custom.classfeatures.x6IJZwr6f0SGral7"
               }
             },
             "level": 1,
             "title": "Features",
-            "icon": "systems/dnd5e/icons/svg/item-grant.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-grant.svg",
             "_id": "AXY5iebZXk6dv5cn"
           },
           {
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.8MlxM2nEfE3Q0EVk"
+                "Compendium.dnd5e_custom.classfeatures.8MlxM2nEfE3Q0EVk"
               ],
               "optional": false,
               "spell": {
@@ -2985,14 +2985,14 @@
             "value": {},
             "level": 2,
             "title": "Features",
-            "icon": "systems/dnd5e/icons/svg/item-grant.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-grant.svg",
             "_id": "5FXyMXNNqax59haT"
           },
           {
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.QwgfIpCN8VWfoUtX"
+                "Compendium.dnd5e_custom.classfeatures.QwgfIpCN8VWfoUtX"
               ],
               "optional": false,
               "spell": {
@@ -3007,14 +3007,14 @@
             "value": {},
             "level": 3,
             "title": "Features",
-            "icon": "systems/dnd5e/icons/svg/item-grant.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-grant.svg",
             "_id": "OuBVlt2PDTT7vBoB"
           },
           {
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.zB77V8BcCJvWVxck"
+                "Compendium.dnd5e_custom.classfeatures.zB77V8BcCJvWVxck"
               ],
               "optional": false,
               "spell": {
@@ -3029,14 +3029,14 @@
             "value": {},
             "level": 11,
             "title": "Features",
-            "icon": "systems/dnd5e/icons/svg/item-grant.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-grant.svg",
             "_id": "Ah54Qpu2mLCMZNay"
           },
           {
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.0C04rwyvoknvFYiy"
+                "Compendium.dnd5e_custom.classfeatures.0C04rwyvoknvFYiy"
               ],
               "optional": false,
               "spell": {
@@ -3051,7 +3051,7 @@
             "value": {},
             "level": 20,
             "title": "Features",
-            "icon": "systems/dnd5e/icons/svg/item-grant.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-grant.svg",
             "_id": "sKx7KLPkzjGf2sA1"
           },
           {
@@ -3070,38 +3070,38 @@
               "allowDrops": true,
               "type": "feat",
               "pool": [
-                "Compendium.dnd5e.classfeatures.2fyuw7MiCnocDeAU",
-                "Compendium.dnd5e.classfeatures.alUqO6c6OEKFQJdb",
-                "Compendium.dnd5e.classfeatures.QEuH5TeBN4PPYT2g",
-                "Compendium.dnd5e.classfeatures.61kXR1sniXHjvN17",
-                "Compendium.dnd5e.classfeatures.eNvpIaSnJUdF8fHl",
-                "Compendium.dnd5e.classfeatures.KygHql3cTj4IRrvZ",
-                "Compendium.dnd5e.classfeatures.CFIYXDmbmSP8BXjN",
-                "Compendium.dnd5e.classfeatures.Phy02H5x0TKHd7T3",
-                "Compendium.dnd5e.classfeatures.3sN91lT1R3oxcDKd",
-                "Compendium.dnd5e.classfeatures.QBk1RsuTIEF4GEBC",
-                "Compendium.dnd5e.classfeatures.bbUEsCPTLzbbwK6o",
-                "Compendium.dnd5e.classfeatures.r01WtcxTg4yTHm9m",
-                "Compendium.dnd5e.classfeatures.lEZKbWaVrSljRa9n",
-                "Compendium.dnd5e.classfeatures.id0gmGvzNZBEdzbx",
-                "Compendium.dnd5e.classfeatures.65ReXU4ZWqcSs3Cm",
-                "Compendium.dnd5e.classfeatures.zUIAzBnyt0NDvVXb",
-                "Compendium.dnd5e.classfeatures.MhJfdBl1B7PdU4oZ",
-                "Compendium.dnd5e.classfeatures.lxfdjLer3uKjyZqU",
-                "Compendium.dnd5e.classfeatures.QnRKYXb2bXpnNd2k",
-                "Compendium.dnd5e.classfeatures.DjXi0IkCTbJx1gsp",
-                "Compendium.dnd5e.classfeatures.k5DU0mMuYVHejiqz",
-                "Compendium.dnd5e.classfeatures.KfnUyjUWAk0bAAus",
-                "Compendium.dnd5e.classfeatures.8zciiglzEOZo7DDN",
-                "Compendium.dnd5e.classfeatures.rdBPd6CwqXT64iJM",
-                "Compendium.dnd5e.classfeatures.Xa2MLUJGCReJ28B7",
-                "Compendium.dnd5e.classfeatures.dTSV0xZMpY5CxkRk",
-                "Compendium.dnd5e.classfeatures.rhbwDZ9XNTmdkX2u",
-                "Compendium.dnd5e.classfeatures.pJADgAxxefgcATWr",
-                "Compendium.dnd5e.classfeatures.zYIdNAjqRyhS6qWs",
-                "Compendium.dnd5e.classfeatures.k5M8gsl7MMcdjOjs",
-                "Compendium.dnd5e.classfeatures.gFjxo01hAN4c9hDG",
-                "Compendium.dnd5e.classfeatures.snsjxGfmzWfZR5Nh"
+                "Compendium.dnd5e_custom.classfeatures.2fyuw7MiCnocDeAU",
+                "Compendium.dnd5e_custom.classfeatures.alUqO6c6OEKFQJdb",
+                "Compendium.dnd5e_custom.classfeatures.QEuH5TeBN4PPYT2g",
+                "Compendium.dnd5e_custom.classfeatures.61kXR1sniXHjvN17",
+                "Compendium.dnd5e_custom.classfeatures.eNvpIaSnJUdF8fHl",
+                "Compendium.dnd5e_custom.classfeatures.KygHql3cTj4IRrvZ",
+                "Compendium.dnd5e_custom.classfeatures.CFIYXDmbmSP8BXjN",
+                "Compendium.dnd5e_custom.classfeatures.Phy02H5x0TKHd7T3",
+                "Compendium.dnd5e_custom.classfeatures.3sN91lT1R3oxcDKd",
+                "Compendium.dnd5e_custom.classfeatures.QBk1RsuTIEF4GEBC",
+                "Compendium.dnd5e_custom.classfeatures.bbUEsCPTLzbbwK6o",
+                "Compendium.dnd5e_custom.classfeatures.r01WtcxTg4yTHm9m",
+                "Compendium.dnd5e_custom.classfeatures.lEZKbWaVrSljRa9n",
+                "Compendium.dnd5e_custom.classfeatures.id0gmGvzNZBEdzbx",
+                "Compendium.dnd5e_custom.classfeatures.65ReXU4ZWqcSs3Cm",
+                "Compendium.dnd5e_custom.classfeatures.zUIAzBnyt0NDvVXb",
+                "Compendium.dnd5e_custom.classfeatures.MhJfdBl1B7PdU4oZ",
+                "Compendium.dnd5e_custom.classfeatures.lxfdjLer3uKjyZqU",
+                "Compendium.dnd5e_custom.classfeatures.QnRKYXb2bXpnNd2k",
+                "Compendium.dnd5e_custom.classfeatures.DjXi0IkCTbJx1gsp",
+                "Compendium.dnd5e_custom.classfeatures.k5DU0mMuYVHejiqz",
+                "Compendium.dnd5e_custom.classfeatures.KfnUyjUWAk0bAAus",
+                "Compendium.dnd5e_custom.classfeatures.8zciiglzEOZo7DDN",
+                "Compendium.dnd5e_custom.classfeatures.rdBPd6CwqXT64iJM",
+                "Compendium.dnd5e_custom.classfeatures.Xa2MLUJGCReJ28B7",
+                "Compendium.dnd5e_custom.classfeatures.dTSV0xZMpY5CxkRk",
+                "Compendium.dnd5e_custom.classfeatures.rhbwDZ9XNTmdkX2u",
+                "Compendium.dnd5e_custom.classfeatures.pJADgAxxefgcATWr",
+                "Compendium.dnd5e_custom.classfeatures.zYIdNAjqRyhS6qWs",
+                "Compendium.dnd5e_custom.classfeatures.k5M8gsl7MMcdjOjs",
+                "Compendium.dnd5e_custom.classfeatures.gFjxo01hAN4c9hDG",
+                "Compendium.dnd5e_custom.classfeatures.snsjxGfmzWfZR5Nh"
               ],
               "spell": {
                 "ability": "",
@@ -3119,7 +3119,7 @@
             },
             "value": {},
             "title": "Eldritch Invocations",
-            "icon": "systems/dnd5e/icons/svg/item-choice.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-choice.svg",
             "_id": "SQoedRgBg4CZ2Twb"
           },
           {
@@ -3132,9 +3132,9 @@
               "allowDrops": true,
               "type": "feat",
               "pool": [
-                "Compendium.dnd5e.classfeatures.9dSSa68mIPoX2ezA",
-                "Compendium.dnd5e.classfeatures.Ic1CSjvbWKudVUv9",
-                "Compendium.dnd5e.classfeatures.MYM908WLZ1lVvA1u"
+                "Compendium.dnd5e_custom.classfeatures.9dSSa68mIPoX2ezA",
+                "Compendium.dnd5e_custom.classfeatures.Ic1CSjvbWKudVUv9",
+                "Compendium.dnd5e_custom.classfeatures.MYM908WLZ1lVvA1u"
               ],
               "spell": {
                 "ability": "",
@@ -3152,7 +3152,7 @@
             },
             "value": {},
             "title": "Pact Boon",
-            "icon": "systems/dnd5e/icons/svg/item-choice.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-choice.svg",
             "_id": "iKtAzqSlqwkihQn0"
           },
           {
@@ -3181,7 +3181,7 @@
             },
             "value": {},
             "title": "Mystic Arcanum (6th level)",
-            "icon": "systems/dnd5e/icons/svg/item-choice.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-choice.svg",
             "_id": "a5VTIGe3lNEp2OYv"
           },
           {
@@ -3210,7 +3210,7 @@
             },
             "value": {},
             "title": "Mystic Arcanum (7th level)",
-            "icon": "systems/dnd5e/icons/svg/item-choice.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-choice.svg",
             "_id": "hJxRoMZ5YaI2Y9F2"
           },
           {
@@ -3239,7 +3239,7 @@
             },
             "value": {},
             "title": "Mystic Arcanum (8th level)",
-            "icon": "systems/dnd5e/icons/svg/item-choice.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-choice.svg",
             "_id": "Q3rKUfFElP8Z7cFI"
           },
           {
@@ -3268,7 +3268,7 @@
             },
             "value": {},
             "title": "Mystic Arcanum (9th level)",
-            "icon": "systems/dnd5e/icons/svg/item-choice.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-choice.svg",
             "_id": "wJntS4cUC6RaV7ie"
           },
           {
@@ -3293,7 +3293,7 @@
             },
             "value": {},
             "title": "Cantrips Known",
-            "icon": "systems/dnd5e/icons/svg/scale-value.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/scale-value.svg",
             "_id": "OcM7blwWM7CgNbMS"
           },
           {
@@ -3351,7 +3351,7 @@
             },
             "value": {},
             "title": "Spells Known",
-            "icon": "systems/dnd5e/icons/svg/scale-value.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/scale-value.svg",
             "_id": "rdzbe2Dv8SaD3YUS"
           },
           {
@@ -3373,7 +3373,7 @@
             },
             "level": 4,
             "title": "Ability Score Improvement",
-            "icon": "systems/dnd5e/icons/svg/ability-score-improvement.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/ability-score-improvement.svg",
             "_id": "X6UIWFe7JZzFry7f"
           },
           {
@@ -3395,7 +3395,7 @@
             },
             "level": 8,
             "title": "Ability Score Improvement",
-            "icon": "systems/dnd5e/icons/svg/ability-score-improvement.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/ability-score-improvement.svg",
             "_id": "C4uqRD1mSOxKF11n"
           },
           {
@@ -3417,7 +3417,7 @@
             },
             "level": 12,
             "title": "Ability Score Improvement",
-            "icon": "systems/dnd5e/icons/svg/ability-score-improvement.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/ability-score-improvement.svg",
             "_id": "unXUZVn2otlBmtvI"
           },
           {
@@ -3439,7 +3439,7 @@
             },
             "level": 16,
             "title": "Ability Score Improvement",
-            "icon": "systems/dnd5e/icons/svg/ability-score-improvement.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/ability-score-improvement.svg",
             "_id": "EZfVebBnXF8yILKN"
           },
           {
@@ -3573,11 +3573,11 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.classes.Item.7WJp9vhi6F6SlAFa"
+          "sourceId": "Compendium.dnd5e_custom.classes.Item.7WJp9vhi6F6SlAFa"
         }
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.4.0",
         "coreVersion": "10.303",
         "createdTime": 1661787234278,
@@ -3672,8 +3672,8 @@
       },
       "sort": 0,
       "flags": {
-        "dnd5e": {
-          "sourceId": "Compendium.dnd5e.classfeatures.jTXHaK0vvT5DV3uO",
+        "dnd5e_custom": {
+          "sourceId": "Compendium.dnd5e_custom.classfeatures.jTXHaK0vvT5DV3uO",
           "advancementOrigin": "MuaNnEZkswuhixJP.AXY5iebZXk6dv5cn"
         }
       },
@@ -3681,7 +3681,7 @@
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.4.0",
         "coreVersion": "10.303",
         "createdTime": 1661787234413,
@@ -3775,8 +3775,8 @@
         "properties": []
       },
       "flags": {
-        "dnd5e": {
-          "sourceId": "Compendium.dnd5e.classfeatures.x6IJZwr6f0SGral7",
+        "dnd5e_custom": {
+          "sourceId": "Compendium.dnd5e_custom.classfeatures.x6IJZwr6f0SGral7",
           "advancementOrigin": "MuaNnEZkswuhixJP.AXY5iebZXk6dv5cn"
         }
       },
@@ -3785,7 +3785,7 @@
       "folder": null,
       "sort": 0,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.4.0",
         "coreVersion": "10.303",
         "createdTime": 1661787234440,
@@ -3884,8 +3884,8 @@
         "properties": []
       },
       "flags": {
-        "dnd5e": {
-          "sourceId": "Compendium.dnd5e.classfeatures.Jv0zu4BtUi8bFCqJ",
+        "dnd5e_custom": {
+          "sourceId": "Compendium.dnd5e_custom.classfeatures.Jv0zu4BtUi8bFCqJ",
           "advancementOrigin": "r4vy8utsxo9my9r0.mwpiq5ybhynszxgq"
         }
       },
@@ -3894,7 +3894,7 @@
       "folder": null,
       "sort": 0,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.4.0",
         "coreVersion": "10.303",
         "createdTime": 1661787234360,
@@ -3926,7 +3926,7 @@
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.races.cnTbpPPeGW7vGjOV"
+                "Compendium.dnd5e_custom.races.cnTbpPPeGW7vGjOV"
               ],
               "optional": false,
               "spell": {
@@ -3940,7 +3940,7 @@
             },
             "value": {
               "added": {
-                "pZ76fyelg2iQaqUA": "Compendium.dnd5e.races.cnTbpPPeGW7vGjOV"
+                "pZ76fyelg2iQaqUA": "Compendium.dnd5e_custom.races.cnTbpPPeGW7vGjOV"
               }
             },
             "level": 0,
@@ -4071,11 +4071,11 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.races.Hye5IZwPOSwV0qRR"
+          "sourceId": "Compendium.dnd5e_custom.races.Hye5IZwPOSwV0qRR"
         }
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.4.0",
         "coreVersion": "10.303",
         "createdTime": 1677181061205,
@@ -4171,8 +4171,8 @@
         "properties": []
       },
       "flags": {
-        "dnd5e": {
-          "sourceId": "Compendium.dnd5e.races.cnTbpPPeGW7vGjOV",
+        "dnd5e_custom": {
+          "sourceId": "Compendium.dnd5e_custom.races.cnTbpPPeGW7vGjOV",
           "advancementOrigin": "wLvV5awPEy6FHkvg.rXyxzoqxdxlspMi5"
         }
       },
@@ -4181,7 +4181,7 @@
       "folder": null,
       "sort": 0,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.4.0",
         "coreVersion": "10.303",
         "createdTime": 1661787234471,
@@ -4199,7 +4199,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1661787232167,

@@ -8,8 +8,8 @@ export default class ActorTypeConfig extends DocumentSheet {
   /** @inheritdoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["dnd5e", "actor-type", "trait-selector"],
-      template: "systems/dnd5e/templates/apps/actor-type.hbs",
+      classes: ["dnd5e_custom", "actor-type", "trait-selector"],
+      template: "systems/dnd5e_custom/templates/apps/actor-type.hbs",
       width: 280,
       height: "auto",
       choices: {},

@@ -71,7 +71,7 @@ export default class Tooltips5e {
     // Sheet-specific tooltips
     if ( loading?.dataset.uuid ) {
       const doc = await fromUuid(loading.dataset.uuid);
-      if ( doc instanceof dnd5e.documents.Actor5e ) return this._onHoverActor(doc);
+      if ( doc instanceof dnd5e_custom.documents.Actor5e ) return this._onHoverActor(doc);
       return this._onHoverContentLink(doc);
     }
 
@@ -134,7 +134,7 @@ export default class Tooltips5e {
       label = game.i18n.format("DND5E.SkillPassiveHint", { skill: abilityConfig.label });
     }
 
-    const party = game.settings.get("dnd5e", "primaryParty")?.actor;
+    const party = game.settings.get("dnd5e_custom", "primaryParty")?.actor;
     if ( !party ) {
       this.tooltip.innerHTML = label;
       return;
@@ -163,8 +163,8 @@ export default class Tooltips5e {
       context.party.push(data);
     }
 
-    this.tooltip.classList.add("dnd5e-tooltip", "passive-tooltip");
-    this.tooltip.innerHTML = await renderTemplate("systems/dnd5e/templates/journal/passive-tooltip.hbs", context);
+    this.tooltip.classList.add("dnd5e_custom-tooltip", "passive-tooltip");
+    this.tooltip.innerHTML = await renderTemplate("systems/dnd5e_custom/templates/journal/passive-tooltip.hbs", context);
     game.tooltip._setAnchor(TooltipManager.TOOLTIP_DIRECTIONS.DOWN);
   }
 

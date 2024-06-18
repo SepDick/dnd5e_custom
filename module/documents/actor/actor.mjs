@@ -53,7 +53,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    * @type {boolean}
    */
   get isPolymorphed() {
-    return this.getFlag("dnd5e", "isPolymorphed") || false;
+    return this.getFlag("dnd5e_custom", "isPolymorphed") || false;
   }
 
   /* -------------------------------------------- */
@@ -93,7 +93,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     for ( const effect of this.effects ) {
       if ( !effect.statuses.has(CONFIG.specialStatusEffects.CONCENTRATING) ) continue;
-      const data = effect.getFlag("dnd5e", "itemData");
+      const data = effect.getFlag("dnd5e_custom", "itemData");
       concentration.effects.add(effect);
       if ( data ) {
         const item = typeof data === "string"
@@ -122,9 +122,9 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
   /** @inheritdoc */
   _initializeSource(source, options={}) {
     source = super._initializeSource(source, options);
-    if ( !source._id || !options.pack || dnd5e.moduleArt.suppressArt ) return source;
+    if ( !source._id || !options.pack || dnd5e_custom.moduleArt.suppressArt ) return source;
     const uuid = `Compendium.${options.pack}.${source._id}`;
-    const art = game.dnd5e.moduleArt.map.get(uuid);
+    const art = game.dnd5e_custom.moduleArt.map.get(uuid);
     if ( art?.actor || art?.token ) {
       if ( art.actor ) source.img = art.actor;
       if ( typeof art.token === "string" ) source.prototypeToken.texture.src = art.token;
@@ -142,7 +142,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
   /** @inheritDoc */
   prepareData() {
-    if ( this.system.modelProvider !== dnd5e ) return super.prepareData();
+    if ( this.system.modelProvider !== dnd5e_custom ) return super.prepareData();
     this._classes = undefined;
     this._preparationWarnings = [];
     super.prepareData();
@@ -178,7 +178,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
   /** @inheritDoc */
   *allApplicableEffects() {
     for ( const effect of super.allApplicableEffects() ) {
-      if ( (effect.getFlag("dnd5e", "type") !== "enchantment") && !effect.getFlag("dnd5e", "rider") ) yield effect;
+      if ( (effect.getFlag("dnd5e_custom", "type") !== "enchantment") && !effect.getFlag("dnd5e_custom", "rider") ) yield effect;
     }
   }
 
@@ -186,11 +186,11 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
   /** @inheritDoc */
   prepareDerivedData() {
-    const origin = this.getFlag("dnd5e", "summon.origin");
+    const origin = this.getFlag("dnd5e_custom", "summon.origin");
     // TODO: Replace with parseUuid once V11 support is dropped
     if ( origin && this.token?.id ) SummonsData.trackSummon(origin.split(".Item.")[0], this.uuid);
 
-    if ( (this.system.modelProvider !== dnd5e) || (this.type === "group") ) return;
+    if ( (this.system.modelProvider !== dnd5e_custom) || (this.type === "group") ) return;
 
     this.labels = {};
 
@@ -330,7 +330,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    *                                             If undefined, `this.getRollData()` is used.
    * @param {object} [options.originalSkills]    Original skills if actor is polymorphed.
    *                                             If undefined, the skills of the actor identified by
-   *                                             `this.flags.dnd5e.originalActor` are used.
+   *                                             `this.flags.dnd5e_custom.originalActor` are used.
    * @param {object} [options.globalBonuses]     Global ability bonuses for this actor.
    *                                             If undefined, `this.system.bonuses.abilities` is used.
    * @param {number} [options.globalCheckBonus]  Global check bonus for this actor.
@@ -346,7 +346,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     skillData, rollData, originalSkills, globalBonuses,
     globalCheckBonus, globalSkillBonus, ability
   }={}) {
-    const flags = this.flags.dnd5e ?? {};
+    const flags = this.flags.dnd5e_custom ?? {};
 
     skillData ??= foundry.utils.deepClone(this.system.skills[skillId]);
     rollData ??= this.getRollData();
@@ -407,7 +407,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    */
   _prepareTools(bonusData, globalBonuses, checkBonus) {
     if ( this.type === "vehicle" ) return;
-    const flags = this.flags.dnd5e ?? {};
+    const flags = this.flags.dnd5e_custom ?? {};
     for ( const tool of Object.values(this.system.tools) ) {
       const ability = this.system.abilities[tool.ability];
       const baseBonus = simplifyBonus(tool.bonuses.check, bonusData);
@@ -524,7 +524,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    */
   _prepareInitiative(bonusData, globalCheckBonus=0) {
     const init = this.system.attributes.init ??= {};
-    const flags = this.flags.dnd5e || {};
+    const flags = this.flags.dnd5e_custom || {};
 
     // Compute initiative modifier
     const abilityId = init.ability || CONFIG.DND5E.defaultAbilities.initiative;
@@ -606,18 +606,18 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     /**
      * A hook event that fires while computing the spellcasting progression for each class on each actor.
-     * The actual hook names include the spellcasting type (e.g. `dnd5e.computeLeveledProgression`).
+     * The actual hook names include the spellcasting type (e.g. `dnd5e_custom.computeLeveledProgression`).
      * @param {object} progression                    Spellcasting progression data. *Will be mutated.*
      * @param {Actor5e|null} [actor]                  Actor for whom the data is being prepared.
      * @param {Item5e} cls                            Class for whom this progression is being computed.
      * @param {SpellcastingDescription} spellcasting  Spellcasting descriptive object.
      * @param {number} count                          Number of classes with this type of spellcasting.
      * @returns {boolean}  Explicitly return false to prevent default progression from being calculated.
-     * @function dnd5e.computeSpellcastingProgression
+     * @function dnd5e_custom.computeSpellcastingProgression
      * @memberof hookEvents
      */
     const allowed = Hooks.call(
-      `dnd5e.compute${type.capitalize()}Progression`, progression, actor, cls, spellcasting, count
+      `dnd5e_custom.compute${type.capitalize()}Progression`, progression, actor, cls, spellcasting, count
     );
 
     if ( allowed && (type === "pact") ) {
@@ -675,15 +675,15 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
   static prepareSpellcastingSlots(spells, type, progression, {actor}={}) {
     /**
      * A hook event that fires to convert the provided spellcasting progression into spell slots.
-     * The actual hook names include the spellcasting type (e.g. `dnd5e.prepareLeveledSlots`).
+     * The actual hook names include the spellcasting type (e.g. `dnd5e_custom.prepareLeveledSlots`).
      * @param {object} spells        The `data.spells` object within actor's data. *Will be mutated.*
      * @param {Actor5e} actor        Actor for whom the data is being prepared.
      * @param {object} progression   Spellcasting progression data.
      * @returns {boolean}            Explicitly return false to prevent default preparation from being performed.
-     * @function dnd5e.prepareSpellcastingSlots
+     * @function dnd5e_custom.prepareSpellcastingSlots
      * @memberof hookEvents
      */
-    const allowed = Hooks.call(`dnd5e.prepare${type.capitalize()}Slots`, spells, actor, progression);
+    const allowed = Hooks.call(`dnd5e_custom.prepare${type.capitalize()}Slots`, spells, actor, progression);
 
     if ( allowed && (type === "pact") ) this.preparePactSlots(spells, actor, progression);
     else if ( allowed && (type === "leveled") ) this.prepareLeveledSlots(spells, actor, progression);
@@ -809,12 +809,12 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
         foundry.utils.setProperty(changed, "system.attributes.death.success", 0);
         foundry.utils.setProperty(changed, "system.attributes.death.failure", 0);
       }
-      foundry.utils.setProperty(options, "dnd5e.hp", { ...this.system.attributes.hp });
+      foundry.utils.setProperty(options, "dnd5e_custom.hp", { ...this.system.attributes.hp });
     }
 
     // Record previous exhaustion level.
     if ( Number.isFinite(foundry.utils.getProperty(changed, "system.attributes.exhaustion")) ) {
-      foundry.utils.setProperty(options, "dnd5e.originalExhaustion", this.system.attributes.exhaustion);
+      foundry.utils.setProperty(options, "dnd5e_custom.originalExhaustion", this.system.attributes.exhaustion);
     }
   }
 
@@ -930,10 +930,10 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
      * @param {object} updates                    Distinct updates to be performed on the actor.
      * @param {DamageApplicationOptions} options  Additional damage application options.
      * @returns {boolean}                         Explicitly return `false` to prevent damage application.
-     * @function dnd5e.preApplyDamage
+     * @function dnd5e_custom.preApplyDamage
      * @memberof hookEvents
      */
-    if ( Hooks.call("dnd5e.preApplyDamage", this, amount, updates, options) === false ) return this;
+    if ( Hooks.call("dnd5e_custom.preApplyDamage", this, amount, updates, options) === false ) return this;
 
     // Delegate damage application to a hook
     // TODO: Replace this in the future with a better modifyTokenAttribute function in the core
@@ -951,10 +951,10 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
      * @param {Actor5e} actor                     Actor that has been damaged.
      * @param {number} amount                     Amount of damage that has been applied.
      * @param {DamageApplicationOptions} options  Additional damage application options.
-     * @function dnd5e.applyDamage
+     * @function dnd5e_custom.applyDamage
      * @memberof hookEvents
      */
-    Hooks.callAll("dnd5e.applyDamage", this, amount, options);
+    Hooks.callAll("dnd5e_custom.applyDamage", this, amount, options);
 
     return this;
   }
@@ -977,10 +977,10 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
      * @param {DamageDescription[]} damages       Damage descriptions.
      * @param {DamageApplicationOptions} options  Additional damage application options.
      * @returns {boolean}                         Explicitly return `false` to prevent damage application.
-     * @function dnd5e.preCalculateDamage
+     * @function dnd5e_custom.preCalculateDamage
      * @memberof hookEvents
      */
-    if ( Hooks.call("dnd5e.preCalculateDamage", this, damages, options) === false ) return false;
+    if ( Hooks.call("dnd5e_custom.preCalculateDamage", this, damages, options) === false ) return false;
 
     const multiplier = options.multiplier ?? 1;
 
@@ -1058,10 +1058,10 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
      * @param {DamageDescription[]} damages       Damage descriptions.
      * @param {DamageApplicationOptions} options  Additional damage application options.
      * @returns {boolean}                         Explicitly return `false` to prevent damage application.
-     * @function dnd5e.calculateDamage
+     * @function dnd5e_custom.calculateDamage
      * @memberof hookEvents
      */
-    if ( Hooks.call("dnd5e.calculateDamage", this, damages, options) === false ) return false;
+    if ( Hooks.call("dnd5e_custom.calculateDamage", this, damages, options) === false ) return false;
 
     return damages;
   }
@@ -1108,26 +1108,26 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     /**
      * A hook that is called before a concentration effect is created.
-     * @function dnd5e.preBeginConcentrating
+     * @function dnd5e_custom.preBeginConcentrating
      * @memberof hookEvents
      * @param {Actor5e} actor         The actor initiating concentration.
      * @param {Item5e} item           The item that will be concentrated on.
      * @param {object} effectData     Data used to create the ActiveEffect.
      * @returns {boolean}             Explicitly return false to prevent the effect from being created.
      */
-    if ( Hooks.call("dnd5e.preBeginConcentrating", this, item, effectData) === false ) return;
+    if ( Hooks.call("dnd5e_custom.preBeginConcentrating", this, item, effectData) === false ) return;
 
     const effect = await ActiveEffect5e.create(effectData, { parent: this });
 
     /**
      * A hook that is called after a concentration effect is created.
-     * @function dnd5e.createConcentrating
+     * @function dnd5e_custom.createConcentrating
      * @memberof hookEvents
      * @param {Actor5e} actor             The actor initiating concentration.
      * @param {Item5e} item               The item that is being concentrated on.
      * @param {ActiveEffect5e} effect     The created ActiveEffect instance.
      */
-    Hooks.callAll("dnd5e.beginConcentrating", this, item, effect);
+    Hooks.callAll("dnd5e_custom.beginConcentrating", this, item, effect);
 
     return effect;
   }
@@ -1155,7 +1155,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     else if ( target instanceof ActiveEffect5e ) effect = effects.has(target) ? target : null;
     else if ( target instanceof Item5e ) {
       effect = effects.find(e => {
-        const data = e.getFlag("dnd5e", "itemData") ?? {};
+        const data = e.getFlag("dnd5e_custom", "itemData") ?? {};
         return (data === target._id) || (data._id === target._id);
       });
     }
@@ -1163,24 +1163,24 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     /**
      * A hook that is called before a concentration effect is deleted.
-     * @function dnd5e.preEndConcentration
+     * @function dnd5e_custom.preEndConcentration
      * @memberof hookEvents
      * @param {Actor5e} actor             The actor ending concentration.
      * @param {ActiveEffect5e} effect     The ActiveEffect that will be deleted.
      * @returns {boolean}                 Explicitly return false to prevent the effect from being deleted.
      */
-    if ( Hooks.call("dnd5e.preEndConcentration", this, effect) === false) return [];
+    if ( Hooks.call("dnd5e_custom.preEndConcentration", this, effect) === false) return [];
 
     await effect.delete();
 
     /**
      * A hook that is called after a concentration effect is deleted.
-     * @function dnd5e.endConcentration
+     * @function dnd5e_custom.endConcentration
      * @memberof hookEvents
      * @param {Actor5e} actor             The actor ending concentration.
      * @param {ActiveEffect5e} effect     The ActiveEffect that was deleted.
      */
-    Hooks.callAll("dnd5e.endConcentration", this, effect);
+    Hooks.callAll("dnd5e_custom.endConcentration", this, effect);
 
     return [effect];
   }
@@ -1211,7 +1211,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     };
 
     return ChatMessage.implementation.create({
-      content: await renderTemplate("systems/dnd5e/templates/chat/request-card.hbs", {
+      content: await renderTemplate("systems/dnd5e_custom/templates/chat/request-card.hbs", {
         dataset: { ...dataset, type: "concentration" },
         buttonLabel: createRollLabel({ ...dataset, ...config }),
         hiddenLabel: createRollLabel({ ...dataset, ...config, hideDC: true })
@@ -1230,7 +1230,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    * @private
    */
   _isRemarkableAthlete(ability) {
-    return this.getFlag("dnd5e", "remarkableAthlete")
+    return this.getFlag("dnd5e_custom", "remarkableAthlete")
       && CONFIG.DND5E.characterFlags.remarkableAthlete.abilities.includes(ability);
   }
 
@@ -1286,7 +1286,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     }
 
     // Reliable Talent applies to any skill check we have full or better proficiency in
-    const reliableTalent = (skl.value >= 1 && this.getFlag("dnd5e", "reliableTalent"));
+    const reliableTalent = (skl.value >= 1 && this.getFlag("dnd5e_custom", "reliableTalent"));
 
     // Roll and return
     const flavor = game.i18n.format("DND5E.SkillPromptTitle", {skill: CONFIG.DND5E.skills[skillId]?.label ?? ""});
@@ -1295,37 +1295,37 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       title: `${flavor}: ${this.name}`,
       flavor,
       chooseModifier: true,
-      halflingLucky: this.getFlag("dnd5e", "halflingLucky"),
+      halflingLucky: this.getFlag("dnd5e_custom", "halflingLucky"),
       reliableTalent,
       messageData: {
         speaker: options.speaker || ChatMessage.getSpeaker({actor: this}),
-        "flags.dnd5e.roll": {type: "skill", skillId }
+        "flags.dnd5e_custom.roll": {type: "skill", skillId }
       }
     }, options);
     rollData.parts = parts.concat(options.parts ?? []);
 
     /**
      * A hook event that fires before a skill check is rolled for an Actor.
-     * @function dnd5e.preRollSkill
+     * @function dnd5e_custom.preRollSkill
      * @memberof hookEvents
      * @param {Actor5e} actor                Actor for which the skill check is being rolled.
      * @param {D20RollConfiguration} config  Configuration data for the pending roll.
      * @param {string} skillId               ID of the skill being rolled as defined in `DND5E.skills`.
      * @returns {boolean}                    Explicitly return `false` to prevent skill check from being rolled.
      */
-    if ( Hooks.call("dnd5e.preRollSkill", this, rollData, skillId) === false ) return;
+    if ( Hooks.call("dnd5e_custom.preRollSkill", this, rollData, skillId) === false ) return;
 
     const roll = await d20Roll(rollData);
 
     /**
      * A hook event that fires after a skill check has been rolled for an Actor.
-     * @function dnd5e.rollSkill
+     * @function dnd5e_custom.rollSkill
      * @memberof hookEvents
      * @param {Actor5e} actor   Actor for which the skill check has been rolled.
      * @param {D20Roll} roll    The resulting roll.
      * @param {string} skillId  ID of the skill that was rolled as defined in `DND5E.skills`.
      */
-    if ( roll ) Hooks.callAll("dnd5e.rollSkill", this, roll, skillId);
+    if ( roll ) Hooks.callAll("dnd5e_custom.rollSkill", this, roll, skillId);
 
     return roll;
   }
@@ -1378,44 +1378,44 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     }
 
     // Reliable Talent applies to any tool check we have full or better proficiency in
-    const reliableTalent = (prof?.multiplier >= 1 && this.getFlag("dnd5e", "reliableTalent"));
+    const reliableTalent = (prof?.multiplier >= 1 && this.getFlag("dnd5e_custom", "reliableTalent"));
 
     const flavor = game.i18n.format("DND5E.ToolPromptTitle", {tool: Trait.keyLabel(toolId, {trait: "tool"}) ?? ""});
     const rollData = foundry.utils.mergeObject({
       data, flavor,
       title: `${flavor}: ${this.name}`,
       chooseModifier: true,
-      halflingLucky: this.getFlag("dnd5e", "halflingLucky"),
+      halflingLucky: this.getFlag("dnd5e_custom", "halflingLucky"),
       reliableTalent,
       messageData: {
         speaker: options.speaker || ChatMessage.implementation.getSpeaker({actor: this}),
-        "flags.dnd5e.roll": {type: "tool", toolId}
+        "flags.dnd5e_custom.roll": {type: "tool", toolId}
       }
     }, options);
     rollData.parts = parts.concat(options.parts ?? []);
 
     /**
      * A hook event that fires before a tool check is rolled for an Actor.
-     * @function dnd5e.preRollRool
+     * @function dnd5e_custom.preRollRool
      * @memberof hookEvents
      * @param {Actor5e} actor                Actor for which the tool check is being rolled.
      * @param {D20RollConfiguration} config  Configuration data for the pending roll.
      * @param {string} toolId                Identifier of the tool being rolled.
      * @returns {boolean}                    Explicitly return `false` to prevent skill check from being rolled.
      */
-    if ( Hooks.call("dnd5e.preRollToolCheck", this, rollData, toolId) === false ) return;
+    if ( Hooks.call("dnd5e_custom.preRollToolCheck", this, rollData, toolId) === false ) return;
 
     const roll = await d20Roll(rollData);
 
     /**
      * A hook event that fires after a tool check has been rolled for an Actor.
-     * @function dnd5e.rollTool
+     * @function dnd5e_custom.rollTool
      * @memberof hookEvents
      * @param {Actor5e} actor   Actor for which the tool check has been rolled.
      * @param {D20Roll} roll    The resulting roll.
      * @param {string} toolId   Identifier of the tool that was rolled.
      */
-    if ( roll ) Hooks.callAll("dnd5e.rollToolCheck", this, roll, toolId);
+    if ( roll ) Hooks.callAll("dnd5e_custom.rollToolCheck", this, roll, toolId);
 
     return roll;
   }
@@ -1491,36 +1491,36 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       data,
       title: `${flavor}: ${this.name}`,
       flavor,
-      halflingLucky: this.getFlag("dnd5e", "halflingLucky"),
+      halflingLucky: this.getFlag("dnd5e_custom", "halflingLucky"),
       messageData: {
         speaker: options.speaker || ChatMessage.getSpeaker({actor: this}),
-        "flags.dnd5e.roll": {type: "ability", abilityId }
+        "flags.dnd5e_custom.roll": {type: "ability", abilityId }
       }
     }, options);
     rollData.parts = parts.concat(options.parts ?? []);
 
     /**
      * A hook event that fires before an ability test is rolled for an Actor.
-     * @function dnd5e.preRollAbilityTest
+     * @function dnd5e_custom.preRollAbilityTest
      * @memberof hookEvents
      * @param {Actor5e} actor                Actor for which the ability test is being rolled.
      * @param {D20RollConfiguration} config  Configuration data for the pending roll.
      * @param {string} abilityId             ID of the ability being rolled as defined in `DND5E.abilities`.
      * @returns {boolean}                    Explicitly return `false` to prevent ability test from being rolled.
      */
-    if ( Hooks.call("dnd5e.preRollAbilityTest", this, rollData, abilityId) === false ) return;
+    if ( Hooks.call("dnd5e_custom.preRollAbilityTest", this, rollData, abilityId) === false ) return;
 
     const roll = await d20Roll(rollData);
 
     /**
      * A hook event that fires after an ability test has been rolled for an Actor.
-     * @function dnd5e.rollAbilityTest
+     * @function dnd5e_custom.rollAbilityTest
      * @memberof hookEvents
      * @param {Actor5e} actor     Actor for which the ability test has been rolled.
      * @param {D20Roll} roll      The resulting roll.
      * @param {string} abilityId  ID of the ability that was rolled as defined in `DND5E.abilities`.
      */
-    if ( roll ) Hooks.callAll("dnd5e.rollAbilityTest", this, roll, abilityId);
+    if ( roll ) Hooks.callAll("dnd5e_custom.rollAbilityTest", this, roll, abilityId);
 
     return roll;
   }
@@ -1570,36 +1570,36 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       data,
       title: `${flavor}: ${this.name}`,
       flavor,
-      halflingLucky: this.getFlag("dnd5e", "halflingLucky"),
+      halflingLucky: this.getFlag("dnd5e_custom", "halflingLucky"),
       messageData: {
         speaker: options.speaker || ChatMessage.getSpeaker({actor: this}),
-        "flags.dnd5e.roll": {type: "save", abilityId }
+        "flags.dnd5e_custom.roll": {type: "save", abilityId }
       }
     }, options);
     rollData.parts = parts.concat(options.parts ?? []);
 
     /**
      * A hook event that fires before an ability save is rolled for an Actor.
-     * @function dnd5e.preRollAbilitySave
+     * @function dnd5e_custom.preRollAbilitySave
      * @memberof hookEvents
      * @param {Actor5e} actor                Actor for which the ability save is being rolled.
      * @param {D20RollConfiguration} config  Configuration data for the pending roll.
      * @param {string} abilityId             ID of the ability being rolled as defined in `DND5E.abilities`.
      * @returns {boolean}                    Explicitly return `false` to prevent ability save from being rolled.
      */
-    if ( Hooks.call("dnd5e.preRollAbilitySave", this, rollData, abilityId) === false ) return;
+    if ( Hooks.call("dnd5e_custom.preRollAbilitySave", this, rollData, abilityId) === false ) return;
 
     const roll = await d20Roll(rollData);
 
     /**
      * A hook event that fires after an ability save has been rolled for an Actor.
-     * @function dnd5e.rollAbilitySave
+     * @function dnd5e_custom.rollAbilitySave
      * @memberof hookEvents
      * @param {Actor5e} actor     Actor for which the ability save has been rolled.
      * @param {D20Roll} roll      The resulting roll.
      * @param {string} abilityId  ID of the ability that was rolled as defined in `DND5E.abilities`.
      */
-    if ( roll ) Hooks.callAll("dnd5e.rollAbilitySave", this, roll, abilityId);
+    if ( roll ) Hooks.callAll("dnd5e_custom.rollAbilitySave", this, roll, abilityId);
 
     return roll;
   }
@@ -1628,7 +1628,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     const data = this.getRollData();
 
     // Diamond Soul adds proficiency
-    if ( this.getFlag("dnd5e", "diamondSoul") ) {
+    if ( this.getFlag("dnd5e_custom", "diamondSoul") ) {
       parts.push("@prof");
       data.prof = new Proficiency(this.system.attributes.prof, 1).term;
     }
@@ -1645,24 +1645,24 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       data,
       title: `${flavor}: ${this.name}`,
       flavor,
-      halflingLucky: this.getFlag("dnd5e", "halflingLucky"),
+      halflingLucky: this.getFlag("dnd5e_custom", "halflingLucky"),
       targetValue: 10,
       messageData: {
         speaker: speaker,
-        "flags.dnd5e.roll": {type: "death"}
+        "flags.dnd5e_custom.roll": {type: "death"}
       }
     }, options);
     rollData.parts = parts.concat(options.parts ?? []);
 
     /**
      * A hook event that fires before a death saving throw is rolled for an Actor.
-     * @function dnd5e.preRollDeathSave
+     * @function dnd5e_custom.preRollDeathSave
      * @memberof hookEvents
      * @param {Actor5e} actor                Actor for which the death saving throw is being rolled.
      * @param {D20RollConfiguration} config  Configuration data for the pending roll.
      * @returns {boolean}                    Explicitly return `false` to prevent death saving throw from being rolled.
      */
-    if ( Hooks.call("dnd5e.preRollDeathSave", this, rollData) === false ) return;
+    if ( Hooks.call("dnd5e_custom.preRollDeathSave", this, rollData) === false ) return;
 
     const roll = await d20Roll(rollData);
     if ( !roll ) return null;
@@ -1709,7 +1709,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     /**
      * A hook event that fires after a death saving throw has been rolled for an Actor, but before
      * updates have been performed.
-     * @function dnd5e.rollDeathSave
+     * @function dnd5e_custom.rollDeathSave
      * @memberof hookEvents
      * @param {Actor5e} actor              Actor for which the death saving throw has been rolled.
      * @param {D20Roll} roll               The resulting roll.
@@ -1719,7 +1719,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
      *                                     no chat message will be displayed.
      * @returns {boolean}                  Explicitly return `false` to prevent updates from being performed.
      */
-    if ( Hooks.call("dnd5e.rollDeathSave", this, roll, details) === false ) return roll;
+    if ( Hooks.call("dnd5e_custom.rollDeathSave", this, roll, details) === false ) return roll;
 
     if ( !foundry.utils.isEmpty(details.updates) ) await this.update(details.updates);
 
@@ -1766,25 +1766,25 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     /**
      * A hook event that fires before a saving throw to maintain concentration is rolled for an Actor.
-     * @function dnd5e.preRollConcentration
+     * @function dnd5e_custom.preRollConcentration
      * @memberof hookEvents
      * @param {Actor5e} actor                   Actor for which the saving throw is being rolled.
      * @param {D20RollConfiguration} options    Configuration data for the pending roll.
      * @returns {boolean}                       Explicitly return `false` to prevent the save from being performed.
      */
-    if ( Hooks.call("dnd5e.preRollConcentration", this, options) === false ) return;
+    if ( Hooks.call("dnd5e_custom.preRollConcentration", this, options) === false ) return;
 
     // Perform a standard ability save.
     const roll = await this.rollAbilitySave(options.ability, options);
 
     /**
      * A hook event that fires after a saving throw to maintain concentration is rolled for an Actor.
-     * @function dnd5e.rollConcentration
+     * @function dnd5e_custom.rollConcentration
      * @memberof hookEvents
      * @param {Actor5e} actor     Actor for which the saving throw has been rolled.
      * @param {D20Roll} roll      The resulting roll.
      */
-    if ( roll ) Hooks.callAll("dnd5e.rollConcentration", this, roll);
+    if ( roll ) Hooks.callAll("dnd5e_custom.rollConcentration", this, roll);
 
     return roll;
   }
@@ -1807,8 +1807,8 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     const init = this.system.attributes?.init;
     const abilityId = init?.ability || CONFIG.DND5E.defaultAbilities.initiative;
     const data = this.getRollData();
-    const flags = this.flags.dnd5e || {};
-    if ( flags.initiativeAdv ) options.advantageMode ??= dnd5e.dice.D20Roll.ADV_MODE.ADVANTAGE;
+    const flags = this.flags.dnd5e_custom || {};
+    if ( flags.initiativeAdv ) options.advantageMode ??= dnd5e_custom.dice.D20Roll.ADV_MODE.ADVANTAGE;
 
     // Standard initiative formula
     const parts = ["1d20"];
@@ -1851,7 +1851,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     }
 
     // Ability score tiebreaker
-    const tiebreaker = game.settings.get("dnd5e", "initiativeDexTiebreaker");
+    const tiebreaker = game.settings.get("dnd5e_custom", "initiativeDexTiebreaker");
     if ( tiebreaker && ("abilities" in this.system) ) {
       const abilityValue = this.system.abilities[abilityId]?.value;
       if ( Number.isNumeric(abilityValue) ) parts.push(String(abilityValue / 100));
@@ -1883,7 +1883,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       defaultRollMode: game.settings.get("core", "rollMode"),
       title: `${game.i18n.localize("DND5E.InitiativeRoll")}: ${this.name}`,
       chooseModifier: false,
-      defaultAction: rollOptions.advantageMode ?? dnd5e.dice.D20Roll.ADV_MODE.NORMAL
+      defaultAction: rollOptions.advantageMode ?? dnd5e_custom.dice.D20Roll.ADV_MODE.NORMAL
     });
     if ( choice === null ) return; // Closed dialog
 
@@ -1900,12 +1900,12 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     /**
      * A hook event that fires before initiative is rolled for an Actor.
-     * @function dnd5e.preRollInitiative
+     * @function dnd5e_custom.preRollInitiative
      * @memberof hookEvents
      * @param {Actor5e} actor  The Actor that is rolling initiative.
      * @param {D20Roll} roll   The initiative roll.
      */
-    if ( Hooks.call("dnd5e.preRollInitiative", this, this._cachedInitiativeRoll) === false ) {
+    if ( Hooks.call("dnd5e_custom.preRollInitiative", this, this._cachedInitiativeRoll) === false ) {
       delete this._cachedInitiativeRoll;
       return null;
     }
@@ -1919,12 +1919,12 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     /**
      * A hook event that fires after an Actor has rolled for initiative.
-     * @function dnd5e.rollInitiative
+     * @function dnd5e_custom.rollInitiative
      * @memberof hookEvents
      * @param {Actor5e} actor           The Actor that rolled initiative.
      * @param {Combatant[]} combatants  The associated Combatants in the Combat.
      */
-    Hooks.callAll("dnd5e.rollInitiative", this, combatants);
+    Hooks.callAll("dnd5e_custom.rollInitiative", this, combatants);
     delete this._cachedInitiativeRoll;
     return combat;
   }
@@ -1984,13 +1984,13 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
         flavor,
         title: `${flavor}: ${this.name}`,
         rollMode: game.settings.get("core", "rollMode"),
-        "flags.dnd5e.roll": {type: "hitDie"}
+        "flags.dnd5e_custom.roll": {type: "hitDie"}
       }
     }, options);
 
     /**
      * A hook event that fires before a hit die is rolled for an Actor.
-     * @function dnd5e.preRollHitDie
+     * @function dnd5e_custom.preRollHitDie
      * @memberof hookEvents
      * @param {Actor5e} actor               Actor for which the hit die is to be rolled.
      * @param {object} config               Configuration data for the pending roll.
@@ -2001,7 +2001,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
      * @param {string} denomination         Size of hit die to be rolled.
      * @returns {boolean}                   Explicitly return `false` to prevent hit die from being rolled.
      */
-    if ( Hooks.call("dnd5e.preRollHitDie", this, rollConfig, denomination) === false ) return;
+    if ( Hooks.call("dnd5e_custom.preRollHitDie", this, rollConfig, denomination) === false ) return;
 
     const roll = await new Roll(rollConfig.formula, rollConfig.data).roll({async: true});
     if ( rollConfig.chatMessage ) roll.toMessage(rollConfig.messageData);
@@ -2014,7 +2014,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     /**
      * A hook event that fires after a hit die has been rolled for an Actor, but before updates have been performed.
-     * @function dnd5e.rollHitDie
+     * @function dnd5e_custom.rollHitDie
      * @memberof hookEvents
      * @param {Actor5e} actor           Actor for which the hit die has been rolled.
      * @param {Roll} roll               The resulting roll.
@@ -2023,7 +2023,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
      * @param {object} [updates.class]  Updates that will be applied to the class.
      * @returns {boolean}               Explicitly return `false` to prevent updates from being performed.
      */
-    if ( Hooks.call("dnd5e.rollHitDie", this, roll, updates) === false ) return roll;
+    if ( Hooks.call("dnd5e_custom.rollHitDie", this, roll, updates) === false ) return roll;
 
     // Perform updates
     if ( !foundry.utils.isEmpty(updates.actor) ) await this.update(updates.actor);
@@ -2040,7 +2040,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    * @param {object} options
    * @param {boolean} [options.chatMessage=true]  Display the chat message for this roll.
    * @returns {Promise<Roll>}                     The completed roll.
-   * @see {@link dnd5e.preRollClassHitPoints}
+   * @see {@link dnd5e_custom.preRollClassHitPoints}
    */
   async rollClassHitPoints(item, { chatMessage=true }={}) {
     if ( item.type !== "class" ) throw new Error("Hit points can only be rolled for a class item.");
@@ -2054,12 +2054,12 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       title: `${flavor}: ${this.name}`,
       flavor,
       speaker: ChatMessage.implementation.getSpeaker({ actor: this }),
-      "flags.dnd5e.roll": { type: "hitPoints" }
+      "flags.dnd5e_custom.roll": { type: "hitPoints" }
     };
 
     /**
      * A hook event that fires before hit points are rolled for a character's class.
-     * @function dnd5e.preRollClassHitPoints
+     * @function dnd5e_custom.preRollClassHitPoints
      * @memberof hookEvents
      * @param {Actor5e} actor            Actor for which the hit points are being rolled.
      * @param {Item5e} item              The class item whose hit dice will be rolled.
@@ -2068,19 +2068,19 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
      * @param {object} rollData.data     The data object against which to parse attributes within the formula.
      * @param {object} messageData       The data object to use when creating the message.
      */
-    Hooks.callAll("dnd5e.preRollClassHitPoints", this, item, rollData, messageData);
+    Hooks.callAll("dnd5e_custom.preRollClassHitPoints", this, item, rollData, messageData);
 
     const roll = new Roll(rollData.formula, rollData.data);
     await roll.evaluate({async: true});
 
     /**
      * A hook event that fires after hit points haven been rolled for a character's class.
-     * @function dnd5e.rollClassHitPoints
+     * @function dnd5e_custom.rollClassHitPoints
      * @memberof hookEvents
      * @param {Actor5e} actor  Actor for which the hit points have been rolled.
      * @param {Roll} roll      The resulting roll.
      */
-    Hooks.callAll("dnd5e.rollClassHitPoints", this, roll);
+    Hooks.callAll("dnd5e_custom.rollClassHitPoints", this, roll);
 
     if ( rollData.chatMessage ) await roll.toMessage(messageData);
     return roll;
@@ -2093,7 +2093,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    * @param {object} options
    * @param {boolean} [options.chatMessage=true]  Display the chat message for this roll.
    * @returns {Promise<Roll>}                     The completed roll.
-   * @see {@link dnd5e.preRollNPCHitPoints}
+   * @see {@link dnd5e_custom.preRollNPCHitPoints}
    */
   async rollNPCHitPoints({ chatMessage=true }={}) {
     if ( this.type !== "npc" ) throw new Error("NPC hit points can only be rolled for NPCs");
@@ -2107,12 +2107,12 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       title: `${flavor}: ${this.name}`,
       flavor,
       speaker: ChatMessage.getSpeaker({ actor: this }),
-      "flags.dnd5e.roll": { type: "hitPoints" }
+      "flags.dnd5e_custom.roll": { type: "hitPoints" }
     };
 
     /**
      * A hook event that fires before hit points are rolled for an NPC.
-     * @function dnd5e.preRollNPCHitPoints
+     * @function dnd5e_custom.preRollNPCHitPoints
      * @memberof hookEvents
      * @param {Actor5e} actor            Actor for which the hit points are being rolled.
      * @param {object} rollData
@@ -2120,19 +2120,19 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
      * @param {object} rollData.data     The data object against which to parse attributes within the formula.
      * @param {object} messageData       The data object to use when creating the message.
      */
-    Hooks.callAll("dnd5e.preRollNPCHitPoints", this, rollData, messageData);
+    Hooks.callAll("dnd5e_custom.preRollNPCHitPoints", this, rollData, messageData);
 
     const roll = new Roll(rollData.formula, rollData.data);
     await roll.evaluate({async: true});
 
     /**
      * A hook event that fires after hit points are rolled for an NPC.
-     * @function dnd5e.rollNPCHitPoints
+     * @function dnd5e_custom.rollNPCHitPoints
      * @memberof hookEvents
      * @param {Actor5e} actor  Actor for which the hit points have been rolled.
      * @param {Roll} roll      The resulting roll.
      */
-    Hooks.callAll("dnd5e.rollNPCHitPoints", this, roll);
+    Hooks.callAll("dnd5e_custom.rollNPCHitPoints", this, roll);
 
     if ( rollData.chatMessage ) await roll.toMessage(messageData);
     return roll;
@@ -2183,18 +2183,18 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     config = foundry.utils.mergeObject({
       type: "short", dialog: true, chat: true, newDay: false, advanceTime: false, autoHD: false, autoHDThreshold: 3,
-      duration: CONFIG.DND5E.restTypes.short.duration[game.settings.get("dnd5e", "restVariant")]
+      duration: CONFIG.DND5E.restTypes.short.duration[game.settings.get("dnd5e_custom", "restVariant")]
     }, config);
 
     /**
      * A hook event that fires before a short rest is started.
-     * @function dnd5e.preShortRest
+     * @function dnd5e_custom.preShortRest
      * @memberof hookEvents
      * @param {Actor5e} actor             The actor that is being rested.
      * @param {RestConfiguration} config  Configuration options for the rest.
      * @returns {boolean}                 Explicitly return `false` to prevent the rest from being started.
      */
-    if ( Hooks.call("dnd5e.preShortRest", this, config) === false ) return;
+    if ( Hooks.call("dnd5e_custom.preShortRest", this, config) === false ) return;
 
     // Take note of the initial hit points and number of hit dice the Actor has
     const hd0 = foundry.utils.getProperty(this, "system.attributes.hd.value");
@@ -2209,13 +2209,13 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     /**
      * A hook event that fires after a short rest has started, after the configuration is complete.
-     * @function dnd5e.shortRest
+     * @function dnd5e_custom.shortRest
      * @memberof hookEvents
      * @param {Actor5e} actor             The actor that is being rested.
      * @param {RestConfiguration} config  Configuration options for the rest.
      * @returns {boolean}                 Explicitly return `false` to prevent the rest from being continued.
      */
-    if ( Hooks.call("dnd5e.shortRest", this, config) === false ) return;
+    if ( Hooks.call("dnd5e_custom.shortRest", this, config) === false ) return;
 
     // Automatically spend hit dice
     if ( !config.dialog && config.autoHD ) await this.autoSpendHitDice({ threshold: config.autoHDThreshold });
@@ -2238,18 +2238,18 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     config = foundry.utils.mergeObject({
       type: "long", dialog: true, chat: true, newDay: true, advanceTime: false,
-      duration: CONFIG.DND5E.restTypes.long.duration[game.settings.get("dnd5e", "restVariant")]
+      duration: CONFIG.DND5E.restTypes.long.duration[game.settings.get("dnd5e_custom", "restVariant")]
     }, config);
 
     /**
      * A hook event that fires before a long rest is started.
-     * @function dnd5e.preLongRest
+     * @function dnd5e_custom.preLongRest
      * @memberof hookEvents
      * @param {Actor5e} actor             The actor that is being rested.
      * @param {RestConfiguration} config  Configuration options for the rest.
      * @returns {boolean}                 Explicitly return `false` to prevent the rest from being started.
      */
-    if ( Hooks.call("dnd5e.preLongRest", this, config) === false ) return;
+    if ( Hooks.call("dnd5e_custom.preLongRest", this, config) === false ) return;
 
     if ( config.dialog ) {
       try {
@@ -2259,13 +2259,13 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     /**
      * A hook event that fires after a long rest has started, after the configuration is complete.
-     * @function dnd5e.longRest
+     * @function dnd5e_custom.longRest
      * @memberof hookEvents
      * @param {Actor5e} actor             The actor that is being rested.
      * @param {RestConfiguration} config  Configuration options for the rest.
      * @returns {boolean}                 Explicitly return `false` to prevent the rest from being continued.
      */
-    if ( Hooks.call("dnd5e.longRest", this, config) === false ) return;
+    if ( Hooks.call("dnd5e_custom.longRest", this, config) === false ) return;
 
     return this._rest(config);
   }
@@ -2332,14 +2332,14 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     /**
      * A hook event that fires after rest result is calculated, but before any updates are performed.
-     * @function dnd5e.preRestCompleted
+     * @function dnd5e_custom.preRestCompleted
      * @memberof hookEvents
      * @param {Actor5e} actor             The actor that is being rested.
      * @param {RestResult} result         Details on the rest to be completed.
      * @param {RestConfiguration} config  Configuration data for the rest occurring.
      * @returns {boolean}                 Explicitly return `false` to prevent the rest updates from being performed.
      */
-    if ( Hooks.call("dnd5e.preRestCompleted", this, result, config) === false ) return result;
+    if ( Hooks.call("dnd5e_custom.preRestCompleted", this, result, config) === false ) return result;
 
     // Perform updates
     await this.update(result.updateData, { isRest: true });
@@ -2353,13 +2353,13 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     /**
      * A hook event that fires when the rest process is completed for an actor.
-     * @function dnd5e.restCompleted
+     * @function dnd5e_custom.restCompleted
      * @memberof hookEvents
      * @param {Actor5e} actor             The actor that just completed resting.
      * @param {RestResult} result         Details on the rest completed.
      * @param {RestConfiguration} config  Configuration data for that occurred.
      */
-    Hooks.callAll("dnd5e.restCompleted", this, result, config);
+    Hooks.callAll("dnd5e_custom.restCompleted", this, result, config);
 
     // Return data summarizing the rest effects
     return result;
@@ -2383,7 +2383,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     // Summarize the rest duration
     let restFlavor;
-    switch (game.settings.get("dnd5e", "restVariant")) {
+    switch (game.settings.get("dnd5e_custom", "restVariant")) {
       case "normal":
         restFlavor = (longRest && newDay) ? "DND5E.LongRestOvernight" : `DND5E.${length}RestNormal`;
         break;
@@ -2565,7 +2565,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       // Items that roll to gain charges via a formula
       if ( recoverDailyUses && uses.recovery && CONFIG.DND5E.limitedUsePeriods[uses.per]?.formula ) {
         const roll = new Roll(uses.recovery, item.getRollData());
-        if ( recoverLongRestUses && (game.settings.get("dnd5e", "restVariant") === "gritty") ) {
+        if ( recoverLongRestUses && (game.settings.get("dnd5e_custom", "restVariant") === "gritty") ) {
           roll.alter(7, 0, {multiplyNumeric: true});
         }
 
@@ -2762,8 +2762,8 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     let originalSaves = null;
     let originalSkills = null;
     if ( this.isPolymorphed ) {
-      const transformOptions = this.flags.dnd5e?.transformOptions;
-      const original = game.actors?.get(this.flags.dnd5e?.originalActor);
+      const transformOptions = this.flags.dnd5e_custom?.transformOptions;
+      const original = game.actors?.get(this.flags.dnd5e_custom?.originalActor);
       if ( original ) {
         if ( transformOptions.mergeSaves ) originalSaves = original.system.abilities;
         if ( transformOptions.mergeSkills ) originalSkills = original.system.skills;
@@ -2818,7 +2818,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     transformTokens=true}={}, {renderSheet=true}={}) {
 
     // Ensure the player is allowed to polymorph
-    const allowed = game.settings.get("dnd5e", "allowPolymorphing");
+    const allowed = game.settings.get("dnd5e_custom", "allowPolymorphing");
     if ( !allowed && !game.user.isGM ) {
       ui.notifications.warn("DND5E.PolymorphWarn", {localize: true});
       return null;
@@ -2826,8 +2826,8 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     // Get the original Actor data and the new source data
     const o = this.toObject();
-    o.flags.dnd5e = o.flags.dnd5e || {};
-    o.flags.dnd5e.transformOptions = {mergeSkills, mergeSaves};
+    o.flags.dnd5e_custom = o.flags.dnd5e_custom || {};
+    o.flags.dnd5e_custom.transformOptions = {mergeSkills, mergeSaves};
     const source = target.toObject();
 
     if ( keepSelf ) {
@@ -2869,9 +2869,9 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     for ( const k of ["offsetX", "offsetY", "scaleX", "scaleY", "src", "tint"] ) {
       d.prototypeToken.texture[k] = source.prototypeToken.texture[k];
     }
-    foundry.utils.setProperty(d.prototypeToken, "flags.dnd5e.tokenRing", foundry.utils.mergeObject(
-      foundry.utils.getProperty(d.prototypeToken, "flags.dnd5e.tokenRing") ?? {},
-      foundry.utils.getProperty(source.prototypeToken, "flags.dnd5e.tokenRing") ?? {},
+    foundry.utils.setProperty(d.prototypeToken, "flags.dnd5e_custom.tokenRing", foundry.utils.mergeObject(
+      foundry.utils.getProperty(d.prototypeToken, "flags.dnd5e_custom.tokenRing") ?? {},
+      foundry.utils.getProperty(source.prototypeToken, "flags.dnd5e_custom.tokenRing") ?? {},
       { inplace: false }
     ));
     for ( const k of ["bar1", "bar2", "displayBars", "displayName", "disposition", "rotation", "elevation"] ) {
@@ -2918,7 +2918,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
       // Transfer classes for NPCs
       if ( !keepClass && d.system.details.cr ) {
-        const cls = new dnd5e.dataModels.item.ClassData({levels: d.system.details.cr});
+        const cls = new dnd5e_custom.dataModels.item.ClassData({levels: d.system.details.cr});
         d.items.push({
           type: "class",
           name: game.i18n.localize("DND5E.PolymorphTmpClass"),
@@ -2960,13 +2960,13 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     }
 
     // Set new data flags
-    if ( !this.isPolymorphed || !d.flags.dnd5e.originalActor ) d.flags.dnd5e.originalActor = this.id;
-    d.flags.dnd5e.isPolymorphed = true;
+    if ( !this.isPolymorphed || !d.flags.dnd5e_custom.originalActor ) d.flags.dnd5e_custom.originalActor = this.id;
+    d.flags.dnd5e_custom.isPolymorphed = true;
 
     // Gather previous actor data
-    const previousActorIds = this.getFlag("dnd5e", "previousActorIds") || [];
+    const previousActorIds = this.getFlag("dnd5e_custom", "previousActorIds") || [];
     previousActorIds.push(this._id);
-    foundry.utils.setProperty(d.flags, "dnd5e.previousActorIds", previousActorIds);
+    foundry.utils.setProperty(d.flags, "dnd5e_custom.previousActorIds", previousActorIds);
 
     // Update unlinked Tokens, and grab a copy of any actorData adjustments to re-apply
     if ( this.isToken ) {
@@ -2974,7 +2974,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       delete d.prototypeToken;
       tokenData.delta = d;
       const previousActorData = this.token.delta.toObject();
-      foundry.utils.setProperty(tokenData, "flags.dnd5e.previousActorData", previousActorData);
+      foundry.utils.setProperty(tokenData, "flags.dnd5e_custom.previousActorData", previousActorData);
       await this.sheet?.close();
       const update = await this.token.update(tokenData);
       if ( renderSheet ) this.sheet?.render(true);
@@ -2986,7 +2986,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     /**
      * A hook event that fires just before the actor is transformed.
-     * @function dnd5e.transformActor
+     * @function dnd5e_custom.transformActor
      * @memberof hookEvents
      * @param {Actor5e} actor                  The original actor before transformation.
      * @param {Actor5e} target                 The target actor into which to transform.
@@ -2994,7 +2994,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
      * @param {TransformationOptions} options  Options that determine how the transformation is performed.
      * @param {object} [options]
      */
-    Hooks.callAll("dnd5e.transformActor", this, target, d, {
+    Hooks.callAll("dnd5e_custom.transformActor", this, target, d, {
       keepPhysical, keepMental, keepSaves, keepSkills, mergeSaves, mergeSkills, keepClass, keepFeats, keepSpells,
       keepItems, keepBio, keepVision, keepSelf, keepAE, keepOriginAE, keepOtherOriginAE, keepSpellAE,
       keepEquipmentAE, keepFeatAE, keepClassAE, keepBackgroundAE, transformTokens
@@ -3012,9 +3012,9 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       newTokenData.actorId = newActor.id;
       newTokenData.actorLink = true;
 
-      const dOriginalActor = foundry.utils.getProperty(d, "flags.dnd5e.originalActor");
-      foundry.utils.setProperty(newTokenData, "flags.dnd5e.originalActor", dOriginalActor);
-      foundry.utils.setProperty(newTokenData, "flags.dnd5e.isPolymorphed", true);
+      const dOriginalActor = foundry.utils.getProperty(d, "flags.dnd5e_custom.originalActor");
+      foundry.utils.setProperty(newTokenData, "flags.dnd5e_custom.originalActor", dOriginalActor);
+      foundry.utils.setProperty(newTokenData, "flags.dnd5e_custom.isPolymorphed", true);
       return newTokenData;
     });
     return canvas.scene?.updateEmbeddedDocuments("Token", updates);
@@ -3039,30 +3039,30 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     /**
      * A hook event that fires just before the actor is reverted to original form.
-     * @function dnd5e.revertOriginalForm
+     * @function dnd5e_custom.revertOriginalForm
      * @memberof hookEvents
      * @param {Actor} this                 The original actor before transformation.
      * @param {object} [options]
      */
-    Hooks.callAll("dnd5e.revertOriginalForm", this, {renderSheet});
-    const previousActorIds = this.getFlag("dnd5e", "previousActorIds") ?? [];
+    Hooks.callAll("dnd5e_custom.revertOriginalForm", this, {renderSheet});
+    const previousActorIds = this.getFlag("dnd5e_custom", "previousActorIds") ?? [];
     const isOriginalActor = !previousActorIds.length;
     const isRendered = this.sheet.rendered;
 
     // Obtain a reference to the original actor
-    const original = game.actors.get(this.getFlag("dnd5e", "originalActor"));
+    const original = game.actors.get(this.getFlag("dnd5e_custom", "originalActor"));
 
     // If we are reverting an unlinked token, grab the previous actorData, and create a new token
     if ( this.isToken ) {
       const baseActor = original ? original : game.actors.get(this.token.actorId);
       if ( !baseActor ) {
         ui.notifications.warn(game.i18n.format("DND5E.PolymorphRevertNoOriginalActorWarn", {
-          reference: this.getFlag("dnd5e", "originalActor")
+          reference: this.getFlag("dnd5e_custom", "originalActor")
         }));
         return;
       }
       const prototypeTokenData = await baseActor.getTokenDocument();
-      const actorData = this.token.getFlag("dnd5e", "previousActorData");
+      const actorData = this.token.getFlag("dnd5e_custom", "previousActorData");
       const tokenUpdate = this.token.toObject();
       actorData._id = tokenUpdate.delta._id;
       tokenUpdate.delta = actorData;
@@ -3073,9 +3073,9 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       for ( const k of ["offsetX", "offsetY", "scaleX", "scaleY", "src", "tint"] ) {
         tokenUpdate.texture[k] = prototypeTokenData.texture[k];
       }
-      foundry.utils.setProperty(tokenUpdate, "flags.dnd5e.tokenRing", foundry.utils.mergeObject(
-        foundry.utils.getProperty(tokenUpdate, "flags.dnd5e.tokenRing") ?? {},
-        foundry.utils.getProperty(prototypeTokenData, "flags.dnd5e.tokenRing") ?? {},
+      foundry.utils.setProperty(tokenUpdate, "flags.dnd5e_custom.tokenRing", foundry.utils.mergeObject(
+        foundry.utils.getProperty(tokenUpdate, "flags.dnd5e_custom.tokenRing") ?? {},
+        foundry.utils.getProperty(prototypeTokenData, "flags.dnd5e_custom.tokenRing") ?? {},
         { inplace: false }
       ));
       tokenUpdate.sight = prototypeTokenData.sight;
@@ -3087,9 +3087,9 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
         parent: canvas.scene, keepId: true, render: true
       });
       if ( isOriginalActor ) {
-        await this.unsetFlag("dnd5e", "isPolymorphed");
-        await this.unsetFlag("dnd5e", "previousActorIds");
-        await this.token.unsetFlag("dnd5e", "previousActorData");
+        await this.unsetFlag("dnd5e_custom", "isPolymorphed");
+        await this.unsetFlag("dnd5e_custom", "previousActorIds");
+        await this.token.unsetFlag("dnd5e_custom", "previousActorData");
       }
       if ( isRendered && renderSheet ) token.actor?.sheet?.render(true);
       return token;
@@ -3097,7 +3097,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
     if ( !original ) {
       ui.notifications.warn(game.i18n.format("DND5E.PolymorphRevertNoOriginalActorWarn", {
-        reference: this.getFlag("dnd5e", "originalActor")
+        reference: this.getFlag("dnd5e_custom", "originalActor")
       }));
       return;
     }
@@ -3111,16 +3111,16 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
         update._id = t.id;
         delete update.x;
         delete update.y;
-        if ( !foundry.utils.getProperty(tokenData, "flags.dnd5e.tokenRing") ) {
-          foundry.utils.setProperty(update, "flags.dnd5e.tokenRing", {});
+        if ( !foundry.utils.getProperty(tokenData, "flags.dnd5e_custom.tokenRing") ) {
+          foundry.utils.setProperty(update, "flags.dnd5e_custom.tokenRing", {});
         }
         return update;
       });
       await canvas.scene.updateEmbeddedDocuments("Token", tokenUpdates, { diff: false, recursive: false });
     }
     if ( isOriginalActor ) {
-      await this.unsetFlag("dnd5e", "isPolymorphed");
-      await this.unsetFlag("dnd5e", "previousActorIds");
+      await this.unsetFlag("dnd5e_custom", "isPolymorphed");
+      await this.unsetFlag("dnd5e_custom", "previousActorIds");
     }
 
     // Delete the polymorphed version(s) of the actor, if possible
@@ -3154,7 +3154,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
         return actor.revertOriginalForm();
       },
       condition: li => {
-        const allowed = game.settings.get("dnd5e", "allowPolymorphing");
+        const allowed = game.settings.get("dnd5e_custom", "allowPolymorphing");
         if ( !allowed && !game.user.isGM ) return false;
         const actor = game.actors.get(li.data("documentId"));
         return actor && actor.isPolymorphed;
@@ -3164,11 +3164,11 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       name: "DND5E.Group.Primary.Set",
       icon: '<i class="fa-solid fa-star"></i>',
       callback: li => {
-        game.settings.set("dnd5e", "primaryParty", { actor: game.actors.get(li[0].dataset.documentId) });
+        game.settings.set("dnd5e_custom", "primaryParty", { actor: game.actors.get(li[0].dataset.documentId) });
       },
       condition: li => {
         const actor = game.actors.get(li[0].dataset.documentId);
-        const primary = game.settings.get("dnd5e", "primaryParty")?.actor;
+        const primary = game.settings.get("dnd5e_custom", "primaryParty")?.actor;
         return game.user.isGM && (actor.type === "group")
           && (actor.system.type.value === "party") && (actor !== primary);
       },
@@ -3177,11 +3177,11 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       name: "DND5E.Group.Primary.Remove",
       icon: '<i class="fa-regular fa-star"></i>',
       callback: li => {
-        game.settings.set("dnd5e", "primaryParty", { actor: null });
+        game.settings.set("dnd5e_custom", "primaryParty", { actor: null });
       },
       condition: li => {
         const actor = game.actors.get(li[0].dataset.documentId);
-        const primary = game.settings.get("dnd5e", "primaryParty")?.actor;
+        const primary = game.settings.get("dnd5e_custom", "primaryParty")?.actor;
         return game.user.isGM && (actor === primary);
       },
       group: "system"
@@ -3195,7 +3195,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    * @param {jQuery} jQuery
    */
   static onRenderActorDirectory(jQuery) {
-    const primaryParty = game.settings.get("dnd5e", "primaryParty")?.actor;
+    const primaryParty = game.settings.get("dnd5e_custom", "primaryParty")?.actor;
     if ( primaryParty ) {
       const element = jQuery[0]?.querySelector(`[data-entry-id="${primaryParty.id}"]`);
       element?.classList.add("primary-party");
@@ -3241,7 +3241,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
       this._onUpdateExhaustion(data, options);
     }
 
-    const hp = options.dnd5e?.hp;
+    const hp = options.dnd5e_custom?.hp;
     if ( hp && !options.isRest && !options.isAdvancement ) {
       const curr = this.system.attributes.hp;
       const changes = {
@@ -3252,21 +3252,21 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
 
       if ( Number.isInteger(changes.total) && (changes.total !== 0) ) {
         this._displayTokenEffect(changes);
-        if ( !game.settings.get("dnd5e", "disableConcentration") && (userId === game.userId) && (changes.total < 0) ) {
+        if ( !game.settings.get("dnd5e_custom", "disableConcentration") && (userId === game.userId) && (changes.total < 0) ) {
           this.challengeConcentration({ dc: this.getConcentrationDC(-changes.total) });
         }
 
         /**
          * A hook event that fires when an actor is damaged or healed by any means. The actual name
          * of the hook will depend on the change in hit points.
-         * @function dnd5e.damageActor
+         * @function dnd5e_custom.damageActor
          * @memberof hookEvents
          * @param {Actor5e} actor                                       The actor that had their hit points reduced.
          * @param {{hp: number, temp: number, total: number}} changes   The changes to hit points.
          * @param {object} update                                       The original update delta.
          * @param {string} userId                                       Id of the user that performed the update.
          */
-        Hooks.callAll(`dnd5e.${changes.total > 0 ? "heal" : "damage"}Actor`, this, changes, data, userId);
+        Hooks.callAll(`dnd5e_custom.${changes.total > 0 ? "heal" : "damage"}Actor`, this, changes, data, userId);
       }
     }
   }
@@ -3277,7 +3277,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
   _onDelete(options, userId) {
     super._onDelete(options, userId);
 
-    const origin = this.getFlag("dnd5e", "summon.origin");
+    const origin = this.getFlag("dnd5e_custom", "summon.origin");
     // TODO: Replace with parseUuid once V11 support is dropped
     if ( origin ) SummonsData.untrackSummon(origin.split(".Item.")[0], this.uuid);
   }
@@ -3372,11 +3372,11 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     let effect = this.effects.get(ActiveEffect5e.ID.EXHAUSTION);
     if ( level < 1 ) return effect?.delete();
     else if ( effect ) {
-      const originalExhaustion = foundry.utils.getProperty(options, "dnd5e.originalExhaustion");
-      return effect.update({ "flags.dnd5e.exhaustionLevel": level }, { dnd5e: { originalExhaustion } });
+      const originalExhaustion = foundry.utils.getProperty(options, "dnd5e_custom.originalExhaustion");
+      return effect.update({ "flags.dnd5e_custom.exhaustionLevel": level }, { dnd5e_custom: { originalExhaustion } });
     } else {
       effect = await ActiveEffect.implementation.fromStatusEffect("exhaustion", { parent: this });
-      effect.updateSource({ "flags.dnd5e.exhaustionLevel": level });
+      effect.updateSource({ "flags.dnd5e_custom.exhaustionLevel": level });
       return ActiveEffect.implementation.create(effect, { parent: this, keepId: true });
     }
   }
@@ -3390,9 +3390,9 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
    */
   updateEncumbrance(options) {
     const encumbrance = this.system.attributes?.encumbrance;
-    if ( !encumbrance || (game.settings.get("dnd5e", "encumbrance") === "none") ) return;
+    if ( !encumbrance || (game.settings.get("dnd5e_custom", "encumbrance") === "none") ) return;
     const statuses = [];
-    const variant = game.settings.get("dnd5e", "encumbrance") === "variant";
+    const variant = game.settings.get("dnd5e_custom", "encumbrance") === "variant";
     if ( encumbrance.value > encumbrance.thresholds.maximum ) statuses.push("exceedingCarryingCapacity");
     if ( (encumbrance.value > encumbrance.thresholds.heavilyEncumbered) && variant ) statuses.push("heavilyEncumbered");
     if ( (encumbrance.value > encumbrance.thresholds.encumbered) && variant ) statuses.push("encumbered");
@@ -3403,7 +3403,7 @@ export default class Actor5e extends SystemDocumentMixin(Actor) {
     const effectData = { ...CONFIG.DND5E.encumbrance.effects[statuses[0]], statuses };
     if ( effect ) {
       const originalEncumbrance = effect.statuses.first();
-      return effect.update(effectData, { dnd5e: { originalEncumbrance } });
+      return effect.update(effectData, { dnd5e_custom: { originalEncumbrance } });
     }
 
     return ActiveEffect.implementation.create(

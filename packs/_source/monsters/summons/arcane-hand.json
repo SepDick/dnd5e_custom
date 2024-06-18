@@ -641,7 +641,7 @@
         "damage": {
           "parts": [
             [
-              "(4 + 2 * (@flags.dnd5e.summon.level - 5))d8",
+              "(4 + 2 * (@flags.dnd5e_custom.summon.level - 5))d8",
               "force"
             ]
           ],
@@ -668,7 +668,7 @@
         "proficient": null
       },
       "_id": "flSMgvK8J2USFtGo",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "systems/dnd5e_custom/icons/svg/items/weapon.svg",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -677,7 +677,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.2.0",
         "coreVersion": "11.315",
         "createdTime": 1712086481956,
@@ -768,7 +768,7 @@
         }
       },
       "_id": "kKg1WU7qO2fLSB0e",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "systems/dnd5e_custom/icons/svg/items/feature.svg",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -777,7 +777,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.2.0",
         "coreVersion": "11.315",
         "createdTime": 1712086582444,
@@ -845,7 +845,7 @@
         "damage": {
           "parts": [
             [
-              "(2 + 2 * (@flags.dnd5e.summon.level - 5))d6",
+              "(2 + 2 * (@flags.dnd5e_custom.summon.level - 5))d6",
               "bludgeoning"
             ]
           ],
@@ -873,7 +873,7 @@
         }
       },
       "_id": "rne03sCadusyP3Yg",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "systems/dnd5e_custom/icons/svg/items/feature.svg",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -882,7 +882,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.2.0",
         "coreVersion": "11.315",
         "createdTime": 1712086583134,
@@ -973,7 +973,7 @@
         }
       },
       "_id": "vgK74YR1Lv2WrGCx",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "systems/dnd5e_custom/icons/svg/items/feature.svg",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -982,7 +982,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.2.0",
         "coreVersion": "11.315",
         "createdTime": 1712086583316,
@@ -999,7 +999,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.2.0",
     "coreVersion": "11.315",
     "createdTime": 1712086409403,

@@ -9,8 +9,8 @@ export default class SizeConfig extends AdvancementConfig {
   /** @inheritdoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["dnd5e", "advancement", "size"],
-      template: "systems/dnd5e/templates/advancement/size-config.hbs"
+      classes: ["dnd5e_custom", "advancement", "size"],
+      template: "systems/dnd5e_custom/templates/advancement/size-config.hbs"
     });
   }
 

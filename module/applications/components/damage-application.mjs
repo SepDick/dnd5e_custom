@@ -154,7 +154,7 @@ export default class DamageApplicationElement extends ChatTrayElement {
       this.targetSourceControl.querySelectorAll("button").forEach(b =>
         b.addEventListener("click", this._onChangeTargetMode.bind(this))
       );
-      if ( !this.chatMessage.getFlag("dnd5e", "targets")?.length ) this.targetSourceControl.hidden = true;
+      if ( !this.chatMessage.getFlag("dnd5e_custom", "targets")?.length ) this.targetSourceControl.hidden = true;
       div.addEventListener("click", this._handleClickHeader.bind(this));
     }
 
@@ -170,7 +170,7 @@ export default class DamageApplicationElement extends ChatTrayElement {
     let targetedTokens;
     switch ( this.targetingMode ) {
       case "targeted":
-        targetedTokens = (this.chatMessage.getFlag("dnd5e", "targets") ?? []).map(t => t.uuid);
+        targetedTokens = (this.chatMessage.getFlag("dnd5e_custom", "targets") ?? []).map(t => t.uuid);
         break;
       case "selected":
         targetedTokens = canvas.tokens?.controlled?.map(t => t.actor?.uuid) ?? [];
@@ -216,7 +216,7 @@ export default class DamageApplicationElement extends ChatTrayElement {
       acc += `
         <button class="change-source unbutton" type="button" data-type="${type}" data-change="${change}"
                 data-tooltip="${label}" aria-label="${label}" aria-pressed="${pressed}">
-          <dnd5e-icon src="${icon}" inert></dnd5e-icon>
+          <dnd5e_custom-icon src="${icon}" inert></dnd5e_custom-icon>
           <i class="fa-solid fa-slash" inert></i>
           <i class="fa-solid fa-arrow-turn-down" inert></i>
         </button>

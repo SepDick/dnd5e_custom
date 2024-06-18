@@ -107,7 +107,7 @@
       "name": "Magic Weapon, +1",
       "icon": "icons/magic/fire/dagger-rune-enchant-flame-blue.webp",
       "flags": {
-        "dnd5e": {
+        "dnd5e_custom": {
           "type": "enchantment",
           "enchantment": {
             "level": {
@@ -160,7 +160,7 @@
       "name": "Magic Weapon, +2",
       "icon": "icons/magic/fire/dagger-rune-enchant-flame-blue.webp",
       "flags": {
-        "dnd5e": {
+        "dnd5e_custom": {
           "type": "enchantment",
           "enchantment": {
             "level": {
@@ -213,7 +213,7 @@
       "name": "Magic Weapon, +3",
       "icon": "icons/magic/fire/dagger-rune-enchant-flame-blue.webp",
       "flags": {
-        "dnd5e": {
+        "dnd5e_custom": {
           "type": "enchantment",
           "enchantment": {
             "level": {
@@ -265,7 +265,7 @@
   ],
   "folder": "Qi4Se3we69ukl2V9",
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.2.0",
     "coreVersion": "11.315",
     "createdTime": 1661787234141,

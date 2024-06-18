@@ -72,8 +72,8 @@ export default class ActorSheet5e extends ActorSheetMixin(ActorSheet) {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       scrollY: [
-        "dnd5e-inventory .inventory-list",
-        "dnd5e-effects .effects-list",
+        "dnd5e_custom-inventory .inventory-list",
+        "dnd5e_custom-effects .effects-list",
         ".center-pane"
       ],
       tabs: [{navSelector: ".tabs", contentSelector: ".sheet-body", initial: "description"}],
@@ -83,8 +83,8 @@ export default class ActorSheet5e extends ActorSheetMixin(ActorSheet) {
         240 + (Object.keys(CONFIG.DND5E.skills).length * 24)
       )),
       elements: {
-        effects: "dnd5e-effects",
-        inventory: "dnd5e-inventory"
+        effects: "dnd5e_custom-effects",
+        inventory: "dnd5e_custom-inventory"
       }
     });
   }
@@ -101,8 +101,8 @@ export default class ActorSheet5e extends ActorSheetMixin(ActorSheet) {
 
   /** @override */
   get template() {
-    if ( !game.user.isGM && this.actor.limited ) return "systems/dnd5e/templates/actors/limited-sheet.hbs";
-    return `systems/dnd5e/templates/actors/${this.actor.type}-sheet.hbs`;
+    if ( !game.user.isGM && this.actor.limited ) return "systems/dnd5e_custom/templates/actors/limited-sheet.hbs";
+    return `systems/dnd5e_custom/templates/actors/${this.actor.type}-sheet.hbs`;
   }
 
   /* -------------------------------------------- */
@@ -227,7 +227,7 @@ export default class ActorSheet5e extends ActorSheetMixin(ActorSheet) {
     }, {});
 
     // Proficiency
-    labels.proficiency = game.settings.get("dnd5e", "proficiencyModifier") === "dice"
+    labels.proficiency = game.settings.get("dnd5e_custom", "proficiencyModifier") === "dice"
       ? `d${this.actor.system.attributes.prof * 2}`
       : `+${this.actor.system.attributes.prof}`;
 
@@ -700,7 +700,7 @@ export default class ActorSheet5e extends ActorSheetMixin(ActorSheet) {
     const classId = event.target.closest("[data-item-id]")?.dataset.itemId;
     if ( !delta || !classId ) return;
     const classItem = this.actor.items.get(classId);
-    if ( !game.settings.get("dnd5e", "disableAdvancements") ) {
+    if ( !game.settings.get("dnd5e_custom", "disableAdvancements") ) {
       const manager = AdvancementManager.forLevelChange(this.actor, classId, delta);
       if ( manager.steps.length ) {
         if ( delta > 0 ) return manager.render(true);
@@ -822,7 +822,7 @@ export default class ActorSheet5e extends ActorSheetMixin(ActorSheet) {
 
   /** @override */
   async _onDropActor(event, data) {
-    const canPolymorph = game.user.isGM || (this.actor.isOwner && game.settings.get("dnd5e", "allowPolymorphing"));
+    const canPolymorph = game.user.isGM || (this.actor.isOwner && game.settings.get("dnd5e_custom", "allowPolymorphing"));
     if ( !canPolymorph ) return false;
 
     // Get the target actor
@@ -836,8 +836,8 @@ export default class ActorSheet5e extends ActorSheetMixin(ActorSheet) {
       html.find("input").each((i, el) => {
         options[el.name] = el.checked;
       });
-      const settings = foundry.utils.mergeObject(game.settings.get("dnd5e", "polymorphSettings") ?? {}, options);
-      game.settings.set("dnd5e", "polymorphSettings", settings);
+      const settings = foundry.utils.mergeObject(game.settings.get("dnd5e_custom", "polymorphSettings") ?? {}, options);
+      game.settings.set("dnd5e_custom", "polymorphSettings", settings);
       return settings;
     };
 
@@ -845,7 +845,7 @@ export default class ActorSheet5e extends ActorSheetMixin(ActorSheet) {
     return new Dialog({
       title: game.i18n.localize("DND5E.PolymorphPromptTitle"),
       content: {
-        options: game.settings.get("dnd5e", "polymorphSettings"),
+        options: game.settings.get("dnd5e_custom", "polymorphSettings"),
         settings: CONFIG.DND5E.polymorphSettings,
         effectSettings: CONFIG.DND5E.polymorphEffectSettings,
         isToken: this.actor.isToken
@@ -887,9 +887,9 @@ export default class ActorSheet5e extends ActorSheetMixin(ActorSheet) {
         }
       }
     }, {
-      classes: ["dialog", "dnd5e", "polymorph"],
+      classes: ["dialog", "dnd5e_custom", "polymorph"],
       width: 900,
-      template: "systems/dnd5e/templates/apps/polymorph-prompt.hbs"
+      template: "systems/dnd5e_custom/templates/apps/polymorph-prompt.hbs"
     }).render(true);
   }
 
@@ -952,7 +952,7 @@ export default class ActorSheet5e extends ActorSheetMixin(ActorSheet) {
     let items = itemData instanceof Array ? itemData : [itemData];
     const itemsWithoutAdvancement = items.filter(i => !i.system.advancement?.length);
     const multipleAdvancements = (items.length - itemsWithoutAdvancement.length) > 1;
-    if ( multipleAdvancements && !game.settings.get("dnd5e", "disableAdvancements") ) {
+    if ( multipleAdvancements && !game.settings.get("dnd5e_custom", "disableAdvancements") ) {
       ui.notifications.warn(game.i18n.format("DND5E.WarnCantAddMultipleAdvancements"));
       items = itemsWithoutAdvancement;
     }
@@ -1003,7 +1003,7 @@ export default class ActorSheet5e extends ActorSheetMixin(ActorSheet) {
 
     // Bypass normal creation flow for any items with advancement
     if ( this.actor.system.metadata?.supportsAdvancement && itemData.system.advancement?.length
-        && !game.settings.get("dnd5e", "disableAdvancements") ) {
+        && !game.settings.get("dnd5e_custom", "disableAdvancements") ) {
       // Ensure that this item isn't violating the singleton rule
       const dataModel = CONFIG.Item.dataModels[itemData.type];
       const singleton = dataModel?.metadata.singleton ?? false;

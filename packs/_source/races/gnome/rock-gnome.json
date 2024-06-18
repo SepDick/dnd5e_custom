@@ -21,9 +21,9 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.races.EHhr9umJ5kxJFCQH",
-            "Compendium.dnd5e.races.OQA1sHxKnSJq01dL",
-            "Compendium.dnd5e.races.koRPOLtj8XAFMwnW"
+            "Compendium.dnd5e_custom.races.EHhr9umJ5kxJFCQH",
+            "Compendium.dnd5e_custom.races.OQA1sHxKnSJq01dL",
+            "Compendium.dnd5e_custom.races.koRPOLtj8XAFMwnW"
           ],
           "optional": false,
           "spell": {
@@ -139,7 +139,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.1.0",
     "coreVersion": "11.315",
     "createdTime": 1677181053374,

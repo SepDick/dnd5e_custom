@@ -1,7 +1,7 @@
 {
   "name": "Zanna (Gnome Wizard)",
   "type": "character",
-  "img": "systems/dnd5e/tokens/heroes/WizardTome.webp",
+  "img": "systems/dnd5e_custom/tokens/heroes/WizardTome.webp",
   "system": {
     "abilities": {
       "str": {
@@ -584,7 +584,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.eZGmdOhaTWMicXPW"
+          "sourceId": "Compendium.dnd5e_custom.items.eZGmdOhaTWMicXPW"
         }
       },
       "img": "icons/containers/bags/pack-simple-leather-tan.webp",
@@ -712,7 +712,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.g2dWN7PQiMRYWzyk"
+          "sourceId": "Compendium.dnd5e_custom.items.g2dWN7PQiMRYWzyk"
         }
       },
       "img": "icons/weapons/staves/staff-simple-gold.webp",
@@ -722,7 +722,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -839,7 +839,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.8GCEodUsTEEpBlO6"
+          "sourceId": "Compendium.dnd5e_custom.items.8GCEodUsTEEpBlO6"
         }
       },
       "img": "icons/equipment/back/mantle-collared-black.webp",
@@ -903,7 +903,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.H8YCd689ezlD26aT"
+          "sourceId": "Compendium.dnd5e_custom.items.H8YCd689ezlD26aT"
         }
       },
       "img": "icons/containers/bags/pack-simple-leather.webp",
@@ -967,7 +967,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.9bWTRRDym06PzSAf"
+          "sourceId": "Compendium.dnd5e_custom.items.9bWTRRDym06PzSAf"
         }
       },
       "img": "icons/containers/bags/coinpouch-simple-tan.webp",
@@ -977,7 +977,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -1028,7 +1028,7 @@
           }
         },
         "core": {
-          "sourceId": "Compendium.dnd5e.items.DVXmyetZuvxbzAwW"
+          "sourceId": "Compendium.dnd5e_custom.items.DVXmyetZuvxbzAwW"
         }
       },
       "img": "icons/sundries/flags/banner-worn-blue.webp",
@@ -1146,7 +1146,7 @@
           }
         },
         "core": {
-          "sourceId": "Compendium.dnd5e.items.QXmaarJ4X8P0C1HV"
+          "sourceId": "Compendium.dnd5e_custom.items.QXmaarJ4X8P0C1HV"
         }
       },
       "img": "icons/sundries/survival/rope-wrapped-brown.webp",
@@ -1207,7 +1207,7 @@
           }
         },
         "core": {
-          "sourceId": "Compendium.dnd5e.items.V13fjV5oSmvbRdgP"
+          "sourceId": "Compendium.dnd5e_custom.items.V13fjV5oSmvbRdgP"
         }
       },
       "img": "icons/tools/cooking/fork-steel-grey.webp",
@@ -1217,7 +1217,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -1319,7 +1319,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.f4w4GxBi0nYXmhX4"
+          "sourceId": "Compendium.dnd5e_custom.items.f4w4GxBi0nYXmhX4"
         }
       },
       "img": "icons/consumables/meat/hock-leg-pink-brown.webp",
@@ -1329,7 +1329,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -1374,7 +1374,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.DNOSEAvF4Oh1DlWy"
+          "sourceId": "Compendium.dnd5e_custom.items.DNOSEAvF4Oh1DlWy"
         }
       },
       "img": "icons/sundries/lights/torch-black.webp",
@@ -1384,7 +1384,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -1497,7 +1497,7 @@
           }
         },
         "core": {
-          "sourceId": "Compendium.dnd5e.items.BnOCLuNWhVvzHLjl"
+          "sourceId": "Compendium.dnd5e_custom.items.BnOCLuNWhVvzHLjl"
         }
       },
       "img": "icons/sundries/lights/torch-black.webp",
@@ -1507,7 +1507,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -1609,7 +1609,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.Uv0ilmzbWvqmlCVH"
+          "sourceId": "Compendium.dnd5e_custom.items.Uv0ilmzbWvqmlCVH"
         }
       },
       "img": "icons/sundries/survival/wetskin-leather-purple.webp",
@@ -1619,7 +1619,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -1664,7 +1664,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.dP7jMKyHTTgVb3ii"
+          "sourceId": "Compendium.dnd5e_custom.items.dP7jMKyHTTgVb3ii"
         }
       },
       "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
@@ -1719,7 +1719,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.uVm7MiB71QblfnoY"
+          "sourceId": "Compendium.dnd5e_custom.items.uVm7MiB71QblfnoY"
         }
       },
       "img": "icons/commodities/materials/feather-red-.webp",
@@ -1729,7 +1729,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -1774,7 +1774,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.WFQS2vT8ddrFjTJg"
+          "sourceId": "Compendium.dnd5e_custom.items.WFQS2vT8ddrFjTJg"
         }
       },
       "img": "icons/sundries/documents/document-symbol-circle-gold-red.webp",
@@ -1784,7 +1784,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -1829,7 +1829,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.l794iywHk8Wc6Uvi"
+          "sourceId": "Compendium.dnd5e_custom.items.l794iywHk8Wc6Uvi"
         }
       },
       "img": "icons/sundries/books/book-plain-orange.webp",
@@ -1884,7 +1884,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.LBajgahniRJbAgDr"
+          "sourceId": "Compendium.dnd5e_custom.items.LBajgahniRJbAgDr"
         }
       },
       "img": "icons/sundries/books/book-embossed-jewel-gold-purple.webp",
@@ -1939,7 +1939,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.3nVvaHVfHsgwGlkL"
+          "sourceId": "Compendium.dnd5e_custom.items.3nVvaHVfHsgwGlkL"
         }
       },
       "img": "icons/weapons/daggers/dagger-jeweled-purple.webp",
@@ -1949,7 +1949,7 @@
         "default": 0
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.3",
         "coreVersion": "10.290",
         "createdTime": null,
@@ -2042,7 +2042,7 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.races.koRPOLtj8XAFMwnW"
+          "sourceId": "Compendium.dnd5e_custom.races.koRPOLtj8XAFMwnW"
         }
       },
       "img": "icons/commodities/tech/cog-steel.webp",
@@ -2162,14 +2162,14 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.EOmsUcFQJTfG2oio"
+          "sourceId": "Compendium.dnd5e_custom.spells.EOmsUcFQJTfG2oio"
         }
       },
       "img": "icons/magic/fire/projectile-fireball-smoke-orange.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486020,
@@ -2274,14 +2274,14 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.Bnn9Nzajixvow9xi"
+          "sourceId": "Compendium.dnd5e_custom.spells.Bnn9Nzajixvow9xi"
         }
       },
       "img": "icons/magic/light/explosion-star-small-blue-yellow.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486021,
@@ -2386,14 +2386,14 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.Utk1OQRwYkMkFRD3"
+          "sourceId": "Compendium.dnd5e_custom.spells.Utk1OQRwYkMkFRD3"
         }
       },
       "img": "icons/magic/water/water-hand.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486021,
@@ -2500,14 +2500,14 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.7p9IuWrSWFgfyQo2"
+          "sourceId": "Compendium.dnd5e_custom.spells.7p9IuWrSWFgfyQo2"
         }
       },
       "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486022,
@@ -2646,11 +2646,11 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.z1mx84ONwkXKUZd7"
+          "sourceId": "Compendium.dnd5e_custom.spells.z1mx84ONwkXKUZd7"
         }
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486022,
@@ -2757,14 +2757,14 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.JGT5bNqu9REL7Fuz"
+          "sourceId": "Compendium.dnd5e_custom.spells.JGT5bNqu9REL7Fuz"
         }
       },
       "img": "icons/magic/nature/wolf-paw-glow-purple-teal.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486025,
@@ -2887,7 +2887,7 @@
             "startTurn": null
           },
           "icon": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
-          "origin": "Compendium.dnd5e.spells.CKZTpZlxj7hjjo2H",
+          "origin": "Compendium.dnd5e_custom.spells.CKZTpZlxj7hjjo2H",
           "transfer": false,
           "flags": {},
           "tint": null,
@@ -2904,11 +2904,11 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.CKZTpZlxj7hjjo2H"
+          "sourceId": "Compendium.dnd5e_custom.spells.CKZTpZlxj7hjjo2H"
         }
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486026,
@@ -3022,11 +3022,11 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.KhwiSi9fwVfUPtku"
+          "sourceId": "Compendium.dnd5e_custom.spells.KhwiSi9fwVfUPtku"
         }
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486027,
@@ -3136,14 +3136,14 @@
       "sort": 0,
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.spells.41JIhpDyM9Anm7cs"
+          "sourceId": "Compendium.dnd5e_custom.spells.41JIhpDyM9Anm7cs"
         }
       },
       "img": "icons/magic/fire/projectile-meteor-salvo-light-pink.webp",
       "effects": [],
       "folder": null,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.0.0",
         "coreVersion": "10.279",
         "createdTime": 1661603486027,
@@ -3177,7 +3177,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.1.0",
         "coreVersion": "10.291",
         "createdTime": 1673040183979,
@@ -3194,7 +3194,7 @@
       "img": "icons/magic/air/wind-tornado-wall-blue.webp",
       "system": {
         "description": {
-          "value": "<p>As a wizard, you gain the following class features.</p><h3>Hit Points</h3><p><strong>Hit Dice:</strong> 1d6 per wizard level<br /><strong>Hit Points at 1st Level:</strong> 6 + your Constitution modifier<br /><strong>Hit Points at Higher Levels:</strong> 1d6 (or 4) + your Constitution modifier per wizard level after 1st</p><h3>Proficiencies</h3><p><strong>Armor:</strong> None<br /><strong>Weapons:</strong> Daggers, darts, slings, quarterstaffs, light crossbows<br /><strong>Tools:</strong> None<br /><strong>Saving Throws:</strong> Intelligence, Wisdom<br /><strong>Skills:</strong> Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion</p><h3>Equipment</h3><p>You start with the following equipment, in addition to the equipment granted by your background:</p><ul><li>(a) a quarterstaff or (b) a dagger</li><li>(a) a component pouch or (b) an arcane focus</li><li>(a) a scholar's pack or (b) an explorer's pack</li><li>A spellbook</li></ul><h1>Wizard Advancement</h1><table><thead><tr><td>Level</td><td>Proficiency Bonus</td><td>Features</td></tr></thead><tbody><tr><td>1st</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.gbNo5eVPaqr8IVKL]{Spellcasting}, @UUID[Compendium.dnd5e.classfeatures.Item.e0uTcFPpgxjIyUW9]{Arcane Recovery}</td></tr><tr><td>2nd</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.AEWr9EMxy5gj4ZFT]{Arcane Tradition}</td></tr><tr><td>3rd</td><td>+2</td><td>2nd Level Spell Slot</td></tr><tr><td>4th</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td></tr><tr><td>5th</td><td>+3</td><td>3rd Level Spell Slot</td></tr><tr><td>6th</td><td>+3</td><td>Arcane Tradition feature</td></tr><tr><td>7th</td><td>+3</td><td>4th Level Spell Slot</td></tr><tr><td>8th</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td></tr><tr><td>9th</td><td>+4</td><td>5th Level Spell Slot</td></tr><tr><td>10th</td><td>+4</td><td>Arcane Tradition feature</td></tr><tr><td>11th</td><td>+4</td><td>6 Level Spell Slot</td></tr><tr><td>12th</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td></tr><tr><td>13th</td><td>+5</td><td>7th Level Spell Slot</td></tr><tr><td>14th</td><td>+5</td><td>Arcane Tradition feature</td></tr><tr><td>15th</td><td>+5</td><td>8th Level Spell Slot</td></tr><tr><td>16th</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td></tr><tr><td>17th</td><td>+6</td><td>9 Level Spell Slot</td></tr><tr><td>18th</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.JfFfHTeIszx1hNRx]{Spell Mastery}</td></tr><tr><td>19th</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td></tr><tr><td>20th</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.nUrZDi6QN1YjwAr6]{Signature Spells}</td></tr></tbody></table><h3>Your Spellbook</h3><p>The spells that you add to your spellbook as you gain levels reflect the arcane research you conduct on your own, as well as intellectual breakthroughs you have had about the nature of the multiverse. You might find other spells during your adventures. You could discover a spell recorded on a scroll in an evil wizard's chest, for example, or in a dusty tome in an ancient library.</p><p><em><strong>Copying a Spell into the Book.</strong></em> When you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a spell level you can prepare and if you can spare the time to decipher and copy it.</p><p>Copying that spell into your spellbook involves reproducing the basic form of the spell, then deciphering the unique system of notation used by the wizard who wrote it. You must practice the spell until you understand the sounds or gestures required, then transcribe it into your spellbook using your own notation.</p><p>For each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.</p><p><em><strong>Replacing the Book.</strong></em> You can copy a spell from your own spellbook into another book—for example, if you want to make a backup copy of your spellbook. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.</p><p>If you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal. For this reason, many wizards keep backup spellbooks in a safe place.</p><p><em><strong>The Book's Appearance.</strong></em> Your spellbook is a unique compilation of spells, with its own decorative flourishes and margin notes. It might be a plain, functional leather volume that you received as a gift from your master, a finely bound gilt-edged tome you found in an ancient library, or even a loose collection of notes scrounged together after you lost your previous spellbook in a mishap.</p><h1>Arcane Traditions</h1><p>The study of wizardry is ancient, stretching back to the earliest mortal discoveries of magic. It is firmly established in fantasy gaming worlds, with various traditions dedicated to its complex study.</p><p>The most common arcane traditions in the multiverse revolve around the schools of magic. Wizards through the ages have cataloged thousands of spells, grouping them into eight categories called schools. In some places, these traditions are literally schools. In other institutions, the schools are more like academic departments, with rival faculties competing for students and funding. Even wizards who train apprentices in the solitude of their own towers use the division of magic into schools as a learning device, since the spells of each school require mastery of different techniques.</p><p>@UUID[Compendium.dnd5e.subclasses.Item.Ye5f3FReEnuXfi0y]{School of Evocation}</p>",
+          "value": "<p>As a wizard, you gain the following class features.</p><h3>Hit Points</h3><p><strong>Hit Dice:</strong> 1d6 per wizard level<br /><strong>Hit Points at 1st Level:</strong> 6 + your Constitution modifier<br /><strong>Hit Points at Higher Levels:</strong> 1d6 (or 4) + your Constitution modifier per wizard level after 1st</p><h3>Proficiencies</h3><p><strong>Armor:</strong> None<br /><strong>Weapons:</strong> Daggers, darts, slings, quarterstaffs, light crossbows<br /><strong>Tools:</strong> None<br /><strong>Saving Throws:</strong> Intelligence, Wisdom<br /><strong>Skills:</strong> Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion</p><h3>Equipment</h3><p>You start with the following equipment, in addition to the equipment granted by your background:</p><ul><li>(a) a quarterstaff or (b) a dagger</li><li>(a) a component pouch or (b) an arcane focus</li><li>(a) a scholar's pack or (b) an explorer's pack</li><li>A spellbook</li></ul><h1>Wizard Advancement</h1><table><thead><tr><td>Level</td><td>Proficiency Bonus</td><td>Features</td></tr></thead><tbody><tr><td>1st</td><td>+2</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.gbNo5eVPaqr8IVKL]{Spellcasting}, @UUID[Compendium.dnd5e_custom.classfeatures.Item.e0uTcFPpgxjIyUW9]{Arcane Recovery}</td></tr><tr><td>2nd</td><td>+2</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.AEWr9EMxy5gj4ZFT]{Arcane Tradition}</td></tr><tr><td>3rd</td><td>+2</td><td>2nd Level Spell Slot</td></tr><tr><td>4th</td><td>+2</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td></tr><tr><td>5th</td><td>+3</td><td>3rd Level Spell Slot</td></tr><tr><td>6th</td><td>+3</td><td>Arcane Tradition feature</td></tr><tr><td>7th</td><td>+3</td><td>4th Level Spell Slot</td></tr><tr><td>8th</td><td>+3</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td></tr><tr><td>9th</td><td>+4</td><td>5th Level Spell Slot</td></tr><tr><td>10th</td><td>+4</td><td>Arcane Tradition feature</td></tr><tr><td>11th</td><td>+4</td><td>6 Level Spell Slot</td></tr><tr><td>12th</td><td>+4</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td></tr><tr><td>13th</td><td>+5</td><td>7th Level Spell Slot</td></tr><tr><td>14th</td><td>+5</td><td>Arcane Tradition feature</td></tr><tr><td>15th</td><td>+5</td><td>8th Level Spell Slot</td></tr><tr><td>16th</td><td>+5</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td></tr><tr><td>17th</td><td>+6</td><td>9 Level Spell Slot</td></tr><tr><td>18th</td><td>+6</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.JfFfHTeIszx1hNRx]{Spell Mastery}</td></tr><tr><td>19th</td><td>+6</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td></tr><tr><td>20th</td><td>+6</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.nUrZDi6QN1YjwAr6]{Signature Spells}</td></tr></tbody></table><h3>Your Spellbook</h3><p>The spells that you add to your spellbook as you gain levels reflect the arcane research you conduct on your own, as well as intellectual breakthroughs you have had about the nature of the multiverse. You might find other spells during your adventures. You could discover a spell recorded on a scroll in an evil wizard's chest, for example, or in a dusty tome in an ancient library.</p><p><em><strong>Copying a Spell into the Book.</strong></em> When you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a spell level you can prepare and if you can spare the time to decipher and copy it.</p><p>Copying that spell into your spellbook involves reproducing the basic form of the spell, then deciphering the unique system of notation used by the wizard who wrote it. You must practice the spell until you understand the sounds or gestures required, then transcribe it into your spellbook using your own notation.</p><p>For each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.</p><p><em><strong>Replacing the Book.</strong></em> You can copy a spell from your own spellbook into another book—for example, if you want to make a backup copy of your spellbook. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.</p><p>If you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal. For this reason, many wizards keep backup spellbooks in a safe place.</p><p><em><strong>The Book's Appearance.</strong></em> Your spellbook is a unique compilation of spells, with its own decorative flourishes and margin notes. It might be a plain, functional leather volume that you received as a gift from your master, a finely bound gilt-edged tome you found in an ancient library, or even a loose collection of notes scrounged together after you lost your previous spellbook in a mishap.</p><h1>Arcane Traditions</h1><p>The study of wizardry is ancient, stretching back to the earliest mortal discoveries of magic. It is firmly established in fantasy gaming worlds, with various traditions dedicated to its complex study.</p><p>The most common arcane traditions in the multiverse revolve around the schools of magic. Wizards through the ages have cataloged thousands of spells, grouping them into eight categories called schools. In some places, these traditions are literally schools. In other institutions, the schools are more like academic departments, with rival faculties competing for students and funding. Even wizards who train apprentices in the solitude of their own towers use the division of magic into schools as a learning device, since the spells of each school require mastery of different techniques.</p><p>@UUID[Compendium.dnd5e_custom.subclasses.Item.Ye5f3FReEnuXfi0y]{School of Evocation}</p>",
           "chat": ""
         },
         "source": {
@@ -3215,15 +3215,15 @@
               "1": "max"
             },
             "title": "Hit Points",
-            "icon": "systems/dnd5e/icons/svg/hit-points.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/hit-points.svg",
             "_id": "o1lOLgOTi4SFT675"
           },
           {
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.gbNo5eVPaqr8IVKL",
-                "Compendium.dnd5e.classfeatures.e0uTcFPpgxjIyUW9"
+                "Compendium.dnd5e_custom.classfeatures.gbNo5eVPaqr8IVKL",
+                "Compendium.dnd5e_custom.classfeatures.e0uTcFPpgxjIyUW9"
               ],
               "optional": false,
               "spell": {
@@ -3237,20 +3237,20 @@
             },
             "value": {
               "added": {
-                "ZCH7glEObWbjFGHB": "Compendium.dnd5e.classfeatures.gbNo5eVPaqr8IVKL",
-                "fnxa7jBxIHkDyZuU": "Compendium.dnd5e.classfeatures.e0uTcFPpgxjIyUW9"
+                "ZCH7glEObWbjFGHB": "Compendium.dnd5e_custom.classfeatures.gbNo5eVPaqr8IVKL",
+                "fnxa7jBxIHkDyZuU": "Compendium.dnd5e_custom.classfeatures.e0uTcFPpgxjIyUW9"
               }
             },
             "level": 1,
             "title": "Features",
-            "icon": "systems/dnd5e/icons/svg/item-grant.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-grant.svg",
             "_id": "NhwTsEnDKEFARuzC"
           },
           {
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.AEWr9EMxy5gj4ZFT"
+                "Compendium.dnd5e_custom.classfeatures.AEWr9EMxy5gj4ZFT"
               ],
               "optional": false,
               "spell": {
@@ -3265,14 +3265,14 @@
             "value": {},
             "level": 2,
             "title": "Features",
-            "icon": "systems/dnd5e/icons/svg/item-grant.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-grant.svg",
             "_id": "0uOmTQCuBt5Uamzq"
           },
           {
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.JfFfHTeIszx1hNRx"
+                "Compendium.dnd5e_custom.classfeatures.JfFfHTeIszx1hNRx"
               ],
               "optional": false,
               "spell": {
@@ -3287,14 +3287,14 @@
             "value": {},
             "level": 18,
             "title": "Features",
-            "icon": "systems/dnd5e/icons/svg/item-grant.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-grant.svg",
             "_id": "3mW9054CUxI1C7aO"
           },
           {
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.classfeatures.nUrZDi6QN1YjwAr6"
+                "Compendium.dnd5e_custom.classfeatures.nUrZDi6QN1YjwAr6"
               ],
               "optional": false,
               "spell": {
@@ -3309,7 +3309,7 @@
             "value": {},
             "level": 20,
             "title": "Features",
-            "icon": "systems/dnd5e/icons/svg/item-grant.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-grant.svg",
             "_id": "Eb7ydpaIxiGHB08g"
           },
           {
@@ -3338,7 +3338,7 @@
             },
             "value": {},
             "title": "Signature Spells",
-            "icon": "systems/dnd5e/icons/svg/item-choice.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/item-choice.svg",
             "_id": "tD8OooHM6soXzVTR"
           },
           {
@@ -3363,7 +3363,7 @@
             },
             "value": {},
             "title": "Cantrips Known",
-            "icon": "systems/dnd5e/icons/svg/scale-value.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/scale-value.svg",
             "_id": "tLCuM1cHSnmr1VEu"
           },
           {
@@ -3385,7 +3385,7 @@
             },
             "level": 4,
             "title": "Ability Score Improvement",
-            "icon": "systems/dnd5e/icons/svg/ability-score-improvement.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/ability-score-improvement.svg",
             "_id": "EFPSW4WIEveFjZL0"
           },
           {
@@ -3407,7 +3407,7 @@
             },
             "level": 8,
             "title": "Ability Score Improvement",
-            "icon": "systems/dnd5e/icons/svg/ability-score-improvement.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/ability-score-improvement.svg",
             "_id": "uytL1QdWhsGgRAGk"
           },
           {
@@ -3429,7 +3429,7 @@
             },
             "level": 12,
             "title": "Ability Score Improvement",
-            "icon": "systems/dnd5e/icons/svg/ability-score-improvement.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/ability-score-improvement.svg",
             "_id": "OC4KaX8DSQVZFqli"
           },
           {
@@ -3451,7 +3451,7 @@
             },
             "level": 16,
             "title": "Ability Score Improvement",
-            "icon": "systems/dnd5e/icons/svg/ability-score-improvement.svg",
+            "icon": "systems/dnd5e_custom/icons/svg/ability-score-improvement.svg",
             "_id": "tNdNUznXfjAyXGGQ"
           },
           {
@@ -3573,11 +3573,11 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.classfeatures.wZK2Q0rXB0AQo8h3"
+          "sourceId": "Compendium.dnd5e_custom.classfeatures.wZK2Q0rXB0AQo8h3"
         }
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.4.0",
         "coreVersion": "10.303",
         "createdTime": 1661787234283,
@@ -3671,8 +3671,8 @@
         "properties": []
       },
       "flags": {
-        "dnd5e": {
-          "sourceId": "Compendium.dnd5e.classfeatures.gbNo5eVPaqr8IVKL",
+        "dnd5e_custom": {
+          "sourceId": "Compendium.dnd5e_custom.classfeatures.gbNo5eVPaqr8IVKL",
           "advancementOrigin": "N4bhi6usK8wuNEnh.NhwTsEnDKEFARuzC"
         }
       },
@@ -3681,7 +3681,7 @@
       "folder": null,
       "sort": 0,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.4.0",
         "coreVersion": "10.303",
         "createdTime": 1661787234406,
@@ -3775,8 +3775,8 @@
         "properties": []
       },
       "flags": {
-        "dnd5e": {
-          "sourceId": "Compendium.dnd5e.classfeatures.e0uTcFPpgxjIyUW9",
+        "dnd5e_custom": {
+          "sourceId": "Compendium.dnd5e_custom.classfeatures.e0uTcFPpgxjIyUW9",
           "advancementOrigin": "N4bhi6usK8wuNEnh.NhwTsEnDKEFARuzC"
         }
       },
@@ -3785,7 +3785,7 @@
       "folder": null,
       "sort": 0,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.2.2",
         "coreVersion": "10.303",
         "createdTime": 1661787234399,
@@ -3817,9 +3817,9 @@
             "type": "ItemGrant",
             "configuration": {
               "items": [
-                "Compendium.dnd5e.races.EHhr9umJ5kxJFCQH",
-                "Compendium.dnd5e.races.OQA1sHxKnSJq01dL",
-                "Compendium.dnd5e.races.koRPOLtj8XAFMwnW"
+                "Compendium.dnd5e_custom.races.EHhr9umJ5kxJFCQH",
+                "Compendium.dnd5e_custom.races.OQA1sHxKnSJq01dL",
+                "Compendium.dnd5e_custom.races.koRPOLtj8XAFMwnW"
               ],
               "optional": false,
               "spell": {
@@ -3833,9 +3833,9 @@
             },
             "value": {
               "added": {
-                "PZFiXV29QKKu02BE": "Compendium.dnd5e.races.EHhr9umJ5kxJFCQH",
-                "H5IsMCJRETbzQF6T": "Compendium.dnd5e.races.OQA1sHxKnSJq01dL",
-                "ylzIab4YKbPPyvj0": "Compendium.dnd5e.races.koRPOLtj8XAFMwnW"
+                "PZFiXV29QKKu02BE": "Compendium.dnd5e_custom.races.EHhr9umJ5kxJFCQH",
+                "H5IsMCJRETbzQF6T": "Compendium.dnd5e_custom.races.OQA1sHxKnSJq01dL",
+                "ylzIab4YKbPPyvj0": "Compendium.dnd5e_custom.races.koRPOLtj8XAFMwnW"
               }
             },
             "level": 0,
@@ -3933,11 +3933,11 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.races.TZtarkKs6cgGD7z2"
+          "sourceId": "Compendium.dnd5e_custom.races.TZtarkKs6cgGD7z2"
         }
       },
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.4.0",
         "coreVersion": "10.303",
         "createdTime": 1677181053374,
@@ -4033,8 +4033,8 @@
         "properties": []
       },
       "flags": {
-        "dnd5e": {
-          "sourceId": "Compendium.dnd5e.races.EHhr9umJ5kxJFCQH",
+        "dnd5e_custom": {
+          "sourceId": "Compendium.dnd5e_custom.races.EHhr9umJ5kxJFCQH",
           "advancementOrigin": "ur4Pjajcd3IlxKlZ.oHASjkY2yexn8nAv"
         }
       },
@@ -4043,7 +4043,7 @@
       "folder": null,
       "sort": 0,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.4.0",
         "coreVersion": "10.303",
         "createdTime": 1661787234464,
@@ -4137,8 +4137,8 @@
         "properties": []
       },
       "flags": {
-        "dnd5e": {
-          "sourceId": "Compendium.dnd5e.races.OQA1sHxKnSJq01dL",
+        "dnd5e_custom": {
+          "sourceId": "Compendium.dnd5e_custom.races.OQA1sHxKnSJq01dL",
           "advancementOrigin": "ur4Pjajcd3IlxKlZ.oHASjkY2yexn8nAv"
         }
       },
@@ -4147,7 +4147,7 @@
       "folder": null,
       "sort": 0,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.4.0",
         "coreVersion": "10.303",
         "createdTime": 1661787234468,
@@ -4241,8 +4241,8 @@
         "properties": []
       },
       "flags": {
-        "dnd5e": {
-          "sourceId": "Compendium.dnd5e.races.koRPOLtj8XAFMwnW",
+        "dnd5e_custom": {
+          "sourceId": "Compendium.dnd5e_custom.races.koRPOLtj8XAFMwnW",
           "advancementOrigin": "ur4Pjajcd3IlxKlZ.oHASjkY2yexn8nAv"
         }
       },
@@ -4282,7 +4282,7 @@
       "folder": null,
       "sort": 0,
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "2.4.0",
         "coreVersion": "10.303",
         "createdTime": 1661787234472,
@@ -4301,7 +4301,7 @@
   "flags": {},
   "_id": "4Jsv5vYaJ1atUEDV",
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1661787232155,

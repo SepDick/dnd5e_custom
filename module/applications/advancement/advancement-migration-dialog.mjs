@@ -6,7 +6,7 @@ export default class AdvancementMigrationDialog extends Dialog {
   /** @inheritdoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["dnd5e", "advancement-migration", "dialog"],
+      classes: ["dnd5e_custom", "advancement-migration", "dialog"],
       jQuery: false,
       width: 500
     });
@@ -29,7 +29,7 @@ export default class AdvancementMigrationDialog extends Dialog {
       const dialog = new this({
         title: `${game.i18n.localize("DND5E.AdvancementMigrationTitle")}: ${item.name}`,
         content: await renderTemplate(
-          "systems/dnd5e/templates/advancement/advancement-migration-dialog.hbs",
+          "systems/dnd5e_custom/templates/advancement/advancement-migration-dialog.hbs",
           { item, advancements: advancementContext }
         ),
         buttons: {

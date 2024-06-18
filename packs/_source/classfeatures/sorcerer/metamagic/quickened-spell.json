@@ -47,7 +47,7 @@
     },
     "consume": {
       "type": "charges",
-      "target": "Compendium.dnd5e.classfeatures.Item.LBKChJY5n02Afhnq",
+      "target": "Compendium.dnd5e_custom.classfeatures.Item.LBKChJY5n02Afhnq",
       "amount": 2,
       "scale": false
     },
@@ -87,7 +87,7 @@
   "folder": "dVi2pGadvf6tlWzq",
   "sort": 0,
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.2.0",
     "coreVersion": "11.315",
     "createdTime": 1661787234422,

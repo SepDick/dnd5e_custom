@@ -117,7 +117,7 @@ export class SummonsData extends foundry.abstract.DataModel {
    * @type {boolean}
    */
   static get canSummon() {
-    return game.user.can("TOKEN_CREATE") && (game.user.isGM || game.settings.get("dnd5e", "allowSummoning"));
+    return game.user.can("TOKEN_CREATE") && (game.user.isGM || game.settings.get("dnd5e_custom", "allowSummoning"));
   }
 
   get canSummon() {
@@ -159,7 +159,7 @@ export class SummonsData extends foundry.abstract.DataModel {
   get summonedCreatures() {
     if ( !this.item.actor ) return [];
     return SummonsData.summonedCreatures(this.item.actor)
-      .filter(i => i?.getFlag("dnd5e", "summon.origin") === this.item.uuid);
+      .filter(i => i?.getFlag("dnd5e_custom", "summon.origin") === this.item.uuid);
   }
 
   /* -------------------------------------------- */
@@ -189,14 +189,14 @@ export class SummonsData extends foundry.abstract.DataModel {
 
     /**
      * A hook event that fires before summoning is performed.
-     * @function dnd5e.preSummon
+     * @function dnd5e_custom.preSummon
      * @memberof hookEvents
      * @param {Item5e} item               The item that is performing the summoning.
      * @param {SummonsProfile} profile    Profile used for summoning.
      * @param {SummoningOptions} options  Additional summoning options.
      * @returns {boolean}                 Explicitly return `false` to prevent summoning.
      */
-    if ( Hooks.call("dnd5e.preSummon", this.item, profile, options) === false ) return;
+    if ( Hooks.call("dnd5e_custom.preSummon", this.item, profile, options) === false ) return;
 
     // Fetch the actor that will be summoned
     const actor = await this.fetchActor(profile.uuid);
@@ -224,7 +224,7 @@ export class SummonsData extends foundry.abstract.DataModel {
         /**
          * A hook event that fires before a specific token is summoned. After placement has been determined but before
          * the final token data is constructed.
-         * @function dnd5e.preSummonToken
+         * @function dnd5e_custom.preSummonToken
          * @memberof hookEvents
          * @param {Item5e} item               The item that is performing the summoning.
          * @param {SummonsProfile} profile    Profile used for summoning.
@@ -232,21 +232,21 @@ export class SummonsData extends foundry.abstract.DataModel {
          * @param {SummoningOptions} options  Additional summoning options.
          * @returns {boolean}                 Explicitly return `false` to prevent this token from being summoned.
          */
-        if ( Hooks.call("dnd5e.preSummonToken", this.item, profile, tokenUpdateData, options) === false ) continue;
+        if ( Hooks.call("dnd5e_custom.preSummonToken", this.item, profile, tokenUpdateData, options) === false ) continue;
 
         // Create a token document and apply updates
         const tokenData = await this.getTokenData(tokenUpdateData);
 
         /**
          * A hook event that fires after token creation data is prepared, but before summoning occurs.
-         * @function dnd5e.summonToken
+         * @function dnd5e_custom.summonToken
          * @memberof hookEvents
          * @param {Item5e} item               The item that is performing the summoning.
          * @param {SummonsProfile} profile    Profile used for summoning.
          * @param {object} tokenData          Data for creating a token.
          * @param {SummoningOptions} options  Additional summoning options.
          */
-        Hooks.callAll("dnd5e.summonToken", this.item, profile, tokenData, options);
+        Hooks.callAll("dnd5e_custom.summonToken", this.item, profile, tokenData, options);
 
         tokensData.push(tokenData);
       }
@@ -258,14 +258,14 @@ export class SummonsData extends foundry.abstract.DataModel {
 
     /**
      * A hook event that fires when summoning is complete.
-     * @function dnd5e.postSummon
+     * @function dnd5e_custom.postSummon
      * @memberof hookEvents
      * @param {Item5e} item               The item that is performing the summoning.
      * @param {SummonsProfile} profile    Profile used for summoning.
      * @param {Token5e[]} tokens          Tokens that have been created.
      * @param {SummoningOptions} options  Additional summoning options.
      */
-    Hooks.callAll("dnd5e.postSummon", this.item, profile, createdTokens, options);
+    Hooks.callAll("dnd5e_custom.postSummon", this.item, profile, createdTokens, options);
   }
 
   /* -------------------------------------------- */
@@ -280,17 +280,17 @@ export class SummonsData extends foundry.abstract.DataModel {
     if ( !actor ) throw new Error(game.i18n.format("DND5E.Summoning.Warning.NoActor", { uuid }));
 
     const actorLink = actor.prototypeToken.actorLink;
-    if ( !actor.pack && (!actorLink || actor.getFlag("dnd5e", "summon.origin") === this.item.uuid )) return actor;
+    if ( !actor.pack && (!actorLink || actor.getFlag("dnd5e_custom", "summon.origin") === this.item.uuid )) return actor;
 
     // Search world actors to see if any usable summoned actor instances are present from prior summonings.
     // Linked actors must match the summoning origin (item) to be considered.
     const localActor = game.actors.find(a =>
       // Has been cloned for summoning use
-      a.getFlag("dnd5e", "summonedCopy")
+      a.getFlag("dnd5e_custom", "summonedCopy")
       // Sourced from the desired actor UUID
       && (a.getFlag("core", "sourceId") === uuid)
       // Unlinked or created from this item specifically
-      && ((a.getFlag("dnd5e", "summon.origin") === this.item.uuid) || !a.prototypeToken.actorLink)
+      && ((a.getFlag("dnd5e_custom", "summon.origin") === this.item.uuid) || !a.prototypeToken.actorLink)
     );
     if ( localActor ) return localActor;
 
@@ -301,12 +301,12 @@ export class SummonsData extends foundry.abstract.DataModel {
     if ( actor.pack ) {
       // Template actor resides only in compendium, import the actor into the world and set the flag.
       return game.actors.importFromCompendium(game.packs.get(actor.pack), actor.id, {
-        "flags.dnd5e.summonedCopy": true
+        "flags.dnd5e_custom.summonedCopy": true
       });
     } else {
       // Template actor (linked) found in world, create a copy for this user's item.
       return actor.clone({
-        "flags.dnd5e.summonedCopy": true,
+        "flags.dnd5e_custom.summonedCopy": true,
         "flags.core.sourceId": actor.uuid,
         "_stats.compendiumSource": actor.uuid
       }, {save: true});
@@ -330,7 +330,7 @@ export class SummonsData extends foundry.abstract.DataModel {
     const prof = rollData.attributes?.prof ?? 0;
 
     // Add flags
-    actorUpdates["flags.dnd5e.summon"] = {
+    actorUpdates["flags.dnd5e_custom.summon"] = {
       level: this.relevantLevel,
       mod: rollData.mod,
       origin: this.item.uuid,
@@ -512,7 +512,7 @@ export class SummonsData extends foundry.abstract.DataModel {
           name: game.i18n.localize("DND5E.Summoning.ItemChanges.Label"),
           origin: this.item.uuid,
           flags: {
-            dnd5e: { type: "enchantment" }
+            dnd5e_custom: { type: "enchantment" }
           }
         })).toObject();
         actorUpdates.items.push({ _id: item.id, effects: [effect] });

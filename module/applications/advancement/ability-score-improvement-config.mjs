@@ -8,7 +8,7 @@ export default class AbilityScoreImprovementConfig extends AdvancementConfig {
   /** @inheritdoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      template: "systems/dnd5e/templates/advancement/ability-score-improvement-config.hbs"
+      template: "systems/dnd5e_custom/templates/advancement/ability-score-improvement-config.hbs"
     });
   }
 

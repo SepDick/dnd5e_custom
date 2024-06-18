@@ -12,8 +12,8 @@ export default class SpellsUnlinkedConfig extends DocumentSheet {
   /** @inheritDoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["dnd5e", "unlinked-spell-config"],
-      template: "systems/dnd5e/templates/journal/page-spell-list-unlinked-config.hbs",
+      classes: ["dnd5e_custom", "unlinked-spell-config"],
+      template: "systems/dnd5e_custom/templates/journal/page-spell-list-unlinked-config.hbs",
       width: 400,
       height: "auto",
       sheetConfig: false

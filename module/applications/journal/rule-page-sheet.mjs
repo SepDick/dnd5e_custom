@@ -15,7 +15,7 @@ export default class JournalRulePageSheet extends JournalTextPageSheet {
   /** @inheritdoc */
   get template() {
     return this.isEditable
-      ? "systems/dnd5e/templates/journal/page-rule-edit.hbs"
+      ? "systems/dnd5e_custom/templates/journal/page-rule-edit.hbs"
       : "templates/journal/page-text-view.html";
   }
 

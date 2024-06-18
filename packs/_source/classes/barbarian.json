@@ -5,7 +5,7 @@
   "img": "icons/skills/melee/hand-grip-sword-orange.webp",
   "system": {
     "description": {
-      "value": "<p>As a barbarian, you gain the following class features.</p><h3>Hit Points</h3><p><strong>Hit Dice:</strong> 1d12 per barbarian level<br /><strong>Hit Points at 1st Level:</strong> 12 + your Constitution modifier<br /><strong>Hit Points at Higher Levels:</strong> 1d12 (or 7) + your Constitution modifier per barbarian level after 1st</p><h3>Proficiencies</h3><p><strong>Armor:</strong> Light armor, medium armor, shields<br /><strong>Weapons:</strong> Simple weapons, martial weapons<br /><strong>Tools:</strong> None<br /><strong>Saving Throws:</strong> Strength, Constitution<br /><strong>Skills:</strong> Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival</p><h1>Barbarian Advancement</h1><table border=\"0\"><thead><tr><td>Level</td><td>Proficiency Bonus</td><td>Features</td><td>Rages</td><td>Rage Damage</td></tr></thead><tbody><tr><td>1st</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.VoR0SUrNX5EJVPIO]{Rage}, @UUID[Compendium.dnd5e.classfeatures.Item.SZbsNbaxFFGwBpNK]{Unarmored Defense}</td><td>2</td><td>+2</td></tr><tr><td>2nd</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.SCVjqRdlZ9cvHVSR]{Reckless Attack}, @UUID[Compendium.dnd5e.classfeatures.Item.vt31lWAULygEl7yk]{Danger Sense}</td><td>2</td><td>+2</td></tr><tr><td>3rd</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.TH1QAf6YNGSeBVjT]{Primal Path}</td><td>3</td><td>+2</td></tr><tr><td>4th</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>3</td><td>+2</td></tr><tr><td>5th</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.XogoBnFWmCAHXppo]{Extra Attack}, @UUID[Compendium.dnd5e.classfeatures.Item.Kl6zifJ5OmdHlOi2]{Fast Movement}</td><td>3</td><td>+2</td></tr><tr><td>6th</td><td>+3</td><td>Path feature</td><td>4</td><td>+2</td></tr><tr><td>7th</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.NlXslw4yAqmKZWtN]{Feral Instinct}</td><td>4</td><td>+2</td></tr><tr><td>8th</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>4</td><td>+2</td></tr><tr><td>9th</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.L94gyvNpUhUe0rwh]{Brutal Critical (1 die)}</td><td>4</td><td>+3</td></tr><tr><td>10th</td><td>+4</td><td>Path feature</td><td>4</td><td>+3</td></tr><tr><td>11th</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.FqfmbPgxiyrWzhYk]{Relentless Rage}</td><td>4</td><td>+3</td></tr><tr><td>12th</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>5</td><td>+3</td></tr><tr><td>13th</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.L94gyvNpUhUe0rwh]{Brutal Critical (2 dice)}</td><td>5</td><td>+3</td></tr><tr><td>14th</td><td>+5</td><td>Path feature</td><td>5</td><td>+3</td></tr><tr><td>15th</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.l8tUhZ5Pecm9wz7I]{Persistent Rage}</td><td>5</td><td>+3</td></tr><tr><td>16th</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>5</td><td>+4</td></tr><tr><td>17th</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.L94gyvNpUhUe0rwh]{Brutal Critical (3 dice)}</td><td>6</td><td>+4</td></tr><tr><td>18th</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.Q1exex5ALteprrPo]{Indomitable Might}</td><td>6</td><td>+4</td></tr><tr><td>19th</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>6</td><td>+4</td></tr><tr><td>20th</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.jVU4AgqfrFaqgXns]{Primal Champion}</td><td>Unlimited</td><td>+4</td></tr></tbody></table><h1>Primal Paths</h1><p>@UUID[Compendium.dnd5e.subclasses.Item.uGuDQX9Mz3oHNHkU]{Path of the Berserker}</p>",
+      "value": "<p>As a barbarian, you gain the following class features.</p><h3>Hit Points</h3><p><strong>Hit Dice:</strong> 1d12 per barbarian level<br /><strong>Hit Points at 1st Level:</strong> 12 + your Constitution modifier<br /><strong>Hit Points at Higher Levels:</strong> 1d12 (or 7) + your Constitution modifier per barbarian level after 1st</p><h3>Proficiencies</h3><p><strong>Armor:</strong> Light armor, medium armor, shields<br /><strong>Weapons:</strong> Simple weapons, martial weapons<br /><strong>Tools:</strong> None<br /><strong>Saving Throws:</strong> Strength, Constitution<br /><strong>Skills:</strong> Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival</p><h1>Barbarian Advancement</h1><table border=\"0\"><thead><tr><td>Level</td><td>Proficiency Bonus</td><td>Features</td><td>Rages</td><td>Rage Damage</td></tr></thead><tbody><tr><td>1st</td><td>+2</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.VoR0SUrNX5EJVPIO]{Rage}, @UUID[Compendium.dnd5e_custom.classfeatures.Item.SZbsNbaxFFGwBpNK]{Unarmored Defense}</td><td>2</td><td>+2</td></tr><tr><td>2nd</td><td>+2</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.SCVjqRdlZ9cvHVSR]{Reckless Attack}, @UUID[Compendium.dnd5e_custom.classfeatures.Item.vt31lWAULygEl7yk]{Danger Sense}</td><td>2</td><td>+2</td></tr><tr><td>3rd</td><td>+2</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.TH1QAf6YNGSeBVjT]{Primal Path}</td><td>3</td><td>+2</td></tr><tr><td>4th</td><td>+2</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>3</td><td>+2</td></tr><tr><td>5th</td><td>+3</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.XogoBnFWmCAHXppo]{Extra Attack}, @UUID[Compendium.dnd5e_custom.classfeatures.Item.Kl6zifJ5OmdHlOi2]{Fast Movement}</td><td>3</td><td>+2</td></tr><tr><td>6th</td><td>+3</td><td>Path feature</td><td>4</td><td>+2</td></tr><tr><td>7th</td><td>+3</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.NlXslw4yAqmKZWtN]{Feral Instinct}</td><td>4</td><td>+2</td></tr><tr><td>8th</td><td>+3</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>4</td><td>+2</td></tr><tr><td>9th</td><td>+4</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.L94gyvNpUhUe0rwh]{Brutal Critical (1 die)}</td><td>4</td><td>+3</td></tr><tr><td>10th</td><td>+4</td><td>Path feature</td><td>4</td><td>+3</td></tr><tr><td>11th</td><td>+4</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.FqfmbPgxiyrWzhYk]{Relentless Rage}</td><td>4</td><td>+3</td></tr><tr><td>12th</td><td>+4</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>5</td><td>+3</td></tr><tr><td>13th</td><td>+5</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.L94gyvNpUhUe0rwh]{Brutal Critical (2 dice)}</td><td>5</td><td>+3</td></tr><tr><td>14th</td><td>+5</td><td>Path feature</td><td>5</td><td>+3</td></tr><tr><td>15th</td><td>+5</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.l8tUhZ5Pecm9wz7I]{Persistent Rage}</td><td>5</td><td>+3</td></tr><tr><td>16th</td><td>+5</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>5</td><td>+4</td></tr><tr><td>17th</td><td>+6</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.L94gyvNpUhUe0rwh]{Brutal Critical (3 dice)}</td><td>6</td><td>+4</td></tr><tr><td>18th</td><td>+6</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.Q1exex5ALteprrPo]{Indomitable Might}</td><td>6</td><td>+4</td></tr><tr><td>19th</td><td>+6</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.s0Cc2zcX0JzIgam5]{Ability Score Improvement}</td><td>6</td><td>+4</td></tr><tr><td>20th</td><td>+6</td><td>@UUID[Compendium.dnd5e_custom.classfeatures.Item.jVU4AgqfrFaqgXns]{Primal Champion}</td><td>Unlimited</td><td>+4</td></tr></tbody></table><h1>Primal Paths</h1><p>@UUID[Compendium.dnd5e_custom.subclasses.Item.uGuDQX9Mz3oHNHkU]{Path of the Berserker}</p>",
       "chat": ""
     },
     "source": {
@@ -129,8 +129,8 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.classfeatures.VoR0SUrNX5EJVPIO",
-            "Compendium.dnd5e.classfeatures.SZbsNbaxFFGwBpNK"
+            "Compendium.dnd5e_custom.classfeatures.VoR0SUrNX5EJVPIO",
+            "Compendium.dnd5e_custom.classfeatures.SZbsNbaxFFGwBpNK"
           ],
           "optional": false,
           "spell": {
@@ -151,8 +151,8 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.classfeatures.SCVjqRdlZ9cvHVSR",
-            "Compendium.dnd5e.classfeatures.vt31lWAULygEl7yk"
+            "Compendium.dnd5e_custom.classfeatures.SCVjqRdlZ9cvHVSR",
+            "Compendium.dnd5e_custom.classfeatures.vt31lWAULygEl7yk"
           ],
           "optional": false,
           "spell": {
@@ -173,7 +173,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.classfeatures.TH1QAf6YNGSeBVjT"
+            "Compendium.dnd5e_custom.classfeatures.TH1QAf6YNGSeBVjT"
           ],
           "optional": false,
           "spell": {
@@ -194,8 +194,8 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.classfeatures.XogoBnFWmCAHXppo",
-            "Compendium.dnd5e.classfeatures.Kl6zifJ5OmdHlOi2"
+            "Compendium.dnd5e_custom.classfeatures.XogoBnFWmCAHXppo",
+            "Compendium.dnd5e_custom.classfeatures.Kl6zifJ5OmdHlOi2"
           ],
           "optional": false,
           "spell": {
@@ -216,7 +216,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.classfeatures.NlXslw4yAqmKZWtN"
+            "Compendium.dnd5e_custom.classfeatures.NlXslw4yAqmKZWtN"
           ],
           "optional": false,
           "spell": {
@@ -237,7 +237,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.classfeatures.L94gyvNpUhUe0rwh"
+            "Compendium.dnd5e_custom.classfeatures.L94gyvNpUhUe0rwh"
           ],
           "optional": false,
           "spell": {
@@ -258,7 +258,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.classfeatures.FqfmbPgxiyrWzhYk"
+            "Compendium.dnd5e_custom.classfeatures.FqfmbPgxiyrWzhYk"
           ],
           "optional": false,
           "spell": {
@@ -279,7 +279,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.classfeatures.l8tUhZ5Pecm9wz7I"
+            "Compendium.dnd5e_custom.classfeatures.l8tUhZ5Pecm9wz7I"
           ],
           "optional": false,
           "spell": {
@@ -300,7 +300,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.classfeatures.Q1exex5ALteprrPo"
+            "Compendium.dnd5e_custom.classfeatures.Q1exex5ALteprrPo"
           ],
           "optional": false,
           "spell": {
@@ -321,7 +321,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.classfeatures.jVU4AgqfrFaqgXns"
+            "Compendium.dnd5e_custom.classfeatures.jVU4AgqfrFaqgXns"
           ],
           "optional": false,
           "spell": {
@@ -539,7 +539,7 @@
       {
         "type": "linked",
         "count": null,
-        "key": "Compendium.dnd5e.items.Item.1Lxk6kmoRhG8qQ0u",
+        "key": "Compendium.dnd5e_custom.items.Item.1Lxk6kmoRhG8qQ0u",
         "_id": "6fTt5110T0AI6UGu",
         "group": "ibzIV7v9EHcUb8TP",
         "sort": 400000,
@@ -564,7 +564,7 @@
       {
         "type": "linked",
         "count": 2,
-        "key": "Compendium.dnd5e.items.Item.eO7Fbv5WBk5zvGOc",
+        "key": "Compendium.dnd5e_custom.items.Item.eO7Fbv5WBk5zvGOc",
         "_id": "YE3Asa2h2sLH52t6",
         "group": "Qc9WbViMpWP8QWWY",
         "sort": 600000,
@@ -589,7 +589,7 @@
       {
         "type": "linked",
         "count": null,
-        "key": "Compendium.dnd5e.items.Item.8KWz5DJbWUpNWniP",
+        "key": "Compendium.dnd5e_custom.items.Item.8KWz5DJbWUpNWniP",
         "_id": "tCQ3ARfynhsldy40",
         "group": "UYICcIEggAxtVjw9",
         "sort": 800000,
@@ -598,7 +598,7 @@
       {
         "type": "linked",
         "count": 4,
-        "key": "Compendium.dnd5e.items.Item.DWLMnODrnHn8IbAG",
+        "key": "Compendium.dnd5e_custom.items.Item.DWLMnODrnHn8IbAG",
         "_id": "MzzYDxTlR3mkfPmC",
         "group": "UYICcIEggAxtVjw9",
         "sort": 900000,
@@ -615,7 +615,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.1.0",
     "coreVersion": "11.315",
     "createdTime": 1661787234281,

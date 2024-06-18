@@ -5,7 +5,7 @@
   "img": "icons/consumables/potions/potion-bottle-corked-fancy-orange.webp",
   "system": {
     "description": {
-      "value": "<p><em>The potion's yellow fluid is streaked with black and swirls on its own.</em></p>\n<p>When you drink this potion, you gain the effect of the @UUID[Compendium.dnd5e.spells.Item.Szvk5FEVQW3uhJi5]{Haste} spell for 1 minute (no concentration required).</p>\n<p> </p>",
+      "value": "<p><em>The potion's yellow fluid is streaked with black and swirls on its own.</em></p>\n<p>When you drink this potion, you gain the effect of the @UUID[Compendium.dnd5e_custom.spells.Item.Szvk5FEVQW3uhJi5]{Haste} spell for 1 minute (no concentration required).</p>\n<p> </p>",
       "chat": ""
     },
     "source": {
@@ -108,7 +108,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.2.0",
     "coreVersion": "11.315",
     "createdTime": 1661787233739,

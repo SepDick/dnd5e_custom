@@ -8,10 +8,10 @@ export default class ItemGrantConfig extends AdvancementConfig {
   /** @inheritDoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["dnd5e", "advancement", "item-grant"],
+      classes: ["dnd5e_custom", "advancement", "item-grant"],
       dragDrop: [{ dropSelector: ".drop-target" }],
       dropKeyPath: "items",
-      template: "systems/dnd5e/templates/advancement/item-grant-config.hbs"
+      template: "systems/dnd5e_custom/templates/advancement/item-grant-config.hbs"
     });
   }
 

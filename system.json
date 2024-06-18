@@ -27,7 +27,7 @@
     {
       "name": "heroes",
       "label": "Starter Heroes",
-      "system": "dnd5e",
+      "system": "dnd5e_custom",
       "path": "packs/heroes",
       "type": "Actor",
       "private": false,
@@ -36,7 +36,7 @@
     {
       "name": "monsters",
       "label": "Monsters (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5e_custom",
       "path": "packs/monsters",
       "type": "Actor",
       "private": false,
@@ -45,7 +45,7 @@
     {
       "name": "items",
       "label": "Items (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5e_custom",
       "path": "packs/items",
       "type": "Item",
       "private": false,
@@ -54,7 +54,7 @@
     {
       "name": "tradegoods",
       "label": "Trade Goods (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5e_custom",
       "path": "packs/tradegoods",
       "type": "Item",
       "private": false,
@@ -63,7 +63,7 @@
     {
       "name": "spells",
       "label": "Spells (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5e_custom",
       "path": "packs/spells",
       "type": "Item",
       "private": false,
@@ -72,7 +72,7 @@
     {
       "name": "backgrounds",
       "label": "Backgrounds (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5e_custom",
       "path": "packs/backgrounds",
       "type": "Item",
       "private": false,
@@ -81,7 +81,7 @@
     {
       "name": "classes",
       "label": "Classes (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5e_custom",
       "path": "packs/classes",
       "type": "Item",
       "private": false,
@@ -90,7 +90,7 @@
     {
       "name": "subclasses",
       "label": "Subclasses (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5e_custom",
       "path": "packs/subclasses",
       "type": "Item",
       "private": false,
@@ -99,7 +99,7 @@
     {
       "name": "classfeatures",
       "label": "Class & Subclass Features (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5e_custom",
       "path": "packs/classfeatures",
       "type": "Item",
       "private": false,
@@ -108,7 +108,7 @@
     {
       "name": "races",
       "label": "Races (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5e_custom",
       "path": "packs/races",
       "type": "Item",
       "private": false,
@@ -117,7 +117,7 @@
     {
       "name": "monsterfeatures",
       "label": "Monster Features (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5e_custom",
       "path": "packs/monsterfeatures",
       "type": "Item",
       "private": false,
@@ -126,7 +126,7 @@
     {
       "name": "rules",
       "label": "Rules (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5e_custom",
       "path": "packs/rules",
       "type": "JournalEntry",
       "private": false,
@@ -137,7 +137,7 @@
     {
       "name": "tables",
       "label": "Tables (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5e_custom",
       "path": "packs/tables",
       "type": "RollTable",
       "private": false,

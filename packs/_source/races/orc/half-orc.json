@@ -21,8 +21,8 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.races.97c8i9Z28thvZuA8",
-            "Compendium.dnd5e.races.0kUsT4sMUOr5FcoX"
+            "Compendium.dnd5e_custom.races.97c8i9Z28thvZuA8",
+            "Compendium.dnd5e_custom.races.0kUsT4sMUOr5FcoX"
           ],
           "optional": false,
           "spell": {
@@ -137,7 +137,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1677181067463,

@@ -61,8 +61,8 @@ export default class AdvancementManager extends Application {
   /** @inheritdoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["dnd5e", "advancement", "flow"],
-      template: "systems/dnd5e/templates/advancement/advancement-manager.hbs",
+      classes: ["dnd5e_custom", "advancement", "flow"],
+      template: "systems/dnd5e_custom/templates/advancement/advancement-manager.hbs",
       width: 460,
       height: "auto"
     });
@@ -442,11 +442,11 @@ export default class AdvancementManager extends Application {
 
     /**
      * A hook event that fires when an AdvancementManager is about to be processed.
-     * @function dnd5e.preAdvancementManagerRender
+     * @function dnd5e_custom.preAdvancementManagerRender
      * @memberof hookEvents
      * @param {AdvancementManager} advancementManager The advancement manager about to be rendered
      */
-    const allowed = Hooks.call("dnd5e.preAdvancementManagerRender", this);
+    const allowed = Hooks.call("dnd5e_custom.preAdvancementManagerRender", this);
 
     // Abort if not allowed
     if ( allowed === false ) return this;
@@ -665,7 +665,7 @@ export default class AdvancementManager extends Application {
     /**
      * A hook event that fires at the final stage of a character's advancement process, before actor and item updates
      * are applied.
-     * @function dnd5e.preAdvancementManagerComplete
+     * @function dnd5e_custom.preAdvancementManagerComplete
      * @memberof hookEvents
      * @param {AdvancementManager} advancementManager  The advancement manager.
      * @param {object} actorUpdates                    Updates to the actor.
@@ -673,7 +673,7 @@ export default class AdvancementManager extends Application {
      * @param {object[]} toUpdate                      Items that will be updated on the actor.
      * @param {string[]} toDelete                      IDs of items that will be deleted on the actor.
      */
-    if ( Hooks.call("dnd5e.preAdvancementManagerComplete", this, updates, toCreate, toUpdate, toDelete) === false ) {
+    if ( Hooks.call("dnd5e_custom.preAdvancementManagerComplete", this, updates, toCreate, toUpdate, toDelete) === false ) {
       console.log("AdvancementManager completion was prevented by the 'preAdvancementManagerComplete' hook.");
       return this.close({ skipConfirmation: true });
     }
@@ -688,11 +688,11 @@ export default class AdvancementManager extends Application {
 
     /**
      * A hook event that fires when an AdvancementManager is done modifying an actor.
-     * @function dnd5e.advancementManagerComplete
+     * @function dnd5e_custom.advancementManagerComplete
      * @memberof hookEvents
      * @param {AdvancementManager} advancementManager The advancement manager that just completed
      */
-    Hooks.callAll("dnd5e.advancementManagerComplete", this);
+    Hooks.callAll("dnd5e_custom.advancementManagerComplete", this);
 
     // Close prompt
     return this.close({ skipConfirmation: true });

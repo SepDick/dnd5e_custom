@@ -161,7 +161,7 @@ export default class AttributesFields {
     const encumbrance = this.attributes.encumbrance ??= {};
     const baseUnits = CONFIG.DND5E.encumbrance.baseUnits[this.parent.type]
       ?? CONFIG.DND5E.encumbrance.baseUnits.default;
-    const unitSystem = game.settings.get("dnd5e", "metricWeightUnits") ? "metric" : "imperial";
+    const unitSystem = game.settings.get("dnd5e_custom", "metricWeightUnits") ? "metric" : "imperial";
 
     // Get the total weight from items
     let weight = this.parent.items
@@ -170,7 +170,7 @@ export default class AttributesFields {
 
     // [Optional] add Currency Weight (for non-transformed actors)
     const currency = this.currency;
-    if ( game.settings.get("dnd5e", "currencyWeight") && currency ) {
+    if ( game.settings.get("dnd5e_custom", "currencyWeight") && currency ) {
       const numCoins = Object.values(currency).reduce((val, denom) => val + Math.max(denom, 0), 0);
       const currencyPerWeight = config.currencyPerWeight[unitSystem];
       weight += convertWeight(
@@ -184,7 +184,7 @@ export default class AttributesFields {
     const keys = Object.keys(CONFIG.DND5E.actorSizes);
     const index = keys.findIndex(k => k === this.traits.size);
     const sizeConfig = CONFIG.DND5E.actorSizes[
-      keys[this.parent.flags.dnd5e?.powerfulBuild ? Math.min(index + 1, keys.length - 1) : index]
+      keys[this.parent.flags.dnd5e_custom?.powerfulBuild ? Math.min(index + 1, keys.length - 1) : index]
     ];
     const sizeMod = sizeConfig?.capacityMultiplier ?? sizeConfig?.token ?? 1;
     let maximumMultiplier;
@@ -226,7 +226,7 @@ export default class AttributesFields {
    */
   static prepareExhaustionLevel() {
     const exhaustion = this.parent.effects.get(ActiveEffect5e.ID.EXHAUSTION);
-    const level = exhaustion?.getFlag("dnd5e", "exhaustionLevel");
+    const level = exhaustion?.getFlag("dnd5e_custom", "exhaustionLevel");
     this.attributes.exhaustion = Number.isFinite(level) ? level : 0;
   }
 

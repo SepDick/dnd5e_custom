@@ -20,8 +20,8 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.races.cnTbpPPeGW7vGjOV",
-            "Compendium.dnd5e.races.4v2PiBrAbqDizdSJ"
+            "Compendium.dnd5e_custom.races.cnTbpPPeGW7vGjOV",
+            "Compendium.dnd5e_custom.races.4v2PiBrAbqDizdSJ"
           ],
           "optional": false,
           "spell": {
@@ -36,7 +36,7 @@
         "value": {},
         "level": 0,
         "title": "Grant Items",
-        "icon": "systems/dnd5e/icons/svg/item-grant.svg",
+        "icon": "systems/dnd5e_custom/icons/svg/item-grant.svg",
         "_id": "9SgUOZ9mjqyA8Q2d"
       },
       {
@@ -192,7 +192,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1677179211328,

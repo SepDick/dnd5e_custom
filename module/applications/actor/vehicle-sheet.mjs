@@ -8,7 +8,7 @@ export default class ActorSheet5eVehicle extends ActorSheet5e {
   /** @inheritDoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["dnd5e", "sheet", "actor", "vehicle"]
+      classes: ["dnd5e_custom", "sheet", "actor", "vehicle"]
     });
   }
 
@@ -192,7 +192,7 @@ export default class ActorSheet5eVehicle extends ActorSheet5e {
       this._prepareCrewedItem(item, ctx);
 
       // Handle cargo explicitly
-      const isCargo = item.flags.dnd5e?.vehicleCargo === true;
+      const isCargo = item.flags.dnd5e_custom?.vehicleCargo === true;
       if ( isCargo ) {
         cargo.cargo.items.push(item);
         continue;
@@ -233,7 +233,7 @@ export default class ActorSheet5eVehicle extends ActorSheet5e {
     super.activateListeners(html);
     if ( !this.isEditable ) return;
 
-    html[0].querySelector('[data-tab="cargo"] dnd5e-inventory')
+    html[0].querySelector('[data-tab="cargo"] dnd5e_custom-inventory')
       .addEventListener("inventory", this._onInventoryEvent.bind(this));
 
     html.find(".cargo-row input")
@@ -310,7 +310,7 @@ export default class ActorSheet5eVehicle extends ActorSheet5e {
   async _onDropSingleItem(itemData) {
     const cargoTypes = ["weapon", "equipment", "consumable", "tool", "loot", "container"];
     const isCargo = cargoTypes.includes(itemData.type) && (this._tabs[0].active === "cargo");
-    foundry.utils.setProperty(itemData, "flags.dnd5e.vehicleCargo", isCargo);
+    foundry.utils.setProperty(itemData, "flags.dnd5e_custom.vehicleCargo", isCargo);
     return super._onDropSingleItem(itemData);
   }
 }

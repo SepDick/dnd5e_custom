@@ -576,7 +576,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.nfIRTECQIG81CvM4"
+          "sourceId": "Compendium.dnd5e_custom.items.nfIRTECQIG81CvM4"
         }
       },
       "_stats": {
@@ -598,7 +598,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1661787232838,

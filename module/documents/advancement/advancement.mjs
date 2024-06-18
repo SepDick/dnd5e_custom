@@ -353,8 +353,8 @@ export default class Advancement extends BaseAdvancement {
     if ( !source ) return null;
     return source.clone({
       _id: id ?? foundry.utils.randomID(),
-      "flags.dnd5e.sourceId": uuid,
-      "flags.dnd5e.advancementOrigin": `${this.item.id}.${this.id}`
+      "flags.dnd5e_custom.sourceId": uuid,
+      "flags.dnd5e_custom.advancementOrigin": `${this.item.id}.${this.id}`
     }, {keepId: true}).toObject();
   }
 }

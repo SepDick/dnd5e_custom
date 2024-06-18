@@ -99,7 +99,7 @@
     {
       "name": "Dominate Person",
       "icon": "icons/magic/air/air-burst-spiral-large-pink.webp",
-      "origin": "Compendium.dnd5e.spells.Item.91Sw6vOIaO7U8DvM",
+      "origin": "Compendium.dnd5e_custom.spells.Item.91Sw6vOIaO7U8DvM",
       "duration": {
         "startTime": null,
         "seconds": null,
@@ -124,7 +124,7 @@
   ],
   "folder": "bG9QTayc46rfNkv2",
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1661787234083,

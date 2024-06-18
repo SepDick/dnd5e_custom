@@ -16,8 +16,8 @@ export default class LongRestDialog extends Dialog {
   /** @inheritDoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      template: "systems/dnd5e/templates/apps/long-rest.hbs",
-      classes: ["dnd5e", "dialog"]
+      template: "systems/dnd5e_custom/templates/apps/long-rest.hbs",
+      classes: ["dnd5e_custom", "dialog"]
     });
   }
 
@@ -26,7 +26,7 @@ export default class LongRestDialog extends Dialog {
   /** @inheritDoc */
   getData() {
     const context = super.getData();
-    const variant = game.settings.get("dnd5e", "restVariant");
+    const variant = game.settings.get("dnd5e_custom", "restVariant");
     context.isGroup = this.actor.type === "group";
     context.promptNewDay = variant !== "gritty";     // It's always a new day when resting 1 week
     context.newDay = variant === "normal";           // It's probably a new day when resting normally (8 hours)

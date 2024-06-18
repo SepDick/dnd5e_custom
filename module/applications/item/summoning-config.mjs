@@ -6,9 +6,9 @@ export default class SummoningConfig extends DocumentSheet {
   /** @inheritDoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["dnd5e", "summoning-config"],
+      classes: ["dnd5e_custom", "summoning-config"],
       dragDrop: [{ dropSelector: "form" }],
-      template: "systems/dnd5e/templates/apps/summoning-config.hbs",
+      template: "systems/dnd5e_custom/templates/apps/summoning-config.hbs",
       width: 500,
       height: "auto",
       sheetConfig: false,

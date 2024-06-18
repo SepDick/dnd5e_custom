@@ -29,7 +29,7 @@ export default class ChatMessage5e extends ChatMessage {
    * @type {boolean}
    */
   get canApplyDamage() {
-    const type = this.flags.dnd5e?.roll?.type;
+    const type = this.flags.dnd5e_custom?.roll?.type;
     if ( type && (type !== "damage") ) return false;
     return this.isRoll && this.isContentVisible && !!canvas.tokens?.controlled.length;
   }
@@ -41,7 +41,7 @@ export default class ChatMessage5e extends ChatMessage {
    * @type {boolean}
    */
   get canSelectTargets() {
-    if ( this.flags.dnd5e?.roll?.type !== "attack" ) return false;
+    if ( this.flags.dnd5e_custom?.roll?.type !== "attack" ) return false;
     return this.isRoll && this.isContentVisible;
   }
 
@@ -53,7 +53,7 @@ export default class ChatMessage5e extends ChatMessage {
    */
   get shouldDisplayChallenge() {
     if ( game.user.isGM || (this.user === game.user) ) return true;
-    switch ( game.settings.get("dnd5e", "challengeVisibility") ) {
+    switch ( game.settings.get("dnd5e_custom", "challengeVisibility") ) {
       case "all": return true;
       case "player": return !this.user.isGM;
       default: return false;
@@ -70,7 +70,7 @@ export default class ChatMessage5e extends ChatMessage {
 
     this._displayChatActionButtons(html);
     this._highlightCriticalSuccessFailure(html);
-    if ( game.settings.get("dnd5e", "autoCollapseItemCards") ) {
+    if ( game.settings.get("dnd5e_custom", "autoCollapseItemCards") ) {
       html.find(".description.collapsible").each((i, el) => el.classList.add("collapsed"));
     }
 
@@ -78,13 +78,13 @@ export default class ChatMessage5e extends ChatMessage {
     this._collapseTrays(html[0]);
 
     /**
-     * A hook event that fires after dnd5e-specific chat message modifications have completed.
-     * @function dnd5e.renderChatMessage
+     * A hook event that fires after dnd5e_custom-specific chat message modifications have completed.
+     * @function dnd5e_custom.renderChatMessage
      * @memberof hookEvents
      * @param {ChatMessage5e} message  Chat message being rendered.
      * @param {HTMLElement} html       HTML contents of the message.
      */
-    Hooks.callAll("dnd5e.renderChatMessage", this, html[0]);
+    Hooks.callAll("dnd5e_custom.renderChatMessage", this, html[0]);
 
     return html;
   }
@@ -97,7 +97,7 @@ export default class ChatMessage5e extends ChatMessage {
    */
   _collapseTrays(html) {
     let collapse;
-    switch ( game.settings.get("dnd5e", "autoCollapseChatTrays") ) {
+    switch ( game.settings.get("dnd5e_custom", "autoCollapseChatTrays") ) {
       case "always": collapse = true; break;
       case "never": collapse = false; break;
       // Collapse chat message trays older than 5 minutes
@@ -119,7 +119,7 @@ export default class ChatMessage5e extends ChatMessage {
    * @protected
    */
   _displayChatActionButtons(html) {
-    const chatCard = html.find(".dnd5e.chat-card, .dnd5e2.chat-card");
+    const chatCard = html.find(".dnd5e_custom.chat-card, .dnd5e2.chat-card");
     if ( chatCard.length > 0 ) {
       const flavor = html.find(".flavor-text");
       if ( flavor.text() === html.find(".item-name").text() ) flavor.remove();
@@ -140,8 +140,8 @@ export default class ChatMessage5e extends ChatMessage {
         };
         optionallyHide('button[data-action="summon"]', !SummonsData.canSummon);
         optionallyHide('button[data-action="placeTemplate"]', !game.user.can("TEMPLATE_CREATE"));
-        optionallyHide('button[data-action="consumeUsage"]', this.getFlag("dnd5e", "use.consumedUsage"));
-        optionallyHide('button[data-action="consumeResource"]', this.getFlag("dnd5e", "use.consumedResource"));
+        optionallyHide('button[data-action="consumeUsage"]', this.getFlag("dnd5e_custom", "use.consumedUsage"));
+        optionallyHide('button[data-action="consumeResource"]', this.getFlag("dnd5e_custom", "use.consumedResource"));
         return;
       }
 
@@ -163,7 +163,7 @@ export default class ChatMessage5e extends ChatMessage {
    */
   _highlightCriticalSuccessFailure(html) {
     if ( !this.isContentVisible || !this.rolls.length ) return;
-    const originatingMessage = game.messages.get(this.getFlag("dnd5e", "originatingMessage")) ?? this;
+    const originatingMessage = game.messages.get(this.getFlag("dnd5e_custom", "originatingMessage")) ?? this;
     const displayChallenge = originatingMessage?.shouldDisplayChallenge;
 
     // Highlight rolls where the first part is a d20 roll
@@ -172,7 +172,7 @@ export default class ChatMessage5e extends ChatMessage {
       const d0 = d20Roll.dice[0];
       if ( (d0?.faces !== 20) || (d0?.values.length !== 1) ) continue;
 
-      d20Roll = dnd5e.dice.D20Roll.fromRoll(d20Roll);
+      d20Roll = dnd5e_custom.dice.D20Roll.fromRoll(d20Roll);
       const d = d20Roll.dice[0];
 
       const isModifiedRoll = ("success" in d.results[0]) || d.options.marginSuccess || d.options.marginFailure;
@@ -243,14 +243,14 @@ export default class ChatMessage5e extends ChatMessage {
     metadata.appendChild(anchor);
 
     // SVG icons
-    html.querySelectorAll("i.dnd5e-icon").forEach(el => {
-      const icon = document.createElement("dnd5e-icon");
+    html.querySelectorAll("i.dnd5e_custom-icon").forEach(el => {
+      const icon = document.createElement("dnd5e_custom-icon");
       icon.src = el.dataset.src;
       el.replaceWith(icon);
     });
 
     // Enriched roll flavor
-    const roll = this.getFlag("dnd5e", "roll");
+    const roll = this.getFlag("dnd5e_custom", "roll");
     const item = fromUuidSync(roll?.itemUuid);
     if ( this.isContentVisible && item ) {
       const isCritical = (roll.type === "damage") && this.rolls[0]?.options?.critical;
@@ -329,8 +329,8 @@ export default class ChatMessage5e extends ChatMessage {
    */
   _enrichAttackTargets(html) {
     const attackRoll = this.rolls[0];
-    const targets = this.getFlag("dnd5e", "targets");
-    if ( !game.user.isGM || !(attackRoll instanceof dnd5e.dice.D20Roll) || !targets?.length ) return;
+    const targets = this.getFlag("dnd5e_custom", "targets");
+    if ( !game.user.isGM || !(attackRoll instanceof dnd5e_custom.dice.D20Roll) || !targets?.length ) return;
     const evaluation = document.createElement("ul");
     evaluation.classList.add("dnd5e2", "evaluation");
     evaluation.innerHTML = targets.map(({ name, img, ac, uuid }) => {
@@ -463,11 +463,11 @@ export default class ChatMessage5e extends ChatMessage {
    * @protected
    */
   _enrichEnchantmentTooltip(html) {
-    const enchantmentProfile = this.getFlag("dnd5e", "use.enchantmentProfile");
+    const enchantmentProfile = this.getFlag("dnd5e_custom", "use.enchantmentProfile");
     if ( !enchantmentProfile ) return;
 
     // Ensure concentration is still being maintained
-    const concentrationId = this.getFlag("dnd5e", "use.concentrationId");
+    const concentrationId = this.getFlag("dnd5e_custom", "use.concentrationId");
     if ( concentrationId && !this.getAssociatedActor()?.effects.get(concentrationId) ) return;
 
     // Create the enchantment tray
@@ -691,7 +691,7 @@ export default class ChatMessage5e extends ChatMessage {
    * @param {jQuery} html  The chat log HTML.
    */
   static onRenderChatLog([html]) {
-    if ( !game.settings.get("dnd5e", "autoCollapseItemCards") ) {
+    if ( !game.settings.get("dnd5e_custom", "autoCollapseItemCards") ) {
       requestAnimationFrame(() => {
         // FIXME: Allow time for transitions to complete. Adding a transitionend listener does not appear to work, so
         // the transition time is hard-coded for now.
@@ -726,9 +726,9 @@ export default class ChatMessage5e extends ChatMessage {
   getAssociatedItem() {
     const actor = this.getAssociatedActor();
     if ( !actor ) return;
-    const storedData = this.getFlag("dnd5e", "itemData");
+    const storedData = this.getFlag("dnd5e_custom", "itemData");
     return storedData
       ? new Item.implementation(storedData, { parent: actor })
-      : actor.items.get(this.getFlag("dnd5e", "use.itemId"));
+      : actor.items.get(this.getFlag("dnd5e_custom", "use.itemId"));
   }
 }

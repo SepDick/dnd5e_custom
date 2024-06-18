@@ -55,7 +55,7 @@ export class ModuleArt {
    * @returns {Promise<void>}
    */
   async #parseArtMapping(moduleId, mapping, credit) {
-    let settings = game.settings.get("dnd5e", "moduleArtConfiguration")?.[moduleId];
+    let settings = game.settings.get("dnd5e_custom", "moduleArtConfiguration")?.[moduleId];
     settings ??= {portraits: true, tokens: true};
     for ( const [packName, actors] of Object.entries(mapping) ) {
       const pack = game.packs.get(packName);
@@ -83,7 +83,7 @@ export class ModuleArt {
    */
   static getModuleArtPath(module) {
     const flags = module.flags?.[module.id];
-    const artPath = flags?.["dnd5e-art"];
+    const artPath = flags?.["dnd5e_custom-art"];
     if ( !artPath || !module.active ) return null;
     return artPath;
   }
@@ -104,13 +104,13 @@ export class ModuleArt {
    * @returns {ModuleArtDescriptor[]}
    */
   static getArtModules() {
-    const settings = game.settings.get("dnd5e", "moduleArtConfiguration");
+    const settings = game.settings.get("dnd5e_custom", "moduleArtConfiguration");
     const unsorted = [];
     const configs = [{
       id: game.system.id,
       label: game.system.title,
-      mapping: "systems/dnd5e/json/fa-token-mapping.json",
-      priority: settings.dnd5e?.priority ?? CONST.SORT_INTEGER_DENSITY,
+      mapping: "systems/dnd5e_custom/json/fa-token-mapping.json",
+      priority: settings.dnd5e_custom?.priority ?? CONST.SORT_INTEGER_DENSITY,
       credit: `
         <em>
           Token artwork by
@@ -123,7 +123,7 @@ export class ModuleArt {
       const flags = module.flags?.[module.id];
       const mapping = this.getModuleArtPath(module);
       if ( !mapping ) continue;
-      const config = { id: module.id, label: module.title, credit: flags?.["dnd5e-art-credit"], mapping };
+      const config = { id: module.id, label: module.title, credit: flags?.["dnd5e_custom-art-credit"], mapping };
       configs.push(config);
       const priority = settings[module.id]?.priority;
       if ( priority === undefined ) unsorted.push(config);
@@ -143,7 +143,7 @@ export class ModuleArt {
 export class ModuleArtConfig extends FormApplication {
   /** @inheritdoc */
   constructor(object={}, options={}) {
-    object = foundry.utils.mergeObject(game.settings.get("dnd5e", "moduleArtConfiguration"), object, {inplace: false});
+    object = foundry.utils.mergeObject(game.settings.get("dnd5e_custom", "moduleArtConfiguration"), object, {inplace: false});
     super(object, options);
   }
 
@@ -154,7 +154,7 @@ export class ModuleArtConfig extends FormApplication {
     return foundry.utils.mergeObject(super.defaultOptions, {
       title: game.i18n.localize("DND5E.ModuleArtConfigL"),
       id: "module-art-config",
-      template: "systems/dnd5e/templates/apps/module-art-config.hbs",
+      template: "systems/dnd5e_custom/templates/apps/module-art-config.hbs",
       popOut: true,
       width: 600,
       height: "auto"
@@ -220,7 +220,7 @@ export class ModuleArtConfig extends FormApplication {
 
   /** @inheritdoc */
   async _updateObject(event, formData) {
-    await game.settings.set("dnd5e", "moduleArtConfiguration", foundry.utils.expandObject(formData));
+    await game.settings.set("dnd5e_custom", "moduleArtConfiguration", foundry.utils.expandObject(formData));
     return SettingsConfig.reloadConfirm({world: true});
   }
 }

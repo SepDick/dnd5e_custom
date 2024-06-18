@@ -30,7 +30,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704059861082,
@@ -68,7 +68,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704060082284,
@@ -106,7 +106,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704060227333,
@@ -144,7 +144,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704060245611,
@@ -182,7 +182,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704060338740,
@@ -220,7 +220,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704060403867,
@@ -258,7 +258,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704060439308,
@@ -296,7 +296,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704060462059,
@@ -334,7 +334,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704060488900,
@@ -372,7 +372,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704060498008,
@@ -410,7 +410,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704060555773,
@@ -448,7 +448,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704060578564,
@@ -486,7 +486,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704060589526,
@@ -524,7 +524,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704060600179,
@@ -562,7 +562,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704060607320,
@@ -600,7 +600,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704060615173,
@@ -638,7 +638,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704060795426,
@@ -676,7 +676,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704060798757,
@@ -714,7 +714,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704060803410,
@@ -752,7 +752,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704060934324,
@@ -790,7 +790,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704060937145,
@@ -828,7 +828,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704061126995,
@@ -866,7 +866,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704061156575,
@@ -904,7 +904,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704061172728,
@@ -942,7 +942,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704069366222,
@@ -980,7 +980,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704069784582,
@@ -1018,7 +1018,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704069789834,
@@ -1056,7 +1056,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704069856481,
@@ -1094,7 +1094,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704069866516,
@@ -1132,7 +1132,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704069873781,
@@ -1170,7 +1170,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704069884870,
@@ -1208,7 +1208,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704069892160,
@@ -1246,7 +1246,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704069996537,
@@ -1284,7 +1284,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070100520,
@@ -1322,7 +1322,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070121911,
@@ -1360,7 +1360,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070127665,
@@ -1398,7 +1398,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070284276,
@@ -1436,7 +1436,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070292307,
@@ -1474,7 +1474,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070300638,
@@ -1512,7 +1512,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070306551,
@@ -1550,7 +1550,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070311201,
@@ -1588,7 +1588,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070336012,
@@ -1626,7 +1626,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070345591,
@@ -1664,7 +1664,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070358302,
@@ -1685,7 +1685,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>The GM decides when circumstances are appropriate for hiding. When you try to hide, make a Dexterity (Stealth) check. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.</p><p>You can't hide from a creature that can see you clearly, and you give away your position if you make noise, such as shouting a warning or knocking over a vase.</p><p>An invisible creature can always try to hide. Signs of its passage might still be noticed, and it does have to stay quiet.</p><p>In combat, most creatures stay alert for signs of danger all around, so if you come out of hiding and approach a creature, it usually sees you. However, under certain circumstances, the GM might allow you to stay hidden as you approach a creature that is distracted, allowing you to gain advantage on an attack roll before you are seen.</p><p>@Embed[.988C2hQNyvqkdbND inline]</p><p><strong>What Can You See? </strong>One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be <strong>lightly</strong> or <strong>heavily obscured</strong>, as explained in @UUID[Compendium.dnd5e.rules.JournalEntry.aYmUMcQfSIqYWpKk.JournalEntryPage.9jyye7TeGlY4FRf3]{The Environment}.</p>",
+        "content": "<p>The GM decides when circumstances are appropriate for hiding. When you try to hide, make a Dexterity (Stealth) check. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.</p><p>You can't hide from a creature that can see you clearly, and you give away your position if you make noise, such as shouting a warning or knocking over a vase.</p><p>An invisible creature can always try to hide. Signs of its passage might still be noticed, and it does have to stay quiet.</p><p>In combat, most creatures stay alert for signs of danger all around, so if you come out of hiding and approach a creature, it usually sees you. However, under certain circumstances, the GM might allow you to stay hidden as you approach a creature that is distracted, allowing you to gain advantage on an attack roll before you are seen.</p><p>@Embed[.988C2hQNyvqkdbND inline]</p><p><strong>What Can You See? </strong>One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be <strong>lightly</strong> or <strong>heavily obscured</strong>, as explained in @UUID[Compendium.dnd5e_custom.rules.JournalEntry.aYmUMcQfSIqYWpKk.JournalEntryPage.9jyye7TeGlY4FRf3]{The Environment}.</p>",
         "markdown": ""
       },
       "video": {
@@ -1702,7 +1702,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070404534,
@@ -1740,7 +1740,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070426572,
@@ -1778,7 +1778,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070783731,
@@ -1816,7 +1816,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070794159,
@@ -1854,7 +1854,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070830247,
@@ -1875,7 +1875,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Intelligence measures mental acuity, accuracy of recall, and the ability to reason.</p><h3>Intelligence Checks</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.sLw1gfc1aLg7djmZ inline]</p><h3>Spellcasting Ability</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.u46Rva9Nrm9bG1Mu inline]</p>",
+        "content": "<p>Intelligence measures mental acuity, accuracy of recall, and the ability to reason.</p><h3>Intelligence Checks</h3><p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.sLw1gfc1aLg7djmZ inline]</p><h3>Spellcasting Ability</h3><p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.u46Rva9Nrm9bG1Mu inline]</p>",
         "markdown": ""
       },
       "video": {
@@ -1892,7 +1892,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070908653,
@@ -1930,7 +1930,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070916924,
@@ -1968,7 +1968,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070922466,
@@ -2006,7 +2006,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070926938,
@@ -2044,7 +2044,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070933368,
@@ -2082,7 +2082,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070938239,
@@ -2120,7 +2120,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704070944390,
@@ -2158,7 +2158,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704071375562,
@@ -2196,7 +2196,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704071456771,
@@ -2234,7 +2234,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704071478276,
@@ -2272,7 +2272,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704071492571,
@@ -2310,7 +2310,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704071532573,
@@ -2348,7 +2348,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704071544183,
@@ -2386,7 +2386,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704071565147,
@@ -2424,7 +2424,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704071583342,
@@ -2462,7 +2462,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704071596249,
@@ -2500,7 +2500,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704071719766,
@@ -2538,7 +2538,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704071745702,
@@ -2576,7 +2576,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704071765352,
@@ -2614,7 +2614,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704071795442,
@@ -2652,7 +2652,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704071805959,
@@ -2690,7 +2690,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704071813688,
@@ -2728,7 +2728,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704071834792,
@@ -2766,7 +2766,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704922716239,
@@ -2804,7 +2804,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704922789290,
@@ -2825,7 +2825,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>On your turn, you can move a distance up to your speed and take one action. You decide whether to move first or take your action first. Your speed— sometimes called your walking speed—is noted on your character sheet.</p><p>The most common actions you can take are described in the @UUID[Compendium.dnd5e.rules.JournalEntry.6PfYpwxkdQkyS6b7.JournalEntryPage.t0XXMmv014K4vV3p]{Actions in Combat} section. Many class features and other abilities provide additional options for your action.</p><p>The @UUID[Compendium.dnd5e.rules.JournalEntry.6PfYpwxkdQkyS6b7.JournalEntryPage.SfmusW5B5jOaR0vd]{Movement and Position} section gives the rules for your move.</p><p>You can forgo moving, taking an action, or doing anything at all on your turn. If you can't decide what to do on your turn, consider taking the Dodge or Ready action, as described in Actions in Combat.</p><h3>Bonus Actions</h3><p>@Embed[.2fu2CXsDg8gQmGGw inline]</p><h3>Other Activity on Your Turn</h3><p>@Embed[.JEZp7QApVjyNgqrQ inline]</p>",
+        "content": "<p>On your turn, you can move a distance up to your speed and take one action. You decide whether to move first or take your action first. Your speed— sometimes called your walking speed—is noted on your character sheet.</p><p>The most common actions you can take are described in the @UUID[Compendium.dnd5e_custom.rules.JournalEntry.6PfYpwxkdQkyS6b7.JournalEntryPage.t0XXMmv014K4vV3p]{Actions in Combat} section. Many class features and other abilities provide additional options for your action.</p><p>The @UUID[Compendium.dnd5e_custom.rules.JournalEntry.6PfYpwxkdQkyS6b7.JournalEntryPage.SfmusW5B5jOaR0vd]{Movement and Position} section gives the rules for your move.</p><p>You can forgo moving, taking an action, or doing anything at all on your turn. If you can't decide what to do on your turn, consider taking the Dodge or Ready action, as described in Actions in Combat.</p><h3>Bonus Actions</h3><p>@Embed[.2fu2CXsDg8gQmGGw inline]</p><h3>Other Activity on Your Turn</h3><p>@Embed[.JEZp7QApVjyNgqrQ inline]</p>",
         "markdown": ""
       },
       "video": {
@@ -2842,7 +2842,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704922821370,
@@ -2863,7 +2863,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Various class features, spells, and other abilities let you take an additional action on your turn called a bonus action. The @UUID[Compendium.dnd5e.classfeatures.Item.01pcLg6PRu5zGrsb]{Cunning Action} feature, for example, allows a rogue to take a bonus action. You can take a bonus action only when a special ability, spell, or other feature of the game states that you can do something as a bonus action. You otherwise don't have a bonus action to take.</p><p>You can take only one bonus action on your turn, so you must choose which bonus action to use when you have more than one available.</p><p>You choose when to take a bonus action during your turn, unless the bonus action's timing is specified, and anything that deprives you of your ability to take actions also prevents you from taking a bonus action.</p>",
+        "content": "<p>Various class features, spells, and other abilities let you take an additional action on your turn called a bonus action. The @UUID[Compendium.dnd5e_custom.classfeatures.Item.01pcLg6PRu5zGrsb]{Cunning Action} feature, for example, allows a rogue to take a bonus action. You can take a bonus action only when a special ability, spell, or other feature of the game states that you can do something as a bonus action. You otherwise don't have a bonus action to take.</p><p>You can take only one bonus action on your turn, so you must choose which bonus action to use when you have more than one available.</p><p>You choose when to take a bonus action during your turn, unless the bonus action's timing is specified, and anything that deprives you of your ability to take actions also prevents you from taking a bonus action.</p>",
         "markdown": ""
       },
       "video": {
@@ -2880,7 +2880,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704922827338,
@@ -2918,7 +2918,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704922836060,
@@ -2956,7 +2956,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704922840961,
@@ -2994,7 +2994,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923041178,
@@ -3032,7 +3032,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923065477,
@@ -3070,7 +3070,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923079216,
@@ -3108,7 +3108,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923117819,
@@ -3129,7 +3129,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are &amp;Reference[Prone], a condition described in @UUID[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0]{Appendix A: Conditions}.</p><p>@Embed[.hwTLpAtSS5OqQsI1 inline]</p><p>@Embed[.VWG9qe8PUNtS28Pw inline]</p>",
+        "content": "<p>Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are &amp;Reference[Prone], a condition described in @UUID[Compendium.dnd5e_custom.rules.JournalEntry.w7eitkpD7QQTB6j0]{Appendix A: Conditions}.</p><p>@Embed[.hwTLpAtSS5OqQsI1 inline]</p><p>@Embed[.VWG9qe8PUNtS28Pw inline]</p>",
         "markdown": ""
       },
       "video": {
@@ -3146,7 +3146,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923151885,
@@ -3184,7 +3184,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923190498,
@@ -3222,7 +3222,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923215882,
@@ -3260,7 +3260,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923352036,
@@ -3298,7 +3298,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923390612,
@@ -3319,7 +3319,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Flying creatures enjoy many benefits of mobility, but they must also deal with the danger of falling. If a flying creature is knocked prone, has its speed reduced to 0, or is otherwise deprived of the ability to move, the creature falls, unless it has the ability to hover or it is being held aloft by magic, such as by the @UUID[Compendium.dnd5e.spells.Item.yfbK8gZqESlaoY5t]{Fly} spell.</p>",
+        "content": "<p>Flying creatures enjoy many benefits of mobility, but they must also deal with the danger of falling. If a flying creature is knocked prone, has its speed reduced to 0, or is otherwise deprived of the ability to move, the creature falls, unless it has the ability to hover or it is being held aloft by magic, such as by the @UUID[Compendium.dnd5e_custom.spells.Item.yfbK8gZqESlaoY5t]{Fly} spell.</p>",
         "markdown": ""
       },
       "video": {
@@ -3336,7 +3336,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923394847,
@@ -3374,7 +3374,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923401266,
@@ -3412,7 +3412,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923403753,
@@ -3450,7 +3450,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923415580,
@@ -3471,7 +3471,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>The most common action to take in combat is the Attack action, whether you are swinging a sword, firing an arrow from a bow, or brawling with your fists.</p><p>With this action, you make one melee or ranged attack. See the @UUID[Compendium.dnd5e.rules.JournalEntry.6PfYpwxkdQkyS6b7.JournalEntryPage.twd4zj7m1n9sBaVG]{Making an Attack} section for the rules that govern attacks.</p><p>Certain features, such as the @UUID[Compendium.dnd5e.classfeatures.Item.q9g1MLXuLZyxjQMg]{Extra Attack} feature of the fighter, allow you to make more than one attack with this action.</p>",
+        "content": "<p>The most common action to take in combat is the Attack action, whether you are swinging a sword, firing an arrow from a bow, or brawling with your fists.</p><p>With this action, you make one melee or ranged attack. See the @UUID[Compendium.dnd5e_custom.rules.JournalEntry.6PfYpwxkdQkyS6b7.JournalEntryPage.twd4zj7m1n9sBaVG]{Making an Attack} section for the rules that govern attacks.</p><p>Certain features, such as the @UUID[Compendium.dnd5e_custom.classfeatures.Item.q9g1MLXuLZyxjQMg]{Extra Attack} feature of the fighter, allow you to make more than one attack with this action.</p>",
         "markdown": ""
       },
       "video": {
@@ -3488,7 +3488,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923693131,
@@ -3526,7 +3526,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923703900,
@@ -3564,7 +3564,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923709615,
@@ -3602,7 +3602,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923716170,
@@ -3623,7 +3623,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are &amp;Reference[Incapacitated] (as explained in @UUID[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0]{Appendix A: Conditions}) or if your speed drops to 0.</p>",
+        "content": "<p>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are &amp;Reference[Incapacitated] (as explained in @UUID[Compendium.dnd5e_custom.rules.JournalEntry.w7eitkpD7QQTB6j0]{Appendix A: Conditions}) or if your speed drops to 0.</p>",
         "markdown": ""
       },
       "video": {
@@ -3640,7 +3640,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923720519,
@@ -3678,7 +3678,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923724519,
@@ -3699,7 +3699,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>When you take the Hide action, you make a Dexterity (Stealth) check in an attempt to hide, following the rules for hiding. If you succeed, you gain certain benefits, as described in the @UUID[Compendium.dnd5e.rules.JournalEntry.6PfYpwxkdQkyS6b7.JournalEntryPage.twd4zj7m1n9sBaVG#unseen-attackers-and-targets]{Unseen Attackers and Targets} section.</p>",
+        "content": "<p>When you take the Hide action, you make a Dexterity (Stealth) check in an attempt to hide, following the rules for hiding. If you succeed, you gain certain benefits, as described in the @UUID[Compendium.dnd5e_custom.rules.JournalEntry.6PfYpwxkdQkyS6b7.JournalEntryPage.twd4zj7m1n9sBaVG#unseen-attackers-and-targets]{Unseen Attackers and Targets} section.</p>",
         "markdown": ""
       },
       "video": {
@@ -3716,7 +3716,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923727938,
@@ -3737,7 +3737,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Sometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn, which lets you act using your reaction before the start of your next turn.</p><p>First, you decide what perceivable circumstance will trigger your reaction. Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it. Examples include “If the cultist steps on the trapdoor, I’ll pull the lever that opens it,” and “If the goblin steps next to me, I move away.”</p><p>When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger. Remember that you can take only one reaction per round.</p><p>When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell’s magic requires concentration. If your concentration is broken, the spell dissipates without taking effect. For example, if you are concentrating on the @UUID[Compendium.dnd5e.spells.Item.UJJu9c2UvCzVljiP]{Web} spell and ready @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{Magic Missile}, your Web spell ends, and if you take damage before you release Magic Missile with your reaction, your concentration might be broken.</p>",
+        "content": "<p>Sometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn, which lets you act using your reaction before the start of your next turn.</p><p>First, you decide what perceivable circumstance will trigger your reaction. Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it. Examples include “If the cultist steps on the trapdoor, I’ll pull the lever that opens it,” and “If the goblin steps next to me, I move away.”</p><p>When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger. Remember that you can take only one reaction per round.</p><p>When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell’s magic requires concentration. If your concentration is broken, the spell dissipates without taking effect. For example, if you are concentrating on the @UUID[Compendium.dnd5e_custom.spells.Item.UJJu9c2UvCzVljiP]{Web} spell and ready @UUID[Compendium.dnd5e_custom.spells.Item.41JIhpDyM9Anm7cs]{Magic Missile}, your Web spell ends, and if you take damage before you release Magic Missile with your reaction, your concentration might be broken.</p>",
         "markdown": ""
       },
       "video": {
@@ -3754,7 +3754,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923732277,
@@ -3792,7 +3792,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923736355,
@@ -3830,7 +3830,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923741589,
@@ -3868,7 +3868,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923940557,
@@ -3906,7 +3906,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923946540,
@@ -3944,7 +3944,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923956767,
@@ -3965,7 +3965,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Combatants often try to escape their foes' notice by hiding, casting the @UUID[Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B]{invisibility} spell, or lurking in darkness.</p><p>When you attack a target that you can't see, you have disadvantage on the attack roll. This is true whether you're guessing the target's location or you're targeting a creature you can hear but not see. If the target isn't in the location you targeted, you automatically miss, but the GM typically just says that the attack missed, not whether you guessed the target's location correctly.</p><p>When a creature can't see you, you have advantage on attack rolls against it. If you are hidden—both unseen and unheard—when you make an attack, you give away your location when the attack hits or misses.</p>",
+        "content": "<p>Combatants often try to escape their foes' notice by hiding, casting the @UUID[Compendium.dnd5e_custom.spells.Item.1N8dDMMgZ1h1YJ3B]{invisibility} spell, or lurking in darkness.</p><p>When you attack a target that you can't see, you have disadvantage on the attack roll. This is true whether you're guessing the target's location or you're targeting a creature you can hear but not see. If the target isn't in the location you targeted, you automatically miss, but the GM typically just says that the attack missed, not whether you guessed the target's location correctly.</p><p>When a creature can't see you, you have advantage on attack rolls against it. If you are hidden—both unseen and unheard—when you make an attack, you give away your location when the attack hits or misses.</p>",
         "markdown": ""
       },
       "video": {
@@ -3982,7 +3982,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923972744,
@@ -4020,7 +4020,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923979796,
@@ -4058,7 +4058,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923982537,
@@ -4096,7 +4096,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923990805,
@@ -4134,7 +4134,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704923996559,
@@ -4172,7 +4172,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924004374,
@@ -4210,7 +4210,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924010542,
@@ -4248,7 +4248,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924016076,
@@ -4286,7 +4286,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924042988,
@@ -4324,7 +4324,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924089268,
@@ -4362,7 +4362,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924100769,
@@ -4400,7 +4400,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924187635,
@@ -4438,7 +4438,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924191093,
@@ -4476,7 +4476,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924405683,
@@ -4514,7 +4514,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924409315,
@@ -4552,7 +4552,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924414927,
@@ -4590,7 +4590,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924423094,
@@ -4628,7 +4628,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924549304,
@@ -4649,7 +4649,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Each weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your target. Magic weapons, special abilities, and other factors can grant a bonus to damage. With a penalty, it is possible to deal 0 damage, but never negative damage.</p><p>When attacking with a <strong>weapon</strong>, you add your ability modifier—the same modifier used for the attack roll—to the damage. A <strong>spell</strong> tells you which dice to roll for damage and whether to add any modifiers.</p><p>If a spell or other effect deals damage to <strong>more than one target </strong>at the same time, roll the damage once for all of them. For example, when a wizard casts @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Fireball} or a cleric casts @UUID[Compendium.dnd5e.spells.Item.5e1xTohkzqFqbYH4]{Flame Strike}, the spell’s damage is rolled once for all creatures caught in the blast.</p><h3>Critical Hits</h3><p>@Embed[.gFL1VhSEljL1zvje inline]</p><h3>Damage Types</h3><p>@Embed[.jVOgf7DNEhkzYNIe inline]</p>",
+        "content": "<p>Each weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your target. Magic weapons, special abilities, and other factors can grant a bonus to damage. With a penalty, it is possible to deal 0 damage, but never negative damage.</p><p>When attacking with a <strong>weapon</strong>, you add your ability modifier—the same modifier used for the attack roll—to the damage. A <strong>spell</strong> tells you which dice to roll for damage and whether to add any modifiers.</p><p>If a spell or other effect deals damage to <strong>more than one target </strong>at the same time, roll the damage once for all of them. For example, when a wizard casts @UUID[Compendium.dnd5e_custom.spells.Item.ztgcdrWPshKRpFd0]{Fireball} or a cleric casts @UUID[Compendium.dnd5e_custom.spells.Item.5e1xTohkzqFqbYH4]{Flame Strike}, the spell’s damage is rolled once for all creatures caught in the blast.</p><h3>Critical Hits</h3><p>@Embed[.gFL1VhSEljL1zvje inline]</p><h3>Damage Types</h3><p>@Embed[.jVOgf7DNEhkzYNIe inline]</p>",
         "markdown": ""
       },
       "video": {
@@ -4658,7 +4658,7 @@
       },
       "src": null,
       "system": {
-        "tooltip": "<p>Each weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your target. Magic weapons, special abilities, and other factors can grant a bonus to damage. With a penalty, it is possible to deal 0 damage, but never negative damage.</p><p>When attacking with a <strong>weapon</strong>, you add your ability modifier—the same modifier used for the attack roll—to the damage. A <strong>spell</strong> tells you which dice to roll for damage and whether to add any modifiers.</p><p>If a spell or other effect deals damage to <strong>more than one target </strong>at the same time, roll the damage once for all of them. For example, when a wizard casts @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Fireball} or a cleric casts @UUID[Compendium.dnd5e.spells.Item.5e1xTohkzqFqbYH4]{Flame Strike}, the spell’s damage is rolled once for all creatures caught in the blast.</p>",
+        "tooltip": "<p>Each weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your target. Magic weapons, special abilities, and other factors can grant a bonus to damage. With a penalty, it is possible to deal 0 damage, but never negative damage.</p><p>When attacking with a <strong>weapon</strong>, you add your ability modifier—the same modifier used for the attack roll—to the damage. A <strong>spell</strong> tells you which dice to roll for damage and whether to add any modifiers.</p><p>If a spell or other effect deals damage to <strong>more than one target </strong>at the same time, roll the damage once for all of them. For example, when a wizard casts @UUID[Compendium.dnd5e_custom.spells.Item.ztgcdrWPshKRpFd0]{Fireball} or a cleric casts @UUID[Compendium.dnd5e_custom.spells.Item.5e1xTohkzqFqbYH4]{Flame Strike}, the spell’s damage is rolled once for all creatures caught in the blast.</p>",
         "type": "rule"
       },
       "ownership": {
@@ -4666,7 +4666,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924556933,
@@ -4704,7 +4704,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924561630,
@@ -4742,7 +4742,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924572267,
@@ -4780,7 +4780,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924577347,
@@ -4818,7 +4818,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924714346,
@@ -4856,7 +4856,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924719440,
@@ -4894,7 +4894,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924731291,
@@ -4932,7 +4932,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924739645,
@@ -4970,7 +4970,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924745905,
@@ -5008,7 +5008,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924751347,
@@ -5046,7 +5046,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924758945,
@@ -5084,7 +5084,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924774206,
@@ -5122,7 +5122,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924779576,
@@ -5160,7 +5160,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924788922,
@@ -5198,7 +5198,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924796347,
@@ -5236,7 +5236,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924811356,
@@ -5257,7 +5257,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Unless it results in death, damage isn’t permanent. Even death is reversible through powerful magic. Rest can restore a creature’s hit points, and magical methods such as a @UUID[Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP]{Cure Wounds} spell or a @UUID[Compendium.dnd5e.items.Item.ytlsBjYsZ7OBSEBs]{Potion of Healing} can remove damage in an instant.</p><p>When a creature receives healing of any kind, hit points regained are added to its current hit points. A creature’s hit points can’t exceed its hit point maximum, so any hit points regained in excess of this number are lost. For example, a druid grants a ranger 8 hit points of healing. If the ranger has 14 current hit points and has a hit point maximum of 20, the ranger regains 6 hit points from the druid, not 8.</p><p>A creature that has died can’t regain hit points until magic such as the @UUID[Compendium.dnd5e.spells.Item.LmRHHMtplpxr9fX6]{Revivify} spell has restored it to life.</p>",
+        "content": "<p>Unless it results in death, damage isn’t permanent. Even death is reversible through powerful magic. Rest can restore a creature’s hit points, and magical methods such as a @UUID[Compendium.dnd5e_custom.spells.Item.uUWb1wZgtMou0TVP]{Cure Wounds} spell or a @UUID[Compendium.dnd5e_custom.items.Item.ytlsBjYsZ7OBSEBs]{Potion of Healing} can remove damage in an instant.</p><p>When a creature receives healing of any kind, hit points regained are added to its current hit points. A creature’s hit points can’t exceed its hit point maximum, so any hit points regained in excess of this number are lost. For example, a druid grants a ranger 8 hit points of healing. If the ranger has 14 current hit points and has a hit point maximum of 20, the ranger regains 6 hit points from the druid, not 8.</p><p>A creature that has died can’t regain hit points until magic such as the @UUID[Compendium.dnd5e_custom.spells.Item.LmRHHMtplpxr9fX6]{Revivify} spell has restored it to life.</p>",
         "markdown": ""
       },
       "video": {
@@ -5274,7 +5274,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924816886,
@@ -5312,7 +5312,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924822621,
@@ -5350,7 +5350,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924828472,
@@ -5388,7 +5388,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924833849,
@@ -5426,7 +5426,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924843370,
@@ -5464,7 +5464,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924858361,
@@ -5502,7 +5502,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924866045,
@@ -5540,7 +5540,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924874198,
@@ -5578,7 +5578,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924878557,
@@ -5616,7 +5616,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924887110,
@@ -5654,7 +5654,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704924894160,
@@ -5692,7 +5692,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704925416023,
@@ -5730,7 +5730,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704925553099,
@@ -5768,7 +5768,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704925567016,
@@ -5806,7 +5806,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704925609616,
@@ -5844,7 +5844,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704927249941,
@@ -5865,7 +5865,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p><strong>Mounts and Vehicles. </strong>For short spans of time (up to an hour), many animals move much faster than humanoids. A mounted character can ride at a gallop for about an hour, covering twice the usual distance for a fast pace. If fresh mounts are available every 8 to 10 miles, characters can cover larger distances at this pace, but this is very rare except in densely populated areas.</p><p>Characters in wagons, carriages, or other land vehicles choose a pace as normal. Characters in a waterborne vessel are limited to the speed of the vessel, and they don’t suffer penalties for a fast pace or gain benefits from a slow pace. Depending on the vessel and the size of the crew, ships might be able to travel for up to 24 hours per day.</p><p>Certain special mounts, such as a pegasus or griffon, or special vehicles, such as a @UUID[Compendium.dnd5e.items.Item.TjWk2mpNXjDdfIDM]{Carpet of Flying}, allow you to travel more swiftly.</p>",
+        "content": "<p><strong>Mounts and Vehicles. </strong>For short spans of time (up to an hour), many animals move much faster than humanoids. A mounted character can ride at a gallop for about an hour, covering twice the usual distance for a fast pace. If fresh mounts are available every 8 to 10 miles, characters can cover larger distances at this pace, but this is very rare except in densely populated areas.</p><p>Characters in wagons, carriages, or other land vehicles choose a pace as normal. Characters in a waterborne vessel are limited to the speed of the vessel, and they don’t suffer penalties for a fast pace or gain benefits from a slow pace. Depending on the vessel and the size of the crew, ships might be able to travel for up to 24 hours per day.</p><p>Certain special mounts, such as a pegasus or griffon, or special vehicles, such as a @UUID[Compendium.dnd5e_custom.items.Item.TjWk2mpNXjDdfIDM]{Carpet of Flying}, allow you to travel more swiftly.</p>",
         "markdown": ""
       },
       "video": {
@@ -5882,7 +5882,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1704927257562,
@@ -5903,7 +5903,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Every spell has a level from 0 to 9. A spell's level is a general indicator of how powerful it is, with the lowly (but still impressive) @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{Magic Missile} at 1st level and the earth-shaking @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{Wish} at 9th. Cantrips—simple but powerful spells that characters can cast almost by rote—are level 0. The higher a spell's level, the higher level a spellcaster must be to use that spell.</p><p>Spell level and character level don't correspond directly. Typically, a character has to be at least 17th level, not 9th level, to cast a 9th-level spell.</p>",
+        "content": "<p>Every spell has a level from 0 to 9. A spell's level is a general indicator of how powerful it is, with the lowly (but still impressive) @UUID[Compendium.dnd5e_custom.spells.Item.41JIhpDyM9Anm7cs]{Magic Missile} at 1st level and the earth-shaking @UUID[Compendium.dnd5e_custom.spells.Item.3okM6Gn63zzEULkz]{Wish} at 9th. Cantrips—simple but powerful spells that characters can cast almost by rote—are level 0. The higher a spell's level, the higher level a spellcaster must be to use that spell.</p><p>Spell level and character level don't correspond directly. Typically, a character has to be at least 17th level, not 9th level, to cast a 9th-level spell.</p>",
         "markdown": ""
       },
       "video": {
@@ -5920,7 +5920,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170511902,
@@ -5958,7 +5958,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170519403,
@@ -5979,7 +5979,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Regardless of how many spells a caster knows or prepares, he or she can cast only a limited number of spells before resting. Manipulating the fabric of magic and channeling its energy into even a simple spell is physically and mentally taxing, and higherlevel spells are even more so. Thus, each spellcasting class's description (except that of the warlock) includes a table showing how many spell slots of each spell level a character can use at each character level. For example, the 3rd-level wizard Umara has four 1st-level spell slots and two 2nd-level slots.</p><p>When a character casts a spell, he or she expends a slot of that spell's level or higher, effectively “filling” a slot with the spell. You can think of a spell slot as a groove of a certain size—small for a 1st-level slot, larger for a spell of higher level. A 1st-level spell fits into a slot of any size, but a 9th-level spell fits only in a 9th-level slot. So when Umara casts @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{Magic Missile}, a 1st-level spell, she spends one of her four 1st-level slots and has three remaining.</p><p>Finishing a long rest restores any expended spell slots.</p><p>Some characters and monsters have special abilities that let them cast spells without using spell slots. For example, a monk who follows the Way of the Four Elements, a warlock who chooses certain eldritch invocations, and a pit fiend from the Nine Hells can all cast spells in such a way.</p><h3>Casting a Spell at a Higher Level</h3><p>@Embed[.4H9SLM95OCLfFizz inline]</p>",
+        "content": "<p>Regardless of how many spells a caster knows or prepares, he or she can cast only a limited number of spells before resting. Manipulating the fabric of magic and channeling its energy into even a simple spell is physically and mentally taxing, and higherlevel spells are even more so. Thus, each spellcasting class's description (except that of the warlock) includes a table showing how many spell slots of each spell level a character can use at each character level. For example, the 3rd-level wizard Umara has four 1st-level spell slots and two 2nd-level slots.</p><p>When a character casts a spell, he or she expends a slot of that spell's level or higher, effectively “filling” a slot with the spell. You can think of a spell slot as a groove of a certain size—small for a 1st-level slot, larger for a spell of higher level. A 1st-level spell fits into a slot of any size, but a 9th-level spell fits only in a 9th-level slot. So when Umara casts @UUID[Compendium.dnd5e_custom.spells.Item.41JIhpDyM9Anm7cs]{Magic Missile}, a 1st-level spell, she spends one of her four 1st-level slots and has three remaining.</p><p>Finishing a long rest restores any expended spell slots.</p><p>Some characters and monsters have special abilities that let them cast spells without using spell slots. For example, a monk who follows the Way of the Four Elements, a warlock who chooses certain eldritch invocations, and a pit fiend from the Nine Hells can all cast spells in such a way.</p><h3>Casting a Spell at a Higher Level</h3><p>@Embed[.4H9SLM95OCLfFizz inline]</p>",
         "markdown": ""
       },
       "video": {
@@ -5996,7 +5996,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170522331,
@@ -6017,7 +6017,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>When a spellcaster casts a spell using a slot that is of a higher level than the spell, the spell assumes the higher level for that casting. For instance, if Umara casts @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{Magic Missile}<em> </em>using one of her 2nd-level slots, that <em>magic missile </em>is 2nd level. Effectively, the spell expands to fill the slot it is put into.</p><p>Some spells, such as <em>magic missile </em>and @UUID[Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP]{Cure Wounds}, have more powerful effects when cast at a higher level, as detailed in a spell's description.</p>",
+        "content": "<p>When a spellcaster casts a spell using a slot that is of a higher level than the spell, the spell assumes the higher level for that casting. For instance, if Umara casts @UUID[Compendium.dnd5e_custom.spells.Item.41JIhpDyM9Anm7cs]{Magic Missile}<em> </em>using one of her 2nd-level slots, that <em>magic missile </em>is 2nd level. Effectively, the spell expands to fill the slot it is put into.</p><p>Some spells, such as <em>magic missile </em>and @UUID[Compendium.dnd5e_custom.spells.Item.uUWb1wZgtMou0TVP]{Cure Wounds}, have more powerful effects when cast at a higher level, as detailed in a spell's description.</p>",
         "markdown": ""
       },
       "video": {
@@ -6034,7 +6034,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170535265,
@@ -6072,7 +6072,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170543938,
@@ -6110,7 +6110,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170556201,
@@ -6148,7 +6148,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170563663,
@@ -6186,7 +6186,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170767305,
@@ -6224,7 +6224,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170770842,
@@ -6262,7 +6262,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170776960,
@@ -6300,7 +6300,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170788777,
@@ -6321,7 +6321,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>The target of a spell must be within the spell’s range. For a spell like @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{Magic Missile}, the target is a creature. For a spell like @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Fireball}, the target is the point in space where the ball of fire erupts.</p><p>Most spells have ranges expressed in feet. Some spells can target only a creature (including you) that you touch. Other spells, such as the @UUID[Compendium.dnd5e.spells.Item.z1mx84ONwkXKUZd7]{Shield} spell, affect only you. These spells have a range of self.</p><p>Spells that create cones or lines of effect that originate from you also have a range of self, indicating that the origin point of the spell’s effect must be you (see “Areas of Effect”).</p><p>Once a spell is cast, its effects aren’t limited by its range, unless the spell’s description says otherwise.</p>",
+        "content": "<p>The target of a spell must be within the spell’s range. For a spell like @UUID[Compendium.dnd5e_custom.spells.Item.41JIhpDyM9Anm7cs]{Magic Missile}, the target is a creature. For a spell like @UUID[Compendium.dnd5e_custom.spells.Item.ztgcdrWPshKRpFd0]{Fireball}, the target is the point in space where the ball of fire erupts.</p><p>Most spells have ranges expressed in feet. Some spells can target only a creature (including you) that you touch. Other spells, such as the @UUID[Compendium.dnd5e_custom.spells.Item.z1mx84ONwkXKUZd7]{Shield} spell, affect only you. These spells have a range of self.</p><p>Spells that create cones or lines of effect that originate from you also have a range of self, indicating that the origin point of the spell’s effect must be you (see “Areas of Effect”).</p><p>Once a spell is cast, its effects aren’t limited by its range, unless the spell’s description says otherwise.</p>",
         "markdown": ""
       },
       "video": {
@@ -6338,7 +6338,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170795591,
@@ -6376,7 +6376,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170803245,
@@ -6397,7 +6397,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Most spells require the chanting of mystic words. The words themselves aren’t the source of the spell’s power; rather, the particular combination of sounds, with specific pitch and resonance, sets the threads of magic in motion. Thus, a character who is gagged or in an area of silence, such as one created by the @UUID[Compendium.dnd5e.spells.Item.5VhqFROQYjr1P9lp]{silence} spell, can’t cast a spell with a verbal component.</p>",
+        "content": "<p>Most spells require the chanting of mystic words. The words themselves aren’t the source of the spell’s power; rather, the particular combination of sounds, with specific pitch and resonance, sets the threads of magic in motion. Thus, a character who is gagged or in an area of silence, such as one created by the @UUID[Compendium.dnd5e_custom.spells.Item.5VhqFROQYjr1P9lp]{silence} spell, can’t cast a spell with a verbal component.</p>",
         "markdown": ""
       },
       "video": {
@@ -6414,7 +6414,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170809012,
@@ -6452,7 +6452,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170819180,
@@ -6473,7 +6473,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Casting some spells requires particular objects, specified in parentheses in the component entry. A character can use a <strong>component pouch</strong> or a <strong>spellcasting focus </strong>(found in @UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM]{Chapter 5: Equipment}) in place of the components specified for a spell. But if a cost is indicated for a component, a character must have that specific component before he or she can cast the spell.</p><p>If a spell states that a material component is consumed by the spell, the caster must provide this component for each casting of the spell.</p><p>A spellcaster must have a hand free to access a spell’s material components—or to hold a spellcasting focus—but it can be the same hand that he or she uses to perform somatic components.</p>",
+        "content": "<p>Casting some spells requires particular objects, specified in parentheses in the component entry. A character can use a <strong>component pouch</strong> or a <strong>spellcasting focus </strong>(found in @UUID[Compendium.dnd5e_custom.rules.JournalEntry.BYFd9hiJGo9L5aOM]{Chapter 5: Equipment}) in place of the components specified for a spell. But if a cost is indicated for a component, a character must have that specific component before he or she can cast the spell.</p><p>If a spell states that a material component is consumed by the spell, the caster must provide this component for each casting of the spell.</p><p>A spellcaster must have a hand free to access a spell’s material components—or to hold a spellcasting focus—but it can be the same hand that he or she uses to perform somatic components.</p>",
         "markdown": ""
       },
       "video": {
@@ -6490,7 +6490,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170825591,
@@ -6528,7 +6528,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170831270,
@@ -6566,7 +6566,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170839545,
@@ -6604,7 +6604,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170846301,
@@ -6642,7 +6642,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170856108,
@@ -6680,7 +6680,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170862961,
@@ -6718,7 +6718,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170867827,
@@ -6739,7 +6739,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Spells such as @UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{Burning Hands} and @UUID[Compendium.dnd5e.spells.Item.RpKjTlYASrfqUPVA]{Cone of Cold} cover an area, allowing them to affect multiple creatures at once.</p><p>@Embed[.8HxbRceQQUAhyWRt inline]</p><h3>Cone</h3><p>@Embed[.DqqAOr5JnX71OCOw inline]</p><h3>Cube</h3><p>@Embed[.dRfDIwuaHmUQ06uA inline]</p><h3>Cylinder</h3><p>@Embed[.jZFp4R7tXsIqkiG3 inline]</p><h3>Line</h3><p>@Embed[.6DOoBgg7okm9gBc6 inline]</p><h3>Sphere</h3><p>@Embed[.npdEWb2egUPnB5Fa inline]</p>",
+        "content": "<p>Spells such as @UUID[Compendium.dnd5e_custom.spells.Item.5SuJewoa1CRWaj1F]{Burning Hands} and @UUID[Compendium.dnd5e_custom.spells.Item.RpKjTlYASrfqUPVA]{Cone of Cold} cover an area, allowing them to affect multiple creatures at once.</p><p>@Embed[.8HxbRceQQUAhyWRt inline]</p><h3>Cone</h3><p>@Embed[.DqqAOr5JnX71OCOw inline]</p><h3>Cube</h3><p>@Embed[.dRfDIwuaHmUQ06uA inline]</p><h3>Cylinder</h3><p>@Embed[.jZFp4R7tXsIqkiG3 inline]</p><h3>Line</h3><p>@Embed[.6DOoBgg7okm9gBc6 inline]</p><h3>Sphere</h3><p>@Embed[.npdEWb2egUPnB5Fa inline]</p>",
         "markdown": ""
       },
       "video": {
@@ -6756,7 +6756,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170885239,
@@ -6794,7 +6794,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170889137,
@@ -6832,7 +6832,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170893040,
@@ -6870,7 +6870,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170896467,
@@ -6908,7 +6908,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170901914,
@@ -6946,7 +6946,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170907654,
@@ -6984,7 +6984,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170912741,
@@ -7022,7 +7022,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170917323,
@@ -7060,7 +7060,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170927456,
@@ -7098,7 +7098,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170934535,
@@ -7136,7 +7136,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170943259,
@@ -7174,7 +7174,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170949703,
@@ -7212,7 +7212,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170956034,
@@ -7250,7 +7250,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170960548,
@@ -7288,7 +7288,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170964466,
@@ -7326,7 +7326,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170970284,
@@ -7364,7 +7364,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170974681,
@@ -7402,7 +7402,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705170982045,
@@ -7440,7 +7440,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705171160280,
@@ -7478,7 +7478,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190410014,
@@ -7499,7 +7499,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Most traps are triggered when a creature goes somewhere or touches something that the trap’s creator wanted to protect. Common triggers include stepping on a pressure plate or a false section of floor, pulling a trip wire, turning a doorknob, and using the wrong key in a lock. Magic traps are often set to go off when a creature enters an area or touches an object. Some magic traps (such as the @UUID[Compendium.dnd5e.spells.Item.pB7XVYwdGNcUG935]{Glyph of Warding} spell) have more complicated trigger conditions, including a password that prevents the trap from activating.</p>",
+        "content": "<p>Most traps are triggered when a creature goes somewhere or touches something that the trap’s creator wanted to protect. Common triggers include stepping on a pressure plate or a false section of floor, pulling a trip wire, turning a doorknob, and using the wrong key in a lock. Magic traps are often set to go off when a creature enters an area or touches an object. Some magic traps (such as the @UUID[Compendium.dnd5e_custom.spells.Item.pB7XVYwdGNcUG935]{Glyph of Warding} spell) have more complicated trigger conditions, including a password that prevents the trap from activating.</p>",
         "markdown": ""
       },
       "video": {
@@ -7516,7 +7516,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190415329,
@@ -7537,7 +7537,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Usually, some element of a trap is visible to careful inspection. Characters might notice an uneven flagstone that conceals a pressure plate, spot the gleam of light off a trip wire, notice small holes in the walls from which jets of flame will erupt, or otherwise detect something that points to a trap’s presence.</p><p>A trap’s description specifies the checks and DCs needed to detect it, disable it, or both. A character actively looking for a trap can attempt a Wisdom (Perception) check against the trap’s DC. You can also compare the DC to detect the trap with each character’s passive Wisdom (Perception) score to determine whether anyone in the party notices the trap in passing. If the adventurers detect a trap before triggering it, they might be able to disarm it, either permanently or long enough to move past it. You might call for an Intelligence (Investigation) check for a character to deduce what needs to be done, followed by a Dexterity check using thieves’ tools to perform the necessary sabotage.</p><p>Any character can attempt an Intelligence (Arcana) check to detect or disarm a magic trap, in addition to any other checks noted in the trap’s description. The DCs are the same regardless of the check used. In addition, @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Dispel Magic} has a chance of disabling most magic traps. A magic trap’s description provides the DC for the ability check made when you use <em>dispel magic</em>.</p><p>In most cases, a trap’s description is clear enough that you can adjudicate whether a character’s actions locate or foil the trap. As with many situations, you shouldn’t allow die rolling to override clever play and good planning. Use your common sense, drawing on the trap’s description to determine what happens. No trap’s design can anticipate every possible action that the characters might attempt.</p><p>You should allow a character to discover a trap without making an ability check if an action would clearly reveal the trap’s presence. For example, if a character lifts a rug that conceals a pressure plate, the character has found the trigger and no check is required.</p><p>Foiling traps can be a little more complicated. Consider a trapped treasure chest. If the chest is opened without first pulling on the two handles set in its sides, a mechanism inside fires a hail of poison needles toward anyone in front of it. After inspecting the chest and making a few checks, the characters are still unsure if it’s trapped. Rather than simply open the chest, they prop a shield in front of it and push the chest open at a distance with an iron rod. In this case, the trap still triggers, but the hail of needles fires harmlessly into the shield.</p><p>Traps are often designed with mechanisms that allow them to be disarmed or bypassed. Intelligent monsters that place traps in or around their lairs need ways to get past those traps without harming themselves. Such traps might have hidden levers that disable their triggers, or a secret door might conceal a passage that goes around the trap.</p>",
+        "content": "<p>Usually, some element of a trap is visible to careful inspection. Characters might notice an uneven flagstone that conceals a pressure plate, spot the gleam of light off a trip wire, notice small holes in the walls from which jets of flame will erupt, or otherwise detect something that points to a trap’s presence.</p><p>A trap’s description specifies the checks and DCs needed to detect it, disable it, or both. A character actively looking for a trap can attempt a Wisdom (Perception) check against the trap’s DC. You can also compare the DC to detect the trap with each character’s passive Wisdom (Perception) score to determine whether anyone in the party notices the trap in passing. If the adventurers detect a trap before triggering it, they might be able to disarm it, either permanently or long enough to move past it. You might call for an Intelligence (Investigation) check for a character to deduce what needs to be done, followed by a Dexterity check using thieves’ tools to perform the necessary sabotage.</p><p>Any character can attempt an Intelligence (Arcana) check to detect or disarm a magic trap, in addition to any other checks noted in the trap’s description. The DCs are the same regardless of the check used. In addition, @UUID[Compendium.dnd5e_custom.spells.Item.15Fa6q1nH27XfbR8]{Dispel Magic} has a chance of disabling most magic traps. A magic trap’s description provides the DC for the ability check made when you use <em>dispel magic</em>.</p><p>In most cases, a trap’s description is clear enough that you can adjudicate whether a character’s actions locate or foil the trap. As with many situations, you shouldn’t allow die rolling to override clever play and good planning. Use your common sense, drawing on the trap’s description to determine what happens. No trap’s design can anticipate every possible action that the characters might attempt.</p><p>You should allow a character to discover a trap without making an ability check if an action would clearly reveal the trap’s presence. For example, if a character lifts a rug that conceals a pressure plate, the character has found the trigger and no check is required.</p><p>Foiling traps can be a little more complicated. Consider a trapped treasure chest. If the chest is opened without first pulling on the two handles set in its sides, a mechanism inside fires a hail of poison needles toward anyone in front of it. After inspecting the chest and making a few checks, the characters are still unsure if it’s trapped. Rather than simply open the chest, they prop a shield in front of it and push the chest open at a distance with an iron rod. In this case, the trap still triggers, but the hail of needles fires harmlessly into the shield.</p><p>Traps are often designed with mechanisms that allow them to be disarmed or bypassed. Intelligent monsters that place traps in or around their lairs need ways to get past those traps without harming themselves. Such traps might have hidden levers that disable their triggers, or a secret door might conceal a passage that goes around the trap.</p>",
         "markdown": ""
       },
       "video": {
@@ -7554,7 +7554,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190421483,
@@ -7592,7 +7592,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190426771,
@@ -7630,7 +7630,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190440952,
@@ -7651,7 +7651,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Various magical effects can inflict madness on an otherwise stable mind. Certain spells, such as @UUID[Compendium.dnd5e.spells.Item.dSTu1MaPhBqPITwM]{Contact Other Plane} and @UUID[Compendium.dnd5e.spells.Item.B2kbmgbA2WQR00kx]{Symbol}, can cause insanity, and you can use the madness rules here instead of the spell effects of those spells. Diseases, poisons, and planar effects such as psychic wind or the howling winds of Pandemonium can all inflict madness. Some artifacts can also break the psyche of a character who uses or becomes attuned to them.</p><p>Resisting a madness-inducing effect usually requires a Wisdom or Charisma saving throw.</p>",
+        "content": "<p>Various magical effects can inflict madness on an otherwise stable mind. Certain spells, such as @UUID[Compendium.dnd5e_custom.spells.Item.dSTu1MaPhBqPITwM]{Contact Other Plane} and @UUID[Compendium.dnd5e_custom.spells.Item.B2kbmgbA2WQR00kx]{Symbol}, can cause insanity, and you can use the madness rules here instead of the spell effects of those spells. Diseases, poisons, and planar effects such as psychic wind or the howling winds of Pandemonium can all inflict madness. Some artifacts can also break the psyche of a character who uses or becomes attuned to them.</p><p>Resisting a madness-inducing effect usually requires a Wisdom or Charisma saving throw.</p>",
         "markdown": ""
       },
       "video": {
@@ -7668,7 +7668,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190589914,
@@ -7706,7 +7706,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190595620,
@@ -7727,7 +7727,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>A @UUID[Compendium.dnd5e.spells.Item.3MYDjS6k9IYL0aTj]{Calm Emotions}spell can suppress the effects of madness, while a @UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Lesser Restoration} spell can rid a character of a short-term or long-term madness. Depending on the source of the madness, @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Remove Curse} or @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Dispel Magic}<em> </em>might also prove effective. A @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{Greater Restoration} spell or more powerful magic is required to rid a character of indefinite madness.</p>",
+        "content": "<p>A @UUID[Compendium.dnd5e_custom.spells.Item.3MYDjS6k9IYL0aTj]{Calm Emotions}spell can suppress the effects of madness, while a @UUID[Compendium.dnd5e_custom.spells.Item.F0GsG0SJzsIOacwV]{Lesser Restoration} spell can rid a character of a short-term or long-term madness. Depending on the source of the madness, @UUID[Compendium.dnd5e_custom.spells.Item.XZhdgVK3cLoxNCQl]{Remove Curse} or @UUID[Compendium.dnd5e_custom.spells.Item.15Fa6q1nH27XfbR8]{Dispel Magic}<em> </em>might also prove effective. A @UUID[Compendium.dnd5e_custom.spells.Item.WzvJ7G3cqvIubsLk]{Greater Restoration} spell or more powerful magic is required to rid a character of indefinite madness.</p>",
         "markdown": ""
       },
       "video": {
@@ -7744,7 +7744,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190608959,
@@ -7765,7 +7765,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>A character afflicted with <strong>short-term madness</strong> is subjected to an effect from the @UUID[Compendium.dnd5e.tables.RollTable.ypk2L9feVwTx0QVj]{Short-Term Madness} table for 1d10 minutes.</p>",
+        "content": "<p>A character afflicted with <strong>short-term madness</strong> is subjected to an effect from the @UUID[Compendium.dnd5e_custom.tables.RollTable.ypk2L9feVwTx0QVj]{Short-Term Madness} table for 1d10 minutes.</p>",
         "markdown": ""
       },
       "video": {
@@ -7782,7 +7782,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190635134,
@@ -7803,7 +7803,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>A character afflicted with<strong> long-term madness</strong> is subjected to an effect from the @UUID[Compendium.dnd5e.tables.RollTable.kJB79nI9rju6VN8J]{Long-Term Madness} table for 1d10 × 10 hours.</p>",
+        "content": "<p>A character afflicted with<strong> long-term madness</strong> is subjected to an effect from the @UUID[Compendium.dnd5e_custom.tables.RollTable.kJB79nI9rju6VN8J]{Long-Term Madness} table for 1d10 × 10 hours.</p>",
         "markdown": ""
       },
       "video": {
@@ -7820,7 +7820,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190644622,
@@ -7841,7 +7841,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>A character afflicted with <strong>indefinite madness</strong> gains a new character flaw from the @UUID[Compendium.dnd5e.tables.RollTable.MAL5r8ZKx7BVsE9R]{Indefinite Madness} table that lasts until cured.</p>",
+        "content": "<p>A character afflicted with <strong>indefinite madness</strong> gains a new character flaw from the @UUID[Compendium.dnd5e_custom.tables.RollTable.MAL5r8ZKx7BVsE9R]{Indefinite Madness} table that lasts until cured.</p>",
         "markdown": ""
       },
       "video": {
@@ -7858,7 +7858,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190656989,
@@ -7896,7 +7896,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190740314,
@@ -7934,7 +7934,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190749908,
@@ -7972,7 +7972,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190758998,
@@ -7993,7 +7993,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p><strong>Huge and Gargantuan Objects. </strong>Normal weapons are of little use against many Huge and Gargantuan objects, such as a colossal statue, towering column of stone, or massive boulder. That said, one torch can burn a Huge tapestry, and an @UUID[Compendium.dnd5e.spells.Item.x5JNBSyIBBZsjcGT]{Earthquake} spell can reduce a colossus to rubble. You can track a Huge or Gargantuan object’s hit points if you like, or you can simply decide how long the object can withstand whatever weapon or force is acting against it. If you track hit points for the object, divide it into Large or smaller sections, and track each section’s hit points separately. Destroying one of those sections could ruin the entire object. For example, a Gargantuan statue of a human might topple over when one of its Large legs is reduced to 0 hit points.</p>",
+        "content": "<p><strong>Huge and Gargantuan Objects. </strong>Normal weapons are of little use against many Huge and Gargantuan objects, such as a colossal statue, towering column of stone, or massive boulder. That said, one torch can burn a Huge tapestry, and an @UUID[Compendium.dnd5e_custom.spells.Item.x5JNBSyIBBZsjcGT]{Earthquake} spell can reduce a colossus to rubble. You can track a Huge or Gargantuan object’s hit points if you like, or you can simply decide how long the object can withstand whatever weapon or force is acting against it. If you track hit points for the object, divide it into Large or smaller sections, and track each section’s hit points separately. Destroying one of those sections could ruin the entire object. For example, a Gargantuan statue of a human might topple over when one of its Large legs is reduced to 0 hit points.</p>",
         "markdown": ""
       },
       "video": {
@@ -8002,7 +8002,7 @@
       },
       "src": null,
       "system": {
-        "tooltip": "<p>Normal weapons are of little use against many Huge and Gargantuan objects, such as a colossal statue, towering column of stone, or massive boulder. That said, one torch can burn a Huge tapestry, and an @UUID[Compendium.dnd5e.spells.Item.x5JNBSyIBBZsjcGT]{Earthquake} spell can reduce a colossus to rubble. You can track a Huge or Gargantuan object’s hit points if you like, or you can simply decide how long the object can withstand whatever weapon or force is acting against it. If you track hit points for the object, divide it into Large or smaller sections, and track each section’s hit points separately. Destroying one of those sections could ruin the entire object. For example, a Gargantuan statue of a human might topple over when one of its Large legs is reduced to 0 hit points.</p>",
+        "tooltip": "<p>Normal weapons are of little use against many Huge and Gargantuan objects, such as a colossal statue, towering column of stone, or massive boulder. That said, one torch can burn a Huge tapestry, and an @UUID[Compendium.dnd5e_custom.spells.Item.x5JNBSyIBBZsjcGT]{Earthquake} spell can reduce a colossus to rubble. You can track a Huge or Gargantuan object’s hit points if you like, or you can simply decide how long the object can withstand whatever weapon or force is acting against it. If you track hit points for the object, divide it into Large or smaller sections, and track each section’s hit points separately. Destroying one of those sections could ruin the entire object. For example, a Gargantuan statue of a human might topple over when one of its Large legs is reduced to 0 hit points.</p>",
         "type": "rule"
       },
       "ownership": {
@@ -8010,7 +8010,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190767053,
@@ -8048,7 +8048,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190782639,
@@ -8086,7 +8086,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190789235,
@@ -8124,7 +8124,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190948325,
@@ -8162,7 +8162,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190958655,
@@ -8200,7 +8200,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190964344,
@@ -8238,7 +8238,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190969769,
@@ -8276,7 +8276,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705190974351,
@@ -8297,7 +8297,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Some magic items require a creature to form a bond with them before their magical properties can be used. This bond is called attunement, and certain items have a prerequisite for it. If the prerequisite is a class, a creature must be a member of that class to attune to the item. (If the class is a spellcasting class, a monster qualifies if it has spell slots and uses that class's spell list.) If the prerequisite is to be a spellcaster, a creature qualifies if it can cast at least one spell using its traits or features, not using a magic item or the like.</p><p>Without becoming attuned to an item that requires attunement, a creature gains only its nonmagical benefits, unless its description states otherwise. For example, a magic shield that requires attunement provides the benefits of a normal shield to a creature not attuned to it, but none of its magical properties.</p><p>Attuning to an item requires a creature to spend a short rest focused on only that item while being in physical contact with it (this can't be the same short rest used to learn the item's properties). This focus can take the form of weapon practice (for a weapon), meditation (for a wondrous item), or some other appropriate activity. If the short rest is interrupted, the attunement attempt fails. Otherwise, at the end of the short rest, the creature gains an intuitive understanding of how to activate any magical properties of the item, including any necessary command words.</p><p>An item can be attuned to only one creature at a time, and a creature can be attuned to no more than three magic items at a time. Any attempt to attune to a fourth item fails; the creature must end its attunement to an item first. Additionally, a creature can't attune to more than one copy of an item. For example, a creature can't attune to more than one @UUID[Compendium.dnd5e.items.Item.QtmVEreNIWEVOoLR]{Ring of Protection} at a time.</p><p>A creature's attunement to an item ends if the creature no longer satisfies the prerequisites for attunement, if the item has been more than 100 feet away for at least 24 hours, if the creature dies, or if another creature attunes to the item. A creature can also voluntarily end attunement by spending another short rest focused on the item, unless the item is cursed.</p>",
+        "content": "<p>Some magic items require a creature to form a bond with them before their magical properties can be used. This bond is called attunement, and certain items have a prerequisite for it. If the prerequisite is a class, a creature must be a member of that class to attune to the item. (If the class is a spellcasting class, a monster qualifies if it has spell slots and uses that class's spell list.) If the prerequisite is to be a spellcaster, a creature qualifies if it can cast at least one spell using its traits or features, not using a magic item or the like.</p><p>Without becoming attuned to an item that requires attunement, a creature gains only its nonmagical benefits, unless its description states otherwise. For example, a magic shield that requires attunement provides the benefits of a normal shield to a creature not attuned to it, but none of its magical properties.</p><p>Attuning to an item requires a creature to spend a short rest focused on only that item while being in physical contact with it (this can't be the same short rest used to learn the item's properties). This focus can take the form of weapon practice (for a weapon), meditation (for a wondrous item), or some other appropriate activity. If the short rest is interrupted, the attunement attempt fails. Otherwise, at the end of the short rest, the creature gains an intuitive understanding of how to activate any magical properties of the item, including any necessary command words.</p><p>An item can be attuned to only one creature at a time, and a creature can be attuned to no more than three magic items at a time. Any attempt to attune to a fourth item fails; the creature must end its attunement to an item first. Additionally, a creature can't attune to more than one copy of an item. For example, a creature can't attune to more than one @UUID[Compendium.dnd5e_custom.items.Item.QtmVEreNIWEVOoLR]{Ring of Protection} at a time.</p><p>A creature's attunement to an item ends if the creature no longer satisfies the prerequisites for attunement, if the item has been more than 100 feet away for at least 24 hours, if the creature dies, or if another creature attunes to the item. A creature can also voluntarily end attunement by spending another short rest focused on the item, unless the item is cursed.</p>",
         "markdown": ""
       },
       "video": {
@@ -8314,7 +8314,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191083710,
@@ -8352,7 +8352,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191092027,
@@ -8390,7 +8390,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191100702,
@@ -8428,7 +8428,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191106274,
@@ -8466,7 +8466,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191111590,
@@ -8504,7 +8504,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191117206,
@@ -8542,7 +8542,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191121710,
@@ -8580,7 +8580,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191125295,
@@ -8618,7 +8618,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191130439,
@@ -8656,7 +8656,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191342684,
@@ -8694,7 +8694,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191354524,
@@ -8715,7 +8715,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>A sentient item has some ability to communicate, either by sharing its emotions, broadcasting its thoughts telepathically, or speaking aloud. You can choose how it communicates or roll on the following table.</p><p>@Embed[Compendium.dnd5e.tables.RollTable.BHckoLKDwoL9d5p3]</p>",
+        "content": "<p>A sentient item has some ability to communicate, either by sharing its emotions, broadcasting its thoughts telepathically, or speaking aloud. You can choose how it communicates or roll on the following table.</p><p>@Embed[Compendium.dnd5e_custom.tables.RollTable.BHckoLKDwoL9d5p3]</p>",
         "markdown": ""
       },
       "video": {
@@ -8732,7 +8732,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191364820,
@@ -8753,7 +8753,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>With sentience comes awareness. A sentient item can perceive its surroundings out to a limited range. You can choose its senses or roll on the following table.</p><p>@Embed[Compendium.dnd5e.tables.RollTable.gfR9uCe42xBCCktd]</p>",
+        "content": "<p>With sentience comes awareness. A sentient item can perceive its surroundings out to a limited range. You can choose its senses or roll on the following table.</p><p>@Embed[Compendium.dnd5e_custom.tables.RollTable.gfR9uCe42xBCCktd]</p>",
         "markdown": ""
       },
       "video": {
@@ -8770,7 +8770,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191369699,
@@ -8791,7 +8791,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>A sentient magic item has an alignment. Its creator or nature might suggest an alignment. If not, you can pick an alignment or roll on the following table.</p><p>@Embed[Compendium.dnd5e.tables.RollTable.NdjHJMSSVWw5fHsL]</p>",
+        "content": "<p>A sentient magic item has an alignment. Its creator or nature might suggest an alignment. If not, you can pick an alignment or roll on the following table.</p><p>@Embed[Compendium.dnd5e_custom.tables.RollTable.NdjHJMSSVWw5fHsL]</p>",
         "markdown": ""
       },
       "video": {
@@ -8808,7 +8808,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191375219,
@@ -8829,7 +8829,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>You can give a sentient item an objective it pursues, perhaps to the exclusion of all else. As long as the wielder's use of the item aligns with that special purpose, the item remains cooperative. Deviating from this course might cause conflict between the wielder and the item, and could even cause the item to prevent the use of its activated properties. You can pick a special purpose or roll on the following table.</p><p>@Embed[Compendium.dnd5e.tables.RollTable.b250eqNa0k8lrE9b]</p>",
+        "content": "<p>You can give a sentient item an objective it pursues, perhaps to the exclusion of all else. As long as the wielder's use of the item aligns with that special purpose, the item remains cooperative. Deviating from this course might cause conflict between the wielder and the item, and could even cause the item to prevent the use of its activated properties. You can pick a special purpose or roll on the following table.</p><p>@Embed[Compendium.dnd5e_custom.tables.RollTable.b250eqNa0k8lrE9b]</p>",
         "markdown": ""
       },
       "video": {
@@ -8846,7 +8846,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191380516,
@@ -8884,7 +8884,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191421018,
@@ -8922,7 +8922,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191693221,
@@ -8960,7 +8960,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191698814,
@@ -8998,7 +8998,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191711116,
@@ -9036,7 +9036,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191721830,
@@ -9074,7 +9074,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191913429,
@@ -9112,7 +9112,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191920412,
@@ -9150,7 +9150,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191930115,
@@ -9188,7 +9188,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191935639,
@@ -9226,7 +9226,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191944209,
@@ -9264,7 +9264,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191950637,
@@ -9302,7 +9302,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191957083,
@@ -9340,7 +9340,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191963101,
@@ -9378,7 +9378,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191971162,
@@ -9416,7 +9416,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191981709,
@@ -9454,7 +9454,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191989646,
@@ -9492,7 +9492,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705191996550,
@@ -9530,7 +9530,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192004582,
@@ -9568,7 +9568,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192012418,
@@ -9606,7 +9606,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192019032,
@@ -9644,7 +9644,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192024363,
@@ -9682,7 +9682,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192028889,
@@ -9703,7 +9703,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>A monster’s speed tells you how far it can move on its turn. For more information on speed, see the <em>Player’s Handbook</em>.</p><p>All creatures have a walking speed, simply called the monster’s speed. Creatures that have no form of ground-based locomotion have a walking speed of 0 feet.</p><p>Some creatures have one or more of the following additional movement modes.</p><h3>Burrow</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.I13SYX1zaCLYmaYF inline]</p><h3>Climb</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.eW0LypO5xZZdq4I9 inline]</p><h3>Fly</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.X2CTP455Zpr7Shs9 inline]</p><h3>Swim</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.EQWAcrLYsd96MzJH inline]</p>",
+        "content": "<p>A monster’s speed tells you how far it can move on its turn. For more information on speed, see the <em>Player’s Handbook</em>.</p><p>All creatures have a walking speed, simply called the monster’s speed. Creatures that have no form of ground-based locomotion have a walking speed of 0 feet.</p><p>Some creatures have one or more of the following additional movement modes.</p><h3>Burrow</h3><p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.I13SYX1zaCLYmaYF inline]</p><h3>Climb</h3><p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.eW0LypO5xZZdq4I9 inline]</p><h3>Fly</h3><p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.X2CTP455Zpr7Shs9 inline]</p><h3>Swim</h3><p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.EQWAcrLYsd96MzJH inline]</p>",
         "markdown": ""
       },
       "video": {
@@ -9720,7 +9720,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192038856,
@@ -9758,7 +9758,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192063085,
@@ -9796,7 +9796,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192071676,
@@ -9834,7 +9834,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192075042,
@@ -9872,7 +9872,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192096949,
@@ -9893,7 +9893,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>The Senses entry notes a monster’s passive Wisdom (Perception) score, as well as any special senses the monster might have. Special senses are described below.</p><h3>Blindsight</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.I6ABWHBYwGl55dLY inline]</p><h3>Darkvision</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.0RBamBThjzeAdMSt inline]</p><h3>Tremorsense</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.8AIlZ95v54mL531X inline]</p><h3>Truesight</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.8iC24otVX4n1yrYw inline]</p>",
+        "content": "<p>The Senses entry notes a monster’s passive Wisdom (Perception) score, as well as any special senses the monster might have. Special senses are described below.</p><h3>Blindsight</h3><p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.I6ABWHBYwGl55dLY inline]</p><h3>Darkvision</h3><p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.0RBamBThjzeAdMSt inline]</p><h3>Tremorsense</h3><p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.8AIlZ95v54mL531X inline]</p><h3>Truesight</h3><p>@Embed[Compendium.dnd5e_custom.rules.JournalEntry.eVtpEGXjA2tamEIJ.JournalEntryPage.8iC24otVX4n1yrYw inline]</p>",
         "markdown": ""
       },
       "video": {
@@ -9910,7 +9910,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192099857,
@@ -9948,7 +9948,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192134563,
@@ -9986,7 +9986,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192139448,
@@ -10007,7 +10007,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>Telepathy is a magical ability that allows a monster to communicate mentally with another creature within a specified range. The contacted creature doesn’t need to share a language with the monster to communicate in this way with it, but it must be able to understand at least one language. A creature without telepathy can receive and respond to telepathic messages but can’t initiate or terminate a telepathic conversation.</p><p>A telepathic monster doesn’t need to see a contacted creature and can end the telepathic contact at any time. The contact is broken as soon as the two creatures are no longer within range of each other or if the telepathic monster contacts a different creature within range. A telepathic monster can initiate or terminate a telepathic conversation without using an action, but while the monster is incapacitated, it can’t initiate telepathic contact, and any current contact is terminated.</p><p>A creature within the area of an @UUID[Compendium.dnd5e.spells.Item.Eon0jzGzQRNluTPQ]{Antimagic Field} or in any other location where magic doesn’t function can’t send or receive telepathic messages.</p>",
+        "content": "<p>Telepathy is a magical ability that allows a monster to communicate mentally with another creature within a specified range. The contacted creature doesn’t need to share a language with the monster to communicate in this way with it, but it must be able to understand at least one language. A creature without telepathy can receive and respond to telepathic messages but can’t initiate or terminate a telepathic conversation.</p><p>A telepathic monster doesn’t need to see a contacted creature and can end the telepathic contact at any time. The contact is broken as soon as the two creatures are no longer within range of each other or if the telepathic monster contacts a different creature within range. A telepathic monster can initiate or terminate a telepathic conversation without using an action, but while the monster is incapacitated, it can’t initiate telepathic contact, and any current contact is terminated.</p><p>A creature within the area of an @UUID[Compendium.dnd5e_custom.spells.Item.Eon0jzGzQRNluTPQ]{Antimagic Field} or in any other location where magic doesn’t function can’t send or receive telepathic messages.</p>",
         "markdown": ""
       },
       "video": {
@@ -10024,7 +10024,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192143103,
@@ -10062,7 +10062,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192149061,
@@ -10100,7 +10100,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192154142,
@@ -10138,7 +10138,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192160734,
@@ -10159,7 +10159,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>A monster with the innate ability to cast spells has the Innate Spellcasting special trait. Unless noted otherwise, an innate spell of 1st level or higher is always cast at its lowest possible level and can’t be cast at a higher level. If a monster has a cantrip where its level matters and no level is given, use the monster’s challenge rating.</p><p>An innate spell can have special rules or restrictions. For example, a drow mage can innately cast the @UUID[Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O]{Levitate} spell, but the spell has a “self only” restriction, which means that the spell affects only the drow mage.</p><p>A monster’s innate spells can’t be swapped out with other spells. If a monster’s innate spells don’t require attack rolls, no attack bonus is given for them.</p>",
+        "content": "<p>A monster with the innate ability to cast spells has the Innate Spellcasting special trait. Unless noted otherwise, an innate spell of 1st level or higher is always cast at its lowest possible level and can’t be cast at a higher level. If a monster has a cantrip where its level matters and no level is given, use the monster’s challenge rating.</p><p>An innate spell can have special rules or restrictions. For example, a drow mage can innately cast the @UUID[Compendium.dnd5e_custom.spells.Item.MRxldJd6C4bsBo3O]{Levitate} spell, but the spell has a “self only” restriction, which means that the spell affects only the drow mage.</p><p>A monster’s innate spells can’t be swapped out with other spells. If a monster’s innate spells don’t require attack rolls, no attack bonus is given for them.</p>",
         "markdown": ""
       },
       "video": {
@@ -10176,7 +10176,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192165982,
@@ -10197,7 +10197,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>A monster with the Spellcasting special trait has a spellcaster level and spell slots, which it uses to cast its spells of 1st level and higher (as explained in the <em>Player’s Handbook</em>). The spellcaster level is also used for any cantrips included in the feature.</p><p>The monster has a list of spells known or prepared from a specific class. The list might also include spells from a feature in that class, such as the @UUID[Compendium.dnd5e.classfeatures.Item.x637K2Icp2ZFM1TB]{Divine Domain} feature of the cleric or the @UUID[Compendium.dnd5e.classfeatures.Item.u6Du2P9s81SWuGbi]{Druid Circle} feature of the druid. The monster is considered a member of that class when attuning to or using a magic item that requires membership in the class or access to its spell list.</p><p>A monster can cast a spell from its list at a higher level if it has the spell slot to do so. For example, a drow mage with the 3rd-level @UUID[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ]{Lightning Bolt} spell can cast it as a 5th-level spell by using one of its 5th-level spell slots.</p><p>You can change the spells that a monster knows or has prepared, replacing any spell on its spell list with a spell of the same level and from the same class list. If you do so, you might cause the monster to be a greater or lesser threat than suggested by its challenge rating.</p>",
+        "content": "<p>A monster with the Spellcasting special trait has a spellcaster level and spell slots, which it uses to cast its spells of 1st level and higher (as explained in the <em>Player’s Handbook</em>). The spellcaster level is also used for any cantrips included in the feature.</p><p>The monster has a list of spells known or prepared from a specific class. The list might also include spells from a feature in that class, such as the @UUID[Compendium.dnd5e_custom.classfeatures.Item.x637K2Icp2ZFM1TB]{Divine Domain} feature of the cleric or the @UUID[Compendium.dnd5e_custom.classfeatures.Item.u6Du2P9s81SWuGbi]{Druid Circle} feature of the druid. The monster is considered a member of that class when attuning to or using a magic item that requires membership in the class or access to its spell list.</p><p>A monster can cast a spell from its list at a higher level if it has the spell slot to do so. For example, a drow mage with the 3rd-level @UUID[Compendium.dnd5e_custom.spells.Item.IyikgTEOTv701jgQ]{Lightning Bolt} spell can cast it as a 5th-level spell by using one of its 5th-level spell slots.</p><p>You can change the spells that a monster knows or has prepared, replacing any spell on its spell list with a spell of the same level and from the same class list. If you do so, you might cause the monster to be a greater or lesser threat than suggested by its challenge rating.</p>",
         "markdown": ""
       },
       "video": {
@@ -10214,7 +10214,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192170966,
@@ -10252,7 +10252,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192179062,
@@ -10290,7 +10290,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192187258,
@@ -10328,7 +10328,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192193508,
@@ -10366,7 +10366,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192198124,
@@ -10404,7 +10404,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192206428,
@@ -10442,7 +10442,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192211438,
@@ -10480,7 +10480,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192215835,
@@ -10518,7 +10518,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192220311,
@@ -10556,7 +10556,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192227214,
@@ -10594,7 +10594,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192234966,
@@ -10632,7 +10632,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192240339,
@@ -10670,7 +10670,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192252143,
@@ -10708,7 +10708,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192261317,
@@ -10746,7 +10746,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192266733,
@@ -10784,7 +10784,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192271713,
@@ -10822,7 +10822,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.0.0",
         "coreVersion": "11.315",
         "createdTime": 1705192489830,
@@ -10860,7 +10860,7 @@
       },
       "flags": {},
       "_stats": {
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.2.0",
         "coreVersion": "11.315",
         "createdTime": 1711217829430,
@@ -10885,7 +10885,7 @@
       "image": {},
       "text": {
         "format": 1,
-        "content": "<p>A plague ravages the kingdom, setting the adventurers on a quest to find a cure. An adventurer emerges from an ancient tomb, unopened for centuries, and soon finds herself suffering from a wasting illness. A warlock offends some dark power and contracts a strange affliction that spreads whenever he casts spells.</p><p>A simple outbreak might amount to little more than a small drain on party resources, curable by a casting of @UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Lesser Restoration}. A more complicated outbreak can form the basis of one or more adventures as characters search for a cure, stop the spread of the disease, and deal with the consequences.</p><p>A disease that does more than infect a few party members is primarily a plot device. The rules help describe the effects of the disease and how it can be cured, but the specifics of how a disease works aren't bound by a common set of rules. Diseases can affect any creature, and a given illness might or might not pass from one race or kind of creature to another. A plague might affect only constructs or undead, or sweep through a halfling neighborhood but leave other races untouched. What matters is the story you want to tell.</p>",
+        "content": "<p>A plague ravages the kingdom, setting the adventurers on a quest to find a cure. An adventurer emerges from an ancient tomb, unopened for centuries, and soon finds herself suffering from a wasting illness. A warlock offends some dark power and contracts a strange affliction that spreads whenever he casts spells.</p><p>A simple outbreak might amount to little more than a small drain on party resources, curable by a casting of @UUID[Compendium.dnd5e_custom.spells.Item.F0GsG0SJzsIOacwV]{Lesser Restoration}. A more complicated outbreak can form the basis of one or more adventures as characters search for a cure, stop the spread of the disease, and deal with the consequences.</p><p>A disease that does more than infect a few party members is primarily a plot device. The rules help describe the effects of the disease and how it can be cured, but the specifics of how a disease works aren't bound by a common set of rules. Diseases can affect any creature, and a given illness might or might not pass from one race or kind of creature to another. A plague might affect only constructs or undead, or sweep through a halfling neighborhood but leave other races untouched. What matters is the story you want to tell.</p>",
         "markdown": ""
       },
       "video": {
@@ -10901,7 +10901,7 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "coreVersion": "11.315",
-        "systemId": "dnd5e",
+        "systemId": "dnd5e_custom",
         "systemVersion": "3.2.0",
         "createdTime": 1713798086261,
         "modifiedTime": 1713798194558,
@@ -10916,7 +10916,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.2.0",
     "coreVersion": "11.315",
     "createdTime": 1704059808409,

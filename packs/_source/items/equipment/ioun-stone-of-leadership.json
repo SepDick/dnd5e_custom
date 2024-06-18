@@ -123,7 +123,7 @@
   "effects": [
     {
       "icon": "icons/commodities/stone/ore-pile-purple.webp",
-      "origin": "Compendium.dnd5e.items.hDF4RSCzMO8iI14x",
+      "origin": "Compendium.dnd5e_custom.items.hDF4RSCzMO8iI14x",
       "duration": {
         "startTime": null,
         "seconds": null,
@@ -159,7 +159,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.2.0",
     "coreVersion": "11.315",
     "createdTime": 1661787233810,

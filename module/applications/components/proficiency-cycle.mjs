@@ -19,8 +19,8 @@ export default class ProficiencyCycleElement extends AdoptedStyleSheetMixin(HTML
   /** @inheritDoc */
   static CSS = `
     :host { display: inline-block; }
-    div { --_fill: var(--proficiency-cycle-enabled-color, var(--dnd5e-color-blue)); }
-    div:has(:disabled, :focus-visible) { --_fill: var(--proficiency-cycle-disabled-color, var(--dnd5e-color-gold)); }
+    div { --_fill: var(--proficiency-cycle-enabled-color, var(--dnd5e_custom-color-blue)); }
+    div:has(:disabled, :focus-visible) { --_fill: var(--proficiency-cycle-disabled-color, var(--dnd5e_custom-color-gold)); }
     div:not(:has(:disabled)) { cursor: pointer; }
 
     div {

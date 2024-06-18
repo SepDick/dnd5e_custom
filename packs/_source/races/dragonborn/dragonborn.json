@@ -27,16 +27,16 @@
           "allowDrops": false,
           "type": "feat",
           "pool": [
-            "Compendium.dnd5e.races.NnSZlrsHCFeH3cCq",
-            "Compendium.dnd5e.races.KVgvW5yhKcmQUanz",
-            "Compendium.dnd5e.races.JrUcwLR2aQC09iUM",
-            "Compendium.dnd5e.races.pJzMSk9qYywYy65w",
-            "Compendium.dnd5e.races.bFpLM0N3uTeHLdzu",
-            "Compendium.dnd5e.races.YPQQBZAuRiSwuBfh",
-            "Compendium.dnd5e.races.lXIxndsBaQglHBtO",
-            "Compendium.dnd5e.races.kB61JPKQrDBbSNU7",
-            "Compendium.dnd5e.races.pAYTdRGftNr8AitK",
-            "Compendium.dnd5e.races.KL7wx9Q8XNJQir0k"
+            "Compendium.dnd5e_custom.races.NnSZlrsHCFeH3cCq",
+            "Compendium.dnd5e_custom.races.KVgvW5yhKcmQUanz",
+            "Compendium.dnd5e_custom.races.JrUcwLR2aQC09iUM",
+            "Compendium.dnd5e_custom.races.pJzMSk9qYywYy65w",
+            "Compendium.dnd5e_custom.races.bFpLM0N3uTeHLdzu",
+            "Compendium.dnd5e_custom.races.YPQQBZAuRiSwuBfh",
+            "Compendium.dnd5e_custom.races.lXIxndsBaQglHBtO",
+            "Compendium.dnd5e_custom.races.kB61JPKQrDBbSNU7",
+            "Compendium.dnd5e_custom.races.pAYTdRGftNr8AitK",
+            "Compendium.dnd5e_custom.races.KL7wx9Q8XNJQir0k"
           ],
           "spell": {
             "ability": "",
@@ -194,7 +194,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1677180157568,

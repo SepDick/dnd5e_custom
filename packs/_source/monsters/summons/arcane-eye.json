@@ -564,7 +564,7 @@
     },
     "detectionModes": [],
     "flags": {
-      "dnd5e": {
+      "dnd5e_custom": {
         "tokenRing": {
           "enabled": false,
           "textures": {
@@ -586,7 +586,7 @@
     {
       "name": "Invisible",
       "_id": "VUI3PxyI4LH2J8tm",
-      "icon": "systems/dnd5e/icons/svg/statuses/invisible.svg",
+      "icon": "systems/dnd5e_custom/icons/svg/statuses/invisible.svg",
       "statuses": [
         "invisible"
       ],
@@ -618,7 +618,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.2.0",
     "coreVersion": "11.315",
     "createdTime": 1712086234744,

@@ -33,12 +33,12 @@
     "default": 0
   },
   "flags": {
-    "dnd5e": {
+    "dnd5e_custom": {
       "type": "header"
     }
   },
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "2.0.2",
     "coreVersion": "10.285",
     "createdTime": 1660925148884,

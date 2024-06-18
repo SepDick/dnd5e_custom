@@ -12,7 +12,7 @@ export default class CurrencyManager extends DialogMixin(FormApplication) {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: ["dnd5e2", "currency-manager", "dialog"],
       tabs: [{navSelector: "nav", contentSelector: ".sheet-content", initial: "transfer"}],
-      template: "systems/dnd5e/templates/apps/currency-manager.hbs",
+      template: "systems/dnd5e_custom/templates/apps/currency-manager.hbs",
       title: "DND5E.CurrencyManager.Title",
       width: 350,
       height: "auto"
@@ -34,7 +34,7 @@ export default class CurrencyManager extends DialogMixin(FormApplication) {
     destinations.push(...(actor?.system.transferDestinations ?? []));
     destinations.push(...(actor?.itemTypes.container.filter(b => b !== this.object) ?? []));
     if ( game.user.isGM ) {
-      const primaryParty = game.settings.get("dnd5e", "primaryParty")?.actor;
+      const primaryParty = game.settings.get("dnd5e_custom", "primaryParty")?.actor;
       if ( primaryParty && (this.object !== primaryParty) && !destinations.includes(primaryParty) ) {
         destinations.push(primaryParty);
       }

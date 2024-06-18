@@ -24,8 +24,8 @@ export default class AdvancementSelection extends Dialog {
   /** @inheritDoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["dnd5e", "sheet", "advancement"],
-      template: "systems/dnd5e/templates/advancement/advancement-selection.hbs",
+      classes: ["dnd5e_custom", "sheet", "advancement"],
+      template: "systems/dnd5e_custom/templates/advancement/advancement-selection.hbs",
       title: "DND5E.AdvancementSelectionTitle",
       width: 500,
       height: "auto"
@@ -64,7 +64,7 @@ export default class AdvancementSelection extends Dialog {
         disabled: !advancement.availableForItem(this.item)
       };
     }
-    context.types = dnd5e.utils.sortObjectEntries(context.types, "label");
+    context.types = dnd5e_custom.utils.sortObjectEntries(context.types, "label");
     return context;
   }
 

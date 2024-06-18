@@ -21,8 +21,8 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.races.q71Pe1F8RRtEJt8Q",
-            "Compendium.dnd5e.races.wJc88B8OP1y1xzMw"
+            "Compendium.dnd5e_custom.races.q71Pe1F8RRtEJt8Q",
+            "Compendium.dnd5e_custom.races.wJc88B8OP1y1xzMw"
           ],
           "optional": false,
           "spell": {
@@ -43,7 +43,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.spells.22dPoeXfaaAv4K3h"
+            "Compendium.dnd5e_custom.spells.22dPoeXfaaAv4K3h"
           ],
           "optional": false,
           "spell": {
@@ -64,7 +64,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.spells.S7VbUetIfVT7B6Eq"
+            "Compendium.dnd5e_custom.spells.S7VbUetIfVT7B6Eq"
           ],
           "optional": false,
           "spell": {
@@ -136,7 +136,7 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.dnd5e.spells.MUO1uYN7JR1hm4dR"
+            "Compendium.dnd5e_custom.spells.MUO1uYN7JR1hm4dR"
           ],
           "optional": false,
           "spell": {
@@ -200,7 +200,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1677181073037,

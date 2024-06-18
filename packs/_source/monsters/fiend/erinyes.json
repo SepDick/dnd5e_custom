@@ -565,7 +565,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.uqoqQJ9NpMCPra6P"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.uqoqQJ9NpMCPra6P"
         }
       },
       "_stats": {
@@ -697,7 +697,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.10ZP2Bu3vnCuYMIB"
+          "sourceId": "Compendium.dnd5e_custom.items.10ZP2Bu3vnCuYMIB"
         }
       },
       "_stats": {
@@ -799,7 +799,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.kfi26Jy0VLXv9TTm"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.kfi26Jy0VLXv9TTm"
         }
       },
       "_stats": {
@@ -901,7 +901,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.Hc6MqLQhPTI1KOvm"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.Hc6MqLQhPTI1KOvm"
         }
       },
       "_stats": {
@@ -1030,9 +1030,9 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.OjkIqlW2UpgFcjZa"
+          "sourceId": "Compendium.dnd5e_custom.items.OjkIqlW2UpgFcjZa"
         },
-        "dnd5e": {
+        "dnd5e_custom": {
           "migratedProperties": [
             "stealthDisadvantage"
           ]
@@ -1169,7 +1169,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.3cymOVja8jXbzrdT"
+          "sourceId": "Compendium.dnd5e_custom.items.3cymOVja8jXbzrdT"
         }
       },
       "_stats": {
@@ -1271,7 +1271,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.EqoLg8T8EHvhJgKE"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.EqoLg8T8EHvhJgKE"
         }
       },
       "_stats": {
@@ -1293,7 +1293,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1661787232573,

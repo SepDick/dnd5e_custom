@@ -577,7 +577,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.dX8AxCh9o0A9CkT3"
+          "sourceId": "Compendium.dnd5e_custom.items.dX8AxCh9o0A9CkT3"
         }
       },
       "_stats": {
@@ -684,7 +684,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.5DJYFjGQCz5aSl5e"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.5DJYFjGQCz5aSl5e"
         }
       },
       "_stats": {
@@ -786,7 +786,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.q8w1UF9woZDGIwvS"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.q8w1UF9woZDGIwvS"
         }
       },
       "_stats": {
@@ -913,7 +913,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.n1V07puo0RQxPGuF"
+          "sourceId": "Compendium.dnd5e_custom.items.n1V07puo0RQxPGuF"
         }
       },
       "_stats": {
@@ -1040,7 +1040,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.monsterfeatures.yHcr3vlkmtInELj2"
+          "sourceId": "Compendium.dnd5e_custom.monsterfeatures.yHcr3vlkmtInELj2"
         }
       },
       "_stats": {
@@ -1169,7 +1169,7 @@
       },
       "flags": {
         "core": {
-          "sourceId": "Compendium.dnd5e.items.DWLMnODrnHn8IbAG"
+          "sourceId": "Compendium.dnd5e_custom.items.DWLMnODrnHn8IbAG"
         }
       },
       "_stats": {
@@ -1191,7 +1191,7 @@
   },
   "flags": {},
   "_stats": {
-    "systemId": "dnd5e",
+    "systemId": "dnd5e_custom",
     "systemVersion": "3.0.0",
     "coreVersion": "11.315",
     "createdTime": 1661787232818,

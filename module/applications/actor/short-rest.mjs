@@ -27,8 +27,8 @@ export default class ShortRestDialog extends Dialog {
   /** @inheritDoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      template: "systems/dnd5e/templates/apps/short-rest.hbs",
-      classes: ["dnd5e", "dialog"],
+      template: "systems/dnd5e_custom/templates/apps/short-rest.hbs",
+      classes: ["dnd5e_custom", "dialog"],
       height: "auto"
     });
   }
@@ -57,7 +57,7 @@ export default class ShortRestDialog extends Dialog {
     }
 
     // Determine rest type
-    const variant = game.settings.get("dnd5e", "restVariant");
+    const variant = game.settings.get("dnd5e_custom", "restVariant");
     context.promptNewDay = variant !== "epic";     // It's never a new day when only resting 1 minute
     context.newDay = false;                        // It may be a new day, but not by default
     return context;

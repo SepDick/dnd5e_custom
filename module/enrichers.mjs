@@ -764,7 +764,7 @@ function enrichLookup(config, fallback, options) {
  * ```html
  * <span class="reference-link">
  *   <a class="content-link" draggable="true"
- *      data-uuid="Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.UWw13ISmMxDzmwbd"
+ *      data-uuid="Compendium.dnd5e_custom.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.UWw13ISmMxDzmwbd"
  *      data-type="JournalEntryPage" data-tooltip="Text Page">
  *     <i class="fas fa-book-open"></i> Label
  *   </a>
@@ -980,7 +980,7 @@ export function createRollLabel(config) {
     switch ( config.type ) {
       case "check":
       case "skill":
-        label = `<i class="dnd5e-icon" data-src="systems/dnd5e/icons/svg/ability-score-improvement.svg"></i>${label}`;
+        label = `<i class="dnd5e_custom-icon" data-src="systems/dnd5e_custom/icons/svg/ability-score-improvement.svg"></i>${label}`;
         break;
       case "tool":
         label = `<i class="fas fa-hammer"></i>${label}`;
@@ -1127,7 +1127,7 @@ async function rollAction(event) {
     const MessageClass = getDocumentClass("ChatMessage");
     const chatData = {
       user: game.user.id,
-      content: await renderTemplate("systems/dnd5e/templates/chat/request-card.hbs", {
+      content: await renderTemplate("systems/dnd5e_custom/templates/chat/request-card.hbs", {
         buttonLabel: createRollLabel({ ...target.dataset, format: "short", icon: true }),
         hiddenLabel: createRollLabel({ ...target.dataset, format: "short", icon: true, hideDC: true }),
         dataset: { ...target.dataset, action: "rollRequest" }
@@ -1163,7 +1163,7 @@ async function rollDamage(event) {
     event,
     title,
     messageData: {
-      "flags.dnd5e": {
+      "flags.dnd5e_custom": {
         targets: Item5e._formatAttackTargets(),
         roll: {type: "damage"}
       },
@@ -1171,9 +1171,9 @@ async function rollDamage(event) {
     }
   };
 
-  if ( Hooks.call("dnd5e.preRollDamage", undefined, rollConfig) === false ) return;
+  if ( Hooks.call("dnd5e_custom.preRollDamage", undefined, rollConfig) === false ) return;
   const roll = await damageRoll(rollConfig);
-  if ( roll ) Hooks.callAll("dnd5e.rollDamage", undefined, roll);
+  if ( roll ) Hooks.callAll("dnd5e_custom.rollDamage", undefined, roll);
 }
 
 /* -------------------------------------------- */

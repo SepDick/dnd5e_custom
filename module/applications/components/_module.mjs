@@ -10,9 +10,9 @@ import SlideToggleElement from "./slide-toggle.mjs";
 import AdoptedStyleSheetMixin from "./adopted-stylesheet-mixin.mjs";
 
 window.customElements.define("damage-application", DamageApplicationElement);
-window.customElements.define("dnd5e-effects", EffectsElement);
-window.customElements.define("dnd5e-icon", IconElement);
-window.customElements.define("dnd5e-inventory", InventoryElement);
+window.customElements.define("dnd5e_custom-effects", EffectsElement);
+window.customElements.define("dnd5e_custom-icon", IconElement);
+window.customElements.define("dnd5e_custom-inventory", InventoryElement);
 window.customElements.define("enchantment-application", EnchantmentApplicationElement);
 window.customElements.define("filigree-box", FiligreeBoxElement);
 window.customElements.define("item-list-controls", ItemListControlsElement);

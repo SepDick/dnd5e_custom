@@ -42,7 +42,7 @@ export default class ItemChoiceFlow extends ItemGrantFlow {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       dragDrop: [{ dropSelector: ".drop-target" }],
-      template: "systems/dnd5e/templates/advancement/item-choice-flow.hbs"
+      template: "systems/dnd5e_custom/templates/advancement/item-choice-flow.hbs"
     });
   }
 
@@ -52,7 +52,7 @@ export default class ItemChoiceFlow extends ItemGrantFlow {
   async retainData(data) {
     await super.retainData(data);
     this.replacement = data.replaced?.original;
-    this.selected = new Set(data.items.map(i => foundry.utils.getProperty(i, "flags.dnd5e.sourceId")));
+    this.selected = new Set(data.items.map(i => foundry.utils.getProperty(i, "flags.dnd5e_custom.sourceId")));
   }
 
   /* -------------------------------------------- */
@@ -65,7 +65,7 @@ export default class ItemChoiceFlow extends ItemGrantFlow {
     if ( !this.dropped ) {
       this.dropped = [];
       for ( const data of this.retainedData?.items ?? [] ) {
-        const uuid = foundry.utils.getProperty(data, "flags.dnd5e.sourceId");
+        const uuid = foundry.utils.getProperty(data, "flags.dnd5e_custom.sourceId");
         if ( this.pool.find(i => uuid === i.uuid) ) continue;
         const item = await fromUuid(uuid);
         item.dropped = true;

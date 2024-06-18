@@ -20,7 +20,7 @@ export default class TokenConfig5e extends TokenConfig {
    * Template used to render the dynamic ring tab.
    * @type {string}
    */
-  static dynamicRingTemplate = "systems/dnd5e/templates/apps/parts/dynamic-ring.hbs";
+  static dynamicRingTemplate = "systems/dnd5e_custom/templates/apps/parts/dynamic-ring.hbs";
 
   /* -------------------------------------------- */
 
@@ -62,7 +62,7 @@ export default class TokenConfig5e extends TokenConfig {
     tokenTab.replaceChildren(...tab.children);
 
     let ringTab = document.createElement("div");
-    const flags = this.document.getFlag("dnd5e", "tokenRing") ?? {};
+    const flags = this.document.getFlag("dnd5e_custom", "tokenRing") ?? {};
     ringTab.innerHTML = await renderTemplate(this.constructor.dynamicRingTemplate, {
       flags: foundry.utils.mergeObject({ scaleCorrection: 1 }, flags, { inplace: false }),
       effects: Object.entries(CONFIG.DND5E.tokenRings.effects).reduce((obj, [key, label]) => {
@@ -147,9 +147,9 @@ export default class TokenConfig5e extends TokenConfig {
   _getSubmitData(updateData={}) {
     const formData = super._getSubmitData(updateData);
 
-    formData["flags.dnd5e.tokenRing.effects"] = Object.keys(CONFIG.DND5E.tokenRings.effects).reduce((number, key) => {
-      const checked = formData[`flags.dnd5e.tokenRing.effects.${key}`];
-      delete formData[`flags.dnd5e.tokenRing.effects.${key}`];
+    formData["flags.dnd5e_custom.tokenRing.effects"] = Object.keys(CONFIG.DND5E.tokenRings.effects).reduce((number, key) => {
+      const checked = formData[`flags.dnd5e_custom.tokenRing.effects.${key}`];
+      delete formData[`flags.dnd5e_custom.tokenRing.effects.${key}`];
       if ( checked ) number |= CONFIG.Token.ringClass.effects[key];
       return number;
     }, 0x1);
@@ -162,7 +162,7 @@ export default class TokenConfig5e extends TokenConfig {
   /** @inheritDoc */
   _previewChanges(change) {
     if ( change && (this.preview instanceof TokenDocument5e) && (game.release.generation < 12) ) {
-      const flags = foundry.utils.getProperty(foundry.utils.expandObject(change), "flags.dnd5e.tokenRing") ?? {};
+      const flags = foundry.utils.getProperty(foundry.utils.expandObject(change), "flags.dnd5e_custom.tokenRing") ?? {};
       const redraw = ("textures" in flags) || ("enabled" in flags);
       if ( redraw ) this.preview.object.renderFlags.set({ redraw });
       else this.preview.object.ring.configureVisuals({...flags});

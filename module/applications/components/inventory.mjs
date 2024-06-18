@@ -85,7 +85,7 @@ export default class InventoryElement extends HTMLElement {
   /* -------------------------------------------- */
 
   /**
-   * TODO: Remove filtering code from dnd5e-inventory when all sheets use item-list-controls.
+   * TODO: Remove filtering code from dnd5e_custom-inventory when all sheets use item-list-controls.
    * Apply the current set of filters to the inventory list.
    * @param {FilterState5e} state  The filter state to apply.
    * @protected
@@ -212,7 +212,7 @@ export default class InventoryElement extends HTMLElement {
       },
       {
         name: "DND5E.ConcentrationBreak",
-        icon: '<dnd5e-icon src="systems/dnd5e/icons/svg/break-concentration.svg"></dnd5e-icon>',
+        icon: '<dnd5e_custom-icon src="systems/dnd5e_custom/icons/svg/break-concentration.svg"></dnd5e_custom-icon>',
         condition: () => this.actor.concentration?.items.has(item),
         callback: () => this.actor.endConcentration(item),
         group: "state"
@@ -435,7 +435,7 @@ export default class InventoryElement extends HTMLElement {
     } else {
       const enrichment = {secrets: this.document.isOwner};
       const chatData = item.system.getCardData ? item.system.getCardData(enrichment) : item.getChatData(enrichment);
-      const summary = $(await renderTemplate("systems/dnd5e/templates/items/parts/item-summary.hbs", await chatData));
+      const summary = $(await renderTemplate("systems/dnd5e_custom/templates/items/parts/item-summary.hbs", await chatData));
       $(li).append(summary.hide());
       summary.slideDown(200);
       this._app._expanded.add(item.id);
@@ -454,6 +454,6 @@ export default class InventoryElement extends HTMLElement {
     // Parts of ContextMenu doesn't play well with promises, so don't show menus for containers in packs
     if ( !item || (item instanceof Promise) ) return;
     ui.context.menuItems = this._getContextOptions(item);
-    Hooks.call("dnd5e.getItemContextOptions", item, ui.context.menuItems);
+    Hooks.call("dnd5e_custom.getItemContextOptions", item, ui.context.menuItems);
   }
 }

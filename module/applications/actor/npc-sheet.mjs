@@ -9,7 +9,7 @@ export default class ActorSheet5eNPC extends ActorSheet5e {
   /** @inheritDoc */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["dnd5e", "sheet", "actor", "npc"],
+      classes: ["dnd5e_custom", "sheet", "actor", "npc"],
       width: 600
     });
   }

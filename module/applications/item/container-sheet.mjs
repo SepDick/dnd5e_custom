@@ -8,7 +8,7 @@ export default class ContainerSheet extends ItemSheet5e {
     return foundry.utils.mergeObject(super.defaultOptions, {
       width: 600,
       height: 540,
-      scrollY: ["dnd5e-inventory .inventory-list"],
+      scrollY: ["dnd5e_custom-inventory .inventory-list"],
       tabs: [{navSelector: ".tabs", contentSelector: ".sheet-body", initial: "contents"}],
       dragDrop: [
         {dragSelector: "[data-effect-id]", dropSelector: ".effects-list"},
@@ -16,7 +16,7 @@ export default class ContainerSheet extends ItemSheet5e {
         {dragSelector: ".items-list .item", dropSelector: null}
       ],
       elements: {
-        inventory: "dnd5e-inventory"
+        inventory: "dnd5e_custom-inventory"
       }
     });
   }
@@ -25,7 +25,7 @@ export default class ContainerSheet extends ItemSheet5e {
 
   /** @inheritdoc */
   get template() {
-    return "systems/dnd5e/templates/items/container.hbs";
+    return "systems/dnd5e_custom/templates/items/container.hbs";
   }
 
   /* -------------------------------------------- */
@@ -94,7 +94,7 @@ export default class ContainerSheet extends ItemSheet5e {
     const data = TextEditor.getDragEventData(event);
     if ( !["Item", "Folder"].includes(data.type) ) return super._onDrop(event, data);
 
-    if ( Hooks.call("dnd5e.dropItemSheetData", this.item, this, data) === false ) return;
+    if ( Hooks.call("dnd5e_custom.dropItemSheetData", this.item, this, data) === false ) return;
 
     if ( data.type === "Folder" ) return this._onDropFolder(event, data);
     return this._onDropItem(event, data);
