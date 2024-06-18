@@ -64,11 +64,11 @@ jobs:
     - name: Build All
       run: |
         npm run build:code --if-present
-        mv --force dnd5e-compiled.mjs dnd5e.mjs
+        mv --force dnd5e_custom-compiled.mjs dnd5e.mjs
 
 
     # Create a zip file with all files required by the module to add to the release
-    - run: zip ${{ env.ZIP_NAME }} -r fonts icons lang json packs templates tokens ui dnd5e.css dnd5e.mjs dnd5e-compiled.mjs.map LICENSE.txt README.md system.json template.json --exclude "packs/_source/*"
+    - run: zip ${{ env.ZIP_NAME }} -r fonts icons lang json packs templates tokens ui dnd5e.css dnd5e.mjs dnd5e_custom-compiled.mjs.map LICENSE.txt README.md system.json template.json --exclude "packs/_source/*"
 
 
     # Fetch the body from the release
